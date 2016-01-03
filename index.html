@@ -6,46 +6,85 @@
     <title>calculator</title>
     <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 </head>
-
-<body>
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-5"></div>
-            <div class="col-xs-2">
-                <div class="row">
-                    <input class="col-xs-12 form-control" id="display" type="text" readonly>
+        <div class="navbar-header">
+            <div class="navbar-brand">
+                <a class="navbar-link" href="http://wavefunctionp.github.io/">WaveFunctionP</a>
+            </div>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href=#home>Home</a></li>
+                <li><a href=#about>About</a></li>
+                <li><a href=#portfolio>Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body id="home" style="padding-top: 70px">
+    <div class="container">
+        <div class="row well">
+            <h1 class="col-xs-12 text-center">This is my tooling sandbox.</h1>
+            <h3 class="col-xs-12 text-center">AKA Where I try to break things.</h3>
+            <div class="col-xs-4"></div>
+            <a class="btn btn-default col-xs-1" href="https://www.facebook.com/m.corey.thompson">Facebook</a>
+            <a class="btn btn-default col-xs-1" href="https://twitter.com/wavefunctionp">Twitter</a>
+            <a class="btn btn-default col-xs-1" href="https://github.com/WaveFunctionP">GitHub</a>
+            <a class="btn btn-default col-xs-1" href="https://www.linkedin.com/in/wavefunctionp">Linkedin</a>
+            <div class="col-xs-4"></div>
+        </div>
+        <br>
+        <div id="about" class="row well">
+            <h1 class="col-xs-12 text-center">Hype Train Starts Here.</h1>
+            <div class="col-xs-6">
+                <p>Some blurb about passion, resourcefulness and expertise.</p>
+                <p>Something, something, Big Data. Something, something, At Scale. Something, something, Framework.</p>
+                <p>Fluent Languages: C#, JavaScript</p>
+                <p>Familar Languages: C++, FORTRAN</p>
+                <p>Technologies: Git, HTML, CSS, Unity Game Engine, JQuery, Bootstrap</p>
+                <p>Can sling more jargon than you can shake a stick at.</p>
+            </div>
+            <div class="col-xs-6">
+                <img class="img-responsive img-rounded" src="img/profilepic.jpg">
+            </div>
+        </div>
+        <div id="portfolio" class="row well">
+            <h1 class="col-xs-12 text-center">Projects</h1>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>For Science!</h3>
+                    <p>
+                        This was small mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the gameplay
+                        experience. It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a>                        and uses the MonoDevelop framework, Unity Game Engine API and Kerbal Space Program API.
+                    </p>
+                    <p>
+                        This was my first mod written from scratch. It has been well recieved with over
+                        <a href="http://www.curse.com/ksp-mods/kerbal/220264-for-science">15,000 downloads</a> since it was
+                        released in May '14. It was also
+                        <a href="http://www.pcgamer.com/the-best-kerbal-space-program-mods-2/">featured on PC Gamer</a> as
+                        one of "best Kerbal Space Program mods".
+                    </p>
                 </div>
-                <div class="row">
-                    <button class="btn btn-default col-xs-3 numpad">7</button>
-                    <button class="btn btn-default col-xs-3 numpad">8</button>
-                    <button class="btn btn-default col-xs-3 numpad">9</button>
-                    <button class="btn btn-default col-xs-3" id="div">/</button>
-                </div>
-                <div class="row">
-                    <button class="btn btn-default col-xs-3 numpad">4</button>
-                    <button class="btn btn-default col-xs-3 numpad">5</button>
-                    <button class="btn btn-default col-xs-3 numpad">6</button>
-                    <button class="btn btn-default col-xs-3" id="mult">*</button>
-                </div>
-                <div class="row">
-                    <button class="btn btn-default col-xs-3 numpad">1</button>
-                    <button class="btn btn-default col-xs-3 numpad">2</button>
-                    <button class="btn btn-default col-xs-3 numpad">3</button>
-                    <button class="btn btn-default col-xs-3" id="sub">-</button>
-                </div>
-                <div class="row">
-                    <button class="btn btn-default col-xs-3 numpad">0</button>
-                    <button class="btn btn-default col-xs-3" id="clear">c</button>
-                    <button class="btn btn-default col-xs-3" id="equal">=</button>
-                    <button class="btn btn-default col-xs-3" id="add">+</button>
+                <div class="col-xs-6">
+                    <iframe class="img-rounded" width="560" height="315" src="https://www.youtube.com/embed/qPQlYaM57xI" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="col-xs-5"></div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h3>SimpleScienceFix</h3>
+                    <p>
+                        This is a small "bug fix" mod for Kerbal Space Program. It was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#.</a>                        It has been fairly well recieved with over <a href="http://www.curse.com/ksp-mods/kerbal/230239-simplesciencefix">1,000 downloads</a>                        since May '15.
+                    </p>
+                </div>
+                <div class="col-xs-6">
+                    <img class="img-responsive img-rounded" src="img/SimpleScienceFix.jpg">
+                </div>
+            </div>
         </div>
     </div>
 </body>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src="js/calculator.js"></script>
-
 
 </html>
