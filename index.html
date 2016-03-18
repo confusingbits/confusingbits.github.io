@@ -1,89 +1,95 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <title>wavefunction.github.io</title>
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>wavefunctionp.github.io</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-uSbimwRPo7PKyTL6azsx1CcBce/X9Qg+wX1MAjNV1gAkSXYveZbZeMMyJghdsSol" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 </head>
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <div class="navbar-brand">
-                <a class="navbar-link" href="http://wavefunctionp.github.io/">WaveFunctionP</a>
-            </div>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href=#home>Home</a></li>
-                <li><a href=#about>About</a></li>
-                <li><a href=#portfolio>Portfolio</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <body id="home" style="padding-top: 70px">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://wavefunctionp.github.io/">wavefunctionp.github.io</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="row well">
-            <h1 class="col-xs-12 text-center">This is my tooling sandbox.</h1>
-            <h3 class="col-xs-12 text-center">AKA Where I try to break things.</h3>
-            <div class="col-xs-4"></div>
-            <a class="btn btn-default col-xs-1" href="https://www.facebook.com/m.corey.thompson">Facebook</a>
-            <a class="btn btn-default col-xs-1" href="https://twitter.com/wavefunctionp">Twitter</a>
-            <a class="btn btn-default col-xs-1" href="https://github.com/WaveFunctionP">GitHub</a>
-            <a class="btn btn-default col-xs-1" href="https://www.linkedin.com/in/wavefunctionp">Linkedin</a>
-            <div class="col-xs-4"></div>
-        </div>
-        <br>
-        <div id="about" class="row well">
-            <h1 class="col-xs-12 text-center">Hype Train Starts Here.</h1>
-            <div class="col-xs-6">
-                <p>Some blurb about passion, resourcefulness and expertise.</p>
-                <p>Something, something, Big Data. Something, something, At Scale. Something, something, Framework.</p>
-                <p>Fluent Languages: C#, JavaScript</p>
-                <p>Familar Languages: C++, FORTRAN</p>
-                <p>Technologies: Git, HTML, CSS, Unity Game Engine, JQuery, Bootstrap</p>
-                <p>Can sling more jargon than you can shake a stick at.</p>
-            </div>
-            <div class="col-xs-6">
-                <img class="img-responsive img-rounded" src="img/profilepic.jpg">
+        <div class="well">
+            <div class="row"><h1 class="text-center page-header">This is my tooling sandbox.</h1></div>
+            <div class="row"><h4 class="text-center">AKA Where I try to break things.</h4></div>
+            <div class="row">
+                <div class="hidden-xs col-sm-2"></div>
+                <div class="col-xs-3 col-sm-2"><a role="button" class="btn btn-block btn-default" href="https://www.facebook.com/m.corey.thompson"><span class="fa fa-facebook"></span><span class="hidden-sm hidden-xs"> Facebook</span></a></div>
+                <div class="col-xs-3 col-sm-2"><a role="button" class="btn btn-block btn-default" href="https://twitter.com/wavefunctionp"><span class="fa fa-twitter"></span><span class="hidden-sm hidden-xs"> Twitter</span></a></div>
+                <div class="col-xs-3 col-sm-2"><a role="button" class="btn btn-block btn-default" href="https://github.com/WaveFunctionP"><span class="fa fa-github"></span><span class="hidden-sm hidden-xs"> GitHub</span></a></div>
+                <div class="col-xs-3 col-sm-2"><a role="button" class="btn btn-block btn-default" href="https://www.linkedin.com/in/wavefunctionp"><span class="fa fa-linkedin"></span><span class="hidden-sm hidden-xs"> Linkedin</span></a></div>
+                <div class="hidden-xs col-sm-2"></div>
             </div>
         </div>
-        <div id="portfolio" class="row well">
-            <h1 class="col-xs-12 text-center">Projects</h1>
+        <div id="about" class="well">
             <div class="row">
                 <div class="col-xs-6">
-                    <h3>For Science!</h3>
-                    <p>
-                        This was small mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the gameplay
-                        experience. It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a>                        and uses the MonoDevelop framework, Unity Game Engine API and Kerbal Space Program API.
-                    </p>
-                    <p>
-                        This was my first mod written from scratch. It has been well recieved with over <a href="http://www.curse.com/ksp-mods/kerbal/220264-for-science">15,000 downloads</a>                        since it was released in May '14. It was also <a href="http://www.pcgamer.com/the-best-kerbal-space-program-mods-2/">featured on PC Gamer</a>                        as one of "best Kerbal Space Program mods".
-                    </p>
+                    <h3 class="page-header">Hype Train Starts Here.</h3>
+                    <p>Some blurb about passion, resourcefulness and expertise.</p>
+                    <p>Something, something, Big Data. Something, something, At Scale. Something, something, Framework.</p>
+                    <p>Fluent Languages: C#, JavaScript</p>
+                    <p>Familar Languages: C++, FORTRAN</p>
+                    <p>Technologies: Git, HTML, CSS, Unity Game Engine, JQuery, Bootstrap</p>
+                    <p>Can sling more jargon than you can shake a stick at.</p>
                 </div>
                 <div class="col-xs-6">
-                    <iframe class="img-rounded" width="560" height="315" src="https://www.youtube.com/embed/qPQlYaM57xI" frameborder="0" allowfullscreen></iframe>
+                    <img class="img-responsive img-rounded center-block" src="img/profilepic.jpg">
                 </div>
             </div>
+        </div>
+        <div id="projects" class="well">
+            <h5 class="page-header">For Science!</h5>
             <div class="row">
-                <div class="col-xs-6">
-                    <h3>SimpleScienceFix</h3>
+                <div class="col-xs-12 col-sm-6">
                     <p>
-                        This is a small "bug fix" mod for Kerbal Space Program. It was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#</a>                        and uses the MonoDevelop framework, Unity Game Engine API and Kerbal Space Program API.
+                        This is mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the gameplay experience. It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a> and uses the Unity Game Engine and Kerbal Space Program APIs.
                     </p>
                     <p>
-                        It has been fairly well recieved with over <a href="http://www.curse.com/ksp-mods/kerbal/230239-simplesciencefix">1,000 downloads</a>                        since May '15.
+                        This was my first mod written from scratch. It has been well recieved with over <a href="http://www.curse.com/ksp-mods/kerbal/220264-for-science">15,000 downloads</a> since it was released in May '14. It was also <a href="http://www.pcgamer.com/the-best-kerbal-space-program-mods-2/">featured on PC Gamer</a> as one of "best Kerbal Space Program mods" and has even been forked for expanded applications by other authors.
                     </p>
                 </div>
-                <div class="col-xs-6">
+                <div class="hidden-xs col-sm-6">
+                    <img class="img-responsive img-rounded" src="img/ForScience.png">
+                </div>
+            </div>
+            <h5 class="page-header">SimpleScienceFix</h5>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <p>
+                        This is a small usability mod for Kerbal Space Program meant to address a small annoyance with the way the game works. It was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#</a> and uses the Unity Game Engine and Kerbal Space Program APIs.
+                    </p>
+                    <p>
+                        It has been fairly well recieved with over <a href="http://www.curse.com/ksp-mods/kerbal/230239-simplesciencefix">1,000 downloads</a> since May '15.
+                    </p>
+                </div>
+                <div class="hidden-xs col-sm-6">
                     <img class="img-responsive img-rounded" src="img/SimpleScienceFix.jpg">
                 </div>
             </div>
         </div>
     </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
 </html>
