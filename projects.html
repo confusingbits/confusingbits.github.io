@@ -1,10 +1,81 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
-    <title>Test</title>
-	<meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>wavefunctionp.github.io</title>
+    <link rel="import" href="imports.html" />
 </head>
-<body>
-    Testing
+<body style="padding-top: 70px">
+    <div class="container">
+        <div class="well">
+            <h5 class="page-header">SimpleScienceFix</h5>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                    <img class="img-responsive img-rounded" src="/img/SimpleScienceFix.jpg">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                    <p>
+                        This is a small usability mod for Kerbal Space Program meant to address a minor annoyance with the way the game works. It was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#</a> and uses the Unity Game Engine and Kerbal Space Program APIs. It has been fairly well received with over <a href="http://www.curse.com/ksp-mods/kerbal/230239-simplesciencefix">1,000 downloads</a> since it's release.
+                    </p>
+                    <h5><small>Notable features:</small></h5>
+                    <p>It does a thing and it works.</p>
+                    <h5><small>Technical challenges:</small></h5>
+                    <p>None really, as I had solved most of the issues with ForScience! previously. This is a very simple user experience enhancement and I consider it feature complete. It is currently in maintenance.</p>
+                    <p>
+                        <small>Released: May 2015</small>
+                    </p>
+                </div>
+            </div>
+            <h5 class="page-header">ForScience!</h5>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                    <img class="img-responsive img-rounded" src="/img/ForScience.png">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                    <p>
+                        This is mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the game play experience. It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a> and uses the Unity Game Engine and Kerbal Space Program APIs.
+                    </p>
+                    <p>
+                        This was my first mod that I wrote from scratch. It has been well received with over <a href="http://www.curse.com/ksp-mods/kerbal/220264-for-science">15,000 downloads</a> since it was released. It was also <a href="http://www.pcgamer.com/the-best-kerbal-space-program-mods-2/">featured on PC Gamer</a> as one of "best Kerbal Space Program mods" and has even been forked for expanded applications by other authors.
+                    </p>
+                    <h5><small>Notable features:</small></h5>
+                    <p>The mod detects experiments and locations, performs the available experiments when appropriate, and collects the data to the primary command pod. Having a scientist on board will make resetting run-once experiments automatic. It has purposefully uncomplicated controls, just a simple toggle icon on the tool bar.</p>
+                    <p>It is supposed to work like magic, and it does.</p>
+                    <h5><small>Technical challenges:</small></h5>
+                    <p>Implementing the business logic was made fairly complicated due to the way the API is structured (and partial documentation) as well as due to transient states in the game objects being observed. I have some possible further plans, but I consider this project to be feature complete and in maintenance.</p>
+                    <p>
+                        <small>Released: May 2014</small>
+                    </p>
+                </div>
+
+            </div>
+            <h5 class="page-header">Interstellar Lite</h5>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                    <img class="img-responsive img-rounded" src="/img/InterstellarLite.png">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-sm-pull-6">
+                    <p>
+                        This is mod for Kerbal Space Program. It one of the larger types of mods that add new art and game mechanics. It is based on a previous mod called Interstellar, which had been abandoned for some time. It was <a href="https://github.com/WaveFunctionP/KSPInterstellar">written in C#</a> and uses the Unity Game Engine and Kerbal Space Program APIs.
+                    </p>
+                    <p>
+                        This was my first mod for KSP and I used it to learn about Unity and C#, which started out as only some minor tweaks. After the original author left, I made a major overhaul of all user interactions with the mod and opened it up more user customization and allowing it to interoperate more easily with other mods. It was extremely well received, and was actually the first time I'd made money with my software. As I had hoped it soon saw many users share compatibility mods to allow it to work seamlessly with other mods for the game.
+                    </p>
+                    <p>
+                        Some splits in mod ecosystem eventually made continued support untenable and so I made the decision to support the current game version, but to retire the mod after the next major game version. Interstellar continues on in another branch by another developer, including many of my ideas, as Interstellar Continued.
+                    </p>
+                    <h5><small>Notable features:</small></h5>
+                    <p>This was a huge mod so it would be impractical to list everything. I opened up the part module attributes, which allowed players to share simple text file configurations which would allow the mod to work with various constellations of mods. It was one of the founding mods for CommunityResourcePack, which helped to create a more sane system of resources between different mods. There were many user interface and usability fixes, everything from tooltips to part behaviors. There was a massive part re-balancing to diversify part niches and expand vessel design to promote innovation and to better fit the part into the scale of the game world. There was a lot of part pruning along with the introduction of size scaling to lessen the memory footprint which was at the time limited to a 32 bit memory space. This gave users more available memory to use other mods alongside Interstellar. And there were updates to the art and code to support emissive textures and animations on radiators. And tons and tons of polish over the base Interstellar.</p>
+                    <h5><small>Technical challenges:</small></h5>
+                    <p>This was my first time working with a substantial project, and the first time working on someone else code. I had to learn the Unity/KSP APIs, which had sometimes spotty documentation. Along the way, I learned to test my code throughly because it wasn't possible to run the game in debug. In the process I learned how to use git, interact with users, process issues on GitHub, and publish and promote releases.</p>
+                    <p>
+                        <small>Released: March 2014 (now retired) </small>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
