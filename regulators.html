@@ -9,6 +9,10 @@
     <!--shim for html imports-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.min.js"></script>
 
+    <!--wowhead links-->
+    <script type="text/javascript" src="//wow.zamimg.com/widgets/power.js"></script>
+    <script>var wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true }</script>
+
     <link rel="import" href="imports.html" />
     <link rel="import" href="mynav.html" id="navlink" />
     <script>
@@ -20,28 +24,26 @@
             $.ajax('https://api.myjson.com/bins/2mw52')
             .done(function (response) {
 
-                for (var m in response.members) {
-                    'use strict';
-
+                for (var m in response) {
                     $('#roster').append(
                         '<tr>'
-                        + '<td>' + response.members[m].name + '</td>'
-                        + '<td>' + response.members[m].avgilvl + '</td>'
-                        + '<td>' + response.members[m].mainhandilvl + '</td>'
-                        + '<td>' + response.members[m].headilvl + '</td>'
-                        + '<td>' + response.members[m].neckilvl + '</td>'
-                        + '<td>' + response.members[m].shoulderilvl + '</td>'
-                        + '<td>' + response.members[m].backilvl + '</td>'
-                        + '<td>' + response.members[m].chestilvl + '</td>'
-                        + '<td>' + response.members[m].wristilvl + '</td>'
-                        + '<td>' + response.members[m].handsilvl + '</td>'
-                        + '<td>' + response.members[m].waistilvl + '</td>'
-                        + '<td>' + response.members[m].legsilvl + '</td>'
-                        + '<td>' + response.members[m].feetilvl + '</td>'
-                        + '<td>' + response.members[m].finger1ilvl + '</td>'
-                        + '<td>' + response.members[m].finger2ilvl + '</td>'
-                        + '<td>' + response.members[m].trinket1ilvl + '</td>'
-                        + '<td>' + response.members[m].trinket2ilvl + '</td>'
+                        + '<td>' + response[m].name + '</td>'
+                        + '<td>' + response[m].items.averageItemLevel + '</td>'
+                        + '<td><a rel=\'item=' + response[m].items.mainHand.id + '\'>' + response[m].items.mainHand.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.head.id + '\'>' + response[m].items.head.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.neck.id + '\'>' + response[m].items.neck.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.shoulder.id + '\'>' + response[m].items.shoulder.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.back.id + '\'>' + response[m].items.back.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.chest.id + '\'>' + response[m].items.chest.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.wrist.id + '\'>' + response[m].items.wrist.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.hands.id + '\'>' + response[m].items.hands.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.waist.id + '\'>' + response[m].items.waist.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.legs.id + '\'>' + response[m].items.legs.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.feet.id + '\'>' + response[m].items.feet.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.finger1.id + '\'>' + response[m].items.finger1.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.finger2.id + '\'>' + response[m].items.finger2.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.trinket1.id + '\'>' + response[m].items.trinket1.itemLevel + '</a></td>'
+                        + '<td><a rel=\'item=' + response[m].items.trinket2.id + '\'>' + response[m].items.trinket2.itemLevel + '</a></td>'
                         + '</tr>'
                         );
                 }
