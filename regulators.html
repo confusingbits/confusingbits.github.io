@@ -5,35 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>wavefunctionp.github.io</title>
+
+    <!--shim for html imports-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.min.js"></script>
+
     <link rel="import" href="imports.html" />
+    <link rel="import" href="mynav.html" id="navlink" />
     <script>
-        $.ajax('https://api.myjson.com/bins/2mw52')
+
+        window.addEventListener('WebComponentsReady', function (e) {
+            // imports are loaded and elements have been registered
+
+            //pray that jquery loaded by now
+            $.ajax('https://api.myjson.com/bins/2mw52')
             .done(function (response) {
 
                 for (var m in response.members) {
+                    'use strict';
+
                     $('#roster').append(
-                        `<tr>
-                        <td>${response.members[m].name}</td>
-                        <td>${response.members[m].avgilvl}</td>
-                        <td>${response.members[m].mainhandilvl}</td>
-                        <td>${response.members[m].headilvl}</td>
-                        <td>${response.members[m].neckilvl}</td>
-                        <td>${response.members[m].shoulderilvl}</td>
-                        <td>${response.members[m].backilvl}</td>
-                        <td>${response.members[m].chestilvl}</td>
-                        <td>${response.members[m].wristilvl}</td>
-                        <td>${response.members[m].handsilvl}</td>
-                        <td>${response.members[m].waistilvl}</td>
-                        <td>${response.members[m].legsilvl}</td>
-                        <td>${response.members[m].feetilvl}</td>
-                        <td>${response.members[m].finger1ilvl}</td>
-                        <td>${response.members[m].finger2ilvl}</td>
-                        <td>${response.members[m].trinket1ilvl}</td>
-                        <td>${response.members[m].trinket2ilvl}</td>
-                        </tr>`);
+                        '<tr>'
+                        + '<td>' + response.members[m].name + '</td>'
+                        + '<td>' + response.members[m].avgilvl + '</td>'
+                        + '<td>' + response.members[m].mainhandilvl + '</td>'
+                        + '<td>' + response.members[m].headilvl + '</td>'
+                        + '<td>' + response.members[m].neckilvl + '</td>'
+                        + '<td>' + response.members[m].shoulderilvl + '</td>'
+                        + '<td>' + response.members[m].backilvl + '</td>'
+                        + '<td>' + response.members[m].chestilvl + '</td>'
+                        + '<td>' + response.members[m].wristilvl + '</td>'
+                        + '<td>' + response.members[m].handsilvl + '</td>'
+                        + '<td>' + response.members[m].waistilvl + '</td>'
+                        + '<td>' + response.members[m].legsilvl + '</td>'
+                        + '<td>' + response.members[m].feetilvl + '</td>'
+                        + '<td>' + response.members[m].finger1ilvl + '</td>'
+                        + '<td>' + response.members[m].finger2ilvl + '</td>'
+                        + '<td>' + response.members[m].trinket1ilvl + '</td>'
+                        + '<td>' + response.members[m].trinket2ilvl + '</td>'
+                        + '</tr>'
+                        );
                 }
 
             });
+        });
+
     </script>
 </head>
 <body style="padding-top: 70px">

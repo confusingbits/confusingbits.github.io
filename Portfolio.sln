@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wavefunctionp.github.io(1)", "http://localhost:62819", "{CAB3C529-39A9-4DFF-8027-F04A2A89BFBB}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wavefunctionp.github.io", "http://localhost:62819", "{CAB3C529-39A9-4DFF-8027-F04A2A89BFBB}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
