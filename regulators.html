@@ -9,49 +9,15 @@
     <!--shim for html imports-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.min.js"></script>
 
-    <!--wowhead links-->
-    <script type="text/javascript" src="//wow.zamimg.com/widgets/power.js"></script>
-    <script>var wowhead_tooltips = { "colorlinks": true, "iconizelinks": true, "renamelinks": true }</script>
-
     <link rel="import" href="imports.html" />
     <link rel="import" href="mynav.html" id="navlink" />
-    <script>
 
-        window.addEventListener('WebComponentsReady', function (e) {
-            // imports are loaded and elements have been registered
+    <!--page specific load-->
+    <script type="text/javascript" src="scripts/regulators.js"></script>
 
-            //pray that jquery loaded by now
-            $.ajax('https://api.myjson.com/bins/2mw52')
-            .done(function (response) {
-
-                for (var m in response) {
-                    $('#roster').append(
-                        '<tr>'
-                        + '<td>' + response[m].name + '</td>'
-                        + '<td>' + response[m].items.averageItemLevel + '</td>'
-                        + '<td><a rel=\'item=' + response[m].items.mainHand.id + '\'>' + response[m].items.mainHand.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.head.id + '\'>' + response[m].items.head.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.neck.id + '\'>' + response[m].items.neck.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.shoulder.id + '\'>' + response[m].items.shoulder.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.back.id + '\'>' + response[m].items.back.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.chest.id + '\'>' + response[m].items.chest.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.wrist.id + '\'>' + response[m].items.wrist.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.hands.id + '\'>' + response[m].items.hands.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.waist.id + '\'>' + response[m].items.waist.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.legs.id + '\'>' + response[m].items.legs.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.feet.id + '\'>' + response[m].items.feet.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.finger1.id + '\'>' + response[m].items.finger1.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.finger2.id + '\'>' + response[m].items.finger2.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.trinket1.id + '\'>' + response[m].items.trinket1.itemLevel + '</a></td>'
-                        + '<td><a rel=\'item=' + response[m].items.trinket2.id + '\'>' + response[m].items.trinket2.itemLevel + '</a></td>'
-                        + '</tr>'
-                        );
-                }
-
-            });
-        });
-
-    </script>
+    <!--wowhead links-->
+    <script type="text/javascript" src="//wow.zamimg.com/widgets/power.js"></script>
+    <script>var wowhead_tooltips = { "colorlinks": false, "iconizelinks": false, "renamelinks": false }</script>
 </head>
 <body style="padding-top: 70px">
     <div class="container">
