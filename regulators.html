@@ -7,18 +7,20 @@
     <title>wavefunctionp.github.io</title>
 
     <!--shim for html imports-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/webcomponents-lite.min.js"></script>
 
+    <!--html imports for head and nav-->
     <link rel="import" href="imports.html" />
     <link rel="import" href="mynav.html" id="navlink" />
 
-    <!--page specific load-->
+    <!--page specific behavior-->
     <script type="text/javascript" src="scripts/regulators.js"></script>
 
-    <!--wowhead links-->
+    <!--wowhead link support-->
     <script type="text/javascript" src="//wow.zamimg.com/widgets/power.js"></script>
     <script>var wowhead_tooltips = { "colorlinks": false, "iconizelinks": false, "renamelinks": false }</script>
 </head>
+
 <body style="padding-top: 70px">
     <div class="container">
         <table class="table table-hover" id="roster">
@@ -44,4 +46,5 @@
         </table>
     </div>
 </body>
+
 </html>

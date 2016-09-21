@@ -4497,836 +4497,6 @@
     "totalHonorableKills": 137
   },
   {
-    "lastModified": 1474429643000,
-    "name": "Slaz",
-    "realm": "Hyjal",
-    "battlegroup": "Vengeance",
-    "class": 8,
-    "race": 7,
-    "gender": 0,
-    "level": 110,
-    "achievementPoints": 7215,
-    "thumbnail": "hyjal/94/114215262-avatar.jpg",
-    "calcClass": "e",
-    "faction": 0,
-    "items": {
-      "averageItemLevel": 842,
-      "averageItemLevelEquipped": 842,
-      "head": {
-        "id": 139749,
-        "name": "Cowl of Tirisgarde",
-        "icon": "inv_cloth_mageclass_d_01helm",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "set": [
-            139749,
-            139751,
-            139754,
-            139748
-          ],
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1182
-          },
-          {
-            "stat": 40,
-            "amount": 521
-          },
-          {
-            "stat": 49,
-            "amount": 736
-          },
-          {
-            "stat": 7,
-            "amount": 1772
-          }
-        ],
-        "armor": 204,
-        "context": "quest-reward",
-        "bonusLists": [
-          3385,
-          3384
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157343,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "neck": {
-        "id": 134319,
-        "name": "Depleted Mana Crystal Pendant",
-        "icon": "inv_7_0raid_necklace_07a",
-        "quality": 4,
-        "itemLevel": 850,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 577
-          },
-          {
-            "stat": 49,
-            "amount": 1258
-          },
-          {
-            "stat": 7,
-            "amount": 1094
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1512,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "shoulder": {
-        "id": 134221,
-        "name": "Bonespeaker Mantle",
-        "icon": "inv_shoulder_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "enchant": 5440,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 886
-          },
-          {
-            "stat": 49,
-            "amount": 269
-          },
-          {
-            "stat": 32,
-            "amount": 674
-          },
-          {
-            "stat": 7,
-            "amount": 1329
-          }
-        ],
-        "armor": 188,
-        "context": "dungeon-heroic",
-        "bonusLists": [
-          1726,
-          1808,
-          1502,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145841,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "enchantDisplayInfoId": 5440,
-          "itemAppearanceModId": 0
-        }
-      },
-      "back": {
-        "id": 134246,
-        "name": "Herringbone Drape",
-        "icon": "inv_cape_mail_legionquest100_b_01",
-        "quality": 4,
-        "itemLevel": 845,
-        "tooltipParams": {
-          "tinker": 0,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 40,
-            "amount": 237
-          },
-          {
-            "stat": 49,
-            "amount": 483
-          },
-          {
-            "stat": 71,
-            "amount": 696
-          },
-          {
-            "stat": 7,
-            "amount": 1045
-          }
-        ],
-        "armor": 128,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          1507,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 149963,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "chest": {
-        "id": 139751,
-        "name": "Robes of Tirisgarde",
-        "icon": "inv_cloth_mageclass_d_01chest",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "set": [
-            139749,
-            139751,
-            139754,
-            139748
-          ],
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1182
-          },
-          {
-            "stat": 49,
-            "amount": 440
-          },
-          {
-            "stat": 32,
-            "amount": 817
-          },
-          {
-            "stat": 7,
-            "amount": 1772
-          }
-        ],
-        "armor": 251,
-        "context": "quest-reward",
-        "bonusLists": [
-          3385,
-          3384
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157612,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "shirt": {
-        "id": 4334,
-        "name": "Formal White Shirt",
-        "icon": "inv_shirt_08",
-        "quality": 2,
-        "itemLevel": 1,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [],
-        "armor": 0,
-        "context": "",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 4638,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "tabard": {
-        "id": 43157,
-        "name": "Tabard of the Kirin Tor",
-        "icon": "inv_shirt_guildtabard_01",
-        "quality": 2,
-        "itemLevel": 75,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [],
-        "armor": 0,
-        "context": "",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 54079,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "wrist": {
-        "id": 139754,
-        "name": "Bracers of Tirisgarde",
-        "icon": "inv_cloth_mageclass_d_01bracer",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "set": [
-            139749,
-            139751,
-            139754,
-            139748
-          ],
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 665
-          },
-          {
-            "stat": 49,
-            "amount": 217
-          },
-          {
-            "stat": 32,
-            "amount": 490
-          },
-          {
-            "stat": 7,
-            "amount": 997
-          }
-        ],
-        "armor": 110,
-        "context": "quest-reward",
-        "bonusLists": [
-          3385,
-          3384
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157347,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "hands": {
-        "id": 139748,
-        "name": "Gloves of Tirisgarde",
-        "icon": "inv_cloth_mageclass_d_01gloves",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "set": [
-            139749,
-            139751,
-            139754,
-            139748
-          ],
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 886
-          },
-          {
-            "stat": 36,
-            "amount": 391
-          },
-          {
-            "stat": 32,
-            "amount": 552
-          },
-          {
-            "stat": 7,
-            "amount": 1329
-          }
-        ],
-        "armor": 157,
-        "context": "vendor",
-        "bonusLists": [
-          3385,
-          3384
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157485,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "waist": {
-        "id": 134259,
-        "name": "Seawitch Cinch",
-        "icon": "inv_belt_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 886
-          },
-          {
-            "stat": 40,
-            "amount": 391
-          },
-          {
-            "stat": 49,
-            "amount": 552
-          },
-          {
-            "stat": 7,
-            "amount": 1329
-          }
-        ],
-        "armor": 141,
-        "context": "dungeon-mythic",
-        "bonusLists": [
-          1727,
-          1808,
-          1502,
-          1813
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145815,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "legs": {
-        "id": 134394,
-        "name": "Netherwhisper Leggings",
-        "icon": "inv_pant_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 845,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1238
-          },
-          {
-            "stat": 40,
-            "amount": 420
-          },
-          {
-            "stat": 32,
-            "amount": 860
-          },
-          {
-            "stat": 7,
-            "amount": 1857
-          }
-        ],
-        "armor": 224,
-        "context": "dungeon-mythic",
-        "bonusLists": [
-          1727,
-          1507,
-          3336
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145839,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "feet": {
-        "id": 121328,
-        "name": "Terrorweave Boots",
-        "icon": "inv_boot_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 886
-          },
-          {
-            "stat": 36,
-            "amount": 310
-          },
-          {
-            "stat": 32,
-            "amount": 633
-          },
-          {
-            "stat": 7,
-            "amount": 1329
-          }
-        ],
-        "armor": 173,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1502,
-          3336
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145816,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "finger1": {
-        "id": 134191,
-        "name": "Rough-Hammered Silver Ring",
-        "icon": "inv_70_quest_ring4d",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 49,
-            "amount": 573
-          },
-          {
-            "stat": 32,
-            "amount": 1099
-          },
-          {
-            "stat": 7,
-            "amount": 867
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-5",
-        "bonusLists": [
-          3396,
-          1808,
-          1487,
-          1675
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "finger2": {
-        "id": 134490,
-        "name": "Ring of Contempt",
-        "icon": "inv_70_dungeon_ring3b",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 40,
-            "amount": 525
-          },
-          {
-            "stat": 36,
-            "amount": 1147
-          },
-          {
-            "stat": 7,
-            "amount": 867
-          }
-        ],
-        "armor": 0,
-        "context": "dungeon-heroic",
-        "bonusLists": [
-          1726,
-          1477
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket1": {
-        "id": 121311,
-        "name": "Nightmare Bloom",
-        "icon": "inv_misc_herb_mana_thistle_leaf",
-        "quality": 4,
-        "itemLevel": 845,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 40,
-            "amount": 915
-          },
-          {
-            "stat": 5,
-            "amount": 1177
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          607,
-          1507,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 128223,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket2": {
-        "id": 139114,
-        "name": "An'she's Infusion of Light",
-        "icon": "ability_priest_holybolts01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 882
-          },
-          {
-            "stat": 5,
-            "amount": 1073
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          603,
-          1497,
-          3336
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "mainHand": {
-        "id": 128820,
-        "name": "Felo'melorn",
-        "icon": "inv_sword_1h_artifactfelomelorn_d_02",
-        "quality": 6,
-        "itemLevel": 868,
-        "tooltipParams": {
-          "gem0": 141261,
-          "gem1": 133768,
-          "gem2": 141261,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 657
-          },
-          {
-            "stat": 49,
-            "amount": 299
-          },
-          {
-            "stat": 36,
-            "amount": 299
-          },
-          {
-            "stat": 7,
-            "amount": 986
-          }
-        ],
-        "armor": 0,
-        "weaponInfo": {
-          "damage": {
-            "min": 1948,
-            "max": 3620,
-            "exactMin": 1948.0,
-            "exactMax": 3619.0
-          },
-          "weaponSpeed": 2.6,
-          "dps": 1070.5769
-        },
-        "context": "scenario-normal",
-        "bonusLists": [
-          730,
-          1511,
-          1514,
-          1509
-        ],
-        "artifactId": 54,
-        "displayInfoId": 152509,
-        "artifactAppearanceId": 495,
-        "artifactTraits": [
-          {
-            "id": 1340,
-            "rank": 1
-          },
-          {
-            "id": 756,
-            "rank": 3
-          },
-          {
-            "id": 751,
-            "rank": 5
-          },
-          {
-            "id": 749,
-            "rank": 3
-          },
-          {
-            "id": 763,
-            "rank": 1
-          },
-          {
-            "id": 754,
-            "rank": 3
-          },
-          {
-            "id": 759,
-            "rank": 1
-          },
-          {
-            "id": 755,
-            "rank": 4
-          }
-        ],
-        "relics": [
-          {
-            "socket": 0,
-            "itemId": 141261,
-            "context": 30,
-            "bonusLists": [
-              3397,
-              1497,
-              3336
-            ]
-          },
-          {
-            "socket": 1,
-            "itemId": 133768,
-            "context": 23,
-            "bonusLists": [
-              1727,
-              1497,
-              3336
-            ]
-          },
-          {
-            "socket": 2,
-            "itemId": 141261,
-            "context": 30,
-            "bonusLists": [
-              3397,
-              1492,
-              1675
-            ]
-          }
-        ],
-        "appearance": {
-          "itemAppearanceModId": 16
-        }
-      },
-      "offHand": {
-        "id": 133959,
-        "name": "Heart of the Phoenix",
-        "icon": "inv_offhand_1h_artifactfelomelorn_d_02",
-        "quality": 6,
-        "itemLevel": 868,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 863
-          },
-          {
-            "stat": 32,
-            "amount": 241
-          },
-          {
-            "stat": 36,
-            "amount": 544
-          },
-          {
-            "stat": 7,
-            "amount": 1295
-          }
-        ],
-        "armor": 0,
-        "weaponInfo": null,
-        "context": "",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 153205,
-        "artifactAppearanceId": 495,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemAppearanceModId": 16
-        }
-      }
-    },
-    "totalHonorableKills": 7531
-  },
-  {
     "lastModified": 1474413685000,
     "name": "Shifteer",
     "realm": "Hyjal",
@@ -6072,749 +5242,6 @@
       }
     },
     "totalHonorableKills": 2687
-  },
-  {
-    "lastModified": 1474456003000,
-    "name": "Squadmedic",
-    "realm": "Hyjal",
-    "battlegroup": "Vengeance",
-    "class": 5,
-    "race": 1,
-    "gender": 0,
-    "level": 110,
-    "achievementPoints": 15255,
-    "thumbnail": "hyjal/130/114237314-avatar.jpg",
-    "calcClass": "X",
-    "faction": 0,
-    "items": {
-      "averageItemLevel": 832,
-      "averageItemLevelEquipped": 831,
-      "head": {
-        "id": 139757,
-        "name": "Mitre of the High Priest",
-        "icon": "inv_cloth_priestclass_d_01helm",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "set": [
-            139757
-          ],
-          "transmogItem": 50765,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 981
-          },
-          {
-            "stat": 32,
-            "amount": 408
-          },
-          {
-            "stat": 49,
-            "amount": 759
-          },
-          {
-            "stat": 7,
-            "amount": 1471
-          }
-        ],
-        "armor": 190,
-        "context": "quest-reward",
-        "bonusLists": [
-          3386,
-          3382
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157255,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 50765,
-          "itemAppearanceModId": 0
-        }
-      },
-      "neck": {
-        "id": 134319,
-        "name": "Depleted Mana Crystal Pendant",
-        "icon": "inv_7_0raid_necklace_07a",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 546
-          },
-          {
-            "stat": 49,
-            "amount": 1191
-          },
-          {
-            "stat": 7,
-            "amount": 952
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          1497,
-          3336
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "shoulder": {
-        "id": 134265,
-        "name": "Seawitch Mantle",
-        "icon": "inv_shoulder_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "enchant": 0,
-          "transmogItem": 50767,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 846
-          },
-          {
-            "stat": 40,
-            "amount": 363
-          },
-          {
-            "stat": 49,
-            "amount": 562
-          },
-          {
-            "stat": 7,
-            "amount": 1269
-          }
-        ],
-        "armor": 185,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1497,
-          1674
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145841,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 50767,
-          "enchantDisplayInfoId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "back": {
-        "id": 134202,
-        "name": "Stormsky Greatcloak",
-        "icon": "ivn_cape_legionquest100_b_04",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "tinker": 4897,
-          "transmogItem": 86748,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 49,
-            "amount": 273
-          },
-          {
-            "stat": 32,
-            "amount": 421
-          },
-          {
-            "stat": 71,
-            "amount": 635
-          },
-          {
-            "stat": 7,
-            "amount": 952
-          }
-        ],
-        "armor": 123,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1497,
-          1674
-        ],
-        "artifactId": 0,
-        "displayInfoId": 155122,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 86748,
-          "itemAppearanceModId": 0
-        }
-      },
-      "chest": {
-        "id": 134307,
-        "name": "Manawracker Vestments",
-        "icon": "inv_robe_cloth_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 830,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 50768,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1077
-          },
-          {
-            "stat": 36,
-            "amount": 476
-          },
-          {
-            "stat": 49,
-            "amount": 735
-          },
-          {
-            "stat": 7,
-            "amount": 1615
-          }
-        ],
-        "armor": 242,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          1492,
-          1675
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145845,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 50768,
-          "itemAppearanceModId": 0
-        }
-      },
-      "shirt": {
-        "id": 3342,
-        "name": "Captain Sanders' Shirt",
-        "icon": "inv_shirt_14",
-        "quality": 2,
-        "itemLevel": 1,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [],
-        "armor": 0,
-        "context": "",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 3552,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "tabard": null,
-      "wrist": {
-        "id": 139130,
-        "name": "Sunfrost Wristwraps",
-        "icon": "inv_bracer_cloth_legionquest100_b_01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 635
-          },
-          {
-            "stat": 32,
-            "amount": 213
-          },
-          {
-            "stat": 36,
-            "amount": 481
-          },
-          {
-            "stat": 7,
-            "amount": 952
-          }
-        ],
-        "armor": 108,
-        "context": "world-quest-4",
-        "bonusLists": [
-          3395,
-          1497,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 146391,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "hands": {
-        "id": 134349,
-        "name": "Arcane Singed Handwraps",
-        "icon": "inv_glove_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 50766,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 846
-          },
-          {
-            "stat": 32,
-            "amount": 264
-          },
-          {
-            "stat": 49,
-            "amount": 662
-          },
-          {
-            "stat": 7,
-            "amount": 1269
-          }
-        ],
-        "armor": 154,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1497,
-          1674
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145837,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 50766,
-          "itemAppearanceModId": 0
-        }
-      },
-      "waist": {
-        "id": 134171,
-        "name": "Roggthread Cord",
-        "icon": "inv_belt_cloth_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 830,
-        "tooltipParams": {
-          "transmogItem": 19842,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 807
-          },
-          {
-            "stat": 40,
-            "amount": 259
-          },
-          {
-            "stat": 36,
-            "amount": 649
-          },
-          {
-            "stat": 7,
-            "amount": 1211
-          }
-        ],
-        "armor": 136,
-        "context": "dungeon-heroic",
-        "bonusLists": [
-          1726,
-          1492,
-          3339
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145815,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 19842,
-          "itemAppearanceModId": 0
-        }
-      },
-      "legs": {
-        "id": 137505,
-        "name": "Leggings of the Third Degree",
-        "icon": "inv_pant_cloth_legiondungeon_c_01",
-        "quality": 4,
-        "itemLevel": 845,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1238
-          },
-          {
-            "stat": 40,
-            "amount": 366
-          },
-          {
-            "stat": 49,
-            "amount": 915
-          },
-          {
-            "stat": 7,
-            "amount": 1857
-          }
-        ],
-        "armor": 224,
-        "context": "dungeon-heroic",
-        "bonusLists": [
-          1726,
-          1497,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145238,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "feet": {
-        "id": 121328,
-        "name": "Terrorweave Boots",
-        "icon": "inv_boot_cloth_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "transmogItem": 45567,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 846
-          },
-          {
-            "stat": 36,
-            "amount": 304
-          },
-          {
-            "stat": 32,
-            "amount": 621
-          },
-          {
-            "stat": 7,
-            "amount": 1269
-          }
-        ],
-        "armor": 170,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          1497,
-          1674
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145816,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 45567,
-          "itemAppearanceModId": 0
-        }
-      },
-      "finger1": {
-        "id": 133634,
-        "name": "Grasping Tentacle Loop",
-        "icon": "inv_misc_ring_6_0_013",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 36,
-            "amount": 716
-          },
-          {
-            "stat": 49,
-            "amount": 955
-          },
-          {
-            "stat": 7,
-            "amount": 867
-          }
-        ],
-        "armor": 0,
-        "context": "dungeon-heroic",
-        "bonusLists": [
-          1726,
-          1477
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "finger2": {
-        "id": 139103,
-        "name": "An'she's Band",
-        "icon": "inv_70_quest_ring3a",
-        "quality": 3,
-        "itemLevel": 830,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 729
-          },
-          {
-            "stat": 36,
-            "amount": 973
-          },
-          {
-            "stat": 7,
-            "amount": 908
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-2",
-        "bonusLists": [
-          1825,
-          1492,
-          3338
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket1": {
-        "id": 134204,
-        "name": "Bleached Skull Talisman",
-        "icon": "inv_weapon_crossbow_22",
-        "quality": 4,
-        "itemLevel": 845,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 40,
-            "amount": 915
-          },
-          {
-            "stat": 5,
-            "amount": 1177
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-7",
-        "bonusLists": [
-          3432,
-          607,
-          1507,
-          3336
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket2": {
-        "id": 121311,
-        "name": "Nightmare Bloom",
-        "icon": "inv_misc_herb_mana_thistle_leaf",
-        "quality": 3,
-        "itemLevel": 830,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 865
-          },
-          {
-            "stat": 5,
-            "amount": 1023
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-6",
-        "bonusLists": [
-          3397,
-          1808,
-          603,
-          1492,
-          1675
-        ],
-        "artifactId": 0,
-        "displayInfoId": 128223,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "mainHand": {
-        "id": 128825,
-        "name": "T'uure, Beacon of the Naaru",
-        "icon": "inv_mace_1h_artifactheartofkure_d_01",
-        "quality": 6,
-        "itemLevel": 823,
-        "tooltipParams": {
-          "gem0": 141276,
-          "gem1": 137327,
-          "gem2": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 5,
-            "amount": 1009
-          },
-          {
-            "stat": 49,
-            "amount": 576
-          },
-          {
-            "stat": 32,
-            "amount": 600
-          },
-          {
-            "stat": 7,
-            "amount": 1513
-          }
-        ],
-        "armor": 0,
-        "weaponInfo": {
-          "damage": {
-            "min": 2609,
-            "max": 3915,
-            "exactMin": 2609.0,
-            "exactMax": 3914.0
-          },
-          "weaponSpeed": 3.6,
-          "dps": 905.9722
-        },
-        "context": "scenario-normal",
-        "bonusLists": [
-          1505,
-          1512
-        ],
-        "artifactId": 45,
-        "displayInfoId": 152695,
-        "artifactAppearanceId": 745,
-        "artifactTraits": [
-          {
-            "id": 1346,
-            "rank": 1
-          },
-          {
-            "id": 846,
-            "rank": 4
-          },
-          {
-            "id": 844,
-            "rank": 3
-          },
-          {
-            "id": 848,
-            "rank": 3
-          },
-          {
-            "id": 835,
-            "rank": 1
-          },
-          {
-            "id": 847,
-            "rank": 3
-          },
-          {
-            "id": 838,
-            "rank": 3
-          },
-          {
-            "id": 837,
-            "rank": 1
-          }
-        ],
-        "relics": [
-          {
-            "socket": 0,
-            "itemId": 141276,
-            "context": 27,
-            "bonusLists": [
-              3394,
-              1477,
-              1675
-            ]
-          },
-          {
-            "socket": 1,
-            "itemId": 137327,
-            "context": 23,
-            "bonusLists": [
-              1727,
-              1492,
-              1813
-            ]
-          }
-        ],
-        "appearance": {
-          "itemAppearanceModId": 10
-        }
-      },
-      "offHand": null
-    },
-    "totalHonorableKills": 17433
   },
   {
     "lastModified": 1474435927000,
@@ -10530,7 +8957,7 @@
     "totalHonorableKills": 1284
   },
   {
-    "lastModified": 1474433266000,
+    "lastModified": 1474462184000,
     "name": "Sylvente",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -15807,770 +14234,6 @@
     "totalHonorableKills": 639
   },
   {
-    "lastModified": 1474395515000,
-    "name": "Taziki",
-    "realm": "Hyjal",
-    "battlegroup": "Vengeance",
-    "class": 11,
-    "race": 4,
-    "gender": 1,
-    "level": 110,
-    "achievementPoints": 12875,
-    "thumbnail": "hyjal/59/115004987-avatar.jpg",
-    "calcClass": "U",
-    "faction": 0,
-    "items": {
-      "averageItemLevel": 816,
-      "averageItemLevelEquipped": 816,
-      "head": {
-        "id": 139726,
-        "name": "Hood of the Dreamgrove",
-        "icon": "inv_leather_druidclass_d_01helm",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "set": [
-            139726,
-            139730
-          ],
-          "transmogItem": 31039,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 981
-          },
-          {
-            "stat": 49,
-            "amount": 358
-          },
-          {
-            "stat": 36,
-            "amount": 809
-          },
-          {
-            "stat": 7,
-            "amount": 1471
-          }
-        ],
-        "armor": 242,
-        "context": "quest-reward",
-        "bonusLists": [
-          3385,
-          3382
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157264,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 31039,
-          "itemAppearanceModId": 0
-        }
-      },
-      "neck": {
-        "id": 133767,
-        "name": "Pendant of the Stormforger",
-        "icon": "inv_7_0raid_necklace_14a",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 36,
-            "amount": 621
-          },
-          {
-            "stat": 32,
-            "amount": 1051
-          },
-          {
-            "stat": 7,
-            "amount": 867
-          }
-        ],
-        "armor": 0,
-        "context": "dungeon-normal",
-        "bonusLists": [
-          1826,
-          1477,
-          3338
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "shoulder": {
-        "id": 134198,
-        "name": "Biornskin Shoulderpads",
-        "icon": "inv_shoulder_leather_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "enchant": 0,
-          "transmogItem": 65078,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 736
-          },
-          {
-            "stat": 49,
-            "amount": 363
-          },
-          {
-            "stat": 32,
-            "amount": 513
-          },
-          {
-            "stat": 7,
-            "amount": 1104
-          }
-        ],
-        "armor": 223,
-        "context": "world-quest-2",
-        "bonusLists": [
-          1825,
-          1482,
-          3339
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145322,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 65078,
-          "enchantDisplayInfoId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "back": {
-        "id": 136977,
-        "name": "Shadowfeather Shawl",
-        "icon": "inv_cape_leather_legiondungeon_c_01",
-        "quality": 3,
-        "itemLevel": 805,
-        "tooltipParams": {
-          "tinker": 0,
-          "transmogItem": 29925,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 36,
-            "amount": 434
-          },
-          {
-            "stat": 40,
-            "amount": 186
-          },
-          {
-            "stat": 71,
-            "amount": 480
-          },
-          {
-            "stat": 7,
-            "amount": 719
-          }
-        ],
-        "armor": 111,
-        "context": "dungeon-normal",
-        "bonusLists": [
-          1826,
-          1457
-        ],
-        "artifactId": 0,
-        "displayInfoId": 149774,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 29925,
-          "itemAppearanceModId": 0
-        }
-      },
-      "chest": {
-        "id": 134285,
-        "name": "Swordsinger's Vest",
-        "icon": "inv_chest_leather_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 835,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 1128
-          },
-          {
-            "stat": 36,
-            "amount": 459
-          },
-          {
-            "stat": 49,
-            "amount": 776
-          },
-          {
-            "stat": 7,
-            "amount": 1692
-          }
-        ],
-        "armor": 313,
-        "context": "world-quest-4",
-        "bonusLists": [
-          3395,
-          1497,
-          3337
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145318,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 0,
-          "itemAppearanceModId": 0
-        }
-      },
-      "shirt": null,
-      "tabard": null,
-      "wrist": {
-        "id": 139730,
-        "name": "Bracers of the Dreamgrove",
-        "icon": "inv_leather_druidclass_d_01bracer",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "set": [
-            139726,
-            139730
-          ],
-          "transmogItem": 119333,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 552
-          },
-          {
-            "stat": 40,
-            "amount": 271
-          },
-          {
-            "stat": 32,
-            "amount": 384
-          },
-          {
-            "stat": 7,
-            "amount": 827
-          }
-        ],
-        "armor": 130,
-        "context": "quest-reward",
-        "bonusLists": [
-          3385,
-          3382
-        ],
-        "artifactId": 0,
-        "displayInfoId": 157267,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 119333,
-          "itemAppearanceModId": 1
-        }
-      },
-      "hands": {
-        "id": 134327,
-        "name": "Mana-Saber Hide Gloves",
-        "icon": "inv_glove_leather_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 6554,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 771
-          },
-          {
-            "stat": 32,
-            "amount": 331
-          },
-          {
-            "stat": 49,
-            "amount": 561
-          },
-          {
-            "stat": 7,
-            "amount": 1157
-          }
-        ],
-        "armor": 189,
-        "context": "world-quest-4",
-        "bonusLists": [
-          3395,
-          1487,
-          3339
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145319,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 6554,
-          "itemAppearanceModId": 0
-        }
-      },
-      "waist": {
-        "id": 121299,
-        "name": "Dreadhide Girdle",
-        "icon": "inv_belt_leather_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "transmogItem": 78388,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 736
-          },
-          {
-            "stat": 36,
-            "amount": 363
-          },
-          {
-            "stat": 32,
-            "amount": 513
-          },
-          {
-            "stat": 7,
-            "amount": 1104
-          }
-        ],
-        "armor": 168,
-        "context": "world-quest-3",
-        "bonusLists": [
-          3394,
-          1482,
-          3339
-        ],
-        "artifactId": 0,
-        "displayInfoId": 150744,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 78388,
-          "itemAppearanceModId": 0
-        }
-      },
-      "legs": {
-        "id": 134370,
-        "name": "Felbat Leather Leggings",
-        "icon": "inv_pant_leather_legionendgame_c_01",
-        "quality": 4,
-        "itemLevel": 840,
-        "tooltipParams": {
-          "set": null,
-          "transmogItem": 85926,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 1182
-          },
-          {
-            "stat": 40,
-            "amount": 494
-          },
-          {
-            "stat": 32,
-            "amount": 763
-          },
-          {
-            "stat": 7,
-            "amount": 1773
-          }
-        ],
-        "armor": 279,
-        "context": "dungeon-mythic",
-        "bonusLists": [
-          1727,
-          1502,
-          1813
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145321,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 85926,
-          "itemAppearanceModId": 0
-        }
-      },
-      "feet": {
-        "id": 134237,
-        "name": "Brinewashed Leather Boots",
-        "icon": "inv_boot_leather_legionendgame_c_01",
-        "quality": 3,
-        "itemLevel": 820,
-        "tooltipParams": {
-          "transmogItem": 6092,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 73,
-            "amount": 736
-          },
-          {
-            "stat": 40,
-            "amount": 287
-          },
-          {
-            "stat": 49,
-            "amount": 588
-          },
-          {
-            "stat": 7,
-            "amount": 1104
-          }
-        ],
-        "armor": 205,
-        "context": "world-quest-4",
-        "bonusLists": [
-          3395,
-          1482,
-          1675
-        ],
-        "artifactId": 0,
-        "displayInfoId": 145317,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemId": 6092,
-          "itemAppearanceModId": 0
-        }
-      },
-      "finger1": {
-        "id": 129206,
-        "name": "Andvari's Gift",
-        "icon": "inv_jewelry_ring_01",
-        "quality": 3,
-        "itemLevel": 785,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 49,
-            "amount": 568
-          },
-          {
-            "stat": 32,
-            "amount": 757
-          },
-          {
-            "stat": 7,
-            "amount": 597
-          }
-        ],
-        "armor": 0,
-        "context": "",
-        "bonusLists": [
-          1794
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "finger2": {
-        "id": 130127,
-        "name": "Syndrelle's Favorite Ring",
-        "icon": "inv_jewelry_ring_92",
-        "quality": 3,
-        "itemLevel": 785,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 416
-          },
-          {
-            "stat": 36,
-            "amount": 908
-          },
-          {
-            "stat": 7,
-            "amount": 597
-          }
-        ],
-        "armor": 0,
-        "context": "quest-reward",
-        "bonusLists": [
-          1794
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket1": {
-        "id": 137459,
-        "name": "Chaos Talisman",
-        "icon": "inv_7_0raid_trinket_02d",
-        "quality": 3,
-        "itemLevel": 805,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 36,
-            "amount": 788
-          }
-        ],
-        "armor": 0,
-        "context": "dungeon-normal",
-        "bonusLists": [
-          1826,
-          1457
-        ],
-        "artifactId": 0,
-        "displayInfoId": 0,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "trinket2": {
-        "id": 121310,
-        "name": "Nightmare Thorn",
-        "icon": "spell_nature_thorns",
-        "quality": 3,
-        "itemLevel": 825,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 32,
-            "amount": 849
-          },
-          {
-            "stat": 3,
-            "amount": 977
-          }
-        ],
-        "armor": 0,
-        "context": "world-quest-5",
-        "bonusLists": [
-          3396,
-          603,
-          1487,
-          1675
-        ],
-        "artifactId": 0,
-        "displayInfoId": 129321,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {}
-      },
-      "mainHand": {
-        "id": 128860,
-        "name": "Fangs of Ashamane",
-        "icon": "inv_knife_1h_artifactfrostsaber_d_01",
-        "quality": 6,
-        "itemLevel": 816,
-        "tooltipParams": {
-          "gem0": 141274,
-          "gem1": 136718,
-          "gem2": 0,
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 49,
-            "amount": 240
-          },
-          {
-            "stat": 32,
-            "amount": 250
-          },
-          {
-            "stat": 3,
-            "amount": 405
-          },
-          {
-            "stat": 7,
-            "amount": 607
-          }
-        ],
-        "armor": 0,
-        "weaponInfo": {
-          "damage": {
-            "min": 1662,
-            "max": 3088,
-            "exactMin": 1662.0,
-            "exactMax": 3087.0
-          },
-          "weaponSpeed": 1.8,
-          "dps": 1319.1667
-        },
-        "context": "scenario-normal",
-        "bonusLists": [
-          1505,
-          1505
-        ],
-        "artifactId": 58,
-        "displayInfoId": 153002,
-        "artifactAppearanceId": 430,
-        "artifactTraits": [
-          {
-            "id": 1327,
-            "rank": 1
-          },
-          {
-            "id": 1166,
-            "rank": 2
-          },
-          {
-            "id": 1168,
-            "rank": 4
-          },
-          {
-            "id": 1159,
-            "rank": 1
-          },
-          {
-            "id": 1160,
-            "rank": 3
-          },
-          {
-            "id": 1155,
-            "rank": 1
-          },
-          {
-            "id": 1167,
-            "rank": 1
-          },
-          {
-            "id": 1162,
-            "rank": 1
-          }
-        ],
-        "relics": [
-          {
-            "socket": 0,
-            "itemId": 141274,
-            "context": 26,
-            "bonusLists": [
-              1825,
-              1477,
-              3339
-            ]
-          },
-          {
-            "socket": 1,
-            "itemId": 136718,
-            "context": 1,
-            "bonusLists": [
-              1826,
-              1467,
-              3339
-            ]
-          }
-        ],
-        "appearance": {
-          "itemAppearanceModId": 9
-        }
-      },
-      "offHand": {
-        "id": 128859,
-        "name": "Fangs of Ashamane",
-        "icon": "inv_knife_1h_artifactfrostsaber_d_01",
-        "quality": 6,
-        "itemLevel": 816,
-        "tooltipParams": {
-          "timewalkerLevel": 110
-        },
-        "stats": [
-          {
-            "stat": 49,
-            "amount": 240
-          },
-          {
-            "stat": 32,
-            "amount": 250
-          },
-          {
-            "stat": 3,
-            "amount": 405
-          },
-          {
-            "stat": 7,
-            "amount": 607
-          }
-        ],
-        "armor": 0,
-        "weaponInfo": {
-          "damage": {
-            "min": 1662,
-            "max": 3088,
-            "exactMin": 1662.0,
-            "exactMax": 3087.0
-          },
-          "weaponSpeed": 1.8,
-          "dps": 1319.1667
-        },
-        "context": "",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 153002,
-        "artifactAppearanceId": 430,
-        "artifactTraits": [],
-        "relics": [],
-        "appearance": {
-          "itemAppearanceModId": 9
-        }
-      }
-    },
-    "totalHonorableKills": 1461
-  },
-  {
     "lastModified": 1474424061000,
     "name": "Gloreia",
     "realm": "Hyjal",
@@ -18860,7 +16523,7 @@
     "totalHonorableKills": 1487
   },
   {
-    "lastModified": 1474417594000,
+    "lastModified": 1474458336000,
     "name": "Ramses",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -18868,13 +16531,13 @@
     "race": 1,
     "gender": 0,
     "level": 110,
-    "achievementPoints": 17665,
+    "achievementPoints": 17685,
     "thumbnail": "hyjal/123/115011707-avatar.jpg",
     "calcClass": "e",
     "faction": 0,
     "items": {
-      "averageItemLevel": 823,
-      "averageItemLevelEquipped": 819,
+      "averageItemLevel": 825,
+      "averageItemLevelEquipped": 821,
       "head": {
         "id": 134392,
         "name": "Netherwhisper Hood",
@@ -19459,31 +17122,32 @@
         "appearance": {}
       },
       "trinket2": {
-        "id": 139076,
-        "name": "Bloom of New Growth",
-        "icon": "spell_nature_resistnature",
-        "quality": 3,
-        "itemLevel": 815,
+        "id": 134160,
+        "name": "Huge Roggstone",
+        "icon": "inv_misc_gem_bloodstone_01",
+        "quality": 4,
+        "itemLevel": 850,
         "tooltipParams": {
           "timewalkerLevel": 110
         },
         "stats": [
           {
-            "stat": 32,
-            "amount": 818
+            "stat": 49,
+            "amount": 932
           },
           {
             "stat": 5,
-            "amount": 890
+            "amount": 1233
           }
         ],
         "armor": 0,
-        "context": "world-quest-2",
+        "context": "world-quest-6",
         "bonusLists": [
-          1825,
-          603,
-          1477,
-          3339
+          3397,
+          1808,
+          605,
+          1512,
+          3337
         ],
         "artifactId": 0,
         "displayInfoId": 0,
@@ -22557,7 +20221,7 @@
     "totalHonorableKills": 319
   },
   {
-    "lastModified": 1474435489000,
+    "lastModified": 1474466827000,
     "name": "Illuminus",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -23281,7 +20945,7 @@
     "totalHonorableKills": 7640
   },
   {
-    "lastModified": 1474420835000,
+    "lastModified": 1474464985000,
     "name": "Jumpinmonkey",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -24059,7 +21723,7 @@
     "totalHonorableKills": 20169
   },
   {
-    "lastModified": 1474448726000,
+    "lastModified": 1474465848000,
     "name": "Shorttimber",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -26326,7 +23990,7 @@
     "totalHonorableKills": 3521
   },
   {
-    "lastModified": 1474436837000,
+    "lastModified": 1474467899000,
     "name": "Slayerella",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -28554,7 +26218,7 @@
     "totalHonorableKills": 1021
   },
   {
-    "lastModified": 1474432697000,
+    "lastModified": 1474462811000,
     "name": "Greenstone",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -28616,9 +26280,9 @@
         }
       },
       "neck": {
-        "id": 134529,
-        "name": "Chain of Scorched Bones",
-        "icon": "inv_7_0raid_necklace_13d",
+        "id": 137487,
+        "name": "Strand of the Stars",
+        "icon": "inv_7_0raid_necklace_12b",
         "quality": 4,
         "itemLevel": 845,
         "tooltipParams": {
@@ -28626,12 +26290,12 @@
         },
         "stats": [
           {
-            "stat": 40,
-            "amount": 617
+            "stat": 49,
+            "amount": 823
           },
           {
-            "stat": 36,
-            "amount": 1184
+            "stat": 40,
+            "amount": 978
           },
           {
             "stat": 7,
@@ -28642,7 +26306,6 @@
         "context": "dungeon-mythic",
         "bonusLists": [
           1727,
-          1808,
           1497,
           3336
         ],
@@ -28823,6 +26486,7 @@
         "tooltipParams": {
           "set": [
             139729,
+            139724,
             139730,
             139725
           ],
@@ -28872,6 +26536,7 @@
         "tooltipParams": {
           "set": [
             139729,
+            139724,
             139730,
             139725
           ],
@@ -29003,9 +26668,9 @@
         }
       },
       "feet": {
-        "id": 134193,
-        "name": "Biornskin Moccasins",
-        "icon": "inv_boot_leather_legionendgame_c_01",
+        "id": 139724,
+        "name": "Sandals of the Dreamgrove",
+        "icon": "inv_leather_druidclass_d_01boots",
         "quality": 4,
         "itemLevel": 840,
         "tooltipParams": {
@@ -29019,11 +26684,11 @@
           },
           {
             "stat": 49,
-            "amount": 269
+            "amount": 391
           },
           {
-            "stat": 32,
-            "amount": 674
+            "stat": 36,
+            "amount": 552
           },
           {
             "stat": 7,
@@ -29031,14 +26696,13 @@
           }
         ],
         "armor": 219,
-        "context": "dungeon-mythic",
+        "context": "vendor",
         "bonusLists": [
-          1727,
-          1502,
-          1813
+          3386,
+          3384
         ],
         "artifactId": 0,
-        "displayInfoId": 145317,
+        "displayInfoId": 157281,
         "artifactAppearanceId": 0,
         "artifactTraits": [],
         "relics": [],
@@ -30153,7 +27817,7 @@
     "totalHonorableKills": 6437
   },
   {
-    "lastModified": 1474423977000,
+    "lastModified": 1474464088000,
     "name": "Oakshron",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -30917,7 +28581,7 @@
     "totalHonorableKills": 276
   },
   {
-    "lastModified": 1474437642000,
+    "lastModified": 1474460348000,
     "name": "Jesslyn",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -30925,13 +28589,13 @@
     "race": 1,
     "gender": 1,
     "level": 110,
-    "achievementPoints": 16700,
+    "achievementPoints": 16710,
     "thumbnail": "hyjal/107/115038827-avatar.jpg",
     "calcClass": "V",
     "faction": 0,
     "items": {
       "averageItemLevel": 842,
-      "averageItemLevelEquipped": 827,
+      "averageItemLevelEquipped": 842,
       "head": {
         "id": 137341,
         "name": "Cragshaper's Fitted Hood",
@@ -31527,55 +29191,128 @@
         "appearance": {}
       },
       "mainHand": {
-        "id": 140553,
-        "name": "Netherlord's Staff of Summoning",
-        "icon": "inv_staff_2h_draenorcrafted_d_01_c_horde",
-        "quality": 2,
-        "itemLevel": 740,
+        "id": 128941,
+        "name": "Scepter of Sargeras",
+        "icon": "inv_staff_2h_artifactsargeras_d_02",
+        "quality": 6,
+        "itemLevel": 863,
         "tooltipParams": {
-          "gem0": 0,
-          "gem1": 0,
-          "gem2": 0,
+          "gem0": 141277,
+          "gem1": 137358,
+          "gem2": 142058,
           "timewalkerLevel": 110
         },
         "stats": [
           {
             "stat": 5,
-            "amount": 3004
+            "amount": 1464
           },
           {
             "stat": 49,
-            "amount": 337
+            "amount": 686
           },
           {
             "stat": 36,
-            "amount": 265
+            "amount": 686
           },
           {
             "stat": 7,
-            "amount": 698
+            "amount": 2196
           }
         ],
         "armor": 0,
         "weaponInfo": {
           "damage": {
-            "min": 1103,
-            "max": 1657,
-            "exactMin": 1103.0,
-            "exactMax": 1656.0
+            "min": 3787,
+            "max": 5682,
+            "exactMin": 3787.0,
+            "exactMax": 5681.0
           },
-          "weaponSpeed": 3.3,
-          "dps": 418.0303
+          "weaponSpeed": 3.6,
+          "dps": 1315.0
         },
-        "context": "vendor",
-        "bonusLists": [],
-        "artifactId": 0,
-        "displayInfoId": 130958,
-        "artifactAppearanceId": 0,
-        "artifactTraits": [],
-        "relics": [],
+        "context": "",
+        "bonusLists": [
+          749,
+          1509,
+          1512,
+          1508
+        ],
+        "artifactId": 38,
+        "displayInfoId": 157734,
+        "artifactAppearanceId": 194,
+        "artifactTraits": [
+          {
+            "id": 1355,
+            "rank": 1
+          },
+          {
+            "id": 812,
+            "rank": 3
+          },
+          {
+            "id": 815,
+            "rank": 1
+          },
+          {
+            "id": 811,
+            "rank": 3
+          },
+          {
+            "id": 807,
+            "rank": 3
+          },
+          {
+            "id": 817,
+            "rank": 1
+          },
+          {
+            "id": 809,
+            "rank": 3
+          },
+          {
+            "id": 818,
+            "rank": 1
+          },
+          {
+            "id": 813,
+            "rank": 1
+          },
+          {
+            "id": 810,
+            "rank": 2
+          }
+        ],
+        "relics": [
+          {
+            "socket": 0,
+            "itemId": 141277,
+            "context": 30,
+            "bonusLists": [
+              3397,
+              1492,
+              1675
+            ]
+          },
+          {
+            "socket": 1,
+            "itemId": 137358,
+            "context": 2,
+            "bonusLists": [
+              1726,
+              1492,
+              3337
+            ]
+          },
+          {
+            "socket": 2,
+            "itemId": 142058,
+            "context": 11,
+            "bonusLists": []
+          }
+        ],
         "appearance": {
-          "itemAppearanceModId": 0
+          "itemAppearanceModId": 15
         }
       },
       "offHand": null
@@ -33120,7 +30857,7 @@
     "totalHonorableKills": 141
   },
   {
-    "lastModified": 1474442947000,
+    "lastModified": 1474463058000,
     "name": "Stezzy",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -37572,7 +35309,7 @@
     "race": 4,
     "gender": 0,
     "level": 110,
-    "achievementPoints": 16700,
+    "achievementPoints": 16710,
     "thumbnail": "hyjal/33/118539809-avatar.jpg",
     "calcClass": "Y",
     "faction": 0,
@@ -41957,7 +39694,7 @@
     "totalHonorableKills": 3596
   },
   {
-    "lastModified": 1474451155000,
+    "lastModified": 1474457435000,
     "name": "Stikitinya",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -49689,7 +47426,7 @@
     "totalHonorableKills": 32
   },
   {
-    "lastModified": 1474409098000,
+    "lastModified": 1474460273000,
     "name": "Ecroy",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -49697,7 +47434,7 @@
     "race": 4,
     "gender": 0,
     "level": 110,
-    "achievementPoints": 11525,
+    "achievementPoints": 11530,
     "thumbnail": "hyjal/237/127078637-avatar.jpg",
     "calcClass": "g",
     "faction": 0,
@@ -56431,7 +54168,7 @@
     "totalHonorableKills": 2
   },
   {
-    "lastModified": 1474424315000,
+    "lastModified": 1474458347000,
     "name": "Bamak",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -56439,13 +54176,13 @@
     "race": 25,
     "gender": 0,
     "level": 110,
-    "achievementPoints": 4480,
+    "achievementPoints": 4490,
     "thumbnail": "hyjal/72/127702344-avatar.jpg",
     "calcClass": "f",
     "faction": 0,
     "items": {
-      "averageItemLevel": 794,
-      "averageItemLevelEquipped": 794,
+      "averageItemLevel": 795,
+      "averageItemLevelEquipped": 795,
       "head": {
         "id": 139734,
         "name": "Grandmaster's Crown",
@@ -57010,9 +54747,9 @@
         "name": "Fu Zan, the Wanderer's Companion",
         "icon": "inv_staff_2h_artifactmonkeyking_d_01",
         "quality": 6,
-        "itemLevel": 802,
+        "itemLevel": 807,
         "tooltipParams": {
-          "gem0": 132352,
+          "gem0": 141275,
           "gem1": 133039,
           "gem2": 0,
           "timewalkerLevel": 110
@@ -57020,35 +54757,35 @@
         "stats": [
           {
             "stat": 49,
-            "amount": 546
+            "amount": 556
           },
           {
             "stat": 36,
-            "amount": 546
+            "amount": 556
           },
           {
             "stat": 3,
-            "amount": 829
+            "amount": 869
           },
           {
             "stat": 7,
-            "amount": 1244
+            "amount": 1303
           }
         ],
         "armor": 0,
         "weaponInfo": {
           "damage": {
-            "min": 4291,
-            "max": 6438,
-            "exactMin": 4291.0,
-            "exactMax": 6437.0
+            "min": 4495,
+            "max": 6744,
+            "exactMin": 4495.0,
+            "exactMax": 6743.0
           },
           "weaponSpeed": 3.6,
-          "dps": 1490.0
+          "dps": 1560.8334
         },
         "context": "scenario-normal",
         "bonusLists": [
-          1500,
+          1505,
           1496
         ],
         "artifactId": 52,
@@ -57069,11 +54806,11 @@
           },
           {
             "id": 1286,
-            "rank": 3
+            "rank": 4
           },
           {
             "id": 1281,
-            "rank": 3
+            "rank": 2
           },
           {
             "id": 1288,
@@ -57083,13 +54820,12 @@
         "relics": [
           {
             "socket": 0,
-            "itemId": 132352,
-            "context": 11,
+            "itemId": 141275,
+            "context": 26,
             "bonusLists": [
-              1793,
-              1741,
-              1615,
-              1809
+              1825,
+              1477,
+              3339
             ]
           },
           {
@@ -57112,7 +54848,7 @@
     "totalHonorableKills": 0
   },
   {
-    "lastModified": 1474257238000,
+    "lastModified": 1474463770000,
     "name": "Wuggimus",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -57125,8 +54861,8 @@
     "calcClass": "c",
     "faction": 0,
     "items": {
-      "averageItemLevel": 815,
-      "averageItemLevelEquipped": 815,
+      "averageItemLevel": 819,
+      "averageItemLevelEquipped": 819,
       "head": {
         "id": 139742,
         "name": "Mask of the Uncrowned",
@@ -57260,8 +54996,8 @@
         }
       },
       "back": {
-        "id": 136770,
-        "name": "Drape of the Raven Lord",
+        "id": 137530,
+        "name": "Drape of Vile Misfortune",
         "icon": "inv_cape_legiondungeon_c_04",
         "quality": 3,
         "itemLevel": 825,
@@ -57272,12 +55008,12 @@
         },
         "stats": [
           {
-            "stat": 36,
-            "amount": 239
+            "stat": 32,
+            "amount": 262
           },
           {
             "stat": 49,
-            "amount": 430
+            "amount": 406
           },
           {
             "stat": 71,
@@ -57295,7 +55031,7 @@
           1477
         ],
         "artifactId": 0,
-        "displayInfoId": 153594,
+        "displayInfoId": 153585,
         "artifactAppearanceId": 0,
         "artifactTraits": [],
         "relics": [],
@@ -57349,11 +55085,11 @@
       "shirt": null,
       "tabard": null,
       "wrist": {
-        "id": 136979,
-        "name": "Shorn Batbrood Cuffs",
-        "icon": "inv_bracer_leather_legiondungeon_c_01",
-        "quality": 3,
-        "itemLevel": 825,
+        "id": 134192,
+        "name": "Biornskin Bracer",
+        "icon": "inv_bracer_leather_legionendgame_c_01",
+        "quality": 4,
+        "itemLevel": 835,
         "tooltipParams": {
           "set": null,
           "transmogItem": 0,
@@ -57362,29 +55098,30 @@
         "stats": [
           {
             "stat": 73,
-            "amount": 578
+            "amount": 635
           },
           {
             "stat": 49,
-            "amount": 191
+            "amount": 223
           },
           {
             "stat": 32,
-            "amount": 478
+            "amount": 471
           },
           {
             "stat": 7,
-            "amount": 867
+            "amount": 952
           }
         ],
-        "armor": 133,
-        "context": "dungeon-heroic",
+        "armor": 137,
+        "context": "world-quest-7",
         "bonusLists": [
-          1726,
-          1477
+          3432,
+          1497,
+          1674
         ],
         "artifactId": 0,
-        "displayInfoId": 144677,
+        "displayInfoId": 145323,
         "artifactAppearanceId": 0,
         "artifactTraits": [],
         "relics": [],
@@ -57682,27 +55419,34 @@
         "appearance": {}
       },
       "trinket2": {
-        "id": 129258,
-        "name": "Sylvanas' Broken Arrow",
-        "icon": "ability_theblackarrow",
-        "quality": 3,
-        "itemLevel": 793,
+        "id": 121310,
+        "name": "Nightmare Thorn",
+        "icon": "spell_nature_thorns",
+        "quality": 4,
+        "itemLevel": 835,
         "tooltipParams": {
           "timewalkerLevel": 110
         },
         "stats": [
           {
+            "stat": 36,
+            "amount": 882
+          },
+          {
             "stat": 3,
-            "amount": 725
+            "amount": 1073
           }
         ],
         "armor": 0,
-        "context": "quest-reward",
+        "context": "world-quest-5",
         "bonusLists": [
-          1793
+          3396,
+          604,
+          1497,
+          3336
         ],
         "artifactId": 0,
-        "displayInfoId": 0,
+        "displayInfoId": 129321,
         "artifactAppearanceId": 0,
         "artifactTraits": [],
         "relics": [],
@@ -57713,9 +55457,9 @@
         "name": "The Kingslayers",
         "icon": "inv_knife_1h_artifactgarona_d_01",
         "quality": 6,
-        "itemLevel": 800,
+        "itemLevel": 809,
         "tooltipParams": {
-          "gem0": 132852,
+          "gem0": 141254,
           "gem1": 132815,
           "gem2": 0,
           "timewalkerLevel": 110
@@ -57723,35 +55467,35 @@
         "stats": [
           {
             "stat": 49,
-            "amount": 227
+            "amount": 233
           },
           {
             "stat": 32,
-            "amount": 236
+            "amount": 244
           },
           {
             "stat": 3,
-            "amount": 349
+            "amount": 379
           },
           {
             "stat": 7,
-            "amount": 523
+            "amount": 569
           }
         ],
         "armor": 0,
         "weaponInfo": {
           "damage": {
-            "min": 1431,
-            "max": 2660,
-            "exactMin": 1431.0,
-            "exactMax": 2659.0
+            "min": 1556,
+            "max": 2892,
+            "exactMin": 1556.0,
+            "exactMax": 2891.0
           },
           "weaponSpeed": 1.8,
-          "dps": 1136.1111
+          "dps": 1235.2778
         },
         "context": "scenario-normal",
         "bonusLists": [
-          1500,
+          1509,
           1494
         ],
         "artifactId": 43,
@@ -57764,11 +55508,11 @@
           },
           {
             "id": 323,
-            "rank": 4
+            "rank": 3
           },
           {
             "id": 327,
-            "rank": 1
+            "rank": 2
           },
           {
             "id": 331,
@@ -57794,12 +55538,12 @@
         "relics": [
           {
             "socket": 0,
-            "itemId": 132852,
-            "context": 11,
+            "itemId": 141254,
+            "context": 29,
             "bonusLists": [
-              1793,
-              1615,
-              1809
+              3396,
+              1492,
+              3339
             ]
           },
           {
@@ -57823,38 +55567,38 @@
         "name": "The Kingslayers",
         "icon": "inv_knife_1h_artifactgarona_d_01",
         "quality": 6,
-        "itemLevel": 800,
+        "itemLevel": 809,
         "tooltipParams": {
           "timewalkerLevel": 110
         },
         "stats": [
           {
             "stat": 49,
-            "amount": 227
+            "amount": 233
           },
           {
             "stat": 32,
-            "amount": 236
+            "amount": 244
           },
           {
             "stat": 3,
-            "amount": 349
+            "amount": 379
           },
           {
             "stat": 7,
-            "amount": 523
+            "amount": 569
           }
         ],
         "armor": 0,
         "weaponInfo": {
           "damage": {
-            "min": 1431,
-            "max": 2660,
-            "exactMin": 1431.0,
-            "exactMax": 2659.0
+            "min": 1556,
+            "max": 2892,
+            "exactMin": 1556.0,
+            "exactMax": 2891.0
           },
           "weaponSpeed": 1.8,
-          "dps": 1136.1111
+          "dps": 1235.2778
         },
         "context": "",
         "bonusLists": [],
@@ -57871,7 +55615,7 @@
     "totalHonorableKills": 80
   },
   {
-    "lastModified": 1474446090000,
+    "lastModified": 1474461327000,
     "name": "Wenrar",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -59447,7 +57191,7 @@
     "totalHonorableKills": 0
   },
   {
-    "lastModified": 1474440573000,
+    "lastModified": 1474459013000,
     "name": "Hotcharger",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -60232,7 +57976,7 @@
     "totalHonorableKills": 32488
   },
   {
-    "lastModified": 1474437170000,
+    "lastModified": 1474462419000,
     "name": "Mildenhall",
     "realm": "Hyjal",
     "battlegroup": "Vengeance",
@@ -60240,13 +57984,13 @@
     "race": 11,
     "gender": 0,
     "level": 110,
-    "achievementPoints": 3520,
+    "achievementPoints": 3530,
     "thumbnail": "hyjal/117/127805045-avatar.jpg",
     "calcClass": "W",
     "faction": 0,
     "items": {
       "averageItemLevel": 837,
-      "averageItemLevelEquipped": 837,
+      "averageItemLevelEquipped": 829,
       "head": {
         "id": 139701,
         "name": "Farseer's Mask",
@@ -60851,155 +58595,149 @@
         "appearance": {}
       },
       "mainHand": {
-        "id": 128911,
-        "name": "Sharas'dal, Scepter of Tides",
-        "icon": "inv_mace_1h_artifactazshara_d_02",
+        "id": 128935,
+        "name": "The Fist of Ra-den",
+        "icon": "inv_hand_1h_artifactstormfist_d_01",
         "quality": 6,
-        "itemLevel": 866,
+        "itemLevel": 805,
         "tooltipParams": {
-          "gem0": 141275,
-          "gem1": 137380,
-          "gem2": 137327,
+          "gem0": 133146,
+          "gem1": 141274,
+          "gem2": 0,
           "timewalkerLevel": 110
         },
         "stats": [
           {
             "stat": 5,
-            "amount": 645
+            "amount": 366
           },
           {
             "stat": 49,
-            "amount": 289
+            "amount": 231
           },
           {
             "stat": 32,
-            "amount": 302
+            "amount": 240
           },
           {
             "stat": 7,
-            "amount": 968
+            "amount": 548
           }
         ],
         "armor": 0,
         "weaponInfo": {
           "damage": {
-            "min": 1912,
-            "max": 3553,
-            "exactMin": 1912.0,
-            "exactMax": 3552.0
+            "min": 1083,
+            "max": 2013,
+            "exactMin": 1083.0,
+            "exactMax": 2012.0
           },
           "weaponSpeed": 2.6,
-          "dps": 1050.7693
+          "dps": 595.1923
         },
         "context": "scenario-normal",
         "bonusLists": [
-          746,
-          1512,
-          1508,
-          1512
+          744,
+          1495,
+          1504
         ],
-        "artifactId": 42,
-        "displayInfoId": 157727,
-        "artifactAppearanceId": 775,
+        "artifactId": 40,
+        "displayInfoId": 157065,
+        "artifactAppearanceId": 673,
         "artifactTraits": [
           {
-            "id": 1352,
+            "id": 1350,
             "rank": 1
           },
           {
-            "id": 1103,
-            "rank": 3
-          },
-          {
-            "id": 1104,
-            "rank": 3
-          },
-          {
-            "id": 1106,
-            "rank": 3
-          },
-          {
-            "id": 1105,
-            "rank": 3
-          },
-          {
-            "id": 1107,
+            "id": 301,
             "rank": 4
+          },
+          {
+            "id": 304,
+            "rank": 3
+          },
+          {
+            "id": 293,
+            "rank": 1
+          },
+          {
+            "id": 305,
+            "rank": 3
+          },
+          {
+            "id": 294,
+            "rank": 1
+          },
+          {
+            "id": 302,
+            "rank": 2
           }
         ],
         "relics": [
           {
             "socket": 0,
-            "itemId": 141275,
-            "context": 36,
+            "itemId": 133146,
+            "context": 11,
             "bonusLists": [
-              3432,
-              1502,
-              3336
+              1793,
+              1595,
+              1809
             ]
           },
           {
             "socket": 1,
-            "itemId": 137380,
-            "context": 2,
+            "itemId": 141274,
+            "context": 26,
             "bonusLists": [
-              1726,
-              1477
-            ]
-          },
-          {
-            "socket": 2,
-            "itemId": 137327,
-            "context": 23,
-            "bonusLists": [
-              1727,
-              1492,
-              1813
+              1825,
+              1472,
+              1675
             ]
           }
         ],
         "appearance": {
-          "itemAppearanceModId": 13
+          "itemAppearanceModId": 10
         }
       },
       "offHand": {
-        "id": 128934,
-        "name": "Shield of the Sea Queen",
-        "icon": "inv_shield_1h_artifactazshara_d_01",
+        "id": 128936,
+        "name": "The Highkeeper's Ward",
+        "icon": "inv_shield_1h_artifactstormfist_d_01",
         "quality": 6,
-        "itemLevel": 866,
+        "itemLevel": 805,
         "tooltipParams": {
           "timewalkerLevel": 110
         },
         "stats": [
           {
             "stat": 5,
-            "amount": 847
+            "amount": 480
           },
           {
             "stat": 49,
-            "amount": 380
+            "amount": 303
           },
           {
             "stat": 32,
-            "amount": 396
+            "amount": 316
           },
           {
             "stat": 7,
-            "amount": 1270
+            "amount": 719
           }
         ],
-        "armor": 1158,
+        "armor": 885,
         "weaponInfo": null,
         "context": "",
         "bonusLists": [],
         "artifactId": 0,
-        "displayInfoId": 157683,
-        "artifactAppearanceId": 775,
+        "displayInfoId": 157770,
+        "artifactAppearanceId": 673,
         "artifactTraits": [],
         "relics": [],
         "appearance": {
-          "itemAppearanceModId": 13
+          "itemAppearanceModId": 10
         }
       }
     },
