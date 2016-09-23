@@ -1,0 +1,19 @@
+{
+  "name": "regulators",
+  "version": "1.0.0",
+  "description": "simple bnet guild service",
+  "main": "server.js",
+  "dependencies": {
+    "battlenet-api": "^0.13.0",
+    "typescript": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

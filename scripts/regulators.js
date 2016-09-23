@@ -5,7 +5,7 @@ window.onload = function () {
 
 function getData() {
 
-    var url = '/data/guilddata.json';
+    var url = '/server/guilddata.json';
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function () {

@@ -1,2 +1,4 @@
 .vscode
 thumbs.db
+node_modules/
+server/*.js
