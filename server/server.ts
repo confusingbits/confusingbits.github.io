@@ -1,15 +1,6 @@
 import {secret} from './secret';
 var fs = require('fs');
-
 var bnet = require('battlenet-api')(secret());
-
-// var key = 'zgtxjs8eh7jfb9j6x7zvgfz6hu2fsr5y';
-// var char = 'https://us.api.battle.net/wow/character/Hyjal/Aeriwen?fields=items&locale=en_US&apikey=zgtxjs8eh7jfb9j6x7zvgfz6hu2fsr5y';
-// var gurl = 'https://us.api.battle.net/wow/guild/Hyjal/Regulatørs?fields=members&locale=en_US&apikey=' + key;
-
-
-// var data = fs.readFileSync('../data/guilddata.json', "utf8")
-// var json = JSON.parse(data);
 
 var newData = [];
 var requests = 0;
