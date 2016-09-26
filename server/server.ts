@@ -1,8 +1,12 @@
-import {secret} from './secret';
+import { secret } from './secret';
+import {Member} from './iBnet';
+import {MemberReduced} from './Reducer';
+
+
 var fs = require('fs');
 var bnet = require('battlenet-api')(secret());
 
-var newData = [];
+var newData: Member[] = [];
 var requests = 0;
 
 function getGuildMembers(guild, realm, region) {
@@ -14,7 +18,8 @@ function getGuildMembers(guild, realm, region) {
             name: guild
         },
         (error, resp, body) => {
-            getMembers(resp.members);
+            if (error) console.log(error.message);
+            else getMembers(resp.members);
         }
     );
 
@@ -24,31 +29,35 @@ function getMembers(members) {
     members
         .filter((members) => members.character.level >= 110) //filter by 110s
         .forEach((members) => {
-            getItems(members.character.name) //get each members items
+            getMember(members.character.name) //get each members items
             requests++;
         });
 }
 
-function getItems(member) {
-
-    bnet.wow.character.items({
+function getMember(member: Member) {
+    bnet.wow.character.aggregate({
         origin: 'us',
         realm: 'Hyjal',
-        name: member
-    }, function (error, resp, body) {
-        var memberData = {};
-        if (error) console.log(error.message);
-        else {
-            memberData['name'] = resp.name;
-            memberData['items'] = resp.items
-            newData.push(memberData);
-            requests--;
-            if (requests === 0) saveData(JSON.stringify(newData));
-        }
-    });
+        name: member,
+        fields: ['items']
+    }, getData);
 }
 
-function saveData(data){
+function getData(error, resp: Member): void {
+    var retry = 3;
+    if (error) {
+        if (retry > 0) return getData(error, resp); //recursively call, idk if this actually works
+        else console.log(`Error: ${error.message}`);
+    }
+    else {
+        console.log(`fetching ${resp.name}`);
+        newData.push(new MemberReduced(resp.name, resp.items, resp.progression));
+        requests--;
+        if (requests === 0) saveData(JSON.stringify(newData));
+    }
+}
+
+function saveData(data: string): void {
     fs.writeFile('guilddata.json', data, 'utf8', console.log('done'));
 }
 
