@@ -2,7 +2,8 @@ import { secret } from './secret';
 import {Member} from './iBnet';
 import {MemberReduced} from './Reducer';
 
-
+var RateLimiter = require('limiter').RateLimiter;
+var limiter = new RateLimiter(100, 'second'); //limiter throttles the requests to 100/sec
 var fs = require('fs');
 var bnet = require('battlenet-api')(secret());
 
@@ -27,9 +28,9 @@ function getGuildMembers(guild, realm, region) {
 
 function getMembers(members) {
     members
-        .filter((members) => members.character.level >= 110) //filter by 110s
+        .filter((members) => members.character.level === 110) //filter by 110s
         .forEach((members) => {
-            getMember(members.character.name) //get each members items
+            limiter.removeTokens(1, function(){getMember(members.character.name);}); //get each members items
             requests++;
         });
 }

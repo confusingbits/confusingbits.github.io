@@ -4,5 +4,5 @@
 
 export function secret(){
     // bnet api key goes here
-    return "zgtxjs8eh7jfb9j6x7zvgfz6hu2fsr5y";
+    return "";
 }
