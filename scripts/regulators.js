@@ -35,22 +35,26 @@ function useData(response) {
         row.insertCell(-1).innerHTML = member.items.averageItemLevel.toString();
 
         var gearslots = ["mainHand", "offHand", "head", "neck", "shoulder", "back", "chest", "wrist", "hands", "waist", "legs", "feet", "finger1", "finger2", "trinket1", "trinket2"];
-        gearslots.forEach(function (slotname) {
-            var a = document.createElement('a');
+        gearslots.forEach(
+            function (slotname) {
+                var cell = row.insertCell(-1)
+                var a = document.createElement('a');
+                if (member.items[slotname]) {
 
-            if (member.items[slotname]) {
+                    a.rel = getItemIdString(member.items[slotname])
+                        + getItemBonusIdString(member.items[slotname])
+                        + getEnchantString(member.items[slotname])
+                        + getGemsString(member.items[slotname])
+                        + getSetBonusString(member.items[slotname]);
 
-                a.rel = getItemIdString(member.items[slotname])
-                    + getItemBonusIdString(member.items[slotname])
-                    + getEnchantString(member.items[slotname])
-                    + getGemsString(member.items[slotname])
-                    + getSetBonusString(member.items[slotname]);
+                    if (checkEnchant(member.items[slotname], slotname)) a.className = 'text-danger';
+                    if (checkGems(member.items[slotname])) a.className = 'text-danger';
 
-                a.innerHTML = member.items[slotname].itemLevel.toString();
+                    a.innerHTML = member.items[slotname].itemLevel.toString();
+                }
 
-            }
-            row.insertCell(-1).appendChild(a);
-        })
+                cell.appendChild(a);
+            })
 
     });
 }
@@ -65,7 +69,7 @@ function getItemBonusIdString(item) {
     if (item.bonusLists) {
         var bonusstring = ';bonus=';
         item.bonusLists.forEach(function (bonus) { bonusstring += bonus + ':'; });
-        return bonusstring.slice(0, -1); //trim trailing ':'....
+        return bonusstring.slice(0, -1); //trim trailing ':'
     }
     else return '';
 }
@@ -98,4 +102,17 @@ function getSetBonusString(item) {
         return setstring.slice(0, -1); //trim the last ':'
     }
     else return '';
+}
+
+function checkEnchant(item, slotname) {
+    return !item.tooltipParams.enchant
+        && (slotname === 'neck'
+            | slotname === 'back'
+            | slotname === 'finger1'
+            | slotname === 'finger2');
+}
+
+function checkGems(item) {
+    return item.bonusLists.indexOf(1808) > -1 //have bonus socket?
+        && !item.tooltipParams.gem0; // and no gem?
 }
