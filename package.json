@@ -1,16 +1,19 @@
 {
-  "name": "regulators",
+  "name": "wavefunctionp",
   "version": "1.0.0",
-  "description": "simple bnet guild service",
+  "description": "my personal site",
   "main": "server.js",
   "dependencies": {
     "battlenet-api": "^0.13.0",
+    "limiter": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.41",
     "typescript": "^2.0.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node server/server.js",
     "build": "tsc",
     "watch": "tsc -w"
   },

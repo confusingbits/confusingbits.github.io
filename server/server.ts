@@ -1,16 +1,18 @@
-import { secret } from './secret';
+import {secret} from './secret';
 import {Member} from './iBnet';
 import {MemberReduced} from './Reducer';
+//import {RateLimiter} from 'limiter';
 
-var RateLimiter = require('limiter').RateLimiter;
+var RateLimiter = require('limiter').RateLimter;
 var limiter = new RateLimiter(100, 'second'); //limiter throttles the requests to 100/sec
+
 var fs = require('fs');
 var bnet = require('battlenet-api')(secret());
 
 var newData: Member[] = [];
 var requests = 0;
 
-function getGuildMembers(guild, realm, region) {
+function getGuildMembers(guild:string, realm:string, region:string) {
 
     bnet.wow.guild.members(
         {
@@ -28,9 +30,9 @@ function getGuildMembers(guild, realm, region) {
 
 function getMembers(members) {
     members
-        .filter((members) => members.character.level === 110) //filter by 110s
-        .forEach((members) => {
-            limiter.removeTokens(1, function(){getMember(members.character.name);}); //get each members items
+        .filter((member) => member.character.level === 110) //filter by 110s
+        .forEach((member) => {
+            limiter.removeTokens(1, function(){getMember(member.character.name);}); //get each members items
             requests++;
         });
 }
@@ -40,7 +42,7 @@ function getMember(member: Member) {
         origin: 'us',
         realm: 'Hyjal',
         name: member,
-        fields: ['items']
+        fields: ['items', 'progression']
     }, getData);
 }
 
