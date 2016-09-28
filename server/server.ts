@@ -1,9 +1,8 @@
 import {secret} from './secret';
 import {Member} from './iBnet';
 import {MemberReduced} from './Reducer';
-//import {RateLimiter} from 'limiter';
 
-var RateLimiter = require('limiter').RateLimter;
+var RateLimiter = require('limiter').RateLimiter;
 var limiter = new RateLimiter(100, 'second'); //limiter throttles the requests to 100/sec
 
 var fs = require('fs');
