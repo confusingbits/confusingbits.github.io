@@ -12,6 +12,7 @@ function getData() {
 
     xhr.onreadystatechange = function () {
         if (this.status == 200 && this.readyState == 4) {
+            document.getElementById('last-modified').innerText = new Date(this.getResponseHeader('Last-Modified')).toLocaleString();
             useData(this.responseText);
         }
     };
@@ -64,7 +65,7 @@ function insertCell(slotname:string, item:ItemReduced, row:HTMLTableRowElement) 
 
         //flag the a text for issues
         if (checkEnchant(item, slotname)) a.className = 'text-danger'; // color missing enchant
-        if (checkGems(item)) a.className = 'text-danger'; // color missing gem
+        if (checkGems(item)) cell.className = 'danger'; // color missing gem
 
         a.innerHTML = item.itemLevel.toString();// put some text into the a
     }

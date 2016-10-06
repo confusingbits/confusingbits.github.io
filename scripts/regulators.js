@@ -8,6 +8,7 @@ function getData() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (this.status == 200 && this.readyState == 4) {
+            document.getElementById('last-modified').innerText = new Date(this.getResponseHeader('Last-Modified')).toLocaleString();
             useData(this.responseText);
         }
     };
@@ -47,7 +48,7 @@ function insertCell(slotname, item, row) {
         if (checkEnchant(item, slotname))
             a.className = 'text-danger'; // color missing enchant
         if (checkGems(item))
-            a.className = 'text-danger'; // color missing gem
+            cell.className = 'danger'; // color missing gem
         a.innerHTML = item.itemLevel.toString(); // put some text into the a
     }
     //add the a element to the cell

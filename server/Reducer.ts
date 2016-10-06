@@ -20,7 +20,7 @@ export class MemberReduced implements iBnet.Member {
     constructor(name: string, items: iBnet.Items, progression: iBnet.Progression) {
         this.name = name;
         this.items = new ItemsReduced(items);
-        this.progression = progression;
+        //this.progression = progression;
     }
 }
 
