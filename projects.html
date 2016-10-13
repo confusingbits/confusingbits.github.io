@@ -13,6 +13,24 @@
 </head>
 <body style="padding-top: 70px">
     <div class="container">
+        <h4 class="page-header">Guild Status Page</h4>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6">
+                <img class="img-responsive img-rounded" src="/img/guildstatus.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6 well">
+                <p>
+                    <a href="regulators.html">This page</a> monitors the status of my World of Warcraft guild, Regulators. It is used by the guild leadership to identify gear issues within the raid membership.
+                </p>
+                <h4><small>Notable features:</small></h4>
+                <p>Flags and highlights any gear issues present like missing enchants or gems on individual items according to guild policy. The items are also formatted to display proper tooltips from Wowhead.com.</p>
+                <h4><small>Technical challenges:</small></h4>
+                <p>The backend is a script written in Node.js that retrieves json data from the Battle.Net API. That data is then reduced and transformed into a static json file which is <a href="https://github.com/WaveFunctionP/wavefunctionp.github.io">uploaded to GitHub</a>. A simple script retrieves and parses the data into a table in DOM on page load. It is written in Typescript, hosted with the rest of my personal site here on GitHub pages, utilizes WebComponents.js as an HTML imports shim for templating and uses Bootstrap for basic formatting.</p>
+                <p>
+                    <small>Released: September 2016</small>
+                </p>
+            </div>
+        </div>
         <h4 class="page-header">SimpleScienceFix</h4>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-sm-push-6">
