@@ -31,7 +31,7 @@ function getMembers(members) {
     members
         .filter((member) => member.character.level === 110) //filter by 110s
         .forEach((member) => {
-            limiter.removeTokens(1, function () { getMember(member.character.name); }); //get each members items
+            limiter.removeTokens(1, () => getMember(member.character.name)); //get each members items
             requests++;
         });
 }
