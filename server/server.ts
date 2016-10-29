@@ -3,7 +3,7 @@ import { Member } from './iBnet';
 import { MemberReduced } from './Reducer';
 
 var RateLimiter = require('limiter').RateLimiter;
-var limiter = new RateLimiter(100, 'second'); //limiter throttles the requests to 100/sec
+var limiter = new RateLimiter(50, 'second'); //limiter throttles the requests
 
 var fs = require('fs');
 var bnet = require('battlenet-api')(secret());
@@ -18,39 +18,34 @@ function getGuildMembers(guild: string, realm: string, region: string) {
             realm: realm,
             name: guild
         },
-        (error, resp, body) => {
-            if (error) console.log(`Error Fetching the guild member list: ${error.message}.`);
-            else getMembers(resp.members);
-        }
+        getMembers
     );
-
 }
 
-function getMembers(members) {
-    console.log('Fetching guild member list!')
-    members
-        .filter((member) => member.character.level === 110) //filter by 110s
-        .forEach((member) => {
-            limiter.removeTokens(1, () => getMember(member.character.name)); //get each members items
-            requests++;
-        });
+function getMembers(error, guild) {
+    if (error) console.log(`Error Fetching the guild member list: ${error.message}.`);
+    else {
+        console.log('Fetching guild member list!')
+        guild.members
+            .filter((member) => member.character.level === 110) //filter by 110s
+            .forEach((member) => {
+                limiter.removeTokens(1, () => getMember(member.character.name)); //get each members items
+                requests++;
+            });
+    }
 }
 
-function getMember(member: Member) {
+function getMember(member: Member): void {
     bnet.wow.character.aggregate({
         origin: 'us',
         realm: 'Hyjal',
         name: member,
         fields: ['items', 'progression']
-    }, getData);
+    }, pushData);
 }
 
-function getData(error, member: Member): void {
-    let retry = 3;
-    if (error) {
-        if (retry--) getData(error, member); //try again, 3 times
-        else console.log(`Error retrieving ${member.name}: ${error.message}`);
-    }
+function pushData(error, member: Member): void {
+    if (error) console.log(`Error retrieving ${member.name}: ${error.message}`);
     else {
         console.log(`Fetching: ${member.name}`);
         if (member.items.averageItemLevel >= 830) newData.push(new MemberReduced(member.name, member.items, member.progression)); //filter 830 ilvl
