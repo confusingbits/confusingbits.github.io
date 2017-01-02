@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="us">
+
+<head>
+    <title>house</title>
+    <script>
+        window.onload = function () {
+
+            var ns = "http://www.w3.org/2000/svg";
+
+            var svg = document.createElementNS(ns, "svg");
+            svg.setAttribute('height', 500);
+            svg.setAttribute('width', 500);
+            svg.style.border = 'thin solid black';
+            svg.style.margin = 'auto';
+            svg.style.display = 'block';
+
+            var m = 8
+            for (n = 0; n < m; n++) {
+
+                var angle = 2 * Math.PI * n / m;
+                var radius = 250;
+                var originx = 250;
+                var originy = 250;
+                var x = radius * Math.cos(angle) + originx;
+                var y = radius * Math.sin(angle) + originy;
+                var deltax = radius * (Math.cos(2 * Math.PI / m) - Math.cos(0));
+                var deltay = radius * (Math.sin(2 * Math.PI / m) - Math.sin(0));
+                var gap = Math.sqrt((deltax ^ 2) + (deltay ^ 2));
+
+                var circle = document.createElementNS(ns, 'circle');
+                circle.setAttribute('cx', x);
+                circle.setAttribute('cy', y);
+                circle.setAttribute('r', gap);
+                circle.setAttribute('stroke', 'black');
+                circle.setAttribute('stroke-width', 1);
+                circle.setAttribute('fill', 'black');
+
+                svg.appendChild(circle);
+                document.body.appendChild(svg);
+            }
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
