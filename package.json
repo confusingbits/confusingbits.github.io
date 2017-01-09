@@ -6,7 +6,7 @@
   "main": "server.js",
   "dependencies": {
     "battlenet-api": "^0.13.0",
-    "limiter": "^1.1.0"
+    "limiter": "^1.1.0"    
   },
   "devDependencies": {
     "@types/node": "^6.0.41",
