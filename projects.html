@@ -25,10 +25,10 @@
                     A rewrite of the <a href="http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/">Shadowcraft</a> webapp
                     from <a href="https://github.com/cheald/shadowcraft-ui">Rails/Coffeescript</a> to
                     <a href="https://github.com/ShadowCraft/shadowcraft-ui-react">React/Redux/Flask</a>. The website itself
-                    is used by hundreds of thousands of users. Players use the website optimize thier characters in the game,
-                    World of Warcraft. When a game update comes out, there is usually a delay gettig the new game information
+                    is used by hundreds of thousands of users. Players use the website optimize their characters in the game,
+                    World of Warcraft. When a game update comes out, there is usually a delay getting the new game information
                     encoded into the website to make the proper recommendations. A big limitation of this was a) having enough
-                    contributors that are knowledgable of technologies used in the project and b) the constant battle of
+                    contributors that are knowledgeable of technologies used in the project and b) the constant battle of
                     keeping the frontend in sync with the changing game and engine objects
                 </p>
                 <h4><small>Notable features:</small></h4>
@@ -36,16 +36,16 @@
                     Much more maintainable code. The functional style paradigms of React/Redux ensures a more sane rendering of the very complex
                     business logic involved with the game. The engine itself, which is a separate project and handles the
                     core business logic now provides a configuration object that is simply rendered instead of having to
-                    touch both the ui and engine everytime there is a change, and ensures that communication between the
+                    touch both the ui and engine every time there is a change, and ensures that communication between the
                     front end and backend apis/states are always in sync. In the process we've greatly simplified developer
                     and deployment experience, as well as knowledge requirements needed to work on the project by removing
-                    dependancies on complicated technologies.
+                    dependencies on complicated technologies.
                 </p>
                 <h4><small>Technical challenges:</small></h4>
                 <p>
-                    Competizing the views with react would have been simple enough, but the backend had to be completely written to remove the
-                    dependancy on Rails paradigms, and the Coffeescript was completely abandoned because a) it was a mess
-                    and b) mixing manual dom manimpulation with react can be problematic. Fortunately, we have had no set
+                    Componetizing the views with react would have been simple enough, but the backend had to be completely written to remove the
+                    dependency on Rails paradigms, and the Coffeescript was completely abandoned because a) it was a mess
+                    and b) mixing manual dom manipulation with react can be problematic. Fortunately, we have had no set
                     deadline, which has allowed for a great deal flexibility.
                 </p>
                 <p>

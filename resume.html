@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>wavefunctionp.github.io</title>
 
     <!--shim for html imports-->
@@ -14,41 +13,46 @@
 
     <!--override bootstrap font size for printing-->
     <style>
+        body {
+            padding-top: 70px
+        }
+
         @media print {
 
-        h1 {
-            font-size: 42px;
-        }
+            h1 {
+                font-size: 42px;
+            }
 
-        h2 {
-            font-size: 36px;
-        }
+            h2 {
+                font-size: 36px;
+            }
 
-        h3 {
-            font-size: 30px;
-        }
+            h3 {
+                font-size: 30px;
+            }
 
-        h4 {
-            font-size: 24px;
-        }
+            h4 {
+                font-size: 24px;
+            }
 
-        h5 {
-            font-size: 22px;
-        }
+            h5 {
+                font-size: 22px;
+            }
 
-        h6 {
-            font-size: 20px;
-        }
+            h6 {
+                font-size: 20px;
+            }
 
-        body {
-            font-size: 20px;
-        }
+            body {
+                font-size: 20px;
+                padding-top: initial;
+            }
         }
     </style>
 
 </head>
 
-<body style="padding-top: 70px">
+<body>
 
     <noscript>
 
@@ -72,7 +76,7 @@
                 <h4 class="page-header">Education</h4>
                 <ul>
                     <li>
-                        Full Stack Developer, Free Code Camp, 2015 - Present
+                        Full Stack Development, Free Code Camp, 2015 - Present
                     </li>
                     <li>
                         Physics (junior), University of Southern Mississippi, 2005 - 2010
@@ -87,27 +91,28 @@
             </div>
 
             <div class="col-xs-12">
-                <h4 class="page-header">Objective</h4>
+                <h4 class="page-header">Summary</h4>
                 <p>I am seeking a full time, software development position. Preferably for a role where the primary responsibility
-                    is writing or maintaining production software, websites and/or tooling.</p>
-            </div>
+                    is writing or maintaining production software, websites and/or tooling. I am a bit of a nerd for efficiency
+                    and workflow. I've optimized chemical processes in the lab, automated reports in the military, and helped
+                    players analyze complex game information.</p>
+                <p> My largest software project has involved React, Redux, Flask and MongoDB for a complex web app, but I've
+                    worked significantly with C#/.Net in published projects. I have the most experience with the React or
+                    .Net ecosystems, but as shown below, I am willing and able to quickly learn new skills across a variety
+                    of domains.
+                </p>
 
-            <div class="col-xs-12">
-                <h4 class="page-header">About</h4>
-                <p>I love solving problems. I love inventing new ways to make things easier and more efficient. I've optimized
-                    chemical processes in the lab, automated routine paperwork in military offices, and helped players analyze
-                    complex game information. I have mild temperment, I laugh easily, and I am comfortable with public speaking.
+                <p>More information about me and my projects can be found on the website provided with my contact information.
                 </p>
             </div>
 
             <div class="col-xs-12">
-                <h5 class="page-header">Skills</h5>
+                <h4 class="page-header">Skills</h4>
                 <ul class="list-inline">
                     <li><i class="fa fa-star-o"></i> ASP.Net MVC</li>
                     <li><i class="fa fa-star-o"></i> Azure</li>
                     <li><i class="fa fa-star-half-o"></i> Babel</li>
                     <li><i class="fa fa-star-o"></i> Bash</li>
-                    <li><i class="fa fa-star-o"></i> Bobby Tables</li>
                     <li><i class="fa fa-star"></i> Bootstrap</li>
                     <li><i class="fa fa-star-o"></i> C++</li>
                     <li><i class="fa fa-star"></i> C#</li>
@@ -119,11 +124,13 @@
                     <li><i class="fa fa-star"></i> HTML</li>
                     <li><i class="fa fa-star"></i> JavaScript</li>
                     <li><i class="fa fa-star-o"></i> jQuery</li>
+                    <li><i class="fa fa-star-half-o"></i> MongoDB</li>
                     <li><i class="fa fa-star-half-o"></i> Node.js</li>
                     <li><i class="fa fa-star-half-o"></i> Python</li>
                     <li><i class="fa fa-star"></i> React</li>
                     <li><i class="fa fa-star"></i> Redux</li>
                     <li><i class="fa fa-star"></i> SASS</li>
+                    <li><i class="fa fa-star-o"></i> SQL</li>
                     <li><i class="fa fa-star-o"></i> Typescript</li>
                     <li><i class="fa fa-star-half-o"></i> Unity</li>
                     <li><i class="fa fa-star"></i> Visual Studio</li>
@@ -138,14 +145,14 @@
                     <li>
                         <h5>Developer, Shadowcraft - a character optimization web app for World of Warcraft, 2015 - Present</h5>
                         <ul>
-                            <li>Co-architect of the React/Redux/Flask rewrite currently in progress.</li>
+                            <li>Co-architect and co-author of the React/Redux/Flask rewrite.</li>
                             <li>Serves hundreds of thousands of users.</li>
                             <li>Example character: http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/</li>
                             <li>Repo: https://github.com/shadowcraft/</li>
                         </ul>
                     </li>
                     <li>
-                        <h5>Developer, ForScience! - a science automation addon for Kerbal Space Program, 2014 - Present</h5>
+                        <h5>Author, ForScience! - a science automation addon for Kerbal Space Program, 2014 - Present</h5>
                         <ul>
                             <li>Featured in PCGamer.com's "Best Kerbal Space Program Mods"</li>
                             <li>Tens of thousands of downloads on Curse.com</li>
@@ -155,7 +162,7 @@
                     <li>
                         <h5>Laboratory Technician, University of Southern Mississippi, 2006 - 2008</h5>
                         <ul>
-                            <li>Co-authored 3 peer reviewed published papers on the topic of fullerene nanotechnology.</li>
+                            <li>Co-authored three peer reviewed published papers relating to fullerene nanotechnology.</li>
                             <li>Improved raw material to end product production processes by several orders of magnitude.</li>
                         </ul>
                     </li>
@@ -165,13 +172,13 @@
                             <li>Awarded a Certificate of Naval Commendation, in 1998 during the humanitarian aid effort in East
                                 Timor, for "the first field encrypted video conference over satellite... and 98% uptime on
                                 a field deployed network."</li>
+                            <li>Developed and managed a company database of personnel and equipment which was utilized to automate
+                                reports and generate routine paperwork, reducing administrative personnel requirements</li>
                         </ul>
                     </li>
                 </ul>
-
             </div>
         </div>
-
     </div>
 </body>
 
