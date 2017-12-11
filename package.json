@@ -1,26 +1,26 @@
 {
-  "name": "wavefunctionp",
-  "private": true,
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "description": "my personal site",
-  "main": "server.js",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "battlenet-api": "^0.13.0",
-    "limiter": "^1.1.0"
+    "gatsby": "^1.9.127",
+    "gatsby-link": "^1.6.30",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-typography": "^1.7.10"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^6.0.41",
-    "phaser": "^2.6.2",
-    "typescript": "^2.0.3",
-    "live-server": "1.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:regs": "node server/server",
-    "build": "tsc",
-    "watch": "tsc -w",
-    "start": "live-server"
-  },
-  "author": "",
-  "license": "ISC"
+    "prettier": "^1.8.2"
+  }
 }
