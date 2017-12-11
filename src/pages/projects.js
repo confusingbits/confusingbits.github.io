@@ -14,7 +14,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img className="img-responsive img-rounded" src={shc} />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     A rewrite of the <a href="http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/">Shadowcraft</a> webapp
                     from <a href="https://github.com/cheald/shadowcraft-ui">Rails/Coffeescript</a> to
@@ -52,10 +52,10 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img className="img-responsive img-rounded" src={guildstatus} />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
-                    <a href="regulators.html">This page</a> monitors the status of my World of Warcraft guild, Regulators.
-                    It is used by the guild leadership to identify gear issues within the raid membership.
+                    The page would monitor the status of my World of Warcraft guild, Regulators.
+                    It was used by the guild leadership to identify gear issues within the raid membership.
                 </p>
                 <h4><small>Notable features:</small></h4>
                 <p>Flags and highlights any gear issues present like missing enchants or gems on individual items according
@@ -67,7 +67,7 @@ const Profile = () => (
                     hosted with the rest of my personal site here on GitHub pages, utilizes WebComponents.js as an HTML imports
                     shim for templating and uses Bootstrap for basic formatting.</p>
                 <p>
-                    <small>Released: September 2016</small>
+                    <small>Released: September 2016 (now retired)</small>
                 </p>
             </div>
         </div>
@@ -76,7 +76,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img className="img-responsive img-rounded" src={simple} />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     This is a small usability mod for Kerbal Space Program meant to address a minor annoyance with the way the game works. It
                     was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#</a>                    and uses the Unity Game Engine and Kerbal Space Program APIs. It has been fairly well received with over
@@ -98,7 +98,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img className="img-responsive img-rounded" src={science} />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     This is mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the game play experience.
                     It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a> and
@@ -128,7 +128,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img className="img-responsive img-rounded" src={lite} />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     This is mod for Kerbal Space Program. It one of the larger types of mods that add new art and game mechanics. It is based
                     on a previous mod called Interstellar, which had been abandoned for some time. It was

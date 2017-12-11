@@ -11,7 +11,7 @@ const About = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img src={rocketman} className="img-responsive img-rounded" />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>Born, raised, and live in Mississippi. I love science, computers and technology in general. I am an unabashed
                     nerd. As a child, I was often found dabbling with a chemistry set, performing experiments, or constructing
                     a fort in the woods.
@@ -41,7 +41,7 @@ const About = () => (
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
                 <img src={salty} className="img-responsive img-rounded" />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6 well">
+            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>Professionally, I've worked in network/computer administration in the Marine Corps while I was enlisted.
                     I went on to study Physics at the University of Southern Mississippi, where I have contributed to published
                     research on Metallic Nitride Fullerenes.</p>
@@ -55,7 +55,7 @@ const About = () => (
         </div>
         <div className="row">
             <h4 className="page-header">About this site</h4>
-            <div className="col-xs-12 well">
+            <div className="col-xs-12">
                 <p>This is my personal playground and online resume. You'll also find my more notable public projects. I also
                     use this site to experiment with web technologies.</p>
             </div>
