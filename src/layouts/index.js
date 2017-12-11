@@ -30,10 +30,11 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="M. Corey Thompson - Software Engineer, Scientist, Gamer"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'M. Corey Thompson is a software engineer, physicist, chemist, gamer, and community leader.' },
+        { name: 'author', content: 'M. Corey Thompson' },
+        { name: 'keywords', content: 'HTML,CSS,JSON,Javascript,React,Redux,Immutable,Node,C#,Unity,Python,Flask,MongoDB,SQL,World of Warcraft,WoW,rogue,shadowcraft,theorycrafting,Kerbal Space Program,KSP' },
       ]}>
       {/* <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> */}
       <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/spacelab/bootstrap.min.css" rel="stylesheet" integrity="sha384-L/tgI3wSsbb3f/nW9V6Yqlaw3Gj7mpE56LWrhew/c8MIhAYWZ/FNirA64AVkB5pI" crossOrigin="anonymous" />

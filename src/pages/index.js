@@ -7,7 +7,7 @@ const IndexPage = () => (
   <div className="container">
     <div>
       <div className="row">
-        <h1 className="text-center page-header">Hi, my name is Corey Thompson.</h1>
+        <h1 className="text-center page-header">Hi, I'm Corey.</h1>
       </div>
       <div className="row">
         <div className="hidden-xs col-sm-2"></div>
