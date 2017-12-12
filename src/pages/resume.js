@@ -1,7 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
-import profilepic from '../img/profilepic.jpg'
 
 const Resume = () => (
     <div className="container">
