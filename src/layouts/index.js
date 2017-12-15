@@ -3,6 +3,11 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
+// analytics
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-90586311-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 // import './index.css'
 import logo from '../img/WaveFunctionPsmall.png'
 
@@ -56,17 +61,6 @@ const TemplateWrapper = ({ children }) => (
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossOrigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossOrigin="anonymous"></script>
-    <script>
-      {`
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      
-        ga('create', 'UA-90586311-1', 'auto');
-        ga('send', 'pageview');  
-      `}
-    </script>
   </div>
 )
 
