@@ -3,12 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-// analytics
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-90586311-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
-// import './index.css'
 import logo from '../img/WaveFunctionPsmall.png'
 
 const Header = () => (
