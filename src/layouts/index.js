@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
 // import './index.css'
+import logo from '../img/WaveFunctionPsmall.png'
 
 const Header = () => (
   <nav id="my-nav" className="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -14,14 +15,21 @@ const Header = () => (
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        <a className="navbar-brand" href="http://wavefunctionp.github.io/">wavefunctionp.github.io</a>
+        {/* <a className="navbar-brand" href="http://wavefunctionp.github.io/"><img style={{ height: '100%' }} src={logo} /></a> */}
       </div>
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul className="nav navbar-nav navbar-left">
+          <li><a href="/">/home</a></li>
+          <li><a href="/blog">/blog</a></li>
+          <li><a href="/about">/about</a></li>
+          <li><a href="/projects">/projects</a></li>
+        </ul>
         <ul className="nav navbar-nav navbar-right">
-          <li><a href="/">home</a></li>
-          <li><a href="/blog">blog</a></li>
-          <li><a href="/about">about</a></li>
-          <li><a href="/projects">projects</a></li>
+          <li><a className="fa fa-facebook" href="https://www.facebook.com/m.corey.thompson" /></li>
+          <li><a className="fa fa-twitter" href="https://twitter.com/wavefunctionp" /></li>
+          <li><a className="fa fa-github" href="https://github.com/WaveFunctionP" /></li>
+          <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/wavefunctionp" /></li>
+          <li><a className="fa fa-envelope" href="mailto:m.corey.thompson@gmail.com" /></li>
         </ul>
       </div>
     </div>
@@ -43,7 +51,7 @@ const TemplateWrapper = ({ children }) => (
 
     </Helmet>
     <Header />
-    <div style={{ paddingTop: '70px' }}>
+    <div style={{ paddingTop: '50px' }}>
       {children()}
     </div>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossOrigin="anonymous"></script>

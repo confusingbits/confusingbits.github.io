@@ -3,9 +3,16 @@ import Link from 'gatsby-link'
 
 import salty from '../img/salty.jpg'
 import rocketman from '../img/rocketman.jpg'
+import profile from '../img/profilepic.jpg'
 
 const About = () => (
     <div className="container">
+        <div className="row">
+            <h4 className="page-header">Hi!</h4>
+            <div className="col-xs-12">
+                <img src={profile} className="img-responsive img-rounded center-block" />
+            </div>
+        </div>
         <div className="row">
             <h4 className="page-header">About me</h4>
             <div className="col-xs-12 col-sm-6 col-sm-push-6">
@@ -50,16 +57,17 @@ const About = () => (
                     mostly on GitHub. I also contract/consult privately and on Upwork.
                 </p>
 
-                <p>My <a href="/resume.html">resume</a> and <a href="/cv.html">C.V</a> are available online.</p>
+                <p>My <a href="/resume.html">resume</a> is available online.</p>
             </div>
         </div>
-        <div className="row">
+        <h4 className="page-header"></h4>
+        {/* <div className="row">
             <h4 className="page-header">About this site</h4>
             <div className="col-xs-12">
-                <p>This is my personal playground and online resume. You'll also find my more notable public projects. I also
-                    use this site to experiment with web technologies.</p>
+            <p>This is my personal playground and online resume. You'll also find my more notable public projects. I also
+            use this site to experiment with web technologies.</p>
             </div>
-        </div>
+        </div> */}
     </div>
 )
 

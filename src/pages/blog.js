@@ -14,7 +14,7 @@ const Blog = ({ data }) => (
 
 const BlogEntries = (data) => data.allMarkdownRemark.edges.map(edge =>
   <div className='row' key={edge.node.id}>
-    <h4>{edge.node.frontmatter.title}</h4>
+    <h2>{edge.node.frontmatter.title}</h2>
     <div dangerouslySetInnerHTML={{ __html: edge.node.html }} />
   </div>
 )
