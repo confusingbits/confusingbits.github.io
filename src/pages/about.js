@@ -57,7 +57,7 @@ const About = () => (
                     mostly on GitHub. I also contract/consult privately and on Upwork.
                 </p>
 
-                <p>My <a href="/resume">resume</a> is available online.</p>
+                <p>My <Link to="/resume">resume</Link> is available online.</p>
             </div>
         </div>
         <h4 className="page-header"></h4>

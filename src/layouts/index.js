@@ -18,10 +18,10 @@ const Header = () => (
       </div>
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav navbar-left">
-          <li><a href="/">/home</a></li>
-          <li><a href="/blog">/blog</a></li>
-          <li><a href="/about">/about</a></li>
-          <li><a href="/projects">/projects</a></li>
+          <li><Link to="/">/home</Link></li>
+          <li><Link to="/blog">/blog</Link></li>
+          <li><Link to="/about">/about</Link></li>
+          <li><Link to="/projects">/projects</Link></li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
           <li><a className="fa fa-facebook" href="https://www.facebook.com/m.corey.thompson" /></li>
