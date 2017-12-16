@@ -8,7 +8,8 @@ const background = {
   backgroundImage: `url(${lightbulb})`,
   backgroundSize: 'cover',
   backgroundPosition: 'center center',
-  backgroundRepeat: 'no-repeat'
+  backgroundRepeat: 'no-repeat',
+  backgroundColor: 'black'
 }
 
 const message = {
