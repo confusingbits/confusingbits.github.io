@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import moment from 'moment'
 
 const Blog = ({ data }) => (
   <div className="container">
@@ -12,12 +13,19 @@ const Blog = ({ data }) => (
   </div>
 )
 
-const BlogEntries = (data) => data.allMarkdownRemark.edges.map(edge =>
-  <div className='row' key={edge.node.id}>
-    <h2>{edge.node.frontmatter.title}</h2>
-    <div dangerouslySetInnerHTML={{ __html: edge.node.html }} />
+const BlogEntries = data =>
+  data.allMarkdownRemark.edges
+    .filter(p => moment(p.node.frontmatter.date).diff(moment()) < 0)
+    .sort((a, b) => a.node.frontmatter.date < b.node.frontmatter.date)
+    .map(Post)
+
+const Post = post =>
+  <div className='row' key={post.node.id}>
+    <h2 className='page-header'>{post.node.frontmatter.title}</h2>
+    <div dangerouslySetInnerHTML={{ __html: post.node.html }} />
+    <small>{moment(post.node.frontmatter.date).format('dddd, MMM. Do, YYYY')}</small>
+    <h1 className="text-center page-header"></h1>
   </div>
-)
 
 export default Blog
 
