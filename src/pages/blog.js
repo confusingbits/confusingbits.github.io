@@ -4,11 +4,14 @@ import moment from 'moment'
 
 const Blog = ({ data }) => (
   <div className="container">
-    <div>
-      <div className="row">
-        <h1 className="text-center page-header"></h1>
+    <div className='row'>
+      <div className='col-xs-9'>
+        {BlogEntries(data)}
       </div>
-      {BlogEntries(data)}
+      <div className='col-xs-3'>
+        <h2 className='page-header'>Previous Posts</h2>
+        {getIndex(data)}
+      </div>
     </div>
   </div>
 )
@@ -18,29 +21,39 @@ const BlogEntries = data =>
     .filter(p => moment(p.node.frontmatter.date).diff(moment()) < 0)
     .sort((a, b) => a.node.frontmatter.date < b.node.frontmatter.date)
     .map(Post)
+    .slice(0, 10)
 
 const Post = post =>
   <div className='row' key={post.node.id}>
-    <h2 className='page-header'>{post.node.frontmatter.title}</h2>
+    <h2 className='page-header'><Link to={post.node.fields.slug}>{post.node.frontmatter.title}</Link></h2>
     <div dangerouslySetInnerHTML={{ __html: post.node.html }} />
     <small>{moment(post.node.frontmatter.date).format('dddd, MMM. Do, YYYY')}</small>
     <h1 className="text-center page-header"></h1>
   </div>
 
+const getIndex = (data) => data.allMarkdownRemark.edges
+  .filter(p => moment(p.node.frontmatter.date).diff(moment()) < 0)
+  .sort((a, b) => a.node.frontmatter.date < b.node.frontmatter.date)
+  .map(({ node }) => <h4><Link to={node.fields.slug}>{node.frontmatter.title}</Link></h4>)
+  .slice(10)
+
 export default Blog
 
 export const query = graphql`
 query IndexQuery {
-  allMarkdownRemark {
+      allMarkdownRemark {
     edges {
       node {
-        id
-        frontmatter{
-          title
-          date
-        }
+    id
         html
-      }
+        frontmatter{
+      title
+          date
+    }
+        fields {
+      slug
+    }
+    }
     }
   }
 }  
