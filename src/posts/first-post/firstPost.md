@@ -4,7 +4,7 @@ date: 2017-12-14
 path: /optimizing-landing-page
 ---
 
-Wow! I haven't blogged in years. Since about 2005, I believe. My old blog is now long gone. Maybe one day I'll resurect those [old posts](https://web.archive.org/web/*/http://mctphysics.com/) from the internet archives. Not that I think there is much value in it. However, I do believe it has posts about my first attempts at javascript. who knows.
+Wow! I haven't blogged in years. Since about 2005, I believe. My old blog is now long gone. Maybe one day I'll resurect those [old posts](https://web.archive.org/web/*/http://mctphysics.com/) from the internet archives. Not that I think there is much value in it. However, I do believe it has posts about my first attempts at javascript. Who knows.
 
 I have completed the transition of my blog over to [Gatsby](https://www.gatsbyjs.org/). One of the reasons I chose Gastby is that I can use my normal React workflow, but it will also staticly render all the assets for very fast load times. I had been using manual html files with html imports to handle things like headers and templating. While HTML imports worked fine for the most part, I just couldn't see myself doing much more than a very basic website with it. It doesn't seem like HTML imports is really going to catch on any way (probably for good reason).
 
