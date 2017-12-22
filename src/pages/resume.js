@@ -4,12 +4,11 @@ const Resume = () => (
     <div className="container">
         <div className="row">
             <header className="col-xs-4">
-                <h4 className="page-header">M. Corey Thompson
-                    <br />
-                </h4>
+                <h4 className="page-header">M. Corey Thompson</h4>
                 <address>
-                    <br /> corey@confusingbits.com
-                    <br /> https://confusingbits.com
+                    corey@confusingbits.com
+                    <br /> http://confusingbits.com
+                    <br /> https://github.com/confusingbits
                 </address>
             </header>
 
@@ -17,7 +16,7 @@ const Resume = () => (
                 <h4 className="page-header">Education</h4>
                 <ul>
                     <li>
-                        Physics, University of Southern Mississippi, 2005 - 2010
+                        Physics (Junior), University of Southern Mississippi, 2005 - 2010
                     </li>
                     <ul>
                         <li>Nominated for outstanding undergraduate research</li>
@@ -57,7 +56,11 @@ const Resume = () => (
                     <li>
                         <i className="fa fa-star-o"></i> FORTRAN</li>
                     <li>
+                        <i className="fa fa-star-half-o"></i> Gatsby</li>
+                    <li>
                         <i className="fa fa-star"></i> Git</li>
+                    <li>
+                        <i className="fa fa-star-half-o"></i> GraphQL</li>
                     <li>
                         <i className="fa fa-star"></i> HTML</li>
                     <li>
@@ -94,7 +97,7 @@ const Resume = () => (
             </div>
 
             <div className="col-xs-12">
-                <h4 className="page-header">Experience (technical)</h4>
+                <h4 className="page-header">Technical Experience</h4>
                 <ul>
                     <li>
                         React Developer (Contract), Crowdbotics, 2017 - Present
@@ -111,12 +114,7 @@ const Resume = () => (
                     <li>
                         (Core Contributor), ShadowCraft, 2016 - Present
                         <ul>
-                            <li>Demo: http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/</li>
-                            <li>Javascript, Python, React, Redux, Immutable, Flask, MongoDB, SASS, Webpack, Jest, and Battle.Net
-                            </li>
-                            <li>~20,000 lines of code. Hundreds of thousands of users</li>
                             <li>Co-architech of the frontend rewrite from Rails to React/Flask</li>
-                            <li>Repo: https://github.com/shadowcraft/shadowcraft-ui-react</li>
                         </ul>
 
                     </li>
@@ -156,18 +154,28 @@ const Resume = () => (
             </div>
 
             <div className="col-xs-12">
-                <h4 className="page-header">Personal Projects</h4>
+                <h4 className="page-header">Projects</h4>
                 <ul>
                     <li>
-                        wavefunctionp.github.io - Personal Website and Portfolio, 2016 - Present
+                        ShadowCraft - A Character Optimization Web App for World of Warcraft
                         <ul>
-                            <li>Demo: https://confusingbits.com/ </li>
-                            <li>Typescript, Node, Bootstrap, jQuery, HTML, and CSS</li>
+                            <li>Demo: http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/</li>
+                            <li>Javascript, Python, React, Redux, Immutable, Flask, MongoDB, SASS, Webpack, Jest, and Battle.Net
+                            </li>
+                            <li>~200k lines of code and serves hundreds of thousands of users</li>
+                            <li>Repo: https://github.com/shadowcraft/shadowcraft-ui-react</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Confusingbits.com - Personal Website and Portfolio
+                        <ul>
+                            <li>Demo: http://confusingbits.com/ </li>
+                            <li>React, Gatsby, GraphQL, Node, Bootstrap, jQuery, HTML, and CSS</li>
                             <li>Repo: https://github.com/confusingbits/confusingbits.github.io</li>
                         </ul>
                     </li>
                     <li>
-                        ForScience! - A Science Automation Addon for Kerbal Space Program, 2014 - Present
+                        ForScience! - A Science Automation Addon for Kerbal Space Program
                         <ul>
                             <li>Demo: https://www.youtube.com/watch?v=qPQlYaM57xI</li>
                             <li>Tens of thousands of downloads, using C#, KSP and Unity Game APIs</li>
@@ -175,14 +183,14 @@ const Resume = () => (
                         </ul>
                     </li>
                     <li>
-                        SimpleScienceFix - A Gameplay Enhancement for Kerbal Space Program, 2015 - 2016
+                        SimpleScienceFix - A Gameplay Enhancement for Kerbal Space Program
                         <ul>
                             <li>Thousands of downloads. Written with C#, KSP and Unity APIs</li>
                             <li>Repo: https://github.com/confusingbits/SimpleScienceFix</li>
                         </ul>
                     </li>
                     <li>
-                        Interstellar Lite - A Part and Gameplay Addon for Kerbal Space Program, 2014 - 2015
+                        Interstellar Lite - A Part and Gameplay Addon for Kerbal Space Program
                         <ul>
                             <li>Written with C#, KSP and Unity APIs</li>
                             <li>Repo: https://github.com/confusingbits/KSPInterstellar</li>
