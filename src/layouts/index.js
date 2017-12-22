@@ -21,7 +21,7 @@ const Header = () => (
           <li><Link to="/projects">/projects</Link></li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
-          <li><a className="fa fa-facebook" href="https://www.facebook.com/m.corey.thompson" /></li>
+          <li><a className="fa fa-facebook" href="https://www.facebook.com/confusingbits" /></li>
           <li><a className="fa fa-twitter" href="https://twitter.com/confusingbits" /></li>
           <li><a className="fa fa-github" href="https://github.com/confusingbits" /></li>
           <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/confusingbits" /></li>
