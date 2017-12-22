@@ -9,9 +9,8 @@ const CV = () => (
                 <header>
                     <h4>M. Corey Thompson<br /></h4>
                     <address>
-                        225 Arkwood Lane<br /> Petal, MS 39465<br /> 601-554-6900
-                        <br /> m.corey.thompson@gmail.com
-                        <br /> http://wavefunctionp.github.io/
+                    <br /> corey@confusingbits.com
+                    <br /> https://confusingbits.com
                     </address>
                 </header>
 
@@ -143,7 +142,7 @@ const CV = () => (
                                     <li>40,000+ downloads on Curse.com</li>
                                     <li>Featured in PCGamer.com's "Best Kerbal Space Program Mods"</li>
                                     <li>Published 2014, currently in maintenance</li>
-                                    <li>https://github.com/WaveFunctionP/ForScience</li>
+                                    <li>https://github.com/confusingbits/ForScience</li>
                                 </ul>
                             </li>
                             <li>
@@ -153,7 +152,7 @@ const CV = () => (
                                     <li>Refined some of the rough edges off of the original Interstellar</li>
                                     <li>Well received. My first published and profitable software release</li>
                                     <li>Published 2014, now discontinued</li>
-                                    <li>https://github.com/WaveFunctionP/KSPInterstellar</li>
+                                    <li>https://github.com/confusingbits/KSPInterstellar</li>
                                 </ul>
                             </li>
                         </ul>
@@ -232,7 +231,7 @@ const CV = () => (
                     <h4 className="page-header"></h4>
                     <p>This document was written in HTML and formatted with Bootstrap. It is styled conditionally for printing
                         or viewing.</p>
-                    <p>http://wavefunctionp.github.io/cvl</p>
+                    <p>http://confusingbits.github.io/cv</p>
                 </footer>
             </div>
         </div>

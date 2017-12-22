@@ -8,10 +8,8 @@ const Resume = () => (
                     <br />
                 </h4>
                 <address>
-                    225 Arkwood Lane, Petal, MS 39465
-                    <br /> 601-554-6900
-                    <br /> m.corey.thompson@gmail.com
-                    <br /> https://github.com/WaveFunctionP
+                    <br /> corey@confusingbits.com
+                    <br /> https://confusingbits.com
                 </address>
             </header>
 
@@ -163,9 +161,9 @@ const Resume = () => (
                     <li>
                         wavefunctionp.github.io - Personal Website and Portfolio, 2016 - Present
                         <ul>
-                            <li>Demo: https://wavefunctionp.github.io/ </li>
+                            <li>Demo: https://confusingbits.com/ </li>
                             <li>Typescript, Node, Bootstrap, jQuery, HTML, and CSS</li>
-                            <li>Repo: https://github.com/wavefunctionp/wavefunctionp.github.io</li>
+                            <li>Repo: https://github.com/confusingbits/confusingbits.github.io</li>
                         </ul>
                     </li>
                     <li>
@@ -173,21 +171,21 @@ const Resume = () => (
                         <ul>
                             <li>Demo: https://www.youtube.com/watch?v=qPQlYaM57xI</li>
                             <li>Tens of thousands of downloads, using C#, KSP and Unity Game APIs</li>
-                            <li>Repo: https://github.com/wavefunctionp/forscience</li>
+                            <li>Repo: https://github.com/confusingbits/forscience</li>
                         </ul>
                     </li>
                     <li>
                         SimpleScienceFix - A Gameplay Enhancement for Kerbal Space Program, 2015 - 2016
                         <ul>
                             <li>Thousands of downloads. Written with C#, KSP and Unity APIs</li>
-                            <li>Repo: https://github.com/wavefunctionp/SimpleScienceFix</li>
+                            <li>Repo: https://github.com/confusingbits/SimpleScienceFix</li>
                         </ul>
                     </li>
                     <li>
                         Interstellar Lite - A Part and Gameplay Addon for Kerbal Space Program, 2014 - 2015
                         <ul>
                             <li>Written with C#, KSP and Unity APIs</li>
-                            <li>Repo: https://github.com/wavefunctionp/KSPInterstellar</li>
+                            <li>Repo: https://github.com/confusingbits/KSPInterstellar</li>
                         </ul>
                     </li>
                 </ul>
