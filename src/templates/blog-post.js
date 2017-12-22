@@ -2,7 +2,6 @@ import React from "react";
 import moment from 'moment'
 
 export default ({ data }) => {
-    console.log(data)
     const post = data.markdownRemark;
     return <div className="container">
         <div>

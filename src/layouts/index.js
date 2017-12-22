@@ -3,8 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import logo from '../img/WaveFunctionPsmall.png'
-
 const Header = () => (
   <nav id="my-nav" className="navbar navbar-default navbar-fixed-top" role="navigation">
     <div className="container">
@@ -14,21 +12,20 @@ const Header = () => (
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        {/* <a className="navbar-brand" href="http://wavefunctionp.github.io/"><img style={{ height: '100%' }} src={logo} /></a> */}
       </div>
+      <a className="navbar-brand" href="http://confusingbits.com/">confusingbits</a>
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav navbar-left">
-          <li><Link to="/">/home</Link></li>
           <li><Link to="/blog">/blog</Link></li>
           <li><Link to="/about">/about</Link></li>
           <li><Link to="/projects">/projects</Link></li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
           <li><a className="fa fa-facebook" href="https://www.facebook.com/m.corey.thompson" /></li>
-          <li><a className="fa fa-twitter" href="https://twitter.com/wavefunctionp" /></li>
-          <li><a className="fa fa-github" href="https://github.com/WaveFunctionP" /></li>
-          <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/wavefunctionp" /></li>
-          <li><a className="fa fa-envelope" href="mailto:m.corey.thompson@gmail.com" /></li>
+          <li><a className="fa fa-twitter" href="https://twitter.com/confusingbits" /></li>
+          <li><a className="fa fa-github" href="https://github.com/confusingbits" /></li>
+          <li><a className="fa fa-linkedin" href="https://www.linkedin.com/in/confusingbits" /></li>
+          <li><a className="fa fa-envelope" href="mailto:corey@confusingbits.com" /></li>
         </ul>
       </div>
     </div>

@@ -5,13 +5,13 @@ import moment from 'moment'
 const Blog = ({ data }) => (
   <div className="container">
     <div className='row'>
-      <div className='col-xs-9'>
+      <div className='col-xs-12'>
         {BlogEntries(data)}
       </div>
-      <div className='col-xs-3'>
+      {/* <div className='col-xs-3'>
         <h2 className='page-header'>Previous Posts</h2>
         {getIndex(data)}
-      </div>
+      </div> */}
     </div>
   </div>
 )

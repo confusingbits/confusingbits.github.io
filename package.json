@@ -9,6 +9,7 @@
     "gatsby-plugin-google-analytics": "^1.0.14",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-remark-copy-linked-files": "^1.5.25",
     "gatsby-remark-images": "^1.5.36",
     "gatsby-source-filesystem": "^1.5.10",
     "gatsby-transformer-remark": "^1.7.24",
