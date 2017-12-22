@@ -62,7 +62,7 @@ const Profile = () => (
                     to guild policy. The items are also formatted to display proper tooltips from Wowhead.com.</p>
                 <h4><small>Technical challenges:</small></h4>
                 <p>The backend is a script written in Node.js that retrieves json data from the Battle.Net API. That data is
-                    then reduced and transformed into a static json file which is <a href="https://github.com/WaveFunctionP/wavefunctionp.github.io">uploaded to GitHub</a>.
+                    then reduced and transformed into a static json file which is <a href="https://github.com/confusingbits/confusingbits.github.io">uploaded to GitHub</a>.
                     A simple script retrieves and parses the data into a table in DOM on page load. It is written in Typescript,
                     hosted with the rest of my personal site here on GitHub pages, utilizes WebComponents.js as an HTML imports
                     shim for templating and uses Bootstrap for basic formatting.</p>
@@ -79,7 +79,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     This is a small usability mod for Kerbal Space Program meant to address a minor annoyance with the way the game works. It
-                    was <a href="https://github.com/WaveFunctionP/SimpleScienceFix">written in C#</a>                    and uses the Unity Game Engine and Kerbal Space Program APIs. It has been fairly well received with over
+                    was <a href="https://github.com/confusingbits/SimpleScienceFix">written in C#</a>                    and uses the Unity Game Engine and Kerbal Space Program APIs. It has been fairly well received with over
                     <a href="http://www.curse.com/ksp-mods/kerbal/230239-simplesciencefix">1,000 downloads</a> since it's
                     release.
                 </p>
@@ -101,7 +101,7 @@ const Profile = () => (
             <div className="col-xs-12 col-sm-6 col-sm-pull-6">
                 <p>
                     This is mod for Kerbal Space Program. It is designed to automate some of the more tedious elements of the game play experience.
-                    It was <a href="https://github.com/WaveFunctionP/ForScience">written in C#</a> and
+                    It was <a href="https://github.com/confusingbits/ForScience">written in C#</a> and
                     uses the Unity Game Engine and Kerbal Space Program APIs.
                 </p>
                 <p>
@@ -132,7 +132,7 @@ const Profile = () => (
                 <p>
                     This is mod for Kerbal Space Program. It one of the larger types of mods that add new art and game mechanics. It is based
                     on a previous mod called Interstellar, which had been abandoned for some time. It was
-                    <a href="https://github.com/WaveFunctionP/KSPInterstellar">written in C#</a> and uses the Unity Game
+                    <a href="https://github.com/confusingbits/KSPInterstellar">written in C#</a> and uses the Unity Game
                     Engine and Kerbal Space Program APIs.
                 </p>
                 <p>
