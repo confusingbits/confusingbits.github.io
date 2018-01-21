@@ -43,7 +43,10 @@ const Profile = () => (
                     deadline, which has allowed for a great deal flexibility.
                 </p>
                 <p>
-                    <small>Under development</small>
+                    Post-mortem: <Link to={'/shadowcraft-rewrite'}>ShadowCraft rewrite blog post</Link>
+                </p>
+                <p>
+                    <small>Released: Jan. 2018</small>
                 </p>
             </div>
         </div>

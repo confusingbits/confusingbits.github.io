@@ -8,17 +8,17 @@ import profile from '../img/profilepic.jpg'
 const About = () => (
     <div className="container">
         <div className="row">
-            <h4 className="page-header">Hi!</h4>
-            <div className="col-xs-12">
+            <h4 className="page-header"></h4>
+            <div className="col-xs-12 col-sm-3 col-sm-push-4">
                 <img src={profile} className="img-responsive img-rounded center-block" />
             </div>
         </div>
         <div className="row">
             <h4 className="page-header">About me</h4>
-            <div className="col-xs-12 col-sm-6 col-sm-push-6">
+            <div className="col-xs-12 col-sm-3 col-sm-push-9">
                 <img src={rocketman} className="img-responsive img-rounded" />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
+            <div className="col-xs-12 col-sm-9 col-sm-pull-3">
                 <p>Born, raised, and live in Mississippi. I love science, computers and technology in general. I am an unabashed
                     nerd. As a child, I was often found dabbling with a chemistry set, performing experiments, or constructing
                     a fort in the woods.
@@ -45,10 +45,10 @@ const About = () => (
         </div>
         <div className="row">
             <h4 className="page-header">About work</h4>
-            <div className="col-xs-12 col-sm-6 col-sm-push-6">
+            <div className="col-xs-12 col-sm-3 col-sm-push-9">
                 <img src={salty} className="img-responsive img-rounded" />
             </div>
-            <div className="col-xs-12 col-sm-6 col-sm-pull-6">
+            <div className="col-xs-12 col-sm-9 col-sm-pull-3">
                 <p>Professionally, I've worked in network/computer administration in the Marine Corps while I was enlisted.
                     I went on to study Physics at the University of Southern Mississippi, where I have contributed to published
                     research on Metallic Nitride Fullerenes.</p>

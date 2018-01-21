@@ -27,7 +27,7 @@ const IndexPage = () => (
   <div style={background}>
     <div style={message}>
       <h1 style={text}>Hi, I'm Corey.</h1>
-      <h1 style={text}>I solve problems.</h1>
+      <h1 style={text}>I build web apps and solve problems.</h1>
     </div>
   </div>
 )
