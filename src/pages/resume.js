@@ -1,6 +1,10 @@
 import React from 'react'
+import Layout from "../components/layout";
+
 
 const Resume = () => (
+  <Layout>
+
     <div className="container">
         <div className="row">
             <header className="col-xs-4">
@@ -200,6 +204,8 @@ const Resume = () => (
             </div>
         </div>
     </div>
+  </Layout>
+
 )
 
 export default Resume

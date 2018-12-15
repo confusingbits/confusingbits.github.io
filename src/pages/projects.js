@@ -1,5 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import { Link } from "gatsby"
+import Layout from "../components/layout";
+
 
 import shc from '../img/shc.jpg'
 import guildstatus from '../img/guildstatus.jpg'
@@ -8,6 +10,8 @@ import science from '../img/ForScience.jpg'
 import lite from '../img/InterstellarLite.jpg'
 
 const Profile = () => (
+  <Layout>
+
     <div className="container">
         <div className="row">
             <h4 className="page-header">Shadowcraft Webapp Rewrite</h4>
@@ -175,6 +179,7 @@ const Profile = () => (
 
         </div>
     </div>
+  </Layout>
 )
 
 export default Profile
