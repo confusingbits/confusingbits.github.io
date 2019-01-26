@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby"
-import Layout from "../components/layout";
+import React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 const CV = () => (
   <Layout>
@@ -41,7 +41,7 @@ const CV = () => (
           </p>
 
           <p>
-            <strong>I am endlessly, passionately, obsessively curious.</strong>{" "}
+            <strong>I am endlessly, passionately, obsessively curious.</strong>{' '}
             I never stop learning.
           </p>
 
@@ -51,7 +51,7 @@ const CV = () => (
             addon developer for Kerbal Space Program. I am also involved in my
             local crossfit affiliate and I enjoy golf when I can. I read
             voraciously on the topics of computer science, sustainability,
-            physics, and health.{" "}
+            physics, and health.{' '}
           </p>
 
           <p>
@@ -147,7 +147,7 @@ const CV = () => (
           </ul>
         </div>
       </div>
-      <div className="row" style={{ pageBreakBefore: "always" }}>
+      <div className="row" style={{ pageBreakBefore: 'always' }}>
         <div className="col-xs-12">
           <h4 className="page-header">Education</h4>
           <ul>
@@ -260,7 +260,7 @@ const CV = () => (
           </ul>
         </div>
       </div>
-      <div className="row" style={{ pageBreakBefore: "always" }}>
+      <div className="row" style={{ pageBreakBefore: 'always' }}>
         <div className="col-xs-12">
           <h4 className="page-header">Experience Cont.</h4>
           <ul>
@@ -390,6 +390,6 @@ const CV = () => (
       </div>
     </div>
   </Layout>
-);
+)
 
-export default CV;
+export default CV

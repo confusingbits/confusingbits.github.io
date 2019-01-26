@@ -1,28 +1,28 @@
-import React from "react";
-import { Link } from "gatsby"
-import Layout from "../components/layout";
+import React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-import lightbulb from "../img/redbulb.jpg";
+import lightbulb from '../img/redbulb.jpg'
 
 const background = {
-  height: "calc(100vh - 50px)",
+  height: 'calc(100vh - 50px)',
   backgroundImage: `url(${lightbulb})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center center",
-  backgroundRepeat: "no-repeat",
-  backgroundColor: "black"
-};
+  backgroundSize: 'cover',
+  backgroundPosition: 'center center',
+  backgroundRepeat: 'no-repeat',
+  backgroundColor: 'black',
+}
 
 const message = {
-  margin: "0px",
-  position: "absolute",
-  bottom: "15vh",
-  left: "5vw"
-};
+  margin: '0px',
+  position: 'absolute',
+  bottom: '15vh',
+  left: '5vw',
+}
 
 const text = {
-  color: "#B8351D"
-};
+  color: '#B8351D',
+}
 
 const IndexPage = () => (
   <Layout>
@@ -33,6 +33,6 @@ const IndexPage = () => (
       </div>
     </div>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

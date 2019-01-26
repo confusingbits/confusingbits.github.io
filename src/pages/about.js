@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "gatsby"
-import Layout from "../components/layout";
+import React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-import salty from "../img/salty.jpg";
-import rocketman from "../img/rocketman.jpg";
-import profile from "../img/profilepic.jpg";
+import salty from '../img/salty.jpg'
+import rocketman from '../img/rocketman.jpg'
+import profile from '../img/profilepic.jpg'
 
 const About = () => (
   <Layout>
@@ -90,6 +90,6 @@ const About = () => (
           </div> */}
     </div>
   </Layout>
-);
+)
 
-export default About;
+export default About
