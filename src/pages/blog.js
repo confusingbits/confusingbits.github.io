@@ -26,7 +26,7 @@ const Blog = () => (
 const BlogEntries = data =>
   data.allMarkdownRemark.edges
     .filter(p => moment(p.node.frontmatter.date).diff(moment()) < 0)
-    .sort((a, b) => a.node.frontmatter.date < b.node.frontmatter.date)
+    .sort((a, b) => moment(b.node.frontmatter.date).diff(a.node.frontmatter.date))
     .map(Post)
     .slice(0, 10);
 
