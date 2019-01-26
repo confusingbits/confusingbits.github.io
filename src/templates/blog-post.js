@@ -8,7 +8,8 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="container">
-        <div>
+        <div class="col-xs-2" />
+        <div class="col-xs-8">
           <div className="row">
             <h2 className="page-header">{post.frontmatter.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -18,6 +19,7 @@ export default ({ data }) => {
             <h1 className="text-center page-header" />
           </div>
         </div>
+        <div class="col-xs-2" />
       </div>
     </Layout>
   );

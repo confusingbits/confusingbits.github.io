@@ -11,7 +11,9 @@ const Blog = () => (
       render={data => (
         <div className="container">
           <div className="row">
-            <div className="col-xs-12">{BlogEntries(data)}</div>
+          <div className='col-xs-2'></div>
+            <div className="col-xs-8">{BlogEntries(data)}</div>
+          <div className='col-xs-2'></div>
             {/* <div className='col-xs-3'>
           <h2 className='page-header'>Previous Posts</h2>
           {getIndex(data)}

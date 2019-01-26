@@ -1,5 +1,5 @@
 ---
-title: My Jouney To My First Dev Job
+title: My Journey To My First Dev Job
 date: 2018-03-18
 path: /my-journey-my-first-dev-job
 ---
