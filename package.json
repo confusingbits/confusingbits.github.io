@@ -1,45 +1,22 @@
 {
-  "name": "confusingbits",
-  "description": "Confusingbits.com website",
+  "name": "elm-pages-example",
   "version": "1.0.0",
-  "author": "Corey Thompson <corey@confusingbits.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/confusingbits/confusingbits.github.io.git"
-  },
-  "dependencies": {
-    "fsevents": "^2.0.1",
-    "gatsby": "^2.0.67",
-    "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-react-helmet": "^3.0.4",
-    "gatsby-plugin-sharp": "^2.0.15",
-    "gatsby-plugin-typography": "^2.2.2",
-    "gatsby-remark-copy-linked-files": "^2.0.7",
-    "gatsby-remark-images": "^3.0.1",
-    "gatsby-source-filesystem": "^2.0.12",
-    "gatsby-transformer-remark": "^2.1.15",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-ga": "^2.5.6",
-    "react-helmet": "^5.2.0",
-    "react-typography": "^0.16.18",
-    "typography": "^0.16.18"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
+  "description": "Example site built with elm-pages.",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public --branch master",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "elm-pages develop",
+    "serve": "npm run build && http-server ./dist -a localhost -p 3000 -c-1",
+    "build": "elm-pages build"
+  },
+  "author": "Dillon Kearns",
+  "license": "BSD-3",
+  "dependencies": {
+    "elm-pages": "1.4.0",
+    "highlight.js": "^9.15.10",
+    "node-sass": "^4.12.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.15.3"
+    "elm": "latest-0.19.1",
+    "elm-format": "^0.8.2",
+    "http-server": "^0.11.1"
   }
 }
