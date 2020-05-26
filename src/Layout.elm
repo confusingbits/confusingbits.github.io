@@ -80,11 +80,14 @@ header currentPath =
                 { url = "/"
                 , label =
                     Element.row [ Font.size 30, Element.spacing 16 ]
-                        [ Element.text "confusingbits"
+                        [ DocumentSvg.view
+                        , Element.text "confusingbits"
                         ]
                 }
             , Element.row [ Element.spacing 15 ]
-                [ githubRepoLink
+                [ 
+                  githubRepoLink
+                , highlightableLink currentPath Pages.pages.about.directory "About"
                 , highlightableLink currentPath Pages.pages.blog.directory "Blog"
                 ]
             ]
@@ -126,3 +129,4 @@ githubRepoLink =
                 ]
                 { src = ImagePath.toString Pages.images.github, description = "Github repo" }
         }
+
