@@ -1,4 +1,4 @@
 ---
-title: elm-pages blog
+title: confusingbits blog
 type: blog-index
 ---
