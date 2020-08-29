@@ -2,8 +2,8 @@
 {
   "type": "blog",
   "author": "Corey Thompson",
-  "title": "Yesod Dev Container using Docker (Yesod Development on Windows)",
-  "description": "How to setup a docker container for Yesod/Haskell development",
+  "title": "Yesod Dev Container using Docker (on Windows)",
+  "description": "How to setup a docker container for Yesod/Haskell development on Windows",
   "image": "images/article-covers/yesod.png",
   "draft": false,
   "published": "2020-08-29",
