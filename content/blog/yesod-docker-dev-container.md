@@ -59,10 +59,4 @@ Note the matching port numbers. All the volumes are build artifacts we want to p
 
 It is frustrating to run into so many issue on Windows with Haskell when going beyond trivial exercises with GHCI. I've thoroughly enjoy learning so far with [The Haskell Book](https://haskellbook.com/) but moving beyond exercise has been a trial of patience so far. I didn't have much luck with [Miso](https://haskell-miso.org/) (ran into issues with GHCJS, undocumented nix dependencies) or [gi-gtx-declarative](https://owickstrom.github.io/gi-gtk-declarative/) (couldn't get everything installed without errors) despite being very excited about those projects.
 
-I'm sure much of this is my inexperience, but it's frustrating to see such a cool language being hamstrung by such a poor initial developer experience. People don't learn a language to play in a REPL, they want to build useful applications and [something like half](https://owickstrom.github.io/gi-gtk-declarative/) of all developers are on windows. Building web and native applications should have first tier support on Windows IMO. Yet like 80% of the talks I see on Haskell are about type and theory arcana.
-
-If Haskell is so a robust and productive language, then why is it's tooling and support so lackluster? I like the language so far, I've learned a ton, and I'm excited to continue using it to build cool applications. This isn't me hating on Haskell, this is sincere, but frank honesty.
-
-Haskell isn't alone. I've run into issues with OCaml, ReasonML, and to a much lesser extent F#. The only pure, typed functional language that I see executing on great developer experience seems to be Elm.
-
-Well... anywho, sorry for the rant into the void. I hope someone at least found the docker configs helpful. Feel free to [tweet me](https://twitter.com/confusingbits) about how I'm wrong. (No really, I love discussions.)
+I'm sure much of this is my inexperience, but I hope someone at least found the docker configs helpful. Feel free to [tweet me](https://twitter.com/confusingbits) about how I'm wrong. (No really, I love discussions.)
