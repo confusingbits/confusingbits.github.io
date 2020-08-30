@@ -30,7 +30,7 @@ RUN stack build
 EXPOSE 3030
 ```
 
-Using the `haskell` docker image as the base image wouldn't compile due to some error with blaze-html or something, which I didn't bother to investigate (there was basic no other information in the error output but the name). `fpco/stack-build` is apparently an image that has all dependencies needed to build packages on stackage, which is exactly the source of our deps, so this is close to ideal, at least for development.
+Using the `haskell` docker image as the base image wouldn't compile due to some error with blaze-html or something, which I didn't bother to investigate. (There was basicly no other information in the error output but the name.) The `fpco/stack-build` image is apparently has all dependencies needed to build packages on stackage, which is exactly the source of our deps, so this is close to ideal, at least for development.
 
 This uses the fpco stack image, sets the current directory to the folder where we will mount all of the files for the project (yesod-test). From there it is standard yesdo commands.
 
