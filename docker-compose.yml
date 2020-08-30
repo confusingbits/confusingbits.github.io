@@ -9,3 +9,4 @@ web:
     -  /confusingbits.github.io/dist
     -  /confusingbits.github.io/elm-stuff
     -  /confusingbits.github.io/.cache
+    -  /confusingbits.github.io/gen
