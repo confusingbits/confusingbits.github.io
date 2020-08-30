@@ -53,6 +53,8 @@ web:
 
 I'm still learning docker as well, which means I still constantly run into issues with it, and quite often the images or configs that I find are out of date. I was able to get a dev container to compile with this process. The volumes also mount the project files inside the container so that the file watchers can detect changes and recompile the project and automatically refresh the page like any sane modern development workflow.
 
+Caveat, that there appears to be [some issue with file watching](https://github.com/docker/for-win/issues/5530) with Docker for Windows. The docker devs seem to think it is resolved, but it is not. I was able to work around it on a Nextjs project with a webpack polling hack, but that specific solution isn't applicable here but I assume something similar could be done. Until this issue is resolved with Docker, the experience will be less than ideal on Windows.
+
 Note the matching port numbers. All the volumes are build artifacts we want to persist or project files `stdin_open: true` is needed for some [arcane reason](https://github.com/commercialhaskell/stack/issues/5062)
 
 It is frustrating to run into so many issue on Windows with Haskell when going beyond trivial exercises with GHCI. I've thoroughly enjoy learning so far with [The Haskell Book](https://haskellbook.com/) but moving beyond exercise has been a trial of patience so far. I didn't have much luck with [Miso](https://haskell-miso.org/) (ran into issues with GHCJS, undocumented nix dependencies) or [gi-gtx-declarative](https://owickstrom.github.io/gi-gtk-declarative/) (couldn't get everything installed without errors) despite being very excited about those projects.
