@@ -43,7 +43,10 @@ published research on Metallic Nitride Fullerenes.
 I now practice software development. In particular I have worked on
 a variety of projects related to the games, World of Warcraft and
 Kerbal Space Program. I publish and contribute to open source
-projects mostly on GitHub. I also contract/consult privately and on
-Upwork.
+projects mostly on GitHub.
 
-My [resume](resume) is available online.
+I am currently employed as a Software Engineer at [Inizio](https://inizio.io/).
+
+I specialize in full-stack, rapid cross-platform application development.
+
+<!-- My [resume](resume) is available online. -->
