@@ -22,9 +22,9 @@ was also heavily involved in a frontier historical society called
 Frontier Camping Fellowship, as well as the Royal Rangers through my
 church.
 
-I am now heavily involved in gaming, in particular, I am community
-leader/influencer for the rogue className in World of Warcraft. I
-also help maintain a tool for the rogue community called
+I was heavily involved in gaming, in particular, I was a community
+leader/influencer for the rogue class in World of Warcraft. I
+also helped maintain a tool for the rogue community called
 Shadowcraft. I am also a mod developer for Kerbal Space Program.
 
 I have ongoing interests in a variety of topics like aerospace,
@@ -45,8 +45,10 @@ a variety of projects related to the games, World of Warcraft and
 Kerbal Space Program. I publish and contribute to open source
 projects mostly on GitHub.
 
-I am currently employed as a Software Engineer at [Inizio](https://inizio.io/).
+I am currently employed as a Software Engineer at [Inizio](https://inizio.io/) where I've been a primary contributor for dozens of projects as well as maintainer of many existing applications for a variety of clients in a number of industries.
 
-I specialize in full-stack, rapid cross-platform application development.
+I tend to specialize in full-stack, rapid cross-platform application development. I favor functional prinicples and simplicity.
+
+In my free time, I'm practicing Haskell and Elm.
 
 <!-- My [resume](resume) is available online. -->
