@@ -29,7 +29,7 @@ Shadowcraft. I am also a mod developer for Kerbal Space Program.
 
 I have ongoing interests in a variety of topics like aerospace,
 sustainability, vernacular architecture, physics, nanotechnology,
-medicine, and nutrition.
+medicine, and nutrition. I'm also learning to play guitar.
 
 ##About work
 
