@@ -6,6 +6,7 @@
   "description": "Maybe you'll find this pattern useful as well.",
   "image": "images/article-covers/learning-books.jpg",
   "published": "2020-11-23",
+  "draft": true,
 }
 ---
 
