@@ -28,7 +28,7 @@ The software industry has had is easy. We got to ride on decades of hardware adv
 
 That's the major challenge that I believe will be essential to recognize and I am suiting my technologies choices to match.
 
-### We need our tools to be more efficient.
+### We need our tools to be more efficient and they are going to need to handle multiple cores and threads safely and easily. The industry standard languages are not adequate for this challenge.
 
 Another challenge that I've identified is that most of the complexity I deal with day to day is mismatched modeling of domains. This occurs all over the place. Once you see it, you start seeing it everywhere. We allow our systems to model what should be impossible states and then try to enforce it through validation and contraints. What should be simple plumbing becomes interative nightmares and edge case handling. This is almost certainly an oversimplification, but to me, the root cause of of most of the complexity that I experience day to day is mismatched domain models leading to downstream complexity.
 
