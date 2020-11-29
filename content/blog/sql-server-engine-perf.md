@@ -2,7 +2,7 @@
 {
   "type": "blog",
   "author": "Corey Thompson",
-  "title": "How to Think Like the SQL Server Engine",
+  "title": "Weekly Video: How to Think Like the SQL Server Engine",
   "description": "Explains how sql queries are executed by sql server",
   "image": "images/article-covers/presentation.jpg",
   "published": "2020-11-23",
