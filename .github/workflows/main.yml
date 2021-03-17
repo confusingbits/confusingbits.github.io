@@ -31,6 +31,13 @@ jobs:
         with:
           path: node_modules
           key: node-modules-${{ hashFiles('package-lock.json') }}
+          
+      - name: Cache Elm Stuff
+        id: elm-cache
+        uses: actions/cache@v2
+        with:
+          path: elm-stuff
+          key: elm-stuff-${{ hashFiles('elm.json') }}
       
       - name: Install Dependencies
         if: steps.node-cache.outputs.cache-hit != 'true'
