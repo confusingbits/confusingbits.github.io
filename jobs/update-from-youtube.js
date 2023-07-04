@@ -1,13 +1,12 @@
 const fs = require("fs");
 const path = require("path");
-const key = "AIzaSyD0EE7EB_NkN3lUbGIgXEvbxGcSKQwD48w";
+const key = process.env.GOOGLE_API_KEY;
 const channelId = "UC2od81AMlgwctg2hCfVSe_A";
-const date = "2023-07-01T00:00:00Z";
 const dir = "../content/blog";
-const cmd = `git log -1 --pretty="format:%ct" ../content/blog/`;
 const { spawnSync } = require("child_process");
 
 const handle = async (dir, fs, path) => {
+  // use git to find the last updated blog post, we can then only fetch videos after that date
   const proc = spawnSync("git", [
     "log",
     "-1",
@@ -16,39 +15,51 @@ const handle = async (dir, fs, path) => {
   ]);
   const lastTs = proc.stdout.toString();
   const lastDate = new Date(lastTs * 1000);
-  console.log(lastDate.toISOString());
-  //   const files = fs.readdirSync(dir);
-  //   const foo = files.map((file) => {
-  //     const filePath = path.join(dir, file);
-  //     console.log(filePath);
-  //     return fs.statSync(filePath).ctime;
-  //   });
-  //   console.log(foo);
 
-  // https://developers.google.com/youtube/v3/docs/search
-  const res = await fetch(
-    `https://youtube.googleapis.com/youtube/v3/search?&key=${key}&order=date&channelId=${channelId}&part=snippet&publishedAfter=${lastDate.toISOString()}`
-  );
-  const json = await res.json();
-  console.log(json);
+  let items = [];
+  let nextPageToken = ""; // need to handle pagination since it is possible to have more than 50 videos
+  while (nextPageToken !== undefined) {
+    // https://developers.google.com/youtube/v3/docs/search
+    const res = await fetch(
+      `https://youtube.googleapis.com/youtube/v3/search?&key=${key}&order=date&channelId=${channelId}&part=snippet&maxResults=50&publishedAfter=${lastDate.toISOString()}&pageToken=${nextPageToken}`
+    );
+    const json = await res.json();
+    items = items.concat(json.items);
+    nextPageToken = json.nextPageToken;
+  }
 
-  json.items.forEach((item) => {
+  const promises = items.map(async (item) => {
+    // const slug = slugify(item.snippet.title);
+    const slug = `youtube-${item.id.videoId}`; // workaround for avoiding special characters in slug for now using videoId
+    const response = await fetch(item.snippet.thumbnails.high.url);
+
+    const blob = await response.blob();
+
+    const arrayBuffer = await blob.arrayBuffer();
+
+    const buffer = Buffer.from(arrayBuffer);
+
+    fs.writeFileSync(`../images/${slug}.jpg`, buffer);
+
+    const frontmatter = {
+      type: "blog",
+      author: "Corey Thompson",
+      title: item.snippet.title,
+      description: item.snippet.description,
+      image: `images/${slug}.jpg`,
+      published: item.snippet.publishedAt.split("T")[0],
+      video: `https://www.youtube.com/watch?v=${item.id.videoId}`,
+    };
+
     fs.writeFileSync(
-      `../content/blog/${slugify(item.snippet.title)}.md`,
-      `
----
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "${item.snippet.title}",
-  "description": "${item.snippet.description}",
-  "image": "${item.snippet.thumbnails.high.url}",
-  "published": "${item.snippet.publishedAt}",
-}
+      `../content/blog/${slug}.md`,
+      `---
+${JSON.stringify(frontmatter)}
 ---
 `
     );
   });
+  await Promise.all(promises);
 };
 
 handle(dir, fs, path)
@@ -66,5 +77,5 @@ function slugify(title) {
     .trim()
     .replace(/ +/g, "-")
     .toLowerCase()
-    .replace(/[^a-z0-9-]/g, "");
+    .replace(/[^a-z0-9-]/g, ""); //TODO: handle numbers at the beginning, and generally better filename handling
 }
