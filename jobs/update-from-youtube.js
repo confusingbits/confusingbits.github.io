@@ -54,7 +54,15 @@ const handle = async (dir, fs, path) => {
     fs.writeFileSync(
       `../content/blog/${slug}.md`,
       `---
-${JSON.stringify(frontmatter)}
+type: blog
+author: Corey Thompson
+title: >
+  ${item.snippet.title}
+description: >
+  ${item.snippet.description}
+image: images/${slug}.jpg
+published: "${item.snippet.publishedAt.split("T")[0]}"
+video: https://www.youtube.com/watch?v=${item.id.videoId}
 ---
 `
     );
