@@ -3,14 +3,68 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 09 Jul 2023 05:47:46 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Jul 2023 15:00:49 +0000</lastBuildDate>
 <generator>elm-pages</generator>
+<item>
+<title>A Message to WotC about the OGL and OneDnD.
+</title>
+<description>An automatic transcription of the youtube video, A Message to WotC about the OGL and OneDnD., generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/a-message-to-wotc-about-the-ogl-and-onednd</link>
+<guid>https://confusingbits.comblog/a-message-to-wotc-about-the-ogl-and-onednd</guid>
+<pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>A Sand County Almanac by Aldo Leopold
+</title>
+<description>An automatic transcription of the youtube video, A Sand County Almanac by Aldo Leopold, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/a-sand-county-almanac-by-aldo-leopold</link>
+<guid>https://confusingbits.comblog/a-sand-county-almanac-by-aldo-leopold</guid>
+<pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Annie John" by Jamaica Kincaid
+</title>
+<description>An automatic transcription of the youtube video, &quot;Annie John&quot; by Jamaica Kincaid, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/annie-john-by-jamaica-kincaid</link>
+<guid>https://confusingbits.comblog/annie-john-by-jamaica-kincaid</guid>
+<pubDate>Sun, 02 Oct 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Apple Watch Long Term Review
+</title>
+<description>An automatic transcription of the youtube video, Apple Watch Long Term Review, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/apple-watch-long-term-review</link>
+<guid>https://confusingbits.comblog/apple-watch-long-term-review</guid>
+<pubDate>Sun, 11 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Assassination Gameplay
+</title>
+<description>An automatic transcription of the youtube video, Assassination Gameplay, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/assassination-gameplay</link>
+<guid>https://confusingbits.comblog/assassination-gameplay</guid>
+<pubDate>Mon, 31 Dec 2012 00:00:00 GMT</pubDate>
+</item>
 <item>
 <title>Avoiding the docker file watching issue on windows</title>
 <description>The cause and solution to getting build tooling to work on save again with docker.</description>
 <link>https://confusingbits.comblog/avoiding-file-watching-bug</link>
 <guid>https://confusingbits.comblog/avoiding-file-watching-bug</guid>
 <pubDate>Sun, 22 Nov 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Backpacking the Black Creek Trail in MS Desoto National Forest
+</title>
+<description>An automatic transcription of the youtube video, Backpacking the Black Creek Trail in MS Desoto National Forest, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/backpacking-the-black-creek-trail-in-ms-desoto-national-forest</link>
+<guid>https://confusingbits.comblog/backpacking-the-black-creek-trail-in-ms-desoto-national-forest</guid>
+<pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Weekly Video: Run containers on bare metal already!</title>
@@ -27,11 +81,191 @@
 <pubDate>Sat, 26 Jan 2019 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Black Creek Trail: Big Creek Landing to Moody Landing - Aug 12th - 14th
+</title>
+<description>An automatic transcription of the youtube video, Black Creek Trail: Big Creek Landing to Moody Landing - Aug 12th - 14th, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/black-creek-trail-big-creek-landing-to-moody-landing-aug-12th-14th</link>
+<guid>https://confusingbits.comblog/black-creek-trail-big-creek-landing-to-moody-landing-aug-12th-14th</guid>
+<pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Blade Flurry Change (20% on 4 target cleave)
+</title>
+<description>An automatic transcription of the youtube video, Blade Flurry Change (20% on 4 target cleave), generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/blade-flurry-change-20percent-on-4-target-cleave</link>
+<guid>https://confusingbits.comblog/blade-flurry-change-20percent-on-4-target-cleave</guid>
+<pubDate>Fri, 11 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Book Review: "4 Hour Work Week" by Tim Ferriss
+</title>
+<description>An automatic transcription of the youtube video, Book Review: &quot;4 Hour Work Week&quot; by Tim Ferriss, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/book-review-4-hour-work-week-by-tim-ferriss</link>
+<guid>https://confusingbits.comblog/book-review-4-hour-work-week-by-tim-ferriss</guid>
+<pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Book Reviews
+</title>
+<description>An automatic transcription of the youtube video, Book Reviews, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/book-reviews</link>
+<guid>https://confusingbits.comblog/book-reviews</guid>
+<pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>Weekly Video: Using Haskell to build a performant GraphQL to SQL compiler by Tanmai Gopal</title>
 <description>Dive into the internal design of the Hasura GraphQL engine</description>
 <link>https://confusingbits.comblog/build-hasura</link>
 <guid>https://confusingbits.comblog/build-hasura</guid>
 <pubDate>Mon, 30 Nov 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Building a Second Brain by Tiago Forte
+</title>
+<description>An automatic transcription of the youtube video, Building a Second Brain by Tiago Forte, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/building-a-second-brain-by-tiago-forte</link>
+<guid>https://confusingbits.comblog/building-a-second-brain-by-tiago-forte</guid>
+<pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Building an Inexpensive Home Storage Server
+</title>
+<description>An automatic transcription of the youtube video, Building an Inexpensive Home Storage Server, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/building-an-inexpensive-home-storage-server</link>
+<guid>https://confusingbits.comblog/building-an-inexpensive-home-storage-server</guid>
+<pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Can't Hurt Me" by David Goggins
+</title>
+<description>An automatic transcription of the youtube video, &quot;Can&#39;t Hurt Me&quot; by David Goggins, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/cant-hurt-me-by-david-goggins</link>
+<guid>https://confusingbits.comblog/cant-hurt-me-by-david-goggins</guid>
+<pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Clean Architecture by Robert C. Martin
+</title>
+<description>An automatic transcription of the youtube video, Clean Architecture by Robert C. Martin, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/clean-architecture-by-robert-c-martin</link>
+<guid>https://confusingbits.comblog/clean-architecture-by-robert-c-martin</guid>
+<pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Clean Code by Robert C. Martin
+</title>
+<description>An automatic transcription of the youtube video, Clean Code by Robert C. Martin, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/clean-code-by-robert-c-martin</link>
+<guid>https://confusingbits.comblog/clean-code-by-robert-c-martin</guid>
+<pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Cloak and Dagger Preview
+</title>
+<description>An automatic transcription of the youtube video, Cloak and Dagger Preview, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/cloak-and-dagger-preview</link>
+<guid>https://confusingbits.comblog/cloak-and-dagger-preview</guid>
+<pubDate>Thu, 10 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>confusingbits
+</title>
+<description>An automatic transcription of the youtube video, confusingbits, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/confusingbits</link>
+<guid>https://confusingbits.comblog/confusingbits</guid>
+<pubDate>Mon, 17 Sep 2012 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Corey's No Dig Garden - August 10, 2021
+</title>
+<description>An automatic transcription of the youtube video, Corey&#39;s No Dig Garden - August 10, 2021, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/coreys-no-dig-garden-august-10-2021</link>
+<guid>https://confusingbits.comblog/coreys-no-dig-garden-august-10-2021</guid>
+<pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Corey's No Dig Garden - August 22nd, 2021
+</title>
+<description>An automatic transcription of the youtube video, Corey&#39;s No Dig Garden - August 22nd, 2021, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/coreys-no-dig-garden-august-22nd-2021</link>
+<guid>https://confusingbits.comblog/coreys-no-dig-garden-august-22nd-2021</guid>
+<pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Corey's No Dig Garden  - July 24, 2021
+</title>
+<description>An automatic transcription of the youtube video, Corey&#39;s No Dig Garden  - July 24, 2021, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/coreys-no-dig-garden-july-24-2021</link>
+<guid>https://confusingbits.comblog/coreys-no-dig-garden-july-24-2021</guid>
+<pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Dancing Rabbit Ecovillage Tour
+</title>
+<description>An automatic transcription of the youtube video, Dancing Rabbit Ecovillage Tour, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/dancing-rabbit-ecovillage-tour</link>
+<guid>https://confusingbits.comblog/dancing-rabbit-ecovillage-tour</guid>
+<pubDate>Sat, 24 Aug 2019 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Day One With Levels Continuous Glucose Monitor
+</title>
+<description>An automatic transcription of the youtube video, Day One With Levels Continuous Glucose Monitor, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/day-one-with-levels-continuous-glucose-monitor</link>
+<guid>https://confusingbits.comblog/day-one-with-levels-continuous-glucose-monitor</guid>
+<pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Death in Space (RPG)
+</title>
+<description>An automatic transcription of the youtube video, Death in Space (RPG), generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/death-in-space-rpg</link>
+<guid>https://confusingbits.comblog/death-in-space-rpg</guid>
+<pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Decisive by Chip Heath and Dan Heath
+</title>
+<description>An automatic transcription of the youtube video, Decisive by Chip Heath and Dan Heath, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/decisive-by-chip-heath-and-dan-heath</link>
+<guid>https://confusingbits.comblog/decisive-by-chip-heath-and-dan-heath</guid>
+<pubDate>Sun, 19 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Dungeon Master's Guide - DnD 5e Core Rules Set
+</title>
+<description>An automatic transcription of the youtube video, Dungeon Master&#39;s Guide - DnD 5e Core Rules Set, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/dungeon-masters-guide-dnd-5e-core-rules-set</link>
+<guid>https://confusingbits.comblog/dungeon-masters-guide-dnd-5e-core-rules-set</guid>
+<pubDate>Sun, 12 Feb 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Exile by R. A. Salvatore
+</title>
+<description>An automatic transcription of the youtube video, Exile by R. A. Salvatore, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/exile-by-r-a-salvatore</link>
+<guid>https://confusingbits.comblog/exile-by-r-a-salvatore</guid>
+<pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>First!</title>
@@ -41,11 +275,101 @@
 <pubDate>Thu, 14 Dec 2017 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Flex Tape Disappointment
+</title>
+<description>An automatic transcription of the youtube video, Flex Tape Disappointment, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/flex-tape-disappointment</link>
+<guid>https://confusingbits.comblog/flex-tape-disappointment</guid>
+<pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>For Science! v 0.23.5 - 2
+</title>
+<description>An automatic transcription of the youtube video, For Science! v 0.23.5 - 2, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/for-science-v-0235-2</link>
+<guid>https://confusingbits.comblog/for-science-v-0235-2</guid>
+<pubDate>Sun, 04 May 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>ForScience 1 0
+</title>
+<description>An automatic transcription of the youtube video, ForScience 1 0, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/forscience-1-0</link>
+<guid>https://confusingbits.comblog/forscience-1-0</guid>
+<pubDate>Wed, 06 May 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Gaia's Garden: A guide to Home Scale Permaculture" by Toby Hemenway
+</title>
+<description>An automatic transcription of the youtube video, &quot;Gaia&#39;s Garden: A guide to Home Scale Permaculture&quot; by Toby Hemenway, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/gaias-garden-a-guide-to-home-scale-permaculture-by-toby-hemenway</link>
+<guid>https://confusingbits.comblog/gaias-garden-a-guide-to-home-scale-permaculture-by-toby-hemenway</guid>
+<pubDate>Sun, 10 Apr 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Game of Thrones by George R. R. Martin
+</title>
+<description>An automatic transcription of the youtube video, Game of Thrones by George R. R. Martin, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/game-of-thrones-by-george-r-r-martin</link>
+<guid>https://confusingbits.comblog/game-of-thrones-by-george-r-r-martin</guid>
+<pubDate>Sun, 02 Jul 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Getting Started With Dungeon and Dragons, and What Is One DnD
+</title>
+<description>An automatic transcription of the youtube video, Getting Started With Dungeon and Dragons, and What Is One DnD, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</link>
+<guid>https://confusingbits.comblog/getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</guid>
+<pubDate>Sun, 18 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>Hello from `elm-pages`! 🚀</title>
 <description>Moving from Gatsby to elm-pages!</description>
 <link>https://confusingbits.comblog/hello-from-elm-pages</link>
 <guid>https://confusingbits.comblog/hello-from-elm-pages</guid>
 <pubDate>Mon, 25 May 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>History and Plans for the Channel  - Walking Around the Rivers of Life - #11
+</title>
+<description>An automatic transcription of the youtube video, History and Plans for the Channel  - Walking Around the Rivers of Life - #11, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/history-and-plans-for-the-channel-walking-around-the-rivers-of-life-11</link>
+<guid>https://confusingbits.comblog/history-and-plans-for-the-channel-walking-around-the-rivers-of-life-11</guid>
+<pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Hit and Run Fun
+</title>
+<description>An automatic transcription of the youtube video, Hit and Run Fun, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/hit-and-run-fun</link>
+<guid>https://confusingbits.comblog/hit-and-run-fun</guid>
+<pubDate>Fri, 04 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Hit and Run - Range Update
+</title>
+<description>An automatic transcription of the youtube video, Hit and Run - Range Update, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/hit-and-run-range-update</link>
+<guid>https://confusingbits.comblog/hit-and-run-range-update</guid>
+<pubDate>Thu, 03 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Hit and Run - Z-axis, Stealth, and LoS
+</title>
+<description>An automatic transcription of the youtube video, Hit and Run - Z-axis, Stealth, and LoS, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/hit-and-run-z-axis-stealth-and-los</link>
+<guid>https://confusingbits.comblog/hit-and-run-z-axis-stealth-and-los</guid>
+<pubDate>Fri, 04 Jan 2013 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>How I Evaluate and Learn New Tech</title>
@@ -55,11 +379,128 @@
 <pubDate>Sun, 29 Nov 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>How to Lose Weight Fast - Walking Around the Rivers of Life - #8
+</title>
+<description>An automatic transcription of the youtube video, How to Lose Weight Fast - Walking Around the Rivers of Life - #8, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/how-to-lose-weight-fast-walking-around-the-rivers-of-life-8</link>
+<guid>https://confusingbits.comblog/how-to-lose-weight-fast-walking-around-the-rivers-of-life-8</guid>
+<pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"How To Not Die Alone" by Logan Ury
+</title>
+<description>An automatic transcription of the youtube video, &quot;How To Not Die Alone&quot; by Logan Ury, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/how-to-not-die-alone-by-logan-ury</link>
+<guid>https://confusingbits.comblog/how-to-not-die-alone-by-logan-ury</guid>
+<pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>How to tell how much fuel is left in an isobutane canister - two methods
+</title>
+<description>An automatic transcription of the youtube video, How to tell how much fuel is left in an isobutane canister - two methods, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/how-to-tell-how-much-fuel-is-left-in-an-isobutane-canister-two-methods</link>
+<guid>https://confusingbits.comblog/how-to-tell-how-much-fuel-is-left-in-an-isobutane-canister-two-methods</guid>
+<pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"How to Win Friends and Influence People" by Dale Carnegie
+</title>
+<description>An automatic transcription of the youtube video, &quot;How to Win Friends and Influence People&quot; by Dale Carnegie, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/how-to-win-friends-and-influence-people-by-dale-carnegie</link>
+<guid>https://confusingbits.comblog/how-to-win-friends-and-influence-people-by-dale-carnegie</guid>
+<pubDate>Sun, 03 Apr 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>I Started Running. Keeping Accountable.
+</title>
+<description>An automatic transcription of the youtube video, I Started Running. Keeping Accountable., generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/i-started-running-keeping-accountable</link>
+<guid>https://confusingbits.comblog/i-started-running-keeping-accountable</guid>
+<pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Index Card RPG
+</title>
+<description>An automatic transcription of the youtube video, Index Card RPG, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/index-card-rpg</link>
+<guid>https://confusingbits.comblog/index-card-rpg</guid>
+<pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Influence by Robert B  Cialdini
+</title>
+<description>An automatic transcription of the youtube video, Influence by Robert B  Cialdini, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/influence-by-robert-b-cialdini</link>
+<guid>https://confusingbits.comblog/influence-by-robert-b-cialdini</guid>
+<pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>The Journey To My First Dev Job</title>
 <description>The long road of my professional development</description>
 <link>https://confusingbits.comblog/journey-to-my-first-dev-job</link>
 <guid>https://confusingbits.comblog/journey-to-my-first-dev-job</guid>
 <pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>KSP Interstellar Power Network Tutorial
+</title>
+<description>An automatic transcription of the youtube video, KSP Interstellar Power Network Tutorial, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/ksp-interstellar-power-network-tutorial</link>
+<guid>https://confusingbits.comblog/ksp-interstellar-power-network-tutorial</guid>
+<pubDate>Thu, 17 Apr 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>KSP Interstellar Reactors Tutorial
+</title>
+<description>An automatic transcription of the youtube video, KSP Interstellar Reactors Tutorial, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/ksp-interstellar-reactors-tutorial</link>
+<guid>https://confusingbits.comblog/ksp-interstellar-reactors-tutorial</guid>
+<pubDate>Sun, 04 May 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Long Leaf Trace Hike - May 26th, 2023
+</title>
+<description>An automatic transcription of the youtube video, Long Leaf Trace Hike - May 26th, 2023, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/long-leaf-trace-hike-may-26th-2023</link>
+<guid>https://confusingbits.comblog/long-leaf-trace-hike-may-26th-2023</guid>
+<pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Longleaf Trace Thruhike - Nov 10th, 2022
+</title>
+<description>An automatic transcription of the youtube video, Longleaf Trace Thruhike - Nov 10th, 2022, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/longleaf-trace-thruhike-nov-10th-2022</link>
+<guid>https://confusingbits.comblog/longleaf-trace-thruhike-nov-10th-2022</guid>
+<pubDate>Mon, 09 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Make It Stick By Brown, Roediger, and McDaniel
+</title>
+<description>An automatic transcription of the youtube video, Make It Stick By Brown, Roediger, and McDaniel, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/make-it-stick-by-brown-roediger-and-mcdaniel</link>
+<guid>https://confusingbits.comblog/make-it-stick-by-brown-roediger-and-mcdaniel</guid>
+<pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Make Time by Jake Knapp and John Zeratsky
+</title>
+<description>An automatic transcription of the youtube video, Make Time by Jake Knapp and John Zeratsky, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/make-time-by-jake-knapp-and-john-zeratsky</link>
+<guid>https://confusingbits.comblog/make-time-by-jake-knapp-and-john-zeratsky</guid>
+<pubDate>Sun, 12 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Mapping Custom Queries in Java Spring</title>
@@ -69,11 +510,101 @@
 <pubDate>Sun, 30 Aug 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Nerve Strike Buff - 5.2 PTR
+</title>
+<description>An automatic transcription of the youtube video, Nerve Strike Buff - 5.2 PTR, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/nerve-strike-buff-52-ptr</link>
+<guid>https://confusingbits.comblog/nerve-strike-buff-52-ptr</guid>
+<pubDate>Thu, 03 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>New Living Room Ceiling Fan - Low Profile
+</title>
+<description>An automatic transcription of the youtube video, New Living Room Ceiling Fan - Low Profile, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/new-living-room-ceiling-fan-low-profile</link>
+<guid>https://confusingbits.comblog/new-living-room-ceiling-fan-low-profile</guid>
+<pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>New Rogue Talent - Hit and Run - PTR 5.2 (1/2/13)
+</title>
+<description>An automatic transcription of the youtube video, New Rogue Talent - Hit and Run - PTR 5.2 (1/2/13), generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/new-rogue-talent-hit-and-run-ptr-52-1213</link>
+<guid>https://confusingbits.comblog/new-rogue-talent-hit-and-run-ptr-52-1213</guid>
+<pubDate>Wed, 02 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>New Rogue Talent - Marked for Death - 5.2 PTR
+</title>
+<description>An automatic transcription of the youtube video, New Rogue Talent - Marked for Death - 5.2 PTR, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/new-rogue-talent-marked-for-death-52-ptr</link>
+<guid>https://confusingbits.comblog/new-rogue-talent-marked-for-death-52-ptr</guid>
+<pubDate>Thu, 03 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>No Dig Garden Bed - Week 11
+</title>
+<description>An automatic transcription of the youtube video, No Dig Garden Bed - Week 11, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/no-dig-garden-bed-week-11</link>
+<guid>https://confusingbits.comblog/no-dig-garden-bed-week-11</guid>
+<pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>No Dig Garden Bed - Week 7
+</title>
+<description>An automatic transcription of the youtube video, No Dig Garden Bed - Week 7, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/no-dig-garden-bed-week-7</link>
+<guid>https://confusingbits.comblog/no-dig-garden-bed-week-7</guid>
+<pubDate>Mon, 03 May 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>No Dig Garden Bed - Week 9
+</title>
+<description>An automatic transcription of the youtube video, No Dig Garden Bed - Week 9, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/no-dig-garden-bed-week-9</link>
+<guid>https://confusingbits.comblog/no-dig-garden-bed-week-9</guid>
+<pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Optimization and Significance with ShadowCraft
+</title>
+<description>An automatic transcription of the youtube video, Optimization and Significance with ShadowCraft, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/optimization-and-significance-with-shadowcraft</link>
+<guid>https://confusingbits.comblog/optimization-and-significance-with-shadowcraft</guid>
+<pubDate>Mon, 28 Oct 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>Optimizing the Landing Page</title>
 <description>Some of the things I've done to improve loading performance</description>
 <link>https://confusingbits.comblog/optimizing-landing-page</link>
 <guid>https://confusingbits.comblog/optimizing-landing-page</guid>
 <pubDate>Fri, 22 Dec 2017 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Personal Resource Display Positioning with WeakAuras and Roll the Bones Demo
+</title>
+<description>An automatic transcription of the youtube video, Personal Resource Display Positioning with WeakAuras and Roll the Bones Demo, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/personal-resource-display-positioning-with-weakauras-and-roll-the-bones-demo</link>
+<guid>https://confusingbits.comblog/personal-resource-display-positioning-with-weakauras-and-roll-the-bones-demo</guid>
+<pubDate>Mon, 22 Aug 2016 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Pick Pocket in WoD
+</title>
+<description>An automatic transcription of the youtube video, Pick Pocket in WoD, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/pick-pocket-in-wod</link>
+<guid>https://confusingbits.comblog/pick-pocket-in-wod</guid>
+<pubDate>Fri, 19 Sep 2014 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Weekly Video: Functional architecture - The pits of success</title>
@@ -90,11 +621,182 @@
 <pubDate>Sun, 13 Dec 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
+<title>Refactoring by Martin Fowler
+</title>
+<description>An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/refactoring-by-martin-fowler</link>
+<guid>https://confusingbits.comblog/refactoring-by-martin-fowler</guid>
+<pubDate>Sun, 25 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Regulator's first normal achimonde kill.
+</title>
+<description>An automatic transcription of the youtube video, Regulator&#39;s first normal achimonde kill., generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/regulators-first-normal-achimonde-kill</link>
+<guid>https://confusingbits.comblog/regulators-first-normal-achimonde-kill</guid>
+<pubDate>Thu, 05 Nov 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Regulators - First Tyrant Normal Kill
+</title>
+<description>An automatic transcription of the youtube video, Regulators - First Tyrant Normal Kill, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/regulators-first-tyrant-normal-kill</link>
+<guid>https://confusingbits.comblog/regulators-first-tyrant-normal-kill</guid>
+<pubDate>Sat, 12 Sep 2015 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Restoration Agriculture" by Mark Shepard
+</title>
+<description>An automatic transcription of the youtube video, &quot;Restoration Agriculture&quot; by Mark Shepard, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/restoration-agriculture-by-mark-shepard</link>
+<guid>https://confusingbits.comblog/restoration-agriculture-by-mark-shepard</guid>
+<pubDate>Sun, 27 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Return of the Lazy Dungeon Master" by Michael E. Shea
+</title>
+<description>An automatic transcription of the youtube video, &quot;Return of the Lazy Dungeon Master&quot; by Michael E. Shea, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/return-of-the-lazy-dungeon-master-by-michael-e-shea</link>
+<guid>https://confusingbits.comblog/return-of-the-lazy-dungeon-master-by-michael-e-shea</guid>
+<pubDate>Sun, 23 Oct 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Rogue Talent Changes PTR 5 2
+</title>
+<description>An automatic transcription of the youtube video, Rogue Talent Changes PTR 5 2, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/rogue-talent-changes-ptr-5-2</link>
+<guid>https://confusingbits.comblog/rogue-talent-changes-ptr-5-2</guid>
+<pubDate>Wed, 02 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Rogue Tanking!
+</title>
+<description>An automatic transcription of the youtube video, Rogue Tanking!, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/rogue-tanking</link>
+<guid>https://confusingbits.comblog/rogue-tanking</guid>
+<pubDate>Thu, 09 Oct 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>12 Rules for Life by Jordan B. Peterson
+</title>
+<description>An automatic transcription of the youtube video, 12 Rules for Life by Jordan B. Peterson, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/rules-for-life-by-jordan-b-peterson</link>
+<guid>https://confusingbits.comblog/rules-for-life-by-jordan-b-peterson</guid>
+<pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Ruthlessness Agro Bug
+</title>
+<description>An automatic transcription of the youtube video, Ruthlessness Agro Bug, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/ruthlessness-agro-bug</link>
+<guid>https://confusingbits.comblog/ruthlessness-agro-bug</guid>
+<pubDate>Tue, 05 Nov 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Sacred Cow: The Case for Better Meat by Diana Rodgers and Robb Wolf
+</title>
+<description>An automatic transcription of the youtube video, Sacred Cow: The Case for Better Meat by Diana Rodgers and Robb Wolf, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/sacred-cow-the-case-for-better-meat-by-diana-rodgers-and-robb-wolf</link>
+<guid>https://confusingbits.comblog/sacred-cow-the-case-for-better-meat-by-diana-rodgers-and-robb-wolf</guid>
+<pubDate>Sun, 09 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"Salt, Fat, Acid, and Heat" by Samin Nosrat
+</title>
+<description>An automatic transcription of the youtube video, &quot;Salt, Fat, Acid, and Heat&quot; by Samin Nosrat, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/salt-fat-acid-and-heat-by-samin-nosrat</link>
+<guid>https://confusingbits.comblog/salt-fat-acid-and-heat-by-samin-nosrat</guid>
+<pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Save money on your internet bill ($15 - $100+ a month), improve your home network
+</title>
+<description>An automatic transcription of the youtube video, Save money on your internet bill ($15 - $100+ a month), improve your home network, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/save-money-on-your-internet-bill-dollar15-dollar100-a-month-improve-your-home-network</link>
+<guid>https://confusingbits.comblog/save-money-on-your-internet-bill-dollar15-dollar100-a-month-improve-your-home-network</guid>
+<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Scan Hammer Guide - Firefall Beta
+</title>
+<description>An automatic transcription of the youtube video, Scan Hammer Guide - Firefall Beta, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/scan-hammer-guide-firefall-beta</link>
+<guid>https://confusingbits.comblog/scan-hammer-guide-firefall-beta</guid>
+<pubDate>Sun, 21 Jul 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>"15 Secrets Successful People Know About Time Management" by Kevin Kruse
+</title>
+<description>An automatic transcription of the youtube video, &quot;15 Secrets Successful People Know About Time Management&quot; by Kevin Kruse, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/secrets-successful-people-know-about-time-management-by-kevin-kruse</link>
+<guid>https://confusingbits.comblog/secrets-successful-people-know-about-time-management-by-kevin-kruse</guid>
+<pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Self-hosted Services Demo - Keycloak, Hasura, Mailhog
+</title>
+<description>An automatic transcription of the youtube video, Self-hosted Services Demo - Keycloak, Hasura, Mailhog, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/self-hosted-services-demo-keycloak-hasura-mailhog</link>
+<guid>https://confusingbits.comblog/self-hosted-services-demo-keycloak-hasura-mailhog</guid>
+<pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Shadow Dance Bug
+</title>
+<description>An automatic transcription of the youtube video, Shadow Dance Bug, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/shadow-dance-bug</link>
+<guid>https://confusingbits.comblog/shadow-dance-bug</guid>
+<pubDate>Sat, 02 Nov 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Shadowcraft Guide
+</title>
+<description>An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/shadowcraft-guide</link>
+<guid>https://confusingbits.comblog/shadowcraft-guide</guid>
+<pubDate>Fri, 24 May 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
 <title>The Shadowcraft Rewrite</title>
 <description>A postmortem analysis of the new shadowcraft implimentation</description>
 <link>https://confusingbits.comblog/shadowcraft-rewrite</link>
 <guid>https://confusingbits.comblog/shadowcraft-rewrite</guid>
 <pubDate>Mon, 22 Jan 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Shuriken Toss Buff - 5.2 PTR
+</title>
+<description>An automatic transcription of the youtube video, Shuriken Toss Buff - 5.2 PTR, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/shuriken-toss-buff-52-ptr</link>
+<guid>https://confusingbits.comblog/shuriken-toss-buff-52-ptr</guid>
+<pubDate>Thu, 03 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Shuriken Toss Reference Test
+</title>
+<description>An automatic transcription of the youtube video, Shuriken Toss Reference Test, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/shuriken-toss-reference-test</link>
+<guid>https://confusingbits.comblog/shuriken-toss-reference-test</guid>
+<pubDate>Sat, 12 Jan 2013 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Weekly Video: How to Think Like the SQL Server Engine</title>
@@ -104,711 +806,363 @@
 <pubDate>Mon, 23 Nov 2020 00:00:00 GMT</pubDate>
 </item>
 <item>
-<title>A Message to WotC about the OGL and OneDnD.
+<title>[stance:2] (Vanish) Fix
 </title>
-<description>opendnd.
+<description>An automatic transcription of the youtube video, [stance:2] (Vanish) Fix, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-a-message-to-wotc-about-the-ogl-and-onednd</link>
-<guid>https://confusingbits.comblog/video-a-message-to-wotc-about-the-ogl-and-onednd</guid>
-<pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>A Sand County Almanac by Aldo Leopold
-</title>
-<description>Book: https://www.amazon.com/County-Almanac-Outdoor-Essays-Reflections/dp/0345345053.
-</description>
-<link>https://confusingbits.comblog/video-a-sand-county-almanac-by-aldo-leopold</link>
-<guid>https://confusingbits.comblog/video-a-sand-county-almanac-by-aldo-leopold</guid>
-<pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Annie John" by Jamaica Kincaid
-</title>
-<description>Book: https://amzn.to/3LEhwq6.
-</description>
-<link>https://confusingbits.comblog/video-annie-john-by-jamaica-kincaid</link>
-<guid>https://confusingbits.comblog/video-annie-john-by-jamaica-kincaid</guid>
-<pubDate>Sun, 02 Oct 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Apple Watch Long Term Review
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-apple-watch-long-term-review</link>
-<guid>https://confusingbits.comblog/video-apple-watch-long-term-review</guid>
-<pubDate>Sun, 11 Sep 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Backpacking the Black Creek Trail in MS Desoto National Forest
-</title>
-<description>Join me as I battle off hordes of spiders, fail at navigation, and test out my new Gatewood Cape. Gear: Pack - Osprey Atmos AG ...
-</description>
-<link>https://confusingbits.comblog/video-backpacking-the-black-creek-trail-in-ms-desoto-national-forest</link>
-<guid>https://confusingbits.comblog/video-backpacking-the-black-creek-trail-in-ms-desoto-national-forest</guid>
-<pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Black Creek Trail: Big Creek Landing to Moody Landing - Aug 12th - 14th
-</title>
-<description>Pushing further into Black Creek Trail. This time into even more unmaintained trail. Backpacking Gear: Pack - Osprey Atmos AG ...
-</description>
-<link>https://confusingbits.comblog/video-black-creek-trail-big-creek-landing-to-moody-landing-aug-th-th</link>
-<guid>https://confusingbits.comblog/video-black-creek-trail-big-creek-landing-to-moody-landing-aug-th-th</guid>
-<pubDate>Sun, 21 Aug 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Book Review: "4 Hour Work Week" by Tim Ferriss
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "4 Hour Work Week" by Tim Ferriss: ...
-</description>
-<link>https://confusingbits.comblog/video-book-review-hour-work-week-by-tim-ferriss</link>
-<guid>https://confusingbits.comblog/video-book-review-hour-work-week-by-tim-ferriss</guid>
-<pubDate>Sun, 01 May 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Book Reviews
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-book-reviews</link>
-<guid>https://confusingbits.comblog/video-book-reviews</guid>
-<pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Building a Second Brain by Tiago Forte
-</title>
-<description>Book: https://www.amazon.com/Building-Second-Brain-Organize-Potential/dp/1982167386/ref=tmm_hrd_swatch_0?
-</description>
-<link>https://confusingbits.comblog/video-building-a-second-brain-by-tiago-forte</link>
-<guid>https://confusingbits.comblog/video-building-a-second-brain-by-tiago-forte</guid>
-<pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Building an Inexpensive Home Storage Server
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-building-an-inexpensive-home-storage-server</link>
-<guid>https://confusingbits.comblog/video-building-an-inexpensive-home-storage-server</guid>
-<pubDate>Thu, 15 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Can't Hurt Me" by David Goggins
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. 'Can't Hurt Me' by David Goggins: ...
-</description>
-<link>https://confusingbits.comblog/video-cant-hurt-me-by-david-goggins</link>
-<guid>https://confusingbits.comblog/video-cant-hurt-me-by-david-goggins</guid>
-<pubDate>Sun, 20 Mar 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Clean Architecture by Robert C. Martin
-</title>
-<description>Book: ...
-</description>
-<link>https://confusingbits.comblog/video-clean-architecture-by-robert-c-martin</link>
-<guid>https://confusingbits.comblog/video-clean-architecture-by-robert-c-martin</guid>
-<pubDate>Sun, 04 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Clean Code by Robert C. Martin
-</title>
-<description>Book: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=tmm_pap_swatch_0?
-</description>
-<link>https://confusingbits.comblog/video-clean-code-by-robert-c-martin</link>
-<guid>https://confusingbits.comblog/video-clean-code-by-robert-c-martin</guid>
-<pubDate>Sun, 07 May 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Corey's No Dig Garden - August 10, 2021
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-coreys-no-dig-garden-august</link>
-<guid>https://confusingbits.comblog/video-coreys-no-dig-garden-august</guid>
-<pubDate>Fri, 13 Aug 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Corey's No Dig Garden - August 22nd, 2021
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-coreys-no-dig-garden-august-nd</link>
-<guid>https://confusingbits.comblog/video-coreys-no-dig-garden-august-nd</guid>
-<pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Corey's No Dig Garden  - July 24, 2021
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-coreys-no-dig-garden-july</link>
-<guid>https://confusingbits.comblog/video-coreys-no-dig-garden-july</guid>
-<pubDate>Wed, 11 Aug 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Day One With Levels Continuous Glucose Monitor
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-day-one-with-levels-continuous-glucose-monitor</link>
-<guid>https://confusingbits.comblog/video-day-one-with-levels-continuous-glucose-monitor</guid>
-<pubDate>Thu, 22 Sep 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Death in Space (RPG)
-</title>
-<description>Book: ...
-</description>
-<link>https://confusingbits.comblog/video-death-in-space-rpg</link>
-<guid>https://confusingbits.comblog/video-death-in-space-rpg</guid>
-<pubDate>Sun, 23 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Decisive by Chip Heath and Dan Heath
-</title>
-<description>Book: https://amzn.to/3CRKv6t.
-</description>
-<link>https://confusingbits.comblog/video-decisive-by-chip-heath-and-dan-heath</link>
-<guid>https://confusingbits.comblog/video-decisive-by-chip-heath-and-dan-heath</guid>
-<pubDate>Sun, 19 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Dungeon Master's Guide - DnD 5e Core Rules Set
-</title>
-<description>Rule Set: https://amzn.to/3XgkmGM.
-</description>
-<link>https://confusingbits.comblog/video-dungeon-masters-guide-dnd-e-core-rules-set</link>
-<guid>https://confusingbits.comblog/video-dungeon-masters-guide-dnd-e-core-rules-set</guid>
-<pubDate>Sun, 12 Feb 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Exile by R. A. Salvatore
-</title>
-<description>Book: https://www.amazon.com/Exile-Trilogy-Forgotten-Realms-Legend/dp/0786931264/ref=tmm_hrd_swatch_0?
-</description>
-<link>https://confusingbits.comblog/video-exile-by-r-a-salvatore</link>
-<guid>https://confusingbits.comblog/video-exile-by-r-a-salvatore</guid>
-<pubDate>Sun, 26 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Flex Tape Disappointment
-</title>
-<description>It's bigger on the outside.
-</description>
-<link>https://confusingbits.comblog/video-flex-tape-disappointment</link>
-<guid>https://confusingbits.comblog/video-flex-tape-disappointment</guid>
-<pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Gaia's Garden: A guide to Home Scale Permaculture" by Toby Hemenway
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "Gaia's Garden: A guide to Home Scale ...
-</description>
-<link>https://confusingbits.comblog/video-gaias-garden-a-guide-to-home-scale-permaculture-by-toby-hemenway</link>
-<guid>https://confusingbits.comblog/video-gaias-garden-a-guide-to-home-scale-permaculture-by-toby-hemenway</guid>
-<pubDate>Sun, 10 Apr 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Game of Thrones by George R. R. Martin
-</title>
-<description>Book: https://www.amazon.com/gp/product/0553103547/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1.
-</description>
-<link>https://confusingbits.comblog/video-game-of-thrones-by-george-r-r-martin</link>
-<guid>https://confusingbits.comblog/video-game-of-thrones-by-george-r-r-martin</guid>
-<pubDate>Sun, 02 Jul 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Getting Started With Dungeon and Dragons, and What Is One DnD
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</link>
-<guid>https://confusingbits.comblog/video-getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</guid>
-<pubDate>Sun, 18 Sep 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>History and Plans for the Channel  - Walking Around the Rivers of Life - #11
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-history-and-plans-for-the-channel-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-history-and-plans-for-the-channel-walking-around-the-rivers-of-life</guid>
-<pubDate>Sun, 06 Mar 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>How to Lose Weight Fast - Walking Around the Rivers of Life - #8
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-how-to-lose-weight-fast-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-how-to-lose-weight-fast-walking-around-the-rivers-of-life</guid>
-<pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"How To Not Die Alone" by Logan Ury
-</title>
-<description>Book: https://amzn.to/3dALheY.
-</description>
-<link>https://confusingbits.comblog/video-how-to-not-die-alone-by-logan-ury</link>
-<guid>https://confusingbits.comblog/video-how-to-not-die-alone-by-logan-ury</guid>
-<pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>How to tell how much fuel is left in an isobutane canister - two methods
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-how-to-tell-how-much-fuel-is-left-in-an-isobutane-canister-two-methods</link>
-<guid>https://confusingbits.comblog/video-how-to-tell-how-much-fuel-is-left-in-an-isobutane-canister-two-methods</guid>
-<pubDate>Sun, 06 Nov 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"How to Win Friends and Influence People" by Dale Carnegie
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "How to Win Friends and Influence People" by Dale ...
-</description>
-<link>https://confusingbits.comblog/video-how-to-win-friends-and-influence-people-by-dale-carnegie</link>
-<guid>https://confusingbits.comblog/video-how-to-win-friends-and-influence-people-by-dale-carnegie</guid>
-<pubDate>Sun, 03 Apr 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>I Started Running. Keeping Accountable.
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-i-started-running-keeping-accountable</link>
-<guid>https://confusingbits.comblog/video-i-started-running-keeping-accountable</guid>
-<pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Index Card RPG
-</title>
-<description>Book: ...
-</description>
-<link>https://confusingbits.comblog/video-index-card-rpg</link>
-<guid>https://confusingbits.comblog/video-index-card-rpg</guid>
-<pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Influence by Robert B  Cialdini
-</title>
-<description>Book: https://amzn.to/3iEk0dR.
-</description>
-<link>https://confusingbits.comblog/video-influence-by-robert-b-cialdini</link>
-<guid>https://confusingbits.comblog/video-influence-by-robert-b-cialdini</guid>
-<pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Long Leaf Trace Hike - May 26th, 2023
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-long-leaf-trace-hike-may-th</link>
-<guid>https://confusingbits.comblog/video-long-leaf-trace-hike-may-th</guid>
-<pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Longleaf Trace Thruhike - Nov 10th, 2022
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-longleaf-trace-thruhike-nov-th</link>
-<guid>https://confusingbits.comblog/video-longleaf-trace-thruhike-nov-th</guid>
-<pubDate>Mon, 09 Jan 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Make It Stick By Brown, Roediger, and McDaniel
-</title>
-<description>Book: https://amzn.to/3H4O1gi.
-</description>
-<link>https://confusingbits.comblog/video-make-it-stick-by-brown-roediger-and-mcdaniel</link>
-<guid>https://confusingbits.comblog/video-make-it-stick-by-brown-roediger-and-mcdaniel</guid>
-<pubDate>Sun, 26 Feb 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Make Time by Jake Knapp and John Zeratsky
-</title>
-<description>Book: https://amzn.to/3XfucIR.
-</description>
-<link>https://confusingbits.comblog/video-make-time-by-jake-knapp-and-john-zeratsky</link>
-<guid>https://confusingbits.comblog/video-make-time-by-jake-knapp-and-john-zeratsky</guid>
-<pubDate>Sun, 12 Mar 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>New Living Room Ceiling Fan - Low Profile
-</title>
-<description>Hunted for the lowest profile ceiling fan for the living room with 7 ft ceiling. This was the shortest I could find.
-</description>
-<link>https://confusingbits.comblog/video-new-living-room-ceiling-fan-low-profile</link>
-<guid>https://confusingbits.comblog/video-new-living-room-ceiling-fan-low-profile</guid>
-<pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>No Dig Garden Bed - Week 9
-</title>
-<description>First two weeks of companion plantings from seed, beans just planted from seed. Unstable yellowing of plants with heavy rains, ...
-</description>
-<link>https://confusingbits.comblog/video-no-dig-garden-bed-week</link>
-<guid>https://confusingbits.comblog/video-no-dig-garden-bed-week</guid>
-<pubDate>Sun, 16 May 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Refactoring by Martin Fowler
-</title>
-<description>Book: ...
-</description>
-<link>https://confusingbits.comblog/video-refactoring-by-martin-fowler</link>
-<guid>https://confusingbits.comblog/video-refactoring-by-martin-fowler</guid>
-<pubDate>Sun, 25 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Restoration Agriculture" by Mark Shepard
-</title>
-<description>Book: https://amzn.to/3EAO9Sq.
-</description>
-<link>https://confusingbits.comblog/video-restoration-agriculture-by-mark-shepard</link>
-<guid>https://confusingbits.comblog/video-restoration-agriculture-by-mark-shepard</guid>
-<pubDate>Sun, 27 Nov 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Return of the Lazy Dungeon Master" by Michael E. Shea
-</title>
-<description>Book: https://amzn.to/3rltLOU Sly Flourish's Channel/RotLDM Eight Steps Playlist: ...
-</description>
-<link>https://confusingbits.comblog/video-return-of-the-lazy-dungeon-master-by-michael-e-shea</link>
-<guid>https://confusingbits.comblog/video-return-of-the-lazy-dungeon-master-by-michael-e-shea</guid>
-<pubDate>Sun, 23 Oct 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>12 Rules for Life by Jordan B. Peterson
-</title>
-<description>Book: https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0141988517/ref=tmm_pap_swatch_0?
-</description>
-<link>https://confusingbits.comblog/video-rules-for-life-by-jordan-b-peterson</link>
-<guid>https://confusingbits.comblog/video-rules-for-life-by-jordan-b-peterson</guid>
-<pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Sacred Cow: The Case for Better Meat by Diana Rodgers and Robb Wolf
-</title>
-<description>Book: https://www.amazon.com/Sacred-Cow-Better-Well-Raised-Planet/dp/1948836912/ref=tmm_hrd_swatch_0?
-</description>
-<link>https://confusingbits.comblog/video-sacred-cow-the-case-for-better-meat-by-diana-rodgers-and-robb-wolf</link>
-<guid>https://confusingbits.comblog/video-sacred-cow-the-case-for-better-meat-by-diana-rodgers-and-robb-wolf</guid>
-<pubDate>Sun, 09 Apr 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"Salt, Fat, Acid, and Heat" by Samin Nosrat
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "Salt, Fat, Acid, and Heat" by Samin Nosrat: ...
-</description>
-<link>https://confusingbits.comblog/video-salt-fat-acid-and-heat-by-samin-nosrat</link>
-<guid>https://confusingbits.comblog/video-salt-fat-acid-and-heat-by-samin-nosrat</guid>
-<pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Save money on your internet bill ($15 - $100+ a month), improve your home network
-</title>
-<description>Some tips for saving money and improving your home network.
-</description>
-<link>https://confusingbits.comblog/video-save-money-on-your-internet-bill-a-month-improve-your-home-network</link>
-<guid>https://confusingbits.comblog/video-save-money-on-your-internet-bill-a-month-improve-your-home-network</guid>
-<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>"15 Secrets Successful People Know About Time Management" by Kevin Kruse
-</title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. '15 Secrets Successful People Know About Time ...
-</description>
-<link>https://confusingbits.comblog/video-secrets-successful-people-know-about-time-management-by-kevin-kruse</link>
-<guid>https://confusingbits.comblog/video-secrets-successful-people-know-about-time-management-by-kevin-kruse</guid>
-<pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>Self-hosted Services Demo - Keycloak, Hasura, Mailhog
-</title>
-<description></description>
-<link>https://confusingbits.comblog/video-self-hosted-services-demo-keycloak-hasura-mailhog</link>
-<guid>https://confusingbits.comblog/video-self-hosted-services-demo-keycloak-hasura-mailhog</guid>
-<pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+<link>https://confusingbits.comblog/stance2-vanish-fix</link>
+<guid>https://confusingbits.comblog/stance2-vanish-fix</guid>
+<pubDate>Fri, 04 Jan 2013 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Starter Set: Lost Mine of Phandelver by Dungeons and Dragons
 </title>
-<description>Starter Set: https://amzn.to/3WffvnY.
+<description>An automatic transcription of the youtube video, Starter Set: Lost Mine of Phandelver by Dungeons and Dragons, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-starter-set-lost-mine-of-phandelver-by-dungeons-and-dragons</link>
-<guid>https://confusingbits.comblog/video-starter-set-lost-mine-of-phandelver-by-dungeons-and-dragons</guid>
+<link>https://confusingbits.comblog/starter-set-lost-mine-of-phandelver-by-dungeons-and-dragons</link>
+<guid>https://confusingbits.comblog/starter-set-lost-mine-of-phandelver-by-dungeons-and-dragons</guid>
 <pubDate>Sun, 29 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Starting Strength by Mark Rippetoe
 </title>
-<description>Book: https://amzn.to/3iDnxJq.
+<description>An automatic transcription of the youtube video, Starting Strength by Mark Rippetoe, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-starting-strength-by-mark-rippetoe</link>
-<guid>https://confusingbits.comblog/video-starting-strength-by-mark-rippetoe</guid>
+<link>https://confusingbits.comblog/starting-strength-by-mark-rippetoe</link>
+<guid>https://confusingbits.comblog/starting-strength-by-mark-rippetoe</guid>
 <pubDate>Sun, 19 Feb 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Sun Joe Electric Tiller (TJ604E) Review and Demonstration
 </title>
-<description>Since this video was created, I've joined the Amazon Affiliate program. Sun Joe Electric Tiller (TJ604E): https://amzn.to/3dMqdl4.
+<description>An automatic transcription of the youtube video, Sun Joe Electric Tiller (TJ604E) Review and Demonstration, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-sun-joe-electric-tiller-tje-review-and-demonstration</link>
-<guid>https://confusingbits.comblog/video-sun-joe-electric-tiller-tje-review-and-demonstration</guid>
+<link>https://confusingbits.comblog/sun-joe-electric-tiller-tj604e-review-and-demonstration</link>
+<guid>https://confusingbits.comblog/sun-joe-electric-tiller-tj604e-review-and-demonstration</guid>
 <pubDate>Fri, 03 Sep 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Sunflair Water Pasteurization Indicator (WAPI) demonstration
 </title>
-<description>Ok, so I retroactively lied, I've now joined the affiliate program. Sunflair Water Pasteurization Indicator (WAPI): ...
+<description>An automatic transcription of the youtube video, Sunflair Water Pasteurization Indicator (WAPI) demonstration, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-sunflair-water-pasteurization-indicator-wapi-demonstration</link>
-<guid>https://confusingbits.comblog/video-sunflair-water-pasteurization-indicator-wapi-demonstration</guid>
+<link>https://confusingbits.comblog/sunflair-water-pasteurization-indicator-wapi-demonstration</link>
+<guid>https://confusingbits.comblog/sunflair-water-pasteurization-indicator-wapi-demonstration</guid>
 <pubDate>Sun, 28 Aug 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Sustainability
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-sustainability</link>
-<guid>https://confusingbits.comblog/video-sustainability</guid>
+<description>An automatic transcription of the youtube video, Sustainability, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/sustainability</link>
+<guid>https://confusingbits.comblog/sustainability</guid>
 <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Taking Major Nanners', 'Nanners
+</title>
+<description>An automatic transcription of the youtube video, Taking Major Nanners&#39;, &#39;Nanners, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/taking-major-nanners-nanners</link>
+<guid>https://confusingbits.comblog/taking-major-nanners-nanners</guid>
+<pubDate>Mon, 11 Mar 2013 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"Tale of Two Cities" by Charles Dickens and "The Intellectual Devotional" by Kidder and Oppenheim
 </title>
-<description>Tale of Two Cities: https://amzn.to/3DRANlT The Intelectual Devotional: https://amzn.to/3Rc13dJ.
+<description>An automatic transcription of the youtube video, &quot;Tale of Two Cities&quot; by Charles Dickens and &quot;The Intellectual Devotional&quot; by Kidder and Oppenheim, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-tale-of-two-cities-by-charles-dickens-and-the-intellectual-devotional-by-kidder-and-oppenheim</link>
-<guid>https://confusingbits.comblog/video-tale-of-two-cities-by-charles-dickens-and-the-intellectual-devotional-by-kidder-and-oppenheim</guid>
+<link>https://confusingbits.comblog/tale-of-two-cities-by-charles-dickens-and-the-intellectual-devotional-by-kidder-and-oppenheim</link>
+<guid>https://confusingbits.comblog/tale-of-two-cities-by-charles-dickens-and-the-intellectual-devotional-by-kidder-and-oppenheim</guid>
 <pubDate>Sun, 16 Oct 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Tech tips
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-tech-tips</link>
-<guid>https://confusingbits.comblog/video-tech-tips</guid>
-<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>The Clean Coder by Robert C. Martin
-</title>
-<description>Book: ...
+<description>An automatic transcription of the youtube video, Tech tips, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-clean-coder-by-robert-c-martin</link>
-<guid>https://confusingbits.comblog/video-the-clean-coder-by-robert-c-martin</guid>
-<pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
+<link>https://confusingbits.comblog/tech-tips</link>
+<guid>https://confusingbits.comblog/tech-tips</guid>
+<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The 7 Habits of Highly Effective People by Stephen R. Covey
 </title>
-<description>Book: https://www.amazon.com/Habits-Highly-Effective-People-Anniversary/dp/B0BX7FZVGL/ref=tmm_hrd_swatch_0?
+<description>An automatic transcription of the youtube video, The 7 Habits of Highly Effective People by Stephen R. Covey, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-habits-of-highly-effective-people-by-stephen-r-covey</link>
-<guid>https://confusingbits.comblog/video-the-habits-of-highly-effective-people-by-stephen-r-covey</guid>
+<link>https://confusingbits.comblog/the-7-habits-of-highly-effective-people-by-stephen-r-covey</link>
+<guid>https://confusingbits.comblog/the-7-habits-of-highly-effective-people-by-stephen-r-covey</guid>
 <pubDate>Sun, 02 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Basic of a Combat Rogue
+</title>
+<description>An automatic transcription of the youtube video, The Basic of a Combat Rogue, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/the-basic-of-a-combat-rogue</link>
+<guid>https://confusingbits.comblog/the-basic-of-a-combat-rogue</guid>
+<pubDate>Mon, 24 Sep 2012 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Clean Coder by Robert C. Martin
+</title>
+<description>An automatic transcription of the youtube video, The Clean Coder by Robert C. Martin, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/the-clean-coder-by-robert-c-martin</link>
+<guid>https://confusingbits.comblog/the-clean-coder-by-robert-c-martin</guid>
+<pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Laser Level Doesn't Lie
 </title>
-<description>Just got a laser level to assess the house and begin correcting the foundation.
+<description>An automatic transcription of the youtube video, The Laser Level Doesn&#39;t Lie, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-laser-level-doesnt-lie</link>
-<guid>https://confusingbits.comblog/video-the-laser-level-doesnt-lie</guid>
+<link>https://confusingbits.comblog/the-laser-level-doesnt-lie</link>
+<guid>https://confusingbits.comblog/the-laser-level-doesnt-lie</guid>
 <pubDate>Sat, 04 Sep 2021 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"The Millionaire Fastlane" by MJ DeMarco
 </title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "The Millionaire Fastlane" by MJ DeMarco: ...
+<description>An automatic transcription of the youtube video, &quot;The Millionaire Fastlane&quot; by MJ DeMarco, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-millionaire-fastlane-by-mj-demarco</link>
-<guid>https://confusingbits.comblog/video-the-millionaire-fastlane-by-mj-demarco</guid>
+<link>https://confusingbits.comblog/the-millionaire-fastlane-by-mj-demarco</link>
+<guid>https://confusingbits.comblog/the-millionaire-fastlane-by-mj-demarco</guid>
 <pubDate>Sun, 08 May 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Pragmatic Programmer by David Thomas and Andrew Hunt
 </title>
-<description>Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+<description>An automatic transcription of the youtube video, The Pragmatic Programmer by David Thomas and Andrew Hunt, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt</link>
-<guid>https://confusingbits.comblog/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt</guid>
+<link>https://confusingbits.comblog/the-pragmatic-programmer-by-david-thomas-and-andrew-hunt</link>
+<guid>https://confusingbits.comblog/the-pragmatic-programmer-by-david-thomas-and-andrew-hunt</guid>
 <pubDate>Sun, 18 Jun 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Productivity Trap? - Walking Around the Rivers of Life - #10
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-the-productivity-trap-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-the-productivity-trap-walking-around-the-rivers-of-life</guid>
+<description>An automatic transcription of the youtube video, The Productivity Trap? - Walking Around the Rivers of Life - #10, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/the-productivity-trap-walking-around-the-rivers-of-life-10</link>
+<guid>https://confusingbits.comblog/the-productivity-trap-walking-around-the-rivers-of-life-10</guid>
 <pubDate>Wed, 02 Mar 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"The Simple Path to Wealth" by JL Collins
 </title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. "The Simple Path to Wealth" by JL Collins: ...
+<description>An automatic transcription of the youtube video, &quot;The Simple Path to Wealth&quot; by JL Collins, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-simple-path-to-wealth-by-jl-collins</link>
-<guid>https://confusingbits.comblog/video-the-simple-path-to-wealth-by-jl-collins</guid>
+<link>https://confusingbits.comblog/the-simple-path-to-wealth-by-jl-collins</link>
+<guid>https://confusingbits.comblog/the-simple-path-to-wealth-by-jl-collins</guid>
 <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"The Stranger" by Albert Camus - Walking Around the Rivers of Life - #9
 </title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. 'The Stranger' by Albert Camus: ...
+<description>An automatic transcription of the youtube video, &quot;The Stranger&quot; by Albert Camus - Walking Around the Rivers of Life - #9, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-stranger-by-albert-camus-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-the-stranger-by-albert-camus-walking-around-the-rivers-of-life</guid>
+<link>https://confusingbits.comblog/the-stranger-by-albert-camus-walking-around-the-rivers-of-life-9</link>
+<guid>https://confusingbits.comblog/the-stranger-by-albert-camus-walking-around-the-rivers-of-life-9</guid>
 <pubDate>Mon, 28 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Way Forward by Robert O'Neill and Dakota Meyer
 </title>
-<description>Book: https://www.amazon.com/Way-Forward-Toughest-Battles-Lasting/dp/0062994077/ref=tmm_hrd_swatch_0?
+<description>An automatic transcription of the youtube video, The Way Forward by Robert O&#39;Neill and Dakota Meyer, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-the-way-forward-by-robert-oneill-and-dakota-meyer</link>
-<guid>https://confusingbits.comblog/video-the-way-forward-by-robert-oneill-and-dakota-meyer</guid>
+<link>https://confusingbits.comblog/the-way-forward-by-robert-oneill-and-dakota-meyer</link>
+<guid>https://confusingbits.comblog/the-way-forward-by-robert-oneill-and-dakota-meyer</guid>
 <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"Their Eyes Were Watching God" by Zora Neale Hurston
 </title>
-<description>Book: https://amzn.to/3F6eBoH.
+<description>An automatic transcription of the youtube video, &quot;Their Eyes Were Watching God&quot; by Zora Neale Hurston, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-their-eyes-were-watching-god-by-zora-neale-hurston</link>
-<guid>https://confusingbits.comblog/video-their-eyes-were-watching-god-by-zora-neale-hurston</guid>
+<link>https://confusingbits.comblog/their-eyes-were-watching-god-by-zora-neale-hurston</link>
+<guid>https://confusingbits.comblog/their-eyes-were-watching-god-by-zora-neale-hurston</guid>
 <pubDate>Sun, 30 Oct 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>'Thinking Fast and Slow" by Daniel Kahneman
 </title>
-<description>Since this video was created, I've since joined the Amazon Affiliate program. 'Thinking Fast and Slow" by Daniel Kahneman: ...
+<description>An automatic transcription of the youtube video, &#39;Thinking Fast and Slow&quot; by Daniel Kahneman, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-thinking-fast-and-slow-by-daniel-kahneman</link>
-<guid>https://confusingbits.comblog/video-thinking-fast-and-slow-by-daniel-kahneman</guid>
+<link>https://confusingbits.comblog/thinking-fast-and-slow-by-daniel-kahneman</link>
+<guid>https://confusingbits.comblog/thinking-fast-and-slow-by-daniel-kahneman</guid>
 <pubDate>Sun, 24 Apr 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Tuxachanie Thruhike - Oct 28th, 2022
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-tuxachanie-thruhike-oct-th</link>
-<guid>https://confusingbits.comblog/video-tuxachanie-thruhike-oct-th</guid>
+<description>An automatic transcription of the youtube video, Tuxachanie Thruhike - Oct 28th, 2022, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/tuxachanie-thruhike-oct-28th-2022</link>
+<guid>https://confusingbits.comblog/tuxachanie-thruhike-oct-28th-2022</guid>
 <pubDate>Sun, 20 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Ulanzi FT-01 Phone Tripod Kit
 </title>
-<description>Ok, so I've joined the affiliate program since this was recorded. Ulanzi FT-01 Phone Tripod Kit: https://amzn.to/3pBIUuI.
+<description>An automatic transcription of the youtube video, Ulanzi FT-01 Phone Tripod Kit, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-ulanzi-ft-phone-tripod-kit</link>
-<guid>https://confusingbits.comblog/video-ulanzi-ft-phone-tripod-kit</guid>
+<link>https://confusingbits.comblog/ulanzi-ft-01-phone-tripod-kit</link>
+<guid>https://confusingbits.comblog/ulanzi-ft-01-phone-tripod-kit</guid>
 <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Ultralearning by Scott H. Young
 </title>
-<description>Book: https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X/ref=tmm_hrd_swatch_0?
+<description>An automatic transcription of the youtube video, Ultralearning by Scott H. Young, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-ultralearning-by-scott-h-young</link>
-<guid>https://confusingbits.comblog/video-ultralearning-by-scott-h-young</guid>
+<link>https://confusingbits.comblog/ultralearning-by-scott-h-young</link>
+<guid>https://confusingbits.comblog/ultralearning-by-scott-h-young</guid>
 <pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"Unfair Advantage" by Ash Ali and Hasan Kubba
 </title>
-<description>Book: https://amzn.to/3fk9iHD.
+<description>An automatic transcription of the youtube video, &quot;Unfair Advantage&quot; by Ash Ali and Hasan Kubba, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-unfair-advantage-by-ash-ali-and-hasan-kubba</link>
-<guid>https://confusingbits.comblog/video-unfair-advantage-by-ash-ali-and-hasan-kubba</guid>
+<link>https://confusingbits.comblog/unfair-advantage-by-ash-ali-and-hasan-kubba</link>
+<guid>https://confusingbits.comblog/unfair-advantage-by-ash-ali-and-hasan-kubba</guid>
 <pubDate>Sun, 09 Oct 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Walk Around the Rivers of Life - #1 - Feb 18th, 2022
 </title>
-<description>Hobbies, Habits, Gear Acquisition Syndrome.
+<description>An automatic transcription of the youtube video, Walk Around the Rivers of Life - #1 - Feb 18th, 2022, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-walk-around-the-rivers-of-life-feb-th</link>
-<guid>https://confusingbits.comblog/video-walk-around-the-rivers-of-life-feb-th</guid>
+<link>https://confusingbits.comblog/walk-around-the-rivers-of-life-1-feb-18th-2022</link>
+<guid>https://confusingbits.comblog/walk-around-the-rivers-of-life-1-feb-18th-2022</guid>
 <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Walk Around the Rivers of Life - #2 - Feb 19th, 2022
+</title>
+<description>An automatic transcription of the youtube video, Walk Around the Rivers of Life - #2 - Feb 19th, 2022, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/walk-around-the-rivers-of-life-2-feb-19th-2022</link>
+<guid>https://confusingbits.comblog/walk-around-the-rivers-of-life-2-feb-19th-2022</guid>
+<pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Walking Around the Rivers of Life
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-walking-around-the-rivers-of-life</guid>
+<description>An automatic transcription of the youtube video, Walking Around the Rivers of Life, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/walking-around-the-rivers-of-life</link>
+<guid>https://confusingbits.comblog/walking-around-the-rivers-of-life</guid>
 <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>WATROL #3 - Sunday Edition Book Review: 'Atomic Habits' by James Clear
+</title>
+<description>An automatic transcription of the youtube video, WATROL #3 - Sunday Edition Book Review: &#39;Atomic Habits&#39; by James Clear, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/watrol-3-sunday-edition-book-review-atomic-habits-by-james-clear</link>
+<guid>https://confusingbits.comblog/watrol-3-sunday-edition-book-review-atomic-habits-by-james-clear</guid>
+<pubDate>Mon, 21 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>WATROL - #4 - Daily Vlog: Academic Failure, English Lit, Ulysses, The Stranger
 </title>
-<description>Academic Failure, English Lit, Ulysses, The Stranger Since this video was created, I've since joined the Amazon Affiliate program.
+<description>An automatic transcription of the youtube video, WATROL - #4 - Daily Vlog: Academic Failure, English Lit, Ulysses, The Stranger, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-watrol-daily-vlog-academic-failure-english-lit-ulysses-the-stranger</link>
-<guid>https://confusingbits.comblog/video-watrol-daily-vlog-academic-failure-english-lit-ulysses-the-stranger</guid>
+<link>https://confusingbits.comblog/watrol-4-daily-vlog-academic-failure-english-lit-ulysses-the-stranger</link>
+<guid>https://confusingbits.comblog/watrol-4-daily-vlog-academic-failure-english-lit-ulysses-the-stranger</guid>
 <pubDate>Tue, 22 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>WATROL - #5 - Daily Vlog: How to Start Programming Series - What is Programming
 </title>
-<description>How to get started programming. What is programming. Who is a programmer.
+<description>An automatic transcription of the youtube video, WATROL - #5 - Daily Vlog: How to Start Programming Series - What is Programming, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-watrol-daily-vlog-how-to-start-programming-series-what-is-programming</link>
-<guid>https://confusingbits.comblog/video-watrol-daily-vlog-how-to-start-programming-series-what-is-programming</guid>
+<link>https://confusingbits.comblog/watrol-5-daily-vlog-how-to-start-programming-series-what-is-programming</link>
+<guid>https://confusingbits.comblog/watrol-5-daily-vlog-how-to-start-programming-series-what-is-programming</guid>
 <pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>WATROL - #6 - Daily Vlog: How to Start Programming Series - What Programming Language to Learn First
 </title>
-<description>Surprise! It's Javascript. I also explain why.
+<description>An automatic transcription of the youtube video, WATROL - #6 - Daily Vlog: How to Start Programming Series - What Programming Language to Learn First, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-watrol-daily-vlog-how-to-start-programming-series-what-programming-language-to-learn-first</link>
-<guid>https://confusingbits.comblog/video-watrol-daily-vlog-how-to-start-programming-series-what-programming-language-to-learn-first</guid>
+<link>https://confusingbits.comblog/watrol-6-daily-vlog-how-to-start-programming-series-what-programming-language-to-learn-first</link>
+<guid>https://confusingbits.comblog/watrol-6-daily-vlog-how-to-start-programming-series-what-programming-language-to-learn-first</guid>
 <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-<title>WATROL #3 - Sunday Edition Book Review: 'Atomic Habits' by James Clear
-</title>
-<description>My random musing on the book, 'Atomic Habits' by James Clear. Since this video was created, I've since joined the Amazon ...
-</description>
-<link>https://confusingbits.comblog/video-watrol-sunday-edition-book-review-atomic-habits-by-james-clear</link>
-<guid>https://confusingbits.comblog/video-watrol-sunday-edition-book-review-atomic-habits-by-james-clear</guid>
-<pubDate>Mon, 21 Feb 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>What To Do When Your Friend Has Been 'Hacked' on Facebook
 </title>
-<description>Nothing....chill out.
+<description>An automatic transcription of the youtube video, What To Do When Your Friend Has Been &#39;Hacked&#39; on Facebook, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-what-to-do-when-your-friend-has-been-hacked-on-facebook</link>
-<guid>https://confusingbits.comblog/video-what-to-do-when-your-friend-has-been-hacked-on-facebook</guid>
+<link>https://confusingbits.comblog/what-to-do-when-your-friend-has-been-hacked-on-facebook</link>
+<guid>https://confusingbits.comblog/what-to-do-when-your-friend-has-been-hacked-on-facebook</guid>
 <pubDate>Thu, 05 May 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>What's New with the Updated 2022 Osprey Atmos / Aura 65 AG
 </title>
-<description>Here are some reviews that found to be the most helpful and authoritative. Homemade Wonderlust's Post AT Thru-hike Review: ...
+<description>An automatic transcription of the youtube video, What&#39;s New with the Updated 2022 Osprey Atmos / Aura 65 AG, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-whats-new-with-the-updated-osprey-atmos-aura-ag</link>
-<guid>https://confusingbits.comblog/video-whats-new-with-the-updated-osprey-atmos-aura-ag</guid>
+<link>https://confusingbits.comblog/whats-new-with-the-updated-2022-osprey-atmos-aura-65-ag</link>
+<guid>https://confusingbits.comblog/whats-new-with-the-updated-2022-osprey-atmos-aura-65-ag</guid>
 <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>When Gear Recommendations Fail: Sleeping Pad Edition
 </title>
-<description></description>
-<link>https://confusingbits.comblog/video-when-gear-recommendations-fail-sleeping-pad-edition</link>
-<guid>https://confusingbits.comblog/video-when-gear-recommendations-fail-sleeping-pad-edition</guid>
+<description>An automatic transcription of the youtube video, When Gear Recommendations Fail: Sleeping Pad Edition, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/when-gear-recommendations-fail-sleeping-pad-edition</link>
+<guid>https://confusingbits.comblog/when-gear-recommendations-fail-sleeping-pad-edition</guid>
 <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Why is Popular Music Not Popular? - Walking Around the Rivers of Life - #7
 </title>
-<description>Here's the Rick Beato video I was referencing: https://www.youtube.com/watch?v=ZDivYXthd_c.
+<description>An automatic transcription of the youtube video, Why is Popular Music Not Popular? - Walking Around the Rivers of Life - #7, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-why-is-popular-music-not-popular-walking-around-the-rivers-of-life</link>
-<guid>https://confusingbits.comblog/video-why-is-popular-music-not-popular-walking-around-the-rivers-of-life</guid>
+<link>https://confusingbits.comblog/why-is-popular-music-not-popular-walking-around-the-rivers-of-life-7</link>
+<guid>https://confusingbits.comblog/why-is-popular-music-not-popular-walking-around-the-rivers-of-life-7</guid>
 <pubDate>Fri, 25 Feb 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>WoD Rogue changes.
+</title>
+<description>An automatic transcription of the youtube video, WoD Rogue changes., generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/wod-rogue-changes</link>
+<guid>https://confusingbits.comblog/wod-rogue-changes</guid>
+<pubDate>Fri, 04 Jul 2014 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>WoW 5.2 PTR Highlights
+</title>
+<description>An automatic transcription of the youtube video, WoW 5.2 PTR Highlights, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/wow-52-ptr-highlights</link>
+<guid>https://confusingbits.comblog/wow-52-ptr-highlights</guid>
+<pubDate>Wed, 02 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>WoW Gameplay and Guides
+</title>
+<description>An automatic transcription of the youtube video, WoW Gameplay and Guides, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/wow-gameplay-and-guides</link>
+<guid>https://confusingbits.comblog/wow-gameplay-and-guides</guid>
+<pubDate>Wed, 02 Jan 2013 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>2022 Year in Review and Tips for Reading More
 </title>
-<description>The Stranger: https://amzn.to/3kl1HuV Their Eyes Were Watching God: https://amzn.to/3CS89zP Unfair Advantage: ...
+<description>An automatic transcription of the youtube video, 2022 Year in Review and Tips for Reading More, generated from youtube captions.
 </description>
-<link>https://confusingbits.comblog/video-year-in-review-and-tips-for-reading-more</link>
-<guid>https://confusingbits.comblog/video-year-in-review-and-tips-for-reading-more</guid>
+<link>https://confusingbits.comblog/year-in-review-and-tips-for-reading-more</link>
+<guid>https://confusingbits.comblog/year-in-review-and-tips-for-reading-more</guid>
 <pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>

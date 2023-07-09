@@ -1,0 +1,438 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preload" href="content.json" as="fetch" crossorigin=""><base href="../../"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    } else {
+      console.log("No service worker registered.");
+    }</script><link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#ffffff"><meta name="application-name" content="confusingbits"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="confusingbits"><script defer="defer" src="main.js"></script><link rel="preload" href="main.js" as="script"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap);</style><style>.avatar img {
+  border-radius: 50%;
+}
+
+img[alt=blogimg] { width: 100%; }</style><title>Shadowcraft Guide
+</title><meta name="generator" content="elm-pages v1.4.0"><link rel="alternate" type="application/rss+xml" href="/blog/feed.xml"><link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="canonical" href="https://confusingbits.com/blog/shadowcraft-guide"><meta name="description" content="An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+"><meta property="og:image" content="https://confusingbits.com/images/shadowcraft-guide.jpg"><meta property="og:image:secure_url" content="https://confusingbits.com/images/shadowcraft-guide.jpg"><meta property="og:image:alt" content="An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+"><meta property="og:title" content="Shadowcraft Guide
+"><meta property="og:url" content="https://confusingbits.com/blog/shadowcraft-guide"><meta property="og:description" content="An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+"><meta property="og:site_name" content="confusingbits"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="Shadowcraft Guide
+"><meta property="twitter:description" content="An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+"><meta property="twitter:image" content="https://confusingbits.com/images/shadowcraft-guide.jpg"><meta property="twitter:image:alt" content="An automatic transcription of the youtube video, Shadowcraft Guide, generated from youtube captions.
+"><meta property="og:type" content="article"><meta property="article:published_time" content="2013-05-24"></head><body><div data-url="http://localhost:8000/blog/shadowcraft-guide" display="none"></div><div class="bg-255-255-255-0 font-size-20 ff-roboto fc-0-0-0-204 s e wf ui s e"><div><style>@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.s.r > .s { flex-basis: auto !important; } .s.r > .s.ctr { flex-basis: auto !important; }}
+input[type="search"],
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  background: transparent;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  width: 100%;
+  outline: dashed 1px;
+  height: 100%;
+  opacity: 0;
+}
+
+input[type=range]::-moz-range-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-ms-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical;  /* WebKit */
+}
+
+.explain {
+    border: 6px solid rgb(174, 121, 15) !important;
+}
+.explain > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+.ctr {
+    border: none !important;
+}
+.explain > .ctr > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s:focus{outline:none;}.ui{width:100%;height:auto;min-height:100%;z-index:0;}.ui.s.hf{height:100%;}.ui.s.hf > .hf{height:100%;}.ui > .fr.nb{position:fixed;}.nb{position:relative;border:none;display:flex;flex-direction:row;flex-basis:auto;}.nb.e{display:flex;flex-direction:column;white-space:pre;}.nb.e.hbh{z-index:0;}.nb.e.hbh > .bh{z-index:-1;}.nb.e.sbt > .t.hf{flex-grow:0;}.nb.e.sbt > .t.wf{align-self:auto !important;}.nb.e > .hc{height:auto;}.nb.e > .hf{flex-grow:100000;}.nb.e > .wf{width:100%;}.nb.e > .wfp{width:100%;}.nb.e > .wc{align-self:flex-start;}.nb.e.ct{justify-content:flex-start;}.nb.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.nb.e.cb{justify-content:flex-end;}.nb.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.nb.e.cr{align-items:flex-end;}.nb.e > .s.ar{align-self:flex-end;}.nb.e.cl{align-items:flex-start;}.nb.e > .s.al{align-self:flex-start;}.nb.e.ccx{align-items:center;}.nb.e > .s.cx{align-self:center;}.nb.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.nb.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.nb.a{position:absolute;bottom:100%;left:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.a > .hf{height:auto;}.nb.a > .wf{width:100%;}.nb.a > *{pointer-events:auto;}.nb.b{position:absolute;bottom:0;left:0;height:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.b > *{pointer-events:auto;}.nb.b > .hf{height:auto;}.nb.or{position:absolute;left:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.or > *{pointer-events:auto;}.nb.ol{position:absolute;right:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.ol > *{pointer-events:auto;}.nb.fr{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;pointer-events:none;}.nb.fr > *{pointer-events:auto;}.nb.bh{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;z-index:0;pointer-events:none;}.nb.bh > *{pointer-events:auto;}.s{position:relative;border:none;flex-shrink:0;display:flex;flex-direction:row;flex-basis:auto;resize:none;font-feature-settings:inherit;box-sizing:border-box;margin:0;padding:0;border-width:0;border-style:solid;font-size:inherit;color:inherit;font-family:inherit;line-height:1;font-weight:inherit;text-decoration:none;font-style:inherit;}.s.wrp{flex-wrap:wrap;}.s.notxt{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;}.s.cptr{cursor:pointer;}.s.ctxt{cursor:text;}.s.ppe{pointer-events:none !important;}.s.cpe{pointer-events:auto !important;}.s.clr{opacity:0;}.s.oq{opacity:1;}.s.hvclr:hover{opacity:0;}.s.hvoq:hover{opacity:1;}.s.fcsclr:focus{opacity:0;}.s.fcsoq:focus{opacity:1;}.s.atvclr:active{opacity:0;}.s.atvoq:active{opacity:1;}.s.ts{transition:transform 160ms, opacity 160ms, filter 160ms, background-color 160ms, color 160ms, font-size 160ms;}.s.sb{overflow:auto;flex-shrink:1;}.s.sbx{overflow-x:auto;}.s.sbx.r{flex-shrink:1;}.s.sby{overflow-y:auto;}.s.sby.c{flex-shrink:1;}.s.sby.e{flex-shrink:1;}.s.cp{overflow:hidden;}.s.cpx{overflow-x:hidden;}.s.cpy{overflow-y:hidden;}.s.wc{width:auto;}.s.bn{border-width:0;}.s.bd{border-style:dashed;}.s.bdt{border-style:dotted;}.s.bs{border-style:solid;}.s.t{white-space:pre;display:inline-block;}.s.it{line-height:1.05;background:transparent;}.s.e{display:flex;flex-direction:column;white-space:pre;}.s.e.hbh{z-index:0;}.s.e.hbh > .bh{z-index:-1;}.s.e.sbt > .t.hf{flex-grow:0;}.s.e.sbt > .t.wf{align-self:auto !important;}.s.e > .hc{height:auto;}.s.e > .hf{flex-grow:100000;}.s.e > .wf{width:100%;}.s.e > .wfp{width:100%;}.s.e > .wc{align-self:flex-start;}.s.e.ct{justify-content:flex-start;}.s.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.s.e.cb{justify-content:flex-end;}.s.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.s.e.cr{align-items:flex-end;}.s.e > .s.ar{align-self:flex-end;}.s.e.cl{align-items:flex-start;}.s.e > .s.al{align-self:flex-start;}.s.e.ccx{align-items:center;}.s.e > .s.cx{align-self:center;}.s.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.s.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r{display:flex;flex-direction:row;}.s.r > .s{flex-basis:0%;}.s.r > .s.we{flex-basis:auto;}.s.r > .s.lnk{flex-basis:auto;}.s.r > .hf{align-self:stretch !important;}.s.r > .hfp{align-self:stretch !important;}.s.r > .wf{flex-grow:100000;}.s.r > .ctr{flex-grow:0;flex-basis:auto;align-self:stretch;}.s.r > u:first-of-type.acr{flex-grow:1;}.s.r > s:first-of-type.accx{flex-grow:1;}.s.r > s:first-of-type.accx > .cx{margin-left:auto !important;}.s.r > s:last-of-type.accx{flex-grow:1;}.s.r > s:last-of-type.accx > .cx{margin-right:auto !important;}.s.r > s:only-of-type.accx{flex-grow:1;}.s.r > s:only-of-type.accx > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r > s:last-of-type.accx ~ u{flex-grow:0;}.s.r > u:first-of-type.acr ~ s.accx{flex-grow:0;}.s.r.ct{align-items:flex-start;}.s.r > .s.at{align-self:flex-start;}.s.r.cb{align-items:flex-end;}.s.r > .s.ab{align-self:flex-end;}.s.r.cr{justify-content:flex-end;}.s.r.cl{justify-content:flex-start;}.s.r.ccx{justify-content:center;}.s.r.ccy{align-items:center;}.s.r > .s.cy{align-self:center;}.s.r.sev{justify-content:space-between;}.s.c{display:flex;flex-direction:column;}.s.c > .s{flex-basis:0%;}.s.c > .s.he{flex-basis:auto;}.s.c > .s.c{flex-basis:auto;}.s.c > .hf{flex-grow:100000;}.s.c > .wf{width:100%;}.s.c > .wfp{width:100%;}.s.c > .wc{align-self:flex-start;}.s.c > u:first-of-type.acb{flex-grow:1;}.s.c > s:first-of-type.accy{flex-grow:1;}.s.c > s:first-of-type.accy > .cy{margin-top:auto !important;margin-bottom:0 !important;}.s.c > s:last-of-type.accy{flex-grow:1;}.s.c > s:last-of-type.accy > .cy{margin-bottom:auto !important;margin-top:0 !important;}.s.c > s:only-of-type.accy{flex-grow:1;}.s.c > s:only-of-type.accy > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.c > s:last-of-type.accy ~ u{flex-grow:0;}.s.c > u:first-of-type.acb ~ s.accy{flex-grow:0;}.s.c.ct{justify-content:flex-start;}.s.c > .s.at{margin-bottom:auto;}.s.c.cb{justify-content:flex-end;}.s.c > .s.ab{margin-top:auto;}.s.c.cr{align-items:flex-end;}.s.c > .s.ar{align-self:flex-end;}.s.c.cl{align-items:flex-start;}.s.c > .s.al{align-self:flex-start;}.s.c.ccx{align-items:center;}.s.c > .s.cx{align-self:center;}.s.c.ccy{justify-content:center;}.s.c > .ctr{flex-grow:0;flex-basis:auto;width:100%;align-self:stretch !important;}.s.c.sev{justify-content:space-between;}.s.g{display:-ms-grid;}.s.g > .gp > .s{width:100%;}@supports (display:grid) {.s.g{display:grid;
+}}.s.g > .s.at{justify-content:flex-start;}.s.g > .s.ab{justify-content:flex-end;}.s.g > .s.ar{align-items:flex-end;}.s.g > .s.al{align-items:flex-start;}.s.g > .s.cx{align-items:center;}.s.g > .s.cy{justify-content:center;}.s.pg{display:block;}.s.pg > .s:first-child{margin:0 !important;}.s.pg > .s.al:first-child + .s{margin:0 !important;}.s.pg > .s.ar:first-child + .s{margin:0 !important;}.s.pg > .s.ar{float:right;}.s.pg > .s.ar::after{content:"";display:table;clear:both;}.s.pg > .s.al{float:left;}.s.pg > .s.al::after{content:"";display:table;clear:both;}.s.iml{white-space:pre-wrap;height:100%;width:100%;background-color:transparent;}.s.implw.e{flex-basis:auto;}.s.imlp{white-space:pre-wrap;cursor:text;}.s.imlp > .imlf{white-space:pre-wrap;color:transparent;}.s.p{display:block;white-space:normal;}.s.p.hbh{z-index:0;}.s.p.hbh > .bh{z-index:-1;}.s.p > .t{display:inline;white-space:normal;}.s.p > .e{display:inline;white-space:normal;}.s.p > .e.fr{display:flex;}.s.p > .e.bh{display:flex;}.s.p > .e.a{display:flex;}.s.p > .e.b{display:flex;}.s.p > .e.or{display:flex;}.s.p > .e.ol{display:flex;}.s.p > .e > .t{display:inline;white-space:normal;}.s.p > .e > .e > .t{display:inline;white-space:normal;}.s.p > .r{display:inline-flex;}.s.p > .c{display:inline-flex;}.s.p > .g{display:inline-grid;}.s.p > .s.ar{float:right;}.s.p > .s.al{float:left;}.s.hidden{display:none;}.s.w1{font-weight:100;}.s.w2{font-weight:200;}.s.w3{font-weight:300;}.s.w4{font-weight:400;}.s.w5{font-weight:500;}.s.w6{font-weight:600;}.s.w7{font-weight:700;}.s.w8{font-weight:800;}.s.w9{font-weight:900;}.s.i{font-style:italic;}.s.sk{text-decoration:line-through;}.s.u{text-decoration:underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.u.sk{text-decoration:line-through underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.tun{font-style:normal;}.s.tj{text-align:justify;}.s.tja{text-align:justify-all;}.s.tc{text-align:center;}.s.tr{text-align:right;}.s.tl{text-align:left;}.s.modal{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;}.border-0{border-width:0px;}.border-1{border-width:1px;}.border-2{border-width:2px;}.border-3{border-width:3px;}.border-4{border-width:4px;}.border-5{border-width:5px;}.border-6{border-width:6px;}.font-size-8{font-size:8px;}.font-size-9{font-size:9px;}.font-size-10{font-size:10px;}.font-size-11{font-size:11px;}.font-size-12{font-size:12px;}.font-size-13{font-size:13px;}.font-size-14{font-size:14px;}.font-size-15{font-size:15px;}.font-size-16{font-size:16px;}.font-size-17{font-size:17px;}.font-size-18{font-size:18px;}.font-size-19{font-size:19px;}.font-size-20{font-size:20px;}.font-size-21{font-size:21px;}.font-size-22{font-size:22px;}.font-size-23{font-size:23px;}.font-size-24{font-size:24px;}.font-size-25{font-size:25px;}.font-size-26{font-size:26px;}.font-size-27{font-size:27px;}.font-size-28{font-size:28px;}.font-size-29{font-size:29px;}.font-size-30{font-size:30px;}.font-size-31{font-size:31px;}.font-size-32{font-size:32px;}.p-0{padding:0px;}.p-1{padding:1px;}.p-2{padding:2px;}.p-3{padding:3px;}.p-4{padding:4px;}.p-5{padding:5px;}.p-6{padding:6px;}.p-7{padding:7px;}.p-8{padding:8px;}.p-9{padding:9px;}.p-10{padding:10px;}.p-11{padding:11px;}.p-12{padding:12px;}.p-13{padding:13px;}.p-14{padding:14px;}.p-15{padding:15px;}.p-16{padding:16px;}.p-17{padding:17px;}.p-18{padding:18px;}.p-19{padding:19px;}.p-20{padding:20px;}.p-21{padding:21px;}.p-22{padding:22px;}.p-23{padding:23px;}.p-24{padding:24px;}.v-smcp{font-variant:small-caps;}.v-smcp-off{font-variant:normal;}.v-zero{font-feature-settings:"zero";}.v-zero-off{font-feature-settings:"zero" 0;}.v-onum{font-feature-settings:"onum";}.v-onum-off{font-feature-settings:"onum" 0;}.v-liga{font-feature-settings:"liga";}.v-liga-off{font-feature-settings:"liga" 0;}.v-dlig{font-feature-settings:"dlig";}.v-dlig-off{font-feature-settings:"dlig" 0;}.v-ordn{font-feature-settings:"ordn";}.v-ordn-off{font-feature-settings:"ordn" 0;}.v-tnum{font-feature-settings:"tnum";}.v-tnum-off{font-feature-settings:"tnum" 0;}.v-afrc{font-feature-settings:"afrc";}.v-afrc-off{font-feature-settings:"afrc" 0;}.v-frac{font-feature-settings:"frac";}.v-frac-off{font-feature-settings:"frac" 0;}</style></div><div><style>
+.ff-roboto.cap, .ff-roboto .cap {line-height: 1;} .ff-roboto.cap> .t, .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway .ff-roboto.cap, .ff-raleway .ff-roboto .cap {line-height: 1;} .ff-raleway .ff-roboto.cap> .t, .ff-raleway .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}
+.ff-roboto .ff-raleway.cap, .ff-roboto .ff-raleway .cap {line-height: 1;} .ff-roboto .ff-raleway.cap> .t, .ff-roboto .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway.cap, .ff-raleway .cap {line-height: 1;} .ff-raleway.cap> .t, .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.font-size-36{
+  font-size: 36px;
+}.ff-raleway{
+  font-family: "Raleway";
+  font-feature-settings: ;
+  font-variant: normal;
+}.fc-0-0-0-153{
+  color: rgba(0,0,0,0.6);
+}.spacing-5-5.r > .s + .s{
+  margin-left: 5px;
+}.spacing-5-5.wrp.r > .s{
+  margin: 2.5px 2.5px;
+}.spacing-5-5.c > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .al{
+  margin-right: 5px;
+}.spacing-5-5.pg > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p{
+  line-height: calc(1em + 5px);
+}textarea.s.spacing-5-5{
+  line-height: calc(1em + 5px);
+  height: calc(100% + 5px);
+}.spacing-5-5.p > .al{
+  margin-right: 5px;
+}.spacing-5-5.p > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -2px;
+}.spacing-5-5.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -2px;
+}.width-px-70{
+  width: 70px;
+}.spacing-10-10.r > .s + .s{
+  margin-left: 10px;
+}.spacing-10-10.wrp.r > .s{
+  margin: 5px 5px;
+}.spacing-10-10.c > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .al{
+  margin-right: 10px;
+}.spacing-10-10.pg > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p{
+  line-height: calc(1em + 10px);
+}textarea.s.spacing-10-10{
+  line-height: calc(1em + 10px);
+  height: calc(100% + 10px);
+}.spacing-10-10.p > .al{
+  margin-right: 10px;
+}.spacing-10-10.p > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -5px;
+}.spacing-10-10.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -5px;
+}.max-width-800{
+  max-width: 800px;
+}.spacing-40-40.r > .s + .s{
+  margin-left: 40px;
+}.spacing-40-40.wrp.r > .s{
+  margin: 20px 20px;
+}.spacing-40-40.c > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .al{
+  margin-right: 40px;
+}.spacing-40-40.pg > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p{
+  line-height: calc(1em + 40px);
+}textarea.s.spacing-40-40{
+  line-height: calc(1em + 40px);
+  height: calc(100% + 40px);
+}.spacing-40-40.p > .al{
+  margin-right: 40px;
+}.spacing-40-40.p > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+}.spacing-40-40.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -20px;
+}.p-30{
+  padding: 30px 30px 30px 30px;
+}.fc-5-117-230-255{
+  color: rgba(5,117,230,1);
+}.width-px-22{
+  width: 22px;
+}.spacing-15-15.r > .s + .s{
+  margin-left: 15px;
+}.spacing-15-15.wrp.r > .s{
+  margin: 7.5px 7.5px;
+}.spacing-15-15.c > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .al{
+  margin-right: 15px;
+}.spacing-15-15.pg > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p{
+  line-height: calc(1em + 15px);
+}textarea.s.spacing-15-15{
+  line-height: calc(1em + 15px);
+  height: calc(100% + 15px);
+}.spacing-15-15.p > .al{
+  margin-right: 15px;
+}.spacing-15-15.p > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -7px;
+}.spacing-15-15.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -7px;
+}.spacing-16-16.r > .s + .s{
+  margin-left: 16px;
+}.spacing-16-16.wrp.r > .s{
+  margin: 8px 8px;
+}.spacing-16-16.c > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .al{
+  margin-right: 16px;
+}.spacing-16-16.pg > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p{
+  line-height: calc(1em + 16px);
+}textarea.s.spacing-16-16{
+  line-height: calc(1em + 16px);
+  height: calc(100% + 16px);
+}.spacing-16-16.p > .al{
+  margin-right: 16px;
+}.spacing-16-16.p > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+}.spacing-16-16.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -8px;
+}.bc-40-80-40-102{
+  border-color: rgba(40,80,40,0.4);
+}.b-0-0-1-0{
+  border-width: 0px 0px 1px 0px;
+}.p-25-4{
+  padding: 4px 25px 4px 25px;
+}.bg-grad-51-0-242-96-255-5-117-230-255{
+  background-image: linear-gradient(0.2rad, rgba(0,242,96,1), rgba(5,117,230,1));
+}.height-px-4px{
+  height : 4px;
+}.fc-0-0-0-204{
+  color: rgba(0,0,0,0.8);
+}.ff-roboto{
+  font-family: "Roboto";
+  font-feature-settings: ;
+  font-variant: normal;
+}.bg-255-255-255-0{
+  background-color: rgba(255,255,255,0);
+}.focus-within:focus-within{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}.s:focus .focusable, .s.focusable:focus{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}</style></div><div class="hc s c wf ct cl"><div class="hc s c wf ct cl"><div class="he height-px-4px bg-grad-51-0-242-96-255-5-117-230-255 s e wf"></div><nav class="hc p-25-4 sev b-0-0-1-0 bc-40-80-40-102 s r wf cl ccy"><a class="hc s e wc ccx ccy lnk" href="/" rel="noopener noreferrer"><div class="hc font-size-30 spacing-16-16 s r wc cl ccy"><div class="hc s e wc"><svg version="1.1" viewBox="251.0485 144.52063 56.114286 74.5" width="30px" height="74.5"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="10%" style="stop-color:rgba(1.96%,45.88%,90.2%,1);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgba(0%,94.9%,37.65%,1);stop-opacity:1"></stop></linearGradient></defs><metadata></metadata><g id="Canvas_11" stroke="none" fill="url(#grad1)" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none"><g id="Canvas_11: Layer 1"><g id="Group_38"><g id="Graphic_32"><path d="M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g><g id="Line_34"><line x1="266.07286" y1="182.8279" x2="290.75465" y2="183.00997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_35"><line x1="266.07286" y1="191.84156" x2="290.75465" y2="192.02363" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_36"><line x1="266.07286" y1="200.85522" x2="290.75465" y2="201.0373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_37"><line x1="266.07286" y1="164.80058" x2="278.3874" y2="164.94049" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g></g></g></g></svg></div><div class="s t wc hc">confusingbits</div></div></a><div class="hc spacing-15-15 s r wc cl ccy"><a class="hc s e wc ccx ccy lnk" href="https://github.com/confusingbits" rel="noopener noreferrer" target="_blank"><div class="we width-px-22 fc-5-117-230-255 s e ic"><img class="we width-px-22 s e" src="images/github.svg" alt="Github repo"></div></a><a class="hc s e wc ccx ccy lnk" href="about" rel="noopener noreferrer"><div class="s t wf hf">About</div></a><a class="hc fc-5-117-230-255 s e wc ccx ccy lnk u" href="blog" rel="noopener noreferrer"><div class="s t wf hf">Blog</div></a></div></nav></div><main class="hc p-30 spacing-40-40 ah cx s c max-width-800 wf ct cl"><div class="hc spacing-10-10 s c wc ct cl"><div class="hc spacing-10-10 s r wc cl ccy"><div class="we width-px-70 s e ic avatar"><img class="we width-px-70 s e" src="images/author/profilepic.jpg" alt="Corey Thompson"></div><div class="hc spacing-10-10 s c wf ct cl"><div class="spacing-5-5 w7 font-size-24 s p wf"><div class="s t wc hc">Corey Thompson</div></div><div class="spacing-5-5 font-size-16 s p wf"><div class="s t wc hc">Software engineer and video game nerd</div></div></div></div></div><div class="hc font-size-16 fc-0-0-0-153 s e wc"><div class="s t wf hf">May 24th, 2013</div></div><h1 class="spacing-5-5 w7 ff-raleway font-size-36 tc s p wf"><div class="s t wc hc">Shadowcraft Guide
+</div></h1><div class="s e wf ic"><img class="s e wf" src="images/shadowcraft-guide.jpg" alt="Article cover photo"></div><div class="spacing-5-5 s p wf"><div><p>A guide to using shadowcraft. <a href="http://shadowcraft.mmo-mumble.com/">http://shadowcraft.mmo-mumble.com/</a></p><h3>Transcript</h3><p><em>This transcript was automatically generated by YouTube, so there may (will) be some (many) errors.</em></p><blockquote><p>hey guys wavefunction here we're going</p><p>to take a look at shadowcraft and how to</p><p>use it</p><p>and what are its advantages</p><p>so a lot of times you'll see only guide</p><p>you go to the forums and you'll look to</p><p>try and make a gearing decision you'll</p><p>go to something like a</p><p>really good one here is this one</p><p>biversely and you know you'll run</p><p>through this and you'll be looking at</p><p>these</p><p>tables here with these stat</p><p>ratings and and trying to figure out</p><p>you know what you should be gearing</p><p>towards and stuff like that and it's all</p><p>meaningless</p><p>to you if you don't know what all these</p><p>these numbers mean you just say oh</p><p>this one's higher than that one i'll get</p><p>that</p><p>but without getting into the math one</p><p>of the easy ways to do it is go to</p><p>a spreadsheet program like shadowcraft</p><p>that's a nice web</p><p>front end and you just you just type in</p><p>your character name and</p><p>any server and your region here you can</p><p>choose a different region</p><p>and then just click begin and what</p><p>it'll do is it'll</p><p>import your character from the armory</p><p>and 
+if you ever have a problem with</p><p>importing or something like that or</p><p>or it's got some old data or something</p><p>like that you can just go right here and</p><p>click</p><p>clear all saved data if it gets funky</p><p>and it'll clear everything out and</p><p>re-import it really quick and easy but</p><p>as you can see there's a lot of stuff on</p><p>here you can</p><p>see all your your ratings and stuff like</p><p>that and how much you're over the cap</p><p>that's what red means and</p><p>this was red that means i'm over the cap</p><p>but 
+as you can see you got all these</p><p>different stat weights on the side and</p><p>that's where they get this stuff from</p><p>is not necessarily from this program</p><p>there's another one called 
+simulation craft which has a rogue</p><p>module that can spit out these numbers</p><p>too</p><p>but i mean you've got all the</p><p>different stats even has the</p><p>the stat waiting for your main hand</p><p>dps and that's the</p><p>the dps rating on the right on the</p><p>on the tooltip for the weapon but 
+and give you the the dps 
+approximation for the different two</p><p>pieces and four piece sets and stuff</p><p>like that</p><p>but one of the really things usual is</p><p>you can see 
+kind of a time graph so whenever you</p><p>change something</p><p>over here you got a dps number if you</p><p>change something like say upgrade to</p><p>what a different slot you can see what</p><p>kind of difference</p><p>that's going to make and if you don't</p><p>like the change or whatever you can</p><p>always just click on it</p><p>and it reverts that change as you can</p><p>see we've got the</p><p>wheel weave armbands again so it's</p><p>really easy and it gives you a couple</p><p>notices like you know i</p><p>still haven't gotten an attacker upgrade</p><p>for my offhand</p><p>thank god that that's not really</p><p>important as you can see it's really low</p><p>rating for offhand dps it's basically a</p><p>stat stick for assassination</p><p>but anyway it will give you a couple</p><p>notices sometimes you'll see</p><p>error dispatch or something like that</p><p>that means 
+some reason it's got some kind of</p><p>error sometimes it'd just be because you</p><p>don't have a dagger in the main hand</p><p>because dispatch requires a dagger in</p><p>the main hand of course</p><p>it's not like you can be using mutilate</p><p>either but anyway</p><p>one of the quick easy ways to to</p><p>go about</p><p>changing things is just auto reforge</p><p>just like most 
+online reforges so it'll go through and</p><p>use your stat weightings stat ratings</p><p>and</p><p>and look try optimize your your</p><p>reforging automatically</p><p>wow that's actually pretty slow i hope</p><p>my internet's not going out</p><p>all right hey there we go see it's as</p><p>you can see reforge and everything</p><p>i've got you know an extra 240 dps</p><p>as you can see reforging's not that big</p><p>of a deal</p><p>big a deal is everybody makes it out to</p><p>me and then of course you can</p><p>optimize gems</p><p>looks like i'm already optimal so i</p><p>guess that's good yeah yay for me</p><p>you can go in here and you can</p><p>actually</p><p>it actually pulls in so like i have a</p><p>com</p><p>combat aspect you can click on your</p><p>imported</p><p>specs that you already have or you can</p><p>use the stock one so like this is a</p><p>stock assassin everybody likes shadow</p><p>focus</p><p>because it's a it's the best dps so 
+but i like my speed so i like my night</p><p>stalker</p><p>well oh there's a bug unless i actually</p><p>i don't think i expect to</p><p>expect out of nightstalker i like it but</p><p>you can see these little lines here</p><p>i will have like kind of when it's</p><p>working right</p><p>there will be like a line that will</p><p>show like the dps</p><p>increase for for using that for that</p><p>talent or that glyph</p><p>or whatnot and there's supposed to be a</p><p>ranking here but i guess that's not</p><p>working right now</p><p>you know it's always in development</p><p>so there's always something that may</p><p>not be working right but you can go</p><p>in here</p><p>on the settings and change up</p><p>different things for</p><p>your settings and stuff like that 
+generally i wouldn't</p><p>advise messing with any of this stuff 
+unless you know what you're doing just</p><p>kind of leave</p><p>leave it as is if i got a little error</p><p>says</p><p>choose anticipation there we go yeah</p><p>anticipation huge dps increase</p><p>so yeah don't want to miss out on</p><p>that one</p><p>but you can go in here and change</p><p>different settings like</p><p>the different buffs that you have in</p><p>your specific raid comp</p><p>you can you can remove the ones that you</p><p>don't have</p><p>so like like i don't ever use agility</p><p>flask because</p><p>i'm a casual baddie and i don't ever use</p><p>combat potions</p><p>again because i'm bad so you can see the</p><p>difference that that makes</p><p>it's those two buffs huge pretty big</p><p>that's like seven percent but you</p><p>know you can change like say you don't</p><p>have 
+whatever you don't have a ten percent</p><p>attack power in your raid comp you can</p><p>see</p><p>you know you might want to click that</p><p>so you get a more representative</p><p>pvp mode basically that gives you that</p><p>will change your expertise cap so you</p><p>can go back</p><p>and click this and and then you</p><p>reforge</p><p>right here and it'll change your reforge</p><p>cap and all that stuff like that</p><p>and and it'll start waiting pvp power</p><p>i i don't believe that</p><p>it's got the gems in here right so like</p><p>it's overweighting last time i checked</p><p>it was</p><p>well it's not even showing oh it looks</p><p>like they fixed it okay</p><p>did they fix it yeah yeah</p><p>okay it looks like they fixed the gems</p><p>before it was look it was showing like</p><p>160 pv power instead of 80 power</p><p>it looks like they fixed it but anyway</p><p>so that's the pvp mode and actually</p><p>assumed</p><p>65 resilience i believe</p><p>you know like turn it off you should do</p><p>ridiculous you know like 40 more dps so</p><p>yeah that's about right so anyway 
+you can go in here and mess around oh</p><p>who's here</p><p>so to manually change stuff you always</p><p>reforge stuff manually</p><p>so you can go in here and choose which</p><p>stat you want to get rid of</p><p>choose which stat you want to reforge to</p><p>so like say i want to get rid of mastery</p><p>rating and add in haste</p><p>as you can see it shows the relative dps</p><p>red is bad of course so we're going to</p><p>do something bad</p><p>you can also go in here you can change</p><p>the 
+the gems like that's the metagem and</p><p>here's a regular jam</p><p>and of course you can see the dps</p><p>comparison approximation right there</p><p>and adds in the socket bonus right there</p><p>and for items with</p><p>within chance there's also</p><p>where you can choose the end channel and</p><p>stuff like that</p><p>so like it automatically got my entire</p><p>claw you know if i was a</p><p>was that inscription if i wasn't a</p><p>scribe then</p><p>i would be able to choose that you can't</p><p>choose it but 
+even without having the the 
+the profession as you can see 
+here it actually imports your profession</p><p>so it'll automatically 
+but it one thing to note is it</p><p>actually doesn't block you</p><p>from choosing the profession bonus even</p><p>though 
+you obviously can't have it if you don't</p><p>have the profession so just something to</p><p>keep in mind</p><p>you can also change some things like</p><p>say you're doing the</p><p>you know checking out for pvp you can</p><p>figure out what's the dps loss we're</p><p>going with</p><p>wound poison or something like that as</p><p>you can see it's about</p><p>about 10 dps loss</p><p>and you can change your utility poison</p><p>obviously the</p><p>only one that really matters at least</p><p>people only reason why that is</p><p>really included is because sometimes</p><p>some</p><p>trinket effects and stuff can actually</p><p>proc off of leaking poison or one of</p><p>your other poisons so that's why that's</p><p>there</p><p>epic jams not really applicable right</p><p>now</p><p>you can show all the upgrades on the</p><p>on the thing here so it would show</p><p>like</p><p>each one of these items would have a</p><p>zero out of two upgrade one out of two</p><p>two out of two and you can see them all</p><p>like lined up in comparison</p><p>let me show you how that looks</p><p>hopefully this work right so bring this</p><p>back up yeah</p><p>so you can see you know like this is</p><p>better than the 2-2</p><p>version of this which is the one to you</p><p>know you can</p><p>see them all compared like side by side</p><p>with all the different</p><p>upgrade permutations really going to</p><p>blow up that tool tip but</p><p>it's good if you're you're looking to</p><p>see which which items you want to</p><p>upgrade</p><p>really useful right now if you're</p><p>trying to figure out</p><p>what specific items there's a couple</p><p>of things like</p><p>you know if you do tricks on cooldown 
+if you're receiving tricks on cooldown</p><p>how much that's gonna</p><p>you know all these different little</p><p>things you can</p><p>say you you don't you don't</p><p>rate or anything except for lfr well</p><p>the highest level gear that you're gonna</p><p>get is 522</p><p>so you can go in here and and</p><p>click the maximhigh level and then</p><p>you have a better</p><p>choice of like what your actual upgrades</p><p>going to be like</p><p>instead of having to see all those other</p><p>things you can say oh i've got the best</p><p>in slot for</p><p>for non-normal non-horrible rating</p><p>just some little things to help you out</p><p>but 
+that's the oh here's oh that's</p><p>another thing you can you can change</p><p>your profession so like say i wanted to</p><p>drop engineering i want to see if</p><p>blacksmithing would be better</p><p>so i can go in here and change the</p><p>blacksmithing and</p><p>and see if that extra socket is gonna</p><p>how much</p><p>that how much of a difference that's</p><p>going to make you know and</p><p>you know you can always go back and work</p><p>for virtue changes and change things</p><p>switch things up</p><p>it gets too convoluted to go here click</p><p>clear all save data click ok</p><p>and you're back to the regular old</p><p>standard default settings as you can</p><p>see</p><p>all all the buffs are back here and</p><p>everything like that</p><p>so it's easy just go through change</p><p>all bunch of stuff and</p><p>and just do a whole bunch of scenarios</p><p>and and see what you like see what you</p><p>don't like</p><p>and and see how much of a difference</p><p>it makes</p><p>really really informing i found this dps</p><p>number to be within</p><p>around 10 percent of what i can</p><p>what i personally can can attain</p><p>fairly reliably so it is fairly</p><p>accurate</p><p>so like if you're seeing an item that</p><p>that you know whatever some upgrade or</p><p>something like that that gives you like</p><p>2 000 more dps</p><p>and and you're looking at it and say oh</p><p>yeah that's a that's a really</p><p>great upgrade i should go for it well 
+you know also gotta remember you know</p><p>there is error</p><p>in in some of this stuff so you know</p><p>i would you know 
+always you know use a critical critical</p><p>eye when looking at</p><p>at results and and making sure that that</p><p>makes sense if you see something that's</p><p>just</p><p>really odd you're like that can't be</p><p>right well</p><p>it may not be right you've got to</p><p>to look at the tool and use it as a tool</p><p>the way it is and it's not always going</p><p>to be right just because the computer is</p><p>doing it does not mean it's always going</p><p>to spit out the right number</p><p>called garbage in garbage out so you</p><p>know if that something's set up wrong</p><p>then it's going to come out wrong</p><p>so you always got to keep an eye on that</p><p>for the most part if you don't mess</p><p>around too much you know just just</p><p>you know go in here you get a whole</p><p>bunch of new gear and you just</p><p>you just want to look and find out what</p><p>the optimal reforge is or something</p><p>closely approximating what the optimal</p><p>reforge is</p><p>then you just click on that</p><p>and then just you know tap tab out from</p><p>the game and</p><p>and reforge and then you know tap back</p><p>to the game and set up your report</p><p>and you can see you know reforging</p><p>really especially</p><p>after you know you cap your hit and 
+and your expertise for 
+for combat and subtlety it's really not</p><p>that big of a deal</p><p>especially you know just capping</p><p>expertise on all the specs it really</p><p>isn't that big of a deal 
+you know after you get those things</p><p>that's going to be most of your</p><p>you know benefit from reforging 
+anything beyond that is i mean</p><p>we're talking about look i did a reforge</p><p>here and it gave me you know</p><p>approximately 240 dps</p><p>that's out of a hundred</p><p>thousand dps so i mean</p><p>that's what that's what point two point</p><p>two percent</p><p>dps increase so yeah it's not that big</p><p>of a deal a lot of people</p><p>tend to overrate reforging but 
+so you know you get you gotta weigh that</p><p>you know this is gonna cost you you know</p><p>what 200</p><p>100 gold to reforge everything to to get</p><p>you know 200</p><p>dps so you know to get point two</p><p>percent more dps oh you know it's up to</p><p>you to make that decision but 
+this is how the tool works and 
+hope you guys enjoyed the guide</p><p>and see you guys later</p></blockquote></div></div></main></div></div></body></html>
