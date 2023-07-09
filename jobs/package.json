@@ -11,7 +11,7 @@
   "dependencies": {
     "he": "^1.2.0",
     "html-to-text": "^9.0.5",
-    "sanitize-filename": "^1.6.3",
-    "sentence-splitter": "^4.2.1"
+    "linkifyjs": "^4.1.1",
+    "sanitize-filename": "^1.6.3"
   }
 }
