@@ -6,7 +6,6 @@ const dir = "../content/blog";
 const { spawnSync } = require("child_process");
 const he = require("he");
 const { convert } = require("html-to-text");
-var sanitize = require("sanitize-filename");
 const linkify = require("linkifyjs");
 var slugify = require('slugify')
 
@@ -18,8 +17,8 @@ const handle = async (dir, fs, path) => {
     "--format=%ct",
     "../content/blog/",
   ]);
-  const lastTs = 1688743327;
-  // const lastTs = proc.stdout.toString();
+  // const lastTs = 1310052127; // for all videos on channel
+  const lastTs = proc.stdout.toString();
   const lastDate = new Date(lastTs * 1000);
 
   let items = [];
