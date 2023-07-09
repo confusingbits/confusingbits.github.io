@@ -11,9 +11,7 @@
   "dependencies": {
     "he": "^1.2.0",
     "html-to-text": "^9.0.5",
-    "natural": "^6.5.0",
     "sanitize-filename": "^1.6.3",
-    "sentence-splitter": "^4.2.1",
-    "unescape": "^1.0.1"
+    "sentence-splitter": "^4.2.1"
   }
 }
