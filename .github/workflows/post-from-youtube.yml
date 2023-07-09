@@ -11,7 +11,7 @@ jobs:
         GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
     strategy:
         matrix:
-            node-version: [15.x]
+            node-version: [18.x]
     permissions:
         contents: write # Needed to commit changes
     steps:
