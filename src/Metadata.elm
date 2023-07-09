@@ -8,7 +8,6 @@ import Json.Decode as Decode exposing (Decoder)
 import List.Extra
 import Pages
 import Pages.ImagePath as ImagePath exposing (ImagePath)
-import Html exposing (video)
 
 
 type Metadata
