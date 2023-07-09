@@ -4,6 +4,7 @@
   "description": "",
   "main": "update-from-youtube.js",
   "scripts": {
+    "start": "node update-from-youtube.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

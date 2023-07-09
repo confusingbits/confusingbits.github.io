@@ -18,8 +18,8 @@ const handle = async (dir, fs, path) => {
     "--format=%ct",
     "../content/blog/",
   ]);
-  // const lastTs = 1267448521;
-  const lastTs = proc.stdout.toString();
+  const lastTs = 1688743327;
+  // const lastTs = proc.stdout.toString();
   const lastDate = new Date(lastTs * 1000);
 
   let items = [];
@@ -113,7 +113,7 @@ image: images/${slug}.jpg
 published: "${item.snippet.publishedAt.split("T")[0]}"
 video: https://www.youtube.com/watch?v=${item.id.videoId}
 ---
-
+auto posted on ${new Date()}
 ${description}
 
 ### Transcript

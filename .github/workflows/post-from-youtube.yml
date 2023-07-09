@@ -1,0 +1,28 @@
+name: Update Posts from Youttube
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    defaults:
+        run:
+          working-directory: jobs
+    env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+    strategy:
+        matrix:
+            node-version: [15.x]
+    permissions:
+        contents: write # Needed to commit changes
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+            node-version: ${{ matrix.node-version }}
+            cache: 'npm'
+            cache-dependency-path: frontend/package-lock.json
+      - run: npm install
+      - run: npm run build
+      - run: npm start
+      - uses: stefanzweifel/git-auto-commit-action@v4
