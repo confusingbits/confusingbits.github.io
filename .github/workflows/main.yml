@@ -19,18 +19,22 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+          node-version: [15.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-#       - name: Cache Node Modules
-#         id: node-cache
-#         uses: actions/cache@v2
-#         with:
-#           path: node_modules
-#           key: node-modules-${{ hashFiles('package-lock.json') }}
+      - name: Use Node.js ${{ matrix.node-version }}
+        id: node-cache
+        uses: actions/setup-node@v3
+        with:
+            node-version: ${{ matrix.node-version }}
+            cache: 'npm'
+            cache-dependency-path: package-lock.json
           
 #       - name: Cache Elm Stuff
 #         id: elm-cache
@@ -38,12 +42,9 @@ jobs:
 #         with:
 #           path: elm-stuff
 #           key: elm-stuff-${{ hashFiles('elm.json') }}
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 15
       
       - name: Install Dependencies
-#         if: steps.node-cache.outputs.cache-hit != 'true'
+        if: steps.node-cache.outputs.cache-hit != 'true'
         run: npm install
         
       # Runs the build

@@ -5,26 +5,29 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     defaults:
-        run:
-          working-directory: jobs
+      run:
+        working-directory: jobs
     env:
-        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
     strategy:
-        matrix:
-            node-version: [18.x]
+      matrix:
+        node-version: [18.x]
     permissions:
-        contents: write # Needed to commit changes
+      contents: write # Needed to commit changes
     # https://github.com/marketplace/actions/git-auto-commit#commits-made-by-this-action-do-not-trigger-new-workflow-runs
     steps:
       - uses: actions/checkout@v3
         with:
-            token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
+        id: node-cache
         with:
-            node-version: ${{ matrix.node-version }}
-            cache: 'npm'
-            cache-dependency-path: jobs/package-lock.json
-      - run: npm install
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+          cache-dependency-path: jobs/package-lock.json
+      - name: Install Dependencies
+        if: ${{ steps.node-cache.outputs.cache-hit != 'true' }}
+        run: npm install
       - run: npm start
       - uses: stefanzweifel/git-auto-commit-action@v4
