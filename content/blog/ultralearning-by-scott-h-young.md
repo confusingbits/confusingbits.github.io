@@ -9,7 +9,7 @@ image: images/ultralearning-by-scott-h-young.jpg
 published: "2023-07-09"
 video: https://www.youtube.com/watch?v=VFBwr5q7DiQ
 ---
-auto posted on Sun Jul 09 2023 15:44:10 GMT+0000 (Coordinated Universal Time)
+auto posted on Sun Jul 09 2023 16:29:43 GMT+0000 (Coordinated Universal Time)
 Book: [https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X/ref=tmm_hrd_swatch_0](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X/ref=tmm_hrd_swatch_0)
 
 ### Transcript
