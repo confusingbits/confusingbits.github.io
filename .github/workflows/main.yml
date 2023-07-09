@@ -38,6 +38,9 @@ jobs:
 #         with:
 #           path: elm-stuff
 #           key: elm-stuff-${{ hashFiles('elm.json') }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 15
       
       - name: Install Dependencies
 #         if: steps.node-cache.outputs.cache-hit != 'true'
