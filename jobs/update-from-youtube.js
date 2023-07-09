@@ -113,7 +113,7 @@ image: images/${slug}.jpg
 published: "${item.snippet.publishedAt.split("T")[0]}"
 video: https://www.youtube.com/watch?v=${item.id.videoId}
 ---
-auto posted on ${new Date()}
+
 ${description}
 
 ### Transcript
