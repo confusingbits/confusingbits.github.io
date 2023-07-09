@@ -1,0 +1,408 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preload" href="content.json" as="fetch" crossorigin=""><base href="../../"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    } else {
+      console.log("No service worker registered.");
+    }</script><link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#ffffff"><meta name="application-name" content="confusingbits"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="confusingbits"><script defer="defer" src="main.js"></script><link rel="preload" href="main.js" as="script"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap);</style><style>.avatar img {
+  border-radius: 50%;
+}
+
+img[alt=blogimg] { width: 100%; }</style><title>The Pragmatic Programmer by David Thomas and Andrew Hunt
+</title><meta name="generator" content="elm-pages v1.4.0"><link rel="alternate" type="application/rss+xml" href="/blog/feed.xml"><link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="canonical" href="https://confusingbits.com/blog/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt"><meta name="description" content="Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+"><meta property="og:image" content="https://confusingbits.com/images/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt.jpg"><meta property="og:image:secure_url" content="https://confusingbits.com/images/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt.jpg"><meta property="og:image:alt" content="Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+"><meta property="og:title" content="The Pragmatic Programmer by David Thomas and Andrew Hunt
+"><meta property="og:url" content="https://confusingbits.com/blog/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt"><meta property="og:description" content="Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+"><meta property="og:site_name" content="confusingbits"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="The Pragmatic Programmer by David Thomas and Andrew Hunt
+"><meta property="twitter:description" content="Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+"><meta property="twitter:image" content="https://confusingbits.com/images/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt.jpg"><meta property="twitter:image:alt" content="Book: https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052/ref=tmm_hrd_swatch_0?
+"><meta property="og:type" content="article"><meta property="article:published_time" content="2023-06-18"></head><body><div data-url="http://localhost:8000/blog/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt" display="none"></div><div class="bg-255-255-255-0 font-size-20 ff-roboto fc-0-0-0-204 s e wf ui s e"><div><style>@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.s.r > .s { flex-basis: auto !important; } .s.r > .s.ctr { flex-basis: auto !important; }}
+input[type="search"],
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  background: transparent;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  width: 100%;
+  outline: dashed 1px;
+  height: 100%;
+  opacity: 0;
+}
+
+input[type=range]::-moz-range-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-ms-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical;  /* WebKit */
+}
+
+.explain {
+    border: 6px solid rgb(174, 121, 15) !important;
+}
+.explain > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+.ctr {
+    border: none !important;
+}
+.explain > .ctr > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s:focus{outline:none;}.ui{width:100%;height:auto;min-height:100%;z-index:0;}.ui.s.hf{height:100%;}.ui.s.hf > .hf{height:100%;}.ui > .fr.nb{position:fixed;}.nb{position:relative;border:none;display:flex;flex-direction:row;flex-basis:auto;}.nb.e{display:flex;flex-direction:column;white-space:pre;}.nb.e.hbh{z-index:0;}.nb.e.hbh > .bh{z-index:-1;}.nb.e.sbt > .t.hf{flex-grow:0;}.nb.e.sbt > .t.wf{align-self:auto !important;}.nb.e > .hc{height:auto;}.nb.e > .hf{flex-grow:100000;}.nb.e > .wf{width:100%;}.nb.e > .wfp{width:100%;}.nb.e > .wc{align-self:flex-start;}.nb.e.ct{justify-content:flex-start;}.nb.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.nb.e.cb{justify-content:flex-end;}.nb.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.nb.e.cr{align-items:flex-end;}.nb.e > .s.ar{align-self:flex-end;}.nb.e.cl{align-items:flex-start;}.nb.e > .s.al{align-self:flex-start;}.nb.e.ccx{align-items:center;}.nb.e > .s.cx{align-self:center;}.nb.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.nb.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.nb.a{position:absolute;bottom:100%;left:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.a > .hf{height:auto;}.nb.a > .wf{width:100%;}.nb.a > *{pointer-events:auto;}.nb.b{position:absolute;bottom:0;left:0;height:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.b > *{pointer-events:auto;}.nb.b > .hf{height:auto;}.nb.or{position:absolute;left:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.or > *{pointer-events:auto;}.nb.ol{position:absolute;right:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.ol > *{pointer-events:auto;}.nb.fr{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;pointer-events:none;}.nb.fr > *{pointer-events:auto;}.nb.bh{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;z-index:0;pointer-events:none;}.nb.bh > *{pointer-events:auto;}.s{position:relative;border:none;flex-shrink:0;display:flex;flex-direction:row;flex-basis:auto;resize:none;font-feature-settings:inherit;box-sizing:border-box;margin:0;padding:0;border-width:0;border-style:solid;font-size:inherit;color:inherit;font-family:inherit;line-height:1;font-weight:inherit;text-decoration:none;font-style:inherit;}.s.wrp{flex-wrap:wrap;}.s.notxt{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;}.s.cptr{cursor:pointer;}.s.ctxt{cursor:text;}.s.ppe{pointer-events:none !important;}.s.cpe{pointer-events:auto !important;}.s.clr{opacity:0;}.s.oq{opacity:1;}.s.hvclr:hover{opacity:0;}.s.hvoq:hover{opacity:1;}.s.fcsclr:focus{opacity:0;}.s.fcsoq:focus{opacity:1;}.s.atvclr:active{opacity:0;}.s.atvoq:active{opacity:1;}.s.ts{transition:transform 160ms, opacity 160ms, filter 160ms, background-color 160ms, color 160ms, font-size 160ms;}.s.sb{overflow:auto;flex-shrink:1;}.s.sbx{overflow-x:auto;}.s.sbx.r{flex-shrink:1;}.s.sby{overflow-y:auto;}.s.sby.c{flex-shrink:1;}.s.sby.e{flex-shrink:1;}.s.cp{overflow:hidden;}.s.cpx{overflow-x:hidden;}.s.cpy{overflow-y:hidden;}.s.wc{width:auto;}.s.bn{border-width:0;}.s.bd{border-style:dashed;}.s.bdt{border-style:dotted;}.s.bs{border-style:solid;}.s.t{white-space:pre;display:inline-block;}.s.it{line-height:1.05;background:transparent;}.s.e{display:flex;flex-direction:column;white-space:pre;}.s.e.hbh{z-index:0;}.s.e.hbh > .bh{z-index:-1;}.s.e.sbt > .t.hf{flex-grow:0;}.s.e.sbt > .t.wf{align-self:auto !important;}.s.e > .hc{height:auto;}.s.e > .hf{flex-grow:100000;}.s.e > .wf{width:100%;}.s.e > .wfp{width:100%;}.s.e > .wc{align-self:flex-start;}.s.e.ct{justify-content:flex-start;}.s.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.s.e.cb{justify-content:flex-end;}.s.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.s.e.cr{align-items:flex-end;}.s.e > .s.ar{align-self:flex-end;}.s.e.cl{align-items:flex-start;}.s.e > .s.al{align-self:flex-start;}.s.e.ccx{align-items:center;}.s.e > .s.cx{align-self:center;}.s.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.s.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r{display:flex;flex-direction:row;}.s.r > .s{flex-basis:0%;}.s.r > .s.we{flex-basis:auto;}.s.r > .s.lnk{flex-basis:auto;}.s.r > .hf{align-self:stretch !important;}.s.r > .hfp{align-self:stretch !important;}.s.r > .wf{flex-grow:100000;}.s.r > .ctr{flex-grow:0;flex-basis:auto;align-self:stretch;}.s.r > u:first-of-type.acr{flex-grow:1;}.s.r > s:first-of-type.accx{flex-grow:1;}.s.r > s:first-of-type.accx > .cx{margin-left:auto !important;}.s.r > s:last-of-type.accx{flex-grow:1;}.s.r > s:last-of-type.accx > .cx{margin-right:auto !important;}.s.r > s:only-of-type.accx{flex-grow:1;}.s.r > s:only-of-type.accx > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r > s:last-of-type.accx ~ u{flex-grow:0;}.s.r > u:first-of-type.acr ~ s.accx{flex-grow:0;}.s.r.ct{align-items:flex-start;}.s.r > .s.at{align-self:flex-start;}.s.r.cb{align-items:flex-end;}.s.r > .s.ab{align-self:flex-end;}.s.r.cr{justify-content:flex-end;}.s.r.cl{justify-content:flex-start;}.s.r.ccx{justify-content:center;}.s.r.ccy{align-items:center;}.s.r > .s.cy{align-self:center;}.s.r.sev{justify-content:space-between;}.s.c{display:flex;flex-direction:column;}.s.c > .s{flex-basis:0%;}.s.c > .s.he{flex-basis:auto;}.s.c > .s.c{flex-basis:auto;}.s.c > .hf{flex-grow:100000;}.s.c > .wf{width:100%;}.s.c > .wfp{width:100%;}.s.c > .wc{align-self:flex-start;}.s.c > u:first-of-type.acb{flex-grow:1;}.s.c > s:first-of-type.accy{flex-grow:1;}.s.c > s:first-of-type.accy > .cy{margin-top:auto !important;margin-bottom:0 !important;}.s.c > s:last-of-type.accy{flex-grow:1;}.s.c > s:last-of-type.accy > .cy{margin-bottom:auto !important;margin-top:0 !important;}.s.c > s:only-of-type.accy{flex-grow:1;}.s.c > s:only-of-type.accy > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.c > s:last-of-type.accy ~ u{flex-grow:0;}.s.c > u:first-of-type.acb ~ s.accy{flex-grow:0;}.s.c.ct{justify-content:flex-start;}.s.c > .s.at{margin-bottom:auto;}.s.c.cb{justify-content:flex-end;}.s.c > .s.ab{margin-top:auto;}.s.c.cr{align-items:flex-end;}.s.c > .s.ar{align-self:flex-end;}.s.c.cl{align-items:flex-start;}.s.c > .s.al{align-self:flex-start;}.s.c.ccx{align-items:center;}.s.c > .s.cx{align-self:center;}.s.c.ccy{justify-content:center;}.s.c > .ctr{flex-grow:0;flex-basis:auto;width:100%;align-self:stretch !important;}.s.c.sev{justify-content:space-between;}.s.g{display:-ms-grid;}.s.g > .gp > .s{width:100%;}@supports (display:grid) {.s.g{display:grid;
+}}.s.g > .s.at{justify-content:flex-start;}.s.g > .s.ab{justify-content:flex-end;}.s.g > .s.ar{align-items:flex-end;}.s.g > .s.al{align-items:flex-start;}.s.g > .s.cx{align-items:center;}.s.g > .s.cy{justify-content:center;}.s.pg{display:block;}.s.pg > .s:first-child{margin:0 !important;}.s.pg > .s.al:first-child + .s{margin:0 !important;}.s.pg > .s.ar:first-child + .s{margin:0 !important;}.s.pg > .s.ar{float:right;}.s.pg > .s.ar::after{content:"";display:table;clear:both;}.s.pg > .s.al{float:left;}.s.pg > .s.al::after{content:"";display:table;clear:both;}.s.iml{white-space:pre-wrap;height:100%;width:100%;background-color:transparent;}.s.implw.e{flex-basis:auto;}.s.imlp{white-space:pre-wrap;cursor:text;}.s.imlp > .imlf{white-space:pre-wrap;color:transparent;}.s.p{display:block;white-space:normal;}.s.p.hbh{z-index:0;}.s.p.hbh > .bh{z-index:-1;}.s.p > .t{display:inline;white-space:normal;}.s.p > .e{display:inline;white-space:normal;}.s.p > .e.fr{display:flex;}.s.p > .e.bh{display:flex;}.s.p > .e.a{display:flex;}.s.p > .e.b{display:flex;}.s.p > .e.or{display:flex;}.s.p > .e.ol{display:flex;}.s.p > .e > .t{display:inline;white-space:normal;}.s.p > .e > .e > .t{display:inline;white-space:normal;}.s.p > .r{display:inline-flex;}.s.p > .c{display:inline-flex;}.s.p > .g{display:inline-grid;}.s.p > .s.ar{float:right;}.s.p > .s.al{float:left;}.s.hidden{display:none;}.s.w1{font-weight:100;}.s.w2{font-weight:200;}.s.w3{font-weight:300;}.s.w4{font-weight:400;}.s.w5{font-weight:500;}.s.w6{font-weight:600;}.s.w7{font-weight:700;}.s.w8{font-weight:800;}.s.w9{font-weight:900;}.s.i{font-style:italic;}.s.sk{text-decoration:line-through;}.s.u{text-decoration:underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.u.sk{text-decoration:line-through underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.tun{font-style:normal;}.s.tj{text-align:justify;}.s.tja{text-align:justify-all;}.s.tc{text-align:center;}.s.tr{text-align:right;}.s.tl{text-align:left;}.s.modal{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;}.border-0{border-width:0px;}.border-1{border-width:1px;}.border-2{border-width:2px;}.border-3{border-width:3px;}.border-4{border-width:4px;}.border-5{border-width:5px;}.border-6{border-width:6px;}.font-size-8{font-size:8px;}.font-size-9{font-size:9px;}.font-size-10{font-size:10px;}.font-size-11{font-size:11px;}.font-size-12{font-size:12px;}.font-size-13{font-size:13px;}.font-size-14{font-size:14px;}.font-size-15{font-size:15px;}.font-size-16{font-size:16px;}.font-size-17{font-size:17px;}.font-size-18{font-size:18px;}.font-size-19{font-size:19px;}.font-size-20{font-size:20px;}.font-size-21{font-size:21px;}.font-size-22{font-size:22px;}.font-size-23{font-size:23px;}.font-size-24{font-size:24px;}.font-size-25{font-size:25px;}.font-size-26{font-size:26px;}.font-size-27{font-size:27px;}.font-size-28{font-size:28px;}.font-size-29{font-size:29px;}.font-size-30{font-size:30px;}.font-size-31{font-size:31px;}.font-size-32{font-size:32px;}.p-0{padding:0px;}.p-1{padding:1px;}.p-2{padding:2px;}.p-3{padding:3px;}.p-4{padding:4px;}.p-5{padding:5px;}.p-6{padding:6px;}.p-7{padding:7px;}.p-8{padding:8px;}.p-9{padding:9px;}.p-10{padding:10px;}.p-11{padding:11px;}.p-12{padding:12px;}.p-13{padding:13px;}.p-14{padding:14px;}.p-15{padding:15px;}.p-16{padding:16px;}.p-17{padding:17px;}.p-18{padding:18px;}.p-19{padding:19px;}.p-20{padding:20px;}.p-21{padding:21px;}.p-22{padding:22px;}.p-23{padding:23px;}.p-24{padding:24px;}.v-smcp{font-variant:small-caps;}.v-smcp-off{font-variant:normal;}.v-zero{font-feature-settings:"zero";}.v-zero-off{font-feature-settings:"zero" 0;}.v-onum{font-feature-settings:"onum";}.v-onum-off{font-feature-settings:"onum" 0;}.v-liga{font-feature-settings:"liga";}.v-liga-off{font-feature-settings:"liga" 0;}.v-dlig{font-feature-settings:"dlig";}.v-dlig-off{font-feature-settings:"dlig" 0;}.v-ordn{font-feature-settings:"ordn";}.v-ordn-off{font-feature-settings:"ordn" 0;}.v-tnum{font-feature-settings:"tnum";}.v-tnum-off{font-feature-settings:"tnum" 0;}.v-afrc{font-feature-settings:"afrc";}.v-afrc-off{font-feature-settings:"afrc" 0;}.v-frac{font-feature-settings:"frac";}.v-frac-off{font-feature-settings:"frac" 0;}</style></div><div><style>
+.ff-roboto.cap, .ff-roboto .cap {line-height: 1;} .ff-roboto.cap> .t, .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway .ff-roboto.cap, .ff-raleway .ff-roboto .cap {line-height: 1;} .ff-raleway .ff-roboto.cap> .t, .ff-raleway .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}
+.ff-roboto .ff-raleway.cap, .ff-roboto .ff-raleway .cap {line-height: 1;} .ff-roboto .ff-raleway.cap> .t, .ff-roboto .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway.cap, .ff-raleway .cap {line-height: 1;} .ff-raleway.cap> .t, .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.font-size-36{
+  font-size: 36px;
+}.ff-raleway{
+  font-family: "Raleway";
+  font-feature-settings: ;
+  font-variant: normal;
+}.fc-0-0-0-153{
+  color: rgba(0,0,0,0.6);
+}.spacing-5-5.r > .s + .s{
+  margin-left: 5px;
+}.spacing-5-5.wrp.r > .s{
+  margin: 2.5px 2.5px;
+}.spacing-5-5.c > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .al{
+  margin-right: 5px;
+}.spacing-5-5.pg > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p{
+  line-height: calc(1em + 5px);
+}textarea.s.spacing-5-5{
+  line-height: calc(1em + 5px);
+  height: calc(100% + 5px);
+}.spacing-5-5.p > .al{
+  margin-right: 5px;
+}.spacing-5-5.p > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -2px;
+}.spacing-5-5.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -2px;
+}.width-px-70{
+  width: 70px;
+}.spacing-10-10.r > .s + .s{
+  margin-left: 10px;
+}.spacing-10-10.wrp.r > .s{
+  margin: 5px 5px;
+}.spacing-10-10.c > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .al{
+  margin-right: 10px;
+}.spacing-10-10.pg > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p{
+  line-height: calc(1em + 10px);
+}textarea.s.spacing-10-10{
+  line-height: calc(1em + 10px);
+  height: calc(100% + 10px);
+}.spacing-10-10.p > .al{
+  margin-right: 10px;
+}.spacing-10-10.p > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -5px;
+}.spacing-10-10.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -5px;
+}.max-width-800{
+  max-width: 800px;
+}.spacing-40-40.r > .s + .s{
+  margin-left: 40px;
+}.spacing-40-40.wrp.r > .s{
+  margin: 20px 20px;
+}.spacing-40-40.c > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .al{
+  margin-right: 40px;
+}.spacing-40-40.pg > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p{
+  line-height: calc(1em + 40px);
+}textarea.s.spacing-40-40{
+  line-height: calc(1em + 40px);
+  height: calc(100% + 40px);
+}.spacing-40-40.p > .al{
+  margin-right: 40px;
+}.spacing-40-40.p > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+}.spacing-40-40.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -20px;
+}.p-30{
+  padding: 30px 30px 30px 30px;
+}.fc-5-117-230-255{
+  color: rgba(5,117,230,1);
+}.width-px-22{
+  width: 22px;
+}.spacing-15-15.r > .s + .s{
+  margin-left: 15px;
+}.spacing-15-15.wrp.r > .s{
+  margin: 7.5px 7.5px;
+}.spacing-15-15.c > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .al{
+  margin-right: 15px;
+}.spacing-15-15.pg > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p{
+  line-height: calc(1em + 15px);
+}textarea.s.spacing-15-15{
+  line-height: calc(1em + 15px);
+  height: calc(100% + 15px);
+}.spacing-15-15.p > .al{
+  margin-right: 15px;
+}.spacing-15-15.p > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -7px;
+}.spacing-15-15.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -7px;
+}.spacing-16-16.r > .s + .s{
+  margin-left: 16px;
+}.spacing-16-16.wrp.r > .s{
+  margin: 8px 8px;
+}.spacing-16-16.c > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .al{
+  margin-right: 16px;
+}.spacing-16-16.pg > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p{
+  line-height: calc(1em + 16px);
+}textarea.s.spacing-16-16{
+  line-height: calc(1em + 16px);
+  height: calc(100% + 16px);
+}.spacing-16-16.p > .al{
+  margin-right: 16px;
+}.spacing-16-16.p > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+}.spacing-16-16.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -8px;
+}.bc-40-80-40-102{
+  border-color: rgba(40,80,40,0.4);
+}.b-0-0-1-0{
+  border-width: 0px 0px 1px 0px;
+}.p-25-4{
+  padding: 4px 25px 4px 25px;
+}.bg-grad-51-0-242-96-255-5-117-230-255{
+  background-image: linear-gradient(0.2rad, rgba(0,242,96,1), rgba(5,117,230,1));
+}.height-px-4px{
+  height : 4px;
+}.fc-0-0-0-204{
+  color: rgba(0,0,0,0.8);
+}.ff-roboto{
+  font-family: "Roboto";
+  font-feature-settings: ;
+  font-variant: normal;
+}.bg-255-255-255-0{
+  background-color: rgba(255,255,255,0);
+}.focus-within:focus-within{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}.s:focus .focusable, .s.focusable:focus{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}</style></div><div class="hc s c wf ct cl"><div class="hc s c wf ct cl"><div class="he height-px-4px bg-grad-51-0-242-96-255-5-117-230-255 s e wf"></div><nav class="hc p-25-4 sev b-0-0-1-0 bc-40-80-40-102 s r wf cl ccy"><a class="hc s e wc ccx ccy lnk" href="/" rel="noopener noreferrer"><div class="hc font-size-30 spacing-16-16 s r wc cl ccy"><div class="hc s e wc"><svg version="1.1" viewBox="251.0485 144.52063 56.114286 74.5" width="30px" height="74.5"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="10%" style="stop-color:rgba(1.96%,45.88%,90.2%,1);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgba(0%,94.9%,37.65%,1);stop-opacity:1"></stop></linearGradient></defs><metadata></metadata><g id="Canvas_11" stroke="none" fill="url(#grad1)" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none"><g id="Canvas_11: Layer 1"><g id="Group_38"><g id="Graphic_32"><path d="M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g><g id="Line_34"><line x1="266.07286" y1="182.8279" x2="290.75465" y2="183.00997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_35"><line x1="266.07286" y1="191.84156" x2="290.75465" y2="192.02363" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_36"><line x1="266.07286" y1="200.85522" x2="290.75465" y2="201.0373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_37"><line x1="266.07286" y1="164.80058" x2="278.3874" y2="164.94049" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g></g></g></g></svg></div><div class="s t wc hc">confusingbits</div></div></a><div class="hc spacing-15-15 s r wc cl ccy"><a class="hc s e wc ccx ccy lnk" href="https://github.com/confusingbits" rel="noopener noreferrer" target="_blank"><div class="we width-px-22 fc-5-117-230-255 s e ic"><img class="we width-px-22 s e" src="images/github.svg" alt="Github repo"></div></a><a class="hc s e wc ccx ccy lnk" href="about" rel="noopener noreferrer"><div class="s t wf hf">About</div></a><a class="hc fc-5-117-230-255 s e wc ccx ccy lnk u" href="blog" rel="noopener noreferrer"><div class="s t wf hf">Blog</div></a></div></nav></div><main class="hc p-30 spacing-40-40 ah cx s c max-width-800 wf ct cl"><div class="hc spacing-10-10 s c wc ct cl"><div class="hc spacing-10-10 s r wc cl ccy"><div class="we width-px-70 s e ic avatar"><img class="we width-px-70 s e" src="images/author/profilepic.jpg" alt="Corey Thompson"></div><div class="hc spacing-10-10 s c wf ct cl"><div class="spacing-5-5 w7 font-size-24 s p wf"><div class="s t wc hc">Corey Thompson</div></div><div class="spacing-5-5 font-size-16 s p wf"><div class="s t wc hc">Software engineer and video game nerd</div></div></div></div></div><div class="hc font-size-16 fc-0-0-0-153 s e wc"><div class="s t wf hf">June 18th, 2023</div></div><h1 class="spacing-5-5 w7 ff-raleway font-size-36 tc s p wf"><div class="s t wc hc">The Pragmatic Programmer by David Thomas and Andrew Hunt
+</div></h1><div class="s e wf ic"><img class="s e wf" src="images/video-the-pragmatic-programmer-by-david-thomas-and-andrew-hunt.jpg" alt="Article cover photo"></div><div class="spacing-5-5 s p wf"><div><h3>This transcript was automatically generated by YouTube, so there may (will) be some (many) errors.</h3><p>all righty I guess we</p><p>running a little bit low on energy and</p><p>we're almost almost through my stack of</p><p>books as you can see we've been through</p><p>a few today</p><p>we got two more to go we got the</p><p>the one we're gonna talk about next</p><p>the pragmatic programmer by David</p><p>Thomas and Andrew hunt</p><p>this is the 20th anniversary edition</p><p>uh</p><p>we the next two books are</p><p>this book and the next one are</p><p>programming books so</p><p>um that's the</p><p>sorry the too long did watch is</p><p>that if you're not a programmer you can</p><p>skip this video it's it's</p><p>it's gonna be gobbledygook for you most</p><p>likely</p><p>um</p><p>if</p><p>if you are a programmer a junior</p><p>programmer</p><p>um</p><p>it's it's a good book however I would</p><p>say that</p><p>it's</p><p>it's a really old book by today's</p><p>temperature I think I think like a</p><p>better book would be like the clean code</p><p>series especially if you're a junior</p><p>programmer you haven't read a lot about</p><p>code quality and stuff like that I think</p><p>it encapsulates a lot of those teachings</p><p>in in the one book or one series a</p><p>little</p><p>bit better I think the the reason why I</p><p>say that is I think like</p><p>over the years all of these code quality</p><p>and programming and Improvement or</p><p>whatever architecture books over the</p><p>years have been like regurgitating so</p><p>like when you work in the self-help</p><p>books or whatever you start reading the</p><p>same things over and over in the various</p><p>books hearing the same things over again</p><p>same thing happened here this is one of</p><p>the older books in in the sort of the</p><p>field or whatever</p><p>um and so if especially if you read a</p><p>lot in the field you probably if you</p><p>haven't read this one you probably</p><p>already know everything in this book and</p><p>we'll get into why a little bit more in</p><p>detail later but</p><p>but yeah it probably wouldn't be my</p><p>first recommendation but it isn't a I</p><p>wouldn't say it's a bad book it's just I</p><p>probably wouldn't be the first book that</p><p>I would recommend nowadays even though</p><p>it is this one is one of the highest</p><p>recommended ones I think it's mostly</p><p>because the people who have read this</p><p>book they did so 20 years ago or</p><p>something you know when it was still</p><p>really new and fresh this book was</p><p>when did it come out</p><p>19.99 yeah</p><p>1999 20 years ago</p><p>um over 20 years ago which is a long</p><p>time in programming circles but this</p><p>is the as the book talks about it's</p><p>about sort of practical tips and hints</p><p>uh</p><p>to</p><p>apply to software engineering</p><p>uh</p><p>let's let's let's do the board so yeah</p><p>is one of those rare Tech books you'll</p><p>read reread and read again over the</p><p>years whether you're new to the field or</p><p>an experienced practitioner you'll come</p><p>away with fresh insights each and every</p><p>time Dave Thomas and Andy wrote the</p><p>first digital of this infiltrable book</p><p>in 1999 to help their clients create</p><p>better software and ReDiscover the joy</p><p>of coding these lessons have helped a</p><p>generation of programmers examine the</p><p>very essence of software development</p><p>independent of any particular language</p><p>framework or methodology project</p><p>philosophy has spawned hundreds of books</p><p>screencasts and audiobooks as well as</p><p>thousands of careers and success stories</p><p>now 20 years later this new addition</p><p>examines what it means to be a modern</p><p>programmer topics range from personal</p><p>responsibility and career development to</p><p>architectural techniques for keeping</p><p>your code flexible and easy to adapt and</p><p>reuse read this book in order to learn</p><p>how to fight software all right learn</p><p>continuously avoid the Trap of</p><p>duplicating knowledge write flexible</p><p>Dynamic adaptable code harness the power</p><p>of basic tools avoid programming by</p><p>coincidence learn real requirements</p><p>guard against security vulnerabilities</p><p>solve the underlying problems of</p><p>concurrent code build teams of</p><p>programming pragmatic programmers that</p><p>take responsibility of four-year working</p><p>Career Test ruthlessly and effectively</p><p>including property-based testing</p><p>implement the pragmatic starter kit and</p><p>like to use yours written as a series of</p><p>self-contained sections filled with</p><p>classic and fresh anecdotes thoughtful</p><p>examples interesting analogies the</p><p>programming programmer illustrates the</p><p>best approaches of major pitfalls of</p><p>many different aspects of software</p><p>development whether you're a new coder</p><p>and experience or an experience program</p><p>or a manager responsible for software</p><p>products projects use these lessons</p><p>daily and you'll see quickly see</p><p>improvements in personal productivity</p><p>accuracy and software job kind of</p><p>satisfaction you'll learn skills and</p><p>develop habits and attitudes that form</p><p>the foundation for long-term success in</p><p>your career you'll become a program</p><p>pragmatic programmer</p><p>Jesus</p><p>that's quite the blurb</p><p>hey</p><p>there's a couple of quotes here</p><p>[Music]</p><p>um</p><p>[Music]</p><p>yeah quite curious about those burps</p><p>they're particularly useful</p><p>so yeah it did kind of mentioned here</p><p>it's it's these little sections that you</p><p>can kind of take piecemeal of course</p><p>you'll just read through the whole thing</p><p>but there are these little sections and</p><p>they're kind of somewhat self-contained</p><p>little episodes I guess you would say</p><p>talking about different topics and it's</p><p>very much a collection of sort of like a</p><p>collection of essays</p><p>um</p><p>on various topics it's like a collection</p><p>of blog posts you know if that was a</p><p>thing</p><p>um</p><p>back then</p><p>but it wasn't</p><p>um</p><p>uh</p><p>well sorta yeah those those WordPress</p><p>back then right</p><p>Lord have mercy</p><p>so yeah there's all sorts of little</p><p>topics in here let's let's let's talk</p><p>about a few of them see if anything</p><p>comes to mind</p><p>so the problem problem with with with</p><p>a lot of these is the thing that I had</p><p>the book that I had even when I was</p><p>reading this</p><p>just a</p><p>couple maybe a year or two in my career</p><p>I'd already internalized most of this</p><p>stuff here and</p><p>as much as I like to think I'm you know</p><p>super intelligent and everything like</p><p>that I felt like</p><p>I don't feel like I was completely</p><p>special I felt like</p><p>I felt like most of the things that I</p><p>was reading was</p><p>kind of obvious or I had heard it before</p><p>so</p><p>but everybody recommends this book so</p><p>I'm like</p><p>uh</p><p>maybe they just read it 20 years ago and</p><p>they're just really young and</p><p>I don't I don't know I don't know I</p><p>don't know I never I'm always</p><p>careful to</p><p>everybody's always in a different place</p><p>right</p><p>but for me it was</p><p>this was rehashing a lot of stuff that I</p><p>already knew or</p><p>that wasn't really all that insightful</p><p>not I don't want to hate on this I'm not</p><p>hating on this book I want to be clear</p><p>but it's just topic number nine under</p><p>pragmatic approach is dry the evils of</p><p>duplication that's the do not repeat</p><p>yourself and I don't know if that's</p><p>where this come from</p><p>but it talks about it here and it's</p><p>probably early enough that not a lot of</p><p>people were were</p><p>talking about it and that's</p><p>one of the the things that he talks</p><p>about</p><p>is do not repeat your in case you don't</p><p>know is anytime you're writing code</p><p>and you're writing the same code over</p><p>and over again you probably need to</p><p>encapsulate that bit of functionality</p><p>abstracted in some way so you can reuse</p><p>it really really easily</p><p>um</p><p>it talks about estimating let's see it</p><p>talks about using version and control I</p><p>know back in 1999 using Version Control</p><p>was a a huge deal nowadays this type</p><p>kind of Taken for for granted but it's a</p><p>huge deal it was probably a bigger</p><p>deal back then</p><p>talks about text manipulation I</p><p>remember I think I remember this one it</p><p>was talking about you know thinking</p><p>about programming in terms of just</p><p>wherever you can just manipulating texts</p><p>you know processing text because it's</p><p>easy to there's a bunch of tools we're</p><p>working with text and the more you're</p><p>able to stay in the land of text</p><p>the the easier it is to to reuse your</p><p>functionality or whatever</p><p>[Music]</p><p>what else</p><p>talks about decoupling so you know</p><p>making sure that you know you've got</p><p>some segmentation between different</p><p>components of of your system</p><p>uh</p><p>talks about refactoring testing code</p><p>naming things</p><p>um</p><p>talks about some some stuff let's do the</p><p>requirements it talks about requirements</p><p>here just it talks about the</p><p>requirements pit</p><p>so topic was that 244.</p><p>say bye I got it</p><p>yeah yeah</p><p>many books and tutorials refer to</p><p>requirements getting Gathering as an</p><p>early phase of the project the word</p><p>Gathering seems to apply a tribe of</p><p>happy analysts foraging for nuggets of</p><p>wisdom they're relying on the ground all</p><p>around them while the pastoral symphony</p><p>plays gently in the background</p><p>Gathering implies the requirements are</p><p>already there you merely need to find</p><p>them place them in your basket and be</p><p>merely on your way it doesn't work quite</p><p>work that way requirements really allow</p><p>on the surface normally they're very</p><p>deep beneath layers of assumptions and</p><p>misconceptions and politics even worse</p><p>they don't really exist at all</p><p>the requirements myth in the early days</p><p>the software computers were more</p><p>valuable in terms of amortized cost per</p><p>hour than the people who worked on it we</p><p>saved money by trying to get things</p><p>correct the first time part of that</p><p>process was trying specifically to</p><p>specify exactly what we were going to</p><p>get the machine to do we start by</p><p>getting a specification of the</p><p>requirements parlaying that into the</p><p>design document and then flow charts and</p><p>suo code and finally into code before</p><p>feeding into the computer though we'd</p><p>spend time spend desktop spend time desk</p><p>checking it it costs a lot of money and</p><p>that cost meant people only tried to</p><p>automate something when they knew</p><p>exactly what they wanted as early</p><p>machines were fairly limited this couple</p><p>of problems they solved was constrained</p><p>it was actually possible to understand</p><p>the whole problem before he started</p><p>that's</p><p>kind of what's going on with this this</p><p>book right it's it's</p><p>a bunch of topics and stuff</p><p>in around some of it technical some of</p><p>it</p><p>sort of managerial some of it kind of</p><p>personal</p><p>development or professional development</p><p>and stuff</p><p>it's a good book I want to be very clear</p><p>so if</p><p>I wouldn't totally skip this book</p><p>but if you were only going to</p><p>read a handful of books I'll think I'd</p><p>probably start with the the clean code</p><p>series but it is</p><p>is a a good book and I would</p><p>recommend it</p><p>um</p><p>I would just say that</p><p>it might just be serving as a reminder</p><p>of things that you forgot you knew</p><p>um</p><p>especially if you've been programming</p><p>any any number of years or it may just</p><p>be saying out loud things that you never</p><p>really explicitly said to yourself or</p><p>that you explicitly heard before</p><p>um and maybe you're just seeing it in</p><p>print for the first time yeah okay yeah</p><p>that makes sense</p><p>um so anyway</p><p>um</p><p>but it's a good book it's one of the one</p><p>of the pillars of software</p><p>um</p><p>kind of quality type books or whatever</p><p>the pragmatic programmer there's the</p><p>refactoring and then I think there's</p><p>design patterns the group</p><p>and then the structure interpretations</p><p>or programs I think of like the four</p><p>really</p><p>foundational books or whatever in the</p><p>kind of code quality kind of space</p><p>early books that have now since been</p><p>kind of synthesized and more refined and</p><p>more modern books or whatever but this</p><p>is a good one and it's the pragmatic</p><p>programmer by David Thomas and Andrew</p><p>hunt and</p><p>just have one more book</p><p>Ed I will see you guys next week</p></div></div></main></div></div></body></html>
