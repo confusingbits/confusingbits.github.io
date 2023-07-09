@@ -18,7 +18,7 @@ const handle = async (dir, fs, path) => {
     "../content/blog/",
   ]);
   const lastTs = proc.stdout.toString();
-  const lastDate = new Date(lastTs * 1000);
+  const lastDate = new Date(1615871292 * 1000);
 
   let items = [];
   let nextPageToken = ""; // need to handle pagination since it is possible to have more than 50 videos
@@ -34,7 +34,7 @@ const handle = async (dir, fs, path) => {
 
   const promises = items.map(async (item) => {
     const title = he.decode(item.snippet.title);
-    const slug = "video-" + sanitize(title);
+    const slug = "video-" + sanitize(title).toLowerCase().replace(/ /g, "-").replace(/[^a-z-]/g, " ");
     const response = await fetch(item.snippet.thumbnails.high.url);
 
     const blob = await response.blob();
