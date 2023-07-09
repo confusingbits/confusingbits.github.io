@@ -2,13 +2,13 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the source branch
   push:
-    branches: [ source ]
-#   pull_request:
-#     branches: [ source ]
+    branches: [source]
+  #   pull_request:
+  #     branches: [ source ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,36 +21,33 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-          node-version: [15.x]
+        node-version: [15.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
+
       - name: Use Node.js ${{ matrix.node-version }}
-        id: node-cache
         uses: actions/setup-node@v3
         with:
-            node-version: ${{ matrix.node-version }}
-            cache: 'npm'
-            cache-dependency-path: package-lock.json
-          
-#       - name: Cache Elm Stuff
-#         id: elm-cache
-#         uses: actions/cache@v2
-#         with:
-#           path: elm-stuff
-#           key: elm-stuff-${{ hashFiles('elm.json') }}
-      
-      - name: Install Dependencies
-        if: steps.node-cache.outputs.cache-hit != 'true'
-        run: npm install
-        
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      #       - name: Cache Elm Stuff
+      #         id: elm-cache
+      #         uses: actions/cache@v2
+      #         with:
+      #           path: elm-stuff
+      #           key: elm-stuff-${{ hashFiles('elm.json') }}
+
+      - run: npm ci
+
       # Runs the build
       - name: Build
         run: npm run build
-        
+
       - name: "Github Pages Deployment"
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
@@ -63,7 +60,7 @@ jobs:
 #       - name: Run a one-line script
 #         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
+# Runs a set of commands using the runners shell
 #       - name: Run a multi-line script
 #         run: |
 #           echo Add other actions to build,
