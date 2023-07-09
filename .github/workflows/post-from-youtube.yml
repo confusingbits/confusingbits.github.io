@@ -1,6 +1,10 @@
 name: Update Posts from Youttube
 on:
   workflow_dispatch:
+  schedule:
+    # 6:30am every day (UTC), which should always be after 12:00am CST/CDT
+    # which is when the videos are usually published
+    - cron: "30 6 * * *" 
 jobs:
   build:
     runs-on: ubuntu-20.04
