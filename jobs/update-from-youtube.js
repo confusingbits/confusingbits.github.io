@@ -7,7 +7,8 @@ const { spawnSync } = require("child_process");
 const he = require("he");
 const { convert } = require("html-to-text");
 var sanitize = require("sanitize-filename");
-const linkify = require('linkifyjs');
+const linkify = require("linkifyjs");
+var slugify = require('slugify')
 
 const handle = async (dir, fs, path) => {
   // use git to find the last updated blog post, we can then only fetch videos after that date
@@ -17,8 +18,8 @@ const handle = async (dir, fs, path) => {
     "--format=%ct",
     "../content/blog/",
   ]);
-  // const lastTs = 1688734921;
-  const lastTs = proc.stdout.toString();
+  const lastTs = 1267448521;
+  // const lastTs = proc.stdout.toString();
   const lastDate = new Date(lastTs * 1000);
 
   let items = [];
@@ -35,15 +36,8 @@ const handle = async (dir, fs, path) => {
 
   const promises = items.map(async (item) => {
     const title = he.decode(item.snippet.title);
-    const slug = (
-      "video-" +
-      sanitize(title)
-        .toLowerCase()
-        .replace(/ /g, "-")
-        .replace(/[^a-z-]/g, "")
-    )
-      .replace(/-+/g, "-")
-      .replace(/-$/g, "");
+    const slug = slugify(title, {lower: true, strict: true})
+      .replace(/^[\d*-]*/g, ""); // remove any leading numbers or dashes because elm doesn't like that in types, and the urls are types
     const response = await fetch(item.snippet.thumbnails.high.url);
 
     const blob = await response.blob();
@@ -85,14 +79,16 @@ const handle = async (dir, fs, path) => {
             options: { leadingLineBreaks: 2, trailingLineBreaks: 2 },
           },
         ],
-      })
-        .replace(/uh\s|um\s/g, "") // remove uh's and um's
+      }).replace(/uh\s|um\s/g, ""); // remove uh's and um's
 
       // create a markdown link for each link in the description
       const descriptionLinks = linkify.find(item.snippet.description);
       let lastIndex = 0;
       for (let link of descriptionLinks) {
-        description += item.snippet.description.substring(lastIndex, link.start);
+        description += item.snippet.description.substring(
+          lastIndex,
+          link.start
+        );
         description += `[${link.href}](${link.value})`;
         lastIndex = link.end;
       }
@@ -110,7 +106,9 @@ author: Corey Thompson
 title: >
   ${he.decode(item.snippet.title)}
 description: >
-  A book review video of ${item.snippet.title}, transcribed from youtube captions.
+  An automatic transcription of the youtube video, ${
+    item.snippet.title
+  }, generated from youtube captions.
 image: images/${slug}.jpg
 published: "${item.snippet.publishedAt.split("T")[0]}"
 video: https://www.youtube.com/watch?v=${item.id.videoId}
