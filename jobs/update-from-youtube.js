@@ -34,7 +34,7 @@ const handle = async (dir, fs, path) => {
 
   const promises = items.map(async (item) => {
     const title = he.decode(item.snippet.title);
-    const slug = "video-" + sanitize(title).toLowerCase().replace(/ /g, "-").replace(/[^a-z-]/g, " ");
+    const slug = ("video-" + sanitize(title).toLowerCase().replace(/ /g, "-").replace(/[^a-z-]/g, "")).replace(/-+/g, "-").replace(/-$/g, "");
     const response = await fetch(item.snippet.thumbnails.high.url);
 
     const blob = await response.blob();
