@@ -1,0 +1,432 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preload" href="content.json" as="fetch" crossorigin=""><base href="../../"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    } else {
+      console.log("No service worker registered.");
+    }</script><link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#ffffff"><meta name="application-name" content="confusingbits"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="confusingbits"><script defer="defer" src="main.js"></script><link rel="preload" href="main.js" as="script"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap);</style><style>.avatar img {
+  border-radius: 50%;
+}
+
+img[alt=blogimg] { width: 100%; }</style><title>'Thinking Fast and Slow" by Daniel Kahneman
+</title><meta name="generator" content="elm-pages v1.4.0"><link rel="alternate" type="application/rss+xml" href="/blog/feed.xml"><link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="canonical" href="https://confusingbits.com/blog/thinking-fast-and-slow-by-daniel-kahneman"><meta name="description" content="An automatic transcription of the youtube video, &amp;#39;Thinking Fast and Slow&amp;quot; by Daniel Kahneman, generated from youtube captions.
+"><meta property="og:image" content="https://confusingbits.com/images/thinking-fast-and-slow-by-daniel-kahneman.jpg"><meta property="og:image:secure_url" content="https://confusingbits.com/images/thinking-fast-and-slow-by-daniel-kahneman.jpg"><meta property="og:image:alt" content="An automatic transcription of the youtube video, &amp;#39;Thinking Fast and Slow&amp;quot; by Daniel Kahneman, generated from youtube captions.
+"><meta property="og:title" content="'Thinking Fast and Slow&quot; by Daniel Kahneman
+"><meta property="og:url" content="https://confusingbits.com/blog/thinking-fast-and-slow-by-daniel-kahneman"><meta property="og:description" content="An automatic transcription of the youtube video, &amp;#39;Thinking Fast and Slow&amp;quot; by Daniel Kahneman, generated from youtube captions.
+"><meta property="og:site_name" content="confusingbits"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="'Thinking Fast and Slow&quot; by Daniel Kahneman
+"><meta property="twitter:description" content="An automatic transcription of the youtube video, &amp;#39;Thinking Fast and Slow&amp;quot; by Daniel Kahneman, generated from youtube captions.
+"><meta property="twitter:image" content="https://confusingbits.com/images/thinking-fast-and-slow-by-daniel-kahneman.jpg"><meta property="twitter:image:alt" content="An automatic transcription of the youtube video, &amp;#39;Thinking Fast and Slow&amp;quot; by Daniel Kahneman, generated from youtube captions.
+"><meta property="og:type" content="article"><meta property="article:published_time" content="2022-04-24"></head><body><div data-url="http://localhost:8000/blog/thinking-fast-and-slow-by-daniel-kahneman" display="none"></div><div class="bg-255-255-255-0 font-size-20 ff-roboto fc-0-0-0-204 s e wf ui s e"><div><style>@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.s.r > .s { flex-basis: auto !important; } .s.r > .s.ctr { flex-basis: auto !important; }}
+input[type="search"],
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  background: transparent;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  width: 100%;
+  outline: dashed 1px;
+  height: 100%;
+  opacity: 0;
+}
+
+input[type=range]::-moz-range-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-ms-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical;  /* WebKit */
+}
+
+.explain {
+    border: 6px solid rgb(174, 121, 15) !important;
+}
+.explain > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+.ctr {
+    border: none !important;
+}
+.explain > .ctr > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s:focus{outline:none;}.ui{width:100%;height:auto;min-height:100%;z-index:0;}.ui.s.hf{height:100%;}.ui.s.hf > .hf{height:100%;}.ui > .fr.nb{position:fixed;}.nb{position:relative;border:none;display:flex;flex-direction:row;flex-basis:auto;}.nb.e{display:flex;flex-direction:column;white-space:pre;}.nb.e.hbh{z-index:0;}.nb.e.hbh > .bh{z-index:-1;}.nb.e.sbt > .t.hf{flex-grow:0;}.nb.e.sbt > .t.wf{align-self:auto !important;}.nb.e > .hc{height:auto;}.nb.e > .hf{flex-grow:100000;}.nb.e > .wf{width:100%;}.nb.e > .wfp{width:100%;}.nb.e > .wc{align-self:flex-start;}.nb.e.ct{justify-content:flex-start;}.nb.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.nb.e.cb{justify-content:flex-end;}.nb.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.nb.e.cr{align-items:flex-end;}.nb.e > .s.ar{align-self:flex-end;}.nb.e.cl{align-items:flex-start;}.nb.e > .s.al{align-self:flex-start;}.nb.e.ccx{align-items:center;}.nb.e > .s.cx{align-self:center;}.nb.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.nb.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.nb.a{position:absolute;bottom:100%;left:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.a > .hf{height:auto;}.nb.a > .wf{width:100%;}.nb.a > *{pointer-events:auto;}.nb.b{position:absolute;bottom:0;left:0;height:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.b > *{pointer-events:auto;}.nb.b > .hf{height:auto;}.nb.or{position:absolute;left:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.or > *{pointer-events:auto;}.nb.ol{position:absolute;right:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.ol > *{pointer-events:auto;}.nb.fr{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;pointer-events:none;}.nb.fr > *{pointer-events:auto;}.nb.bh{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;z-index:0;pointer-events:none;}.nb.bh > *{pointer-events:auto;}.s{position:relative;border:none;flex-shrink:0;display:flex;flex-direction:row;flex-basis:auto;resize:none;font-feature-settings:inherit;box-sizing:border-box;margin:0;padding:0;border-width:0;border-style:solid;font-size:inherit;color:inherit;font-family:inherit;line-height:1;font-weight:inherit;text-decoration:none;font-style:inherit;}.s.wrp{flex-wrap:wrap;}.s.notxt{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;}.s.cptr{cursor:pointer;}.s.ctxt{cursor:text;}.s.ppe{pointer-events:none !important;}.s.cpe{pointer-events:auto !important;}.s.clr{opacity:0;}.s.oq{opacity:1;}.s.hvclr:hover{opacity:0;}.s.hvoq:hover{opacity:1;}.s.fcsclr:focus{opacity:0;}.s.fcsoq:focus{opacity:1;}.s.atvclr:active{opacity:0;}.s.atvoq:active{opacity:1;}.s.ts{transition:transform 160ms, opacity 160ms, filter 160ms, background-color 160ms, color 160ms, font-size 160ms;}.s.sb{overflow:auto;flex-shrink:1;}.s.sbx{overflow-x:auto;}.s.sbx.r{flex-shrink:1;}.s.sby{overflow-y:auto;}.s.sby.c{flex-shrink:1;}.s.sby.e{flex-shrink:1;}.s.cp{overflow:hidden;}.s.cpx{overflow-x:hidden;}.s.cpy{overflow-y:hidden;}.s.wc{width:auto;}.s.bn{border-width:0;}.s.bd{border-style:dashed;}.s.bdt{border-style:dotted;}.s.bs{border-style:solid;}.s.t{white-space:pre;display:inline-block;}.s.it{line-height:1.05;background:transparent;}.s.e{display:flex;flex-direction:column;white-space:pre;}.s.e.hbh{z-index:0;}.s.e.hbh > .bh{z-index:-1;}.s.e.sbt > .t.hf{flex-grow:0;}.s.e.sbt > .t.wf{align-self:auto !important;}.s.e > .hc{height:auto;}.s.e > .hf{flex-grow:100000;}.s.e > .wf{width:100%;}.s.e > .wfp{width:100%;}.s.e > .wc{align-self:flex-start;}.s.e.ct{justify-content:flex-start;}.s.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.s.e.cb{justify-content:flex-end;}.s.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.s.e.cr{align-items:flex-end;}.s.e > .s.ar{align-self:flex-end;}.s.e.cl{align-items:flex-start;}.s.e > .s.al{align-self:flex-start;}.s.e.ccx{align-items:center;}.s.e > .s.cx{align-self:center;}.s.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.s.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r{display:flex;flex-direction:row;}.s.r > .s{flex-basis:0%;}.s.r > .s.we{flex-basis:auto;}.s.r > .s.lnk{flex-basis:auto;}.s.r > .hf{align-self:stretch !important;}.s.r > .hfp{align-self:stretch !important;}.s.r > .wf{flex-grow:100000;}.s.r > .ctr{flex-grow:0;flex-basis:auto;align-self:stretch;}.s.r > u:first-of-type.acr{flex-grow:1;}.s.r > s:first-of-type.accx{flex-grow:1;}.s.r > s:first-of-type.accx > .cx{margin-left:auto !important;}.s.r > s:last-of-type.accx{flex-grow:1;}.s.r > s:last-of-type.accx > .cx{margin-right:auto !important;}.s.r > s:only-of-type.accx{flex-grow:1;}.s.r > s:only-of-type.accx > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r > s:last-of-type.accx ~ u{flex-grow:0;}.s.r > u:first-of-type.acr ~ s.accx{flex-grow:0;}.s.r.ct{align-items:flex-start;}.s.r > .s.at{align-self:flex-start;}.s.r.cb{align-items:flex-end;}.s.r > .s.ab{align-self:flex-end;}.s.r.cr{justify-content:flex-end;}.s.r.cl{justify-content:flex-start;}.s.r.ccx{justify-content:center;}.s.r.ccy{align-items:center;}.s.r > .s.cy{align-self:center;}.s.r.sev{justify-content:space-between;}.s.c{display:flex;flex-direction:column;}.s.c > .s{flex-basis:0%;}.s.c > .s.he{flex-basis:auto;}.s.c > .s.c{flex-basis:auto;}.s.c > .hf{flex-grow:100000;}.s.c > .wf{width:100%;}.s.c > .wfp{width:100%;}.s.c > .wc{align-self:flex-start;}.s.c > u:first-of-type.acb{flex-grow:1;}.s.c > s:first-of-type.accy{flex-grow:1;}.s.c > s:first-of-type.accy > .cy{margin-top:auto !important;margin-bottom:0 !important;}.s.c > s:last-of-type.accy{flex-grow:1;}.s.c > s:last-of-type.accy > .cy{margin-bottom:auto !important;margin-top:0 !important;}.s.c > s:only-of-type.accy{flex-grow:1;}.s.c > s:only-of-type.accy > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.c > s:last-of-type.accy ~ u{flex-grow:0;}.s.c > u:first-of-type.acb ~ s.accy{flex-grow:0;}.s.c.ct{justify-content:flex-start;}.s.c > .s.at{margin-bottom:auto;}.s.c.cb{justify-content:flex-end;}.s.c > .s.ab{margin-top:auto;}.s.c.cr{align-items:flex-end;}.s.c > .s.ar{align-self:flex-end;}.s.c.cl{align-items:flex-start;}.s.c > .s.al{align-self:flex-start;}.s.c.ccx{align-items:center;}.s.c > .s.cx{align-self:center;}.s.c.ccy{justify-content:center;}.s.c > .ctr{flex-grow:0;flex-basis:auto;width:100%;align-self:stretch !important;}.s.c.sev{justify-content:space-between;}.s.g{display:-ms-grid;}.s.g > .gp > .s{width:100%;}@supports (display:grid) {.s.g{display:grid;
+}}.s.g > .s.at{justify-content:flex-start;}.s.g > .s.ab{justify-content:flex-end;}.s.g > .s.ar{align-items:flex-end;}.s.g > .s.al{align-items:flex-start;}.s.g > .s.cx{align-items:center;}.s.g > .s.cy{justify-content:center;}.s.pg{display:block;}.s.pg > .s:first-child{margin:0 !important;}.s.pg > .s.al:first-child + .s{margin:0 !important;}.s.pg > .s.ar:first-child + .s{margin:0 !important;}.s.pg > .s.ar{float:right;}.s.pg > .s.ar::after{content:"";display:table;clear:both;}.s.pg > .s.al{float:left;}.s.pg > .s.al::after{content:"";display:table;clear:both;}.s.iml{white-space:pre-wrap;height:100%;width:100%;background-color:transparent;}.s.implw.e{flex-basis:auto;}.s.imlp{white-space:pre-wrap;cursor:text;}.s.imlp > .imlf{white-space:pre-wrap;color:transparent;}.s.p{display:block;white-space:normal;}.s.p.hbh{z-index:0;}.s.p.hbh > .bh{z-index:-1;}.s.p > .t{display:inline;white-space:normal;}.s.p > .e{display:inline;white-space:normal;}.s.p > .e.fr{display:flex;}.s.p > .e.bh{display:flex;}.s.p > .e.a{display:flex;}.s.p > .e.b{display:flex;}.s.p > .e.or{display:flex;}.s.p > .e.ol{display:flex;}.s.p > .e > .t{display:inline;white-space:normal;}.s.p > .e > .e > .t{display:inline;white-space:normal;}.s.p > .r{display:inline-flex;}.s.p > .c{display:inline-flex;}.s.p > .g{display:inline-grid;}.s.p > .s.ar{float:right;}.s.p > .s.al{float:left;}.s.hidden{display:none;}.s.w1{font-weight:100;}.s.w2{font-weight:200;}.s.w3{font-weight:300;}.s.w4{font-weight:400;}.s.w5{font-weight:500;}.s.w6{font-weight:600;}.s.w7{font-weight:700;}.s.w8{font-weight:800;}.s.w9{font-weight:900;}.s.i{font-style:italic;}.s.sk{text-decoration:line-through;}.s.u{text-decoration:underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.u.sk{text-decoration:line-through underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.tun{font-style:normal;}.s.tj{text-align:justify;}.s.tja{text-align:justify-all;}.s.tc{text-align:center;}.s.tr{text-align:right;}.s.tl{text-align:left;}.s.modal{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;}.border-0{border-width:0px;}.border-1{border-width:1px;}.border-2{border-width:2px;}.border-3{border-width:3px;}.border-4{border-width:4px;}.border-5{border-width:5px;}.border-6{border-width:6px;}.font-size-8{font-size:8px;}.font-size-9{font-size:9px;}.font-size-10{font-size:10px;}.font-size-11{font-size:11px;}.font-size-12{font-size:12px;}.font-size-13{font-size:13px;}.font-size-14{font-size:14px;}.font-size-15{font-size:15px;}.font-size-16{font-size:16px;}.font-size-17{font-size:17px;}.font-size-18{font-size:18px;}.font-size-19{font-size:19px;}.font-size-20{font-size:20px;}.font-size-21{font-size:21px;}.font-size-22{font-size:22px;}.font-size-23{font-size:23px;}.font-size-24{font-size:24px;}.font-size-25{font-size:25px;}.font-size-26{font-size:26px;}.font-size-27{font-size:27px;}.font-size-28{font-size:28px;}.font-size-29{font-size:29px;}.font-size-30{font-size:30px;}.font-size-31{font-size:31px;}.font-size-32{font-size:32px;}.p-0{padding:0px;}.p-1{padding:1px;}.p-2{padding:2px;}.p-3{padding:3px;}.p-4{padding:4px;}.p-5{padding:5px;}.p-6{padding:6px;}.p-7{padding:7px;}.p-8{padding:8px;}.p-9{padding:9px;}.p-10{padding:10px;}.p-11{padding:11px;}.p-12{padding:12px;}.p-13{padding:13px;}.p-14{padding:14px;}.p-15{padding:15px;}.p-16{padding:16px;}.p-17{padding:17px;}.p-18{padding:18px;}.p-19{padding:19px;}.p-20{padding:20px;}.p-21{padding:21px;}.p-22{padding:22px;}.p-23{padding:23px;}.p-24{padding:24px;}.v-smcp{font-variant:small-caps;}.v-smcp-off{font-variant:normal;}.v-zero{font-feature-settings:"zero";}.v-zero-off{font-feature-settings:"zero" 0;}.v-onum{font-feature-settings:"onum";}.v-onum-off{font-feature-settings:"onum" 0;}.v-liga{font-feature-settings:"liga";}.v-liga-off{font-feature-settings:"liga" 0;}.v-dlig{font-feature-settings:"dlig";}.v-dlig-off{font-feature-settings:"dlig" 0;}.v-ordn{font-feature-settings:"ordn";}.v-ordn-off{font-feature-settings:"ordn" 0;}.v-tnum{font-feature-settings:"tnum";}.v-tnum-off{font-feature-settings:"tnum" 0;}.v-afrc{font-feature-settings:"afrc";}.v-afrc-off{font-feature-settings:"afrc" 0;}.v-frac{font-feature-settings:"frac";}.v-frac-off{font-feature-settings:"frac" 0;}</style></div><div><style>
+.ff-roboto.cap, .ff-roboto .cap {line-height: 1;} .ff-roboto.cap> .t, .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway .ff-roboto.cap, .ff-raleway .ff-roboto .cap {line-height: 1;} .ff-raleway .ff-roboto.cap> .t, .ff-raleway .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}
+.ff-roboto .ff-raleway.cap, .ff-roboto .ff-raleway .cap {line-height: 1;} .ff-roboto .ff-raleway.cap> .t, .ff-roboto .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway.cap, .ff-raleway .cap {line-height: 1;} .ff-raleway.cap> .t, .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.font-size-36{
+  font-size: 36px;
+}.ff-raleway{
+  font-family: "Raleway";
+  font-feature-settings: ;
+  font-variant: normal;
+}.fc-0-0-0-153{
+  color: rgba(0,0,0,0.6);
+}.spacing-5-5.r > .s + .s{
+  margin-left: 5px;
+}.spacing-5-5.wrp.r > .s{
+  margin: 2.5px 2.5px;
+}.spacing-5-5.c > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .al{
+  margin-right: 5px;
+}.spacing-5-5.pg > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p{
+  line-height: calc(1em + 5px);
+}textarea.s.spacing-5-5{
+  line-height: calc(1em + 5px);
+  height: calc(100% + 5px);
+}.spacing-5-5.p > .al{
+  margin-right: 5px;
+}.spacing-5-5.p > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -2px;
+}.spacing-5-5.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -2px;
+}.width-px-70{
+  width: 70px;
+}.spacing-10-10.r > .s + .s{
+  margin-left: 10px;
+}.spacing-10-10.wrp.r > .s{
+  margin: 5px 5px;
+}.spacing-10-10.c > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .al{
+  margin-right: 10px;
+}.spacing-10-10.pg > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p{
+  line-height: calc(1em + 10px);
+}textarea.s.spacing-10-10{
+  line-height: calc(1em + 10px);
+  height: calc(100% + 10px);
+}.spacing-10-10.p > .al{
+  margin-right: 10px;
+}.spacing-10-10.p > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -5px;
+}.spacing-10-10.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -5px;
+}.max-width-800{
+  max-width: 800px;
+}.spacing-40-40.r > .s + .s{
+  margin-left: 40px;
+}.spacing-40-40.wrp.r > .s{
+  margin: 20px 20px;
+}.spacing-40-40.c > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .al{
+  margin-right: 40px;
+}.spacing-40-40.pg > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p{
+  line-height: calc(1em + 40px);
+}textarea.s.spacing-40-40{
+  line-height: calc(1em + 40px);
+  height: calc(100% + 40px);
+}.spacing-40-40.p > .al{
+  margin-right: 40px;
+}.spacing-40-40.p > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+}.spacing-40-40.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -20px;
+}.p-30{
+  padding: 30px 30px 30px 30px;
+}.fc-5-117-230-255{
+  color: rgba(5,117,230,1);
+}.width-px-22{
+  width: 22px;
+}.spacing-15-15.r > .s + .s{
+  margin-left: 15px;
+}.spacing-15-15.wrp.r > .s{
+  margin: 7.5px 7.5px;
+}.spacing-15-15.c > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .al{
+  margin-right: 15px;
+}.spacing-15-15.pg > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p{
+  line-height: calc(1em + 15px);
+}textarea.s.spacing-15-15{
+  line-height: calc(1em + 15px);
+  height: calc(100% + 15px);
+}.spacing-15-15.p > .al{
+  margin-right: 15px;
+}.spacing-15-15.p > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -7px;
+}.spacing-15-15.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -7px;
+}.spacing-16-16.r > .s + .s{
+  margin-left: 16px;
+}.spacing-16-16.wrp.r > .s{
+  margin: 8px 8px;
+}.spacing-16-16.c > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .al{
+  margin-right: 16px;
+}.spacing-16-16.pg > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p{
+  line-height: calc(1em + 16px);
+}textarea.s.spacing-16-16{
+  line-height: calc(1em + 16px);
+  height: calc(100% + 16px);
+}.spacing-16-16.p > .al{
+  margin-right: 16px;
+}.spacing-16-16.p > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+}.spacing-16-16.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -8px;
+}.bc-40-80-40-102{
+  border-color: rgba(40,80,40,0.4);
+}.b-0-0-1-0{
+  border-width: 0px 0px 1px 0px;
+}.p-25-4{
+  padding: 4px 25px 4px 25px;
+}.bg-grad-51-0-242-96-255-5-117-230-255{
+  background-image: linear-gradient(0.2rad, rgba(0,242,96,1), rgba(5,117,230,1));
+}.height-px-4px{
+  height : 4px;
+}.fc-0-0-0-204{
+  color: rgba(0,0,0,0.8);
+}.ff-roboto{
+  font-family: "Roboto";
+  font-feature-settings: ;
+  font-variant: normal;
+}.bg-255-255-255-0{
+  background-color: rgba(255,255,255,0);
+}.focus-within:focus-within{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}.s:focus .focusable, .s.focusable:focus{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}</style></div><div class="hc s c wf ct cl"><div class="hc s c wf ct cl"><div class="he height-px-4px bg-grad-51-0-242-96-255-5-117-230-255 s e wf"></div><nav class="hc p-25-4 sev b-0-0-1-0 bc-40-80-40-102 s r wf cl ccy"><a class="hc s e wc ccx ccy lnk" href="/" rel="noopener noreferrer"><div class="hc font-size-30 spacing-16-16 s r wc cl ccy"><div class="hc s e wc"><svg version="1.1" viewBox="251.0485 144.52063 56.114286 74.5" width="30px" height="74.5"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="10%" style="stop-color:rgba(1.96%,45.88%,90.2%,1);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgba(0%,94.9%,37.65%,1);stop-opacity:1"></stop></linearGradient></defs><metadata></metadata><g id="Canvas_11" stroke="none" fill="url(#grad1)" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none"><g id="Canvas_11: Layer 1"><g id="Group_38"><g id="Graphic_32"><path d="M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g><g id="Line_34"><line x1="266.07286" y1="182.8279" x2="290.75465" y2="183.00997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_35"><line x1="266.07286" y1="191.84156" x2="290.75465" y2="192.02363" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_36"><line x1="266.07286" y1="200.85522" x2="290.75465" y2="201.0373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_37"><line x1="266.07286" y1="164.80058" x2="278.3874" y2="164.94049" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g></g></g></g></svg></div><div class="s t wc hc">confusingbits</div></div></a><div class="hc spacing-15-15 s r wc cl ccy"><a class="hc s e wc ccx ccy lnk" href="https://github.com/confusingbits" rel="noopener noreferrer" target="_blank"><div class="we width-px-22 fc-5-117-230-255 s e ic"><img class="we width-px-22 s e" src="images/github.svg" alt="Github repo"></div></a><a class="hc s e wc ccx ccy lnk" href="about" rel="noopener noreferrer"><div class="s t wf hf">About</div></a><a class="hc fc-5-117-230-255 s e wc ccx ccy lnk u" href="blog" rel="noopener noreferrer"><div class="s t wf hf">Blog</div></a></div></nav></div><main class="hc p-30 spacing-40-40 ah cx s c max-width-800 wf ct cl"><div class="hc spacing-10-10 s c wc ct cl"><div class="hc spacing-10-10 s r wc cl ccy"><div class="we width-px-70 s e ic avatar"><img class="we width-px-70 s e" src="images/author/profilepic.jpg" alt="Corey Thompson"></div><div class="hc spacing-10-10 s c wf ct cl"><div class="spacing-5-5 w7 font-size-24 s p wf"><div class="s t wc hc">Corey Thompson</div></div><div class="spacing-5-5 font-size-16 s p wf"><div class="s t wc hc">Software engineer and video game nerd</div></div></div></div></div><div class="hc font-size-16 fc-0-0-0-153 s e wc"><div class="s t wf hf">April 24th, 2022</div></div><h1 class="spacing-5-5 w7 ff-raleway font-size-36 tc s p wf"><div class="s t wc hc">'Thinking Fast and Slow" by Daniel Kahneman
+</div></h1><div class="s e wf ic"><img class="s e wf" src="images/thinking-fast-and-slow-by-daniel-kahneman.jpg" alt="Article cover photo"></div><div class="spacing-5-5 s p wf"><div><h3>Transcript</h3><p><em>This transcript was automatically generated by YouTube, so there may (will) be some (many) errors.</em></p><blockquote><p>well</p><p>okay</p><p>so</p><p>welcome back</p><p>to another edition of 
+cory's unnamed book review show</p><p>confusing book reviews i don't know what</p><p>we're calling this but 
+yeah it's been i guess three weeks 
+since i did my last batch so i just</p><p>wanted to do like a quick update and</p><p>i'll probably do that at the start of</p><p>each of these so we're going to do</p><p>another batch</p><p>so you're going to see like for the next</p><p>couple weeks you're going to see me</p><p>wearing this i don't wear the same thing</p><p>every day we're recording it all at once</p><p>but 
+i think we're going to do a little bit</p><p>of format change i think we're probably</p><p>we've been doing like three books 
+probably gonna go up to four books that</p><p>way i could just batch in a month you</p><p>know</p><p>just to make it easy for me to think</p><p>and and i'm also going to start</p><p>teasing the next</p><p>one of the next month's books</p><p>at the end of the book review so</p><p>i've got to get this</p><p>spill i cleaned up we've got to say</p><p>this like three two more times</p><p>okay so yeah yeah</p><p>i don't know what i'm doing</p><p>we'll figure it out together</p><p>but</p><p>yeah so here's our our our next 
+book review</p><p>[Music]</p><p>right now</p><p>we're gonna start with this one because</p><p>this is the meaty one</p><p>thinking fast and slow by</p><p>daniel kaneman</p><p>this is a winner of nobel prize in</p><p>economics</p><p>so this is a</p><p>psychology</p><p>book and for those you who told me my</p><p>opinion on psychology</p><p>the fact that i'm reading this book</p><p>is probably shocking</p><p>[Laughter]</p><p>so</p><p>yeah i i came to this book because i</p><p>i went on like i don't know if you've</p><p>been paying attention</p><p>but i kind of been on a productivity</p><p>kick and i think</p><p>i think we're about half way through</p><p>the</p><p>productivity guru books</p><p>that i bought</p><p>about like a dozen or something</p><p>something ridiculous so</p><p>we're after after we get done with</p><p>dispatch we'll be like halfway through</p><p>that that initial bachelor book and no</p><p>more productivity after that</p><p>we'll figure out some a different</p><p>non-fiction category to the</p><p>sprinkle throughout and coming up 
+we'll also be doing some classics</p><p>and probably some modern modern</p><p>books just modern reading so you know</p><p>maybe</p><p>was it 50 shades of grey maybe we'll</p><p>read that</p><p>[Laughter]</p><p>but yeah so we'll</p><p>we'll throw in some modern stuff some</p><p>classics</p><p>and and then it won't be all</p><p>non-fiction like it has been</p><p>so yeah the book thinking fast and slow</p><p>i came across this because all of the</p><p>all of the 
+booktube</p><p>people</p><p>productivity guru people on youtube</p><p>kept talking about this book and it was</p><p>showing up on amazon like all the time</p><p>every time i go to</p><p>order a book it would be up there hey</p><p>you should read this follow up</p><p>it's a it's fairly substantial volume</p><p>of course i got the hardcover</p><p>it lays i mean it's pretty decent</p><p>right</p><p>it's pretty flat it's</p><p>not bad</p><p>i i enjoyed reading the book even for</p><p>hardcover because yeah the reason why i</p><p>show that is because sometimes</p><p>hardcovers are really</p><p>stiff and they don't lay flat and it's</p><p>it's annoying to read you're like doing</p><p>this</p><p>you definitely read the page because</p><p>that's as far as you can get off nobody</p><p>wants that</p><p>this is this is this was a decent i i</p><p>found it comfortable to read even the</p><p>hardcover 
+so</p><p>yeah</p><p>35</p><p>i really need to pay attention to how</p><p>much these books cost</p><p>an expensive hobby apparently</p><p>it's simultaneously the most expensive</p><p>hobby if you're buying like all her</p><p>covers and also the least expensive if</p><p>you're going to the library like</p><p>any sane individual that doesn't have</p><p>the need to collect books</p><p>hardcover books</p><p>so</p><p>i want to be 80 years old and in my</p><p>my lounge</p><p>my office just surrounded by books</p><p>grandkids hey there grandpappy or you</p><p>read all these books and i'm like i sure</p><p>have</p><p>it's not gonna happen</p><p>let me dream</p><p>so yeah 
+it is</p><p>what's the 500 pages but</p><p>about</p><p>the last 15</p><p>10 or 15</p><p>of it</p><p>is appendix so this</p><p>right here this this part</p><p>is appendix</p><p>so it's mostly that's all just like</p><p>references and</p><p>stuff that i never got around to reading</p><p>this is not a quick read</p><p>this was</p><p>it's a good book let's put that out</p><p>front it's a very</p><p>interesting</p><p>book very thought provoking book</p><p>but it is</p><p>there's always</p><p>sometimes popular science books</p><p>can either go one or two directions one</p><p>they get ri they get really too</p><p>technical</p><p>and it gets bogged down into technology</p><p>like if you read anything like</p><p>by roger penrose or something like in</p><p>the physics popular physics or whatever</p><p>by roger penrose</p><p>i got one of the books road to reality</p><p>and that book was a slog</p><p>this is</p><p>closer to that 
+very interesting</p><p>and a lot of people recommend it maybe</p><p>it's just me maybe it's just me</p><p>but i got bogged down and i could not go</p><p>more than a chapter a day which is</p><p>atrociously slow for me 
+i usually i i don't hold myself to it</p><p>but i usually try to get</p><p>a book read one book a week</p><p>that's the goal i don't i don't stress</p><p>if i don't hit it but</p><p>this this thing took like a month</p><p>six weeks or something just</p><p>especially once i got to the middle part</p><p>he goes through everything the the</p><p>initial thesis you go through that</p><p>really quickly and then</p><p>he goes through and just just like you</p><p>said your thesis and then you you do</p><p>your supporting arguments and that's</p><p>basically what he does is he goes</p><p>through and lists every single</p><p>supporting argument for for his thesis</p><p>how it plays out from his his he's got</p><p>this this</p><p>two</p><p>system</p><p>model of</p><p>thinking there's a there's a fast quick</p><p>assessment system</p><p>that is mostly accurate but sometimes</p><p>like wildly inaccurate and then there's</p><p>the slow system</p><p>that is more methodical but is</p><p>but is rarely used it's usually</p><p>usually either</p><p>the the first system tries to trick the</p><p>second system into not being activated</p><p>or something like that yeah so the</p><p>system a and system</p><p>that's the</p><p>thinking fast and slow that's the</p><p>the fastest on minnesota so fast this</p><p>one would be like catching the ball or</p><p>whatever the slow would be</p><p>calculating the trajectory you know that</p><p>kind of stuff</p><p>i am not going to be able to make the</p><p>arguments</p><p>of this book i will not be able to</p><p>summarize it for you</p><p>it is technical</p><p>it's good</p><p>you don't need to be like a psychology</p><p>you don't need to be super smart to read</p><p>it i'm just saying that</p><p>it takes a while to get through</p><p>all of the</p><p>details i found that i got maybe a third</p><p>of the way through it</p><p>and he started getting through start</p><p>elaborating on all the systems and how</p><p>they arrived at the supporting evidence</p><p>for that for that conclusion of</p><p>why i think things work the way that</p><p>that he's saying that it works</p><p>all of it's</p><p>backed up</p><p>by at least cited by him as backed up</p><p>by research in particular ways cites</p><p>people and research and</p><p>appendix and</p><p>and all that jazz and this dude is a</p><p>nobel whatever guy i mean that doesn't</p><p>mean he's</p><p>doesn't mean he's not full of but i</p><p>mean it's a pretty decent quality</p><p>indicator</p><p>so</p><p>yeah the</p><p>so yeah he goes through and then about a</p><p>third away book and then from there on</p><p>out i was like in a chapter a night</p><p>and i would just be and it could have</p><p>just been i was stressed at work</p><p>or</p><p>something or whatever and i just every</p><p>night i would get to read it and i would</p><p>just i would be</p><p>just trying to get to the end of the</p><p>chapter so i can like okay</p><p>i got i got my reps in for the night</p><p>and that's that's about all i could do</p><p>for weeks</p><p>there's i think 20 something check like</p><p>38 no 38 chapters 39 chapters</p><p>38 chapters yeah</p><p>and i'll say from like chapter 10 all of</p><p>which was like one</p><p>one chapter at a time 
+there is a lot of</p><p>interesting things the thing is this is</p><p>this would be a book that i would</p><p>probably have to</p><p>sit i would have to sit on for a while</p><p>and come back to 
+meaning like i read the book</p><p>but i don't know how much of it i</p><p>absorbed because it's</p><p>like i said it's dense i mean when i say</p><p>dense i don't mean it's hard to read i</p><p>mean it's there's so much to unpack</p><p>and and figure out how</p><p>how that works like in practice like in</p><p>my own life</p><p>or or in my own experience so it's</p><p>it's really</p><p>i had a hard time</p><p>translating what was being written into</p><p>my own experience and unwrapping it</p><p>and i could only do that like in a</p><p>chapter a time and but even then it was</p><p>very very poor i think most of the</p><p>chapters</p><p>vast majority of the chapters i would</p><p>say i've kind of mostly forgotten</p><p>what was actually said i'm sure if i</p><p>read it again i'm like oh yeah yeah i</p><p>remember what he was saying there but</p><p>the point is this is</p><p>you're going to see a bunch of people</p><p>saying to read this book but this is not</p><p>it's not a quick read this is not a</p><p>this is not light reading</p><p>it's not</p><p>it's not scientific reading meaning it's</p><p>not technical</p><p>reading</p><p>there are he does cite some stuff for</p><p>you to go peruse further but</p><p>it's not like you need to</p><p>be a psychology major or</p><p>or even just be scientifically minded it</p><p>is worded in laban's terms and i think</p><p>understandable on those terms but</p><p>it 
+he does a good job of putting it in</p><p>everyday language but it's just it's a</p><p>really dense topic that takes a little</p><p>while to</p><p>to un</p><p>unravel everything what it means</p><p>i might have even said that</p><p>you should probably skip this book</p><p>but i think there's probably at least</p><p>one chapter for many people that's</p><p>really going to resonate with</p><p>with you</p><p>about some</p><p>flaw in your thinking that you may have</p><p>not considered before</p><p>and for me</p><p>i had a huge like</p><p>you know</p><p>aha moment i was like oh wait</p><p>that's really</p><p>freaking valuable so he goes in the</p><p>in this particular i forget</p><p>he has names for all this stuff</p><p>and the</p><p>honestly the details aren't important</p><p>but</p><p>in</p><p>its explaining that there's there's a</p><p>there was a basically a fallacy you</p><p>could think of it as a fallacy logical</p><p>fallacy that that that was being broken</p><p>mental fallacy that was mental trap or</p><p>mental bias yeah i guess that would be a</p><p>mental bias</p><p>psychological bias that was there was</p><p>that he was in play with and then he</p><p>gets near the inner chapter and he talks</p><p>about strategies about how to interrupt</p><p>these patterns and stuff like that and</p><p>avoid falling into the traps</p><p>and one of the things the thing that</p><p>like rung the bell for me was when he</p><p>talked about the concept of a</p><p>pre-mortem</p><p>so i did a lot of project work so</p><p>you know we'll have a a project that</p><p>we're going to build up and we'll have</p><p>to we'll have to scope it</p><p>and estimate it and and</p><p>and and talk with the client and plan it</p><p>all out and everything and then we</p><p>execute it and then we get it done and a</p><p>lot of times we'll do a postmortem to</p><p>say okay well what did we do good what</p><p>did we do bad how can do we do do better</p><p>that's normal the postmortem that's what</p><p>all the it's real it's real trendy in</p><p>tech circles to do a postmortem on the</p><p>project or something 
+so we'll commonly do that at least i'll</p><p>do that myself i'll be thinking well we</p><p>didn't do that quite right maybe we can</p><p>do something a little bit better</p><p>but 
+he introduced the topic of</p><p>my 
+my my legs shaking and so it's shaking</p><p>checking you guys</p><p>because i'm getting fidgety</p><p>ah add kicking in</p><p>that's 105.80</p><p>who knows</p><p>so we'll 
+he mentions the cost concept of a</p><p>pre-mortem which i found just like</p><p>boom</p><p>that was a big idea if there was nothing</p><p>else in this book</p><p>that was of any value that</p><p>i think that pre-mortal if i could keep</p><p>that stuck in my head</p><p>to remember to do a pre-mortem that</p><p>would be</p><p>hugely beneficial so the the idea of the</p><p>preform prevents you from getting into</p><p>yes mode</p><p>so there's always like a phase when</p><p>you're planning a project and you've</p><p>been planning and planning and planning</p><p>and there gets a point with early on</p><p>you could say no to stuff you could say</p><p>well that's this project didn't work</p><p>because we do this and we cancel the</p><p>project like outright because</p><p>it's very early we have very little</p><p>investment it's also kind of related to</p><p>the sunk cost fallacy</p><p>but after you get further into</p><p>the planning phases and you're</p><p>estimating things and talking and</p><p>hashing out with the clients eventually</p><p>everybody's all invested</p><p>in trying to get the project off the</p><p>floor</p><p>and like say you've been in rounds for</p><p>two months</p><p>back and forth and you've been doing</p><p>meetings like twice a week with the</p><p>client or whatever</p><p>and</p><p>you get to a point where you just want</p><p>to say yes everybody wants to say yes</p><p>because you don't want to be the one who</p><p>says well</p><p>there's this problem and that's the</p><p>thing that's going to like</p><p>and you don't even see it you don't even</p><p>think about the problems anymore you're</p><p>just trying to figure out how to get to</p><p>yes at that point and so the whole idea</p><p>of the the pre-mortem is</p><p>after you have</p><p>finally agreed</p><p>that the plan you have a plan you have</p><p>your estimate you have agreement over</p><p>whatever if you're working with a client</p><p>or something you have some some sort of</p><p>agreement and everybody's on board</p><p>before you do the final commitment</p><p>you all go wait everybody all the</p><p>stakeholders involved</p><p>say okay</p><p>if we were to look at our project in six</p><p>months a year or whatever</p><p>and we could imagine the things that had</p><p>gone wrong</p><p>in the future had gone wrong that would</p><p>totally kill this project or make it a</p><p>pain or whatever</p><p>what would those things be and have</p><p>everybody go through and come up</p><p>just like be creative and come up with</p><p>things</p><p>that</p><p>would have killed the project or or been</p><p>you know huge stumbling blocks for the</p><p>the project</p><p>and</p><p>by having everybody do it</p><p>you're talking you know negatively</p><p>whatever you have that that final check</p><p>that says okay</p><p>you know maybe somebody's brought up a</p><p>really valid point that nobody was</p><p>you know</p><p>that maybe somebody was afraid to say up</p><p>until now either because</p><p>maybe they were afraid or maybe nobody</p><p>was thinking because again that you're</p><p>trying to get to yes and i i had a</p><p>project</p><p>this last last year i guess</p><p>was last year</p><p>yeah last year we</p><p>were planning a project and</p><p>and we went back and forth with the</p><p>client a lot</p><p>trying to get a scope and initially i</p><p>was really i was just really trying to</p><p>nail down i was like let's make sure</p><p>we're doing it i was trying to limit the</p><p>scope limit the amount of things that we</p><p>were committing to doing</p><p>as much as possible but</p><p>the client kept pushing everybody was</p><p>wanting to get this off the ground the</p><p>client was she was like well we'll do</p><p>this and we won't have to worry about</p><p>that</p><p>you know</p><p>absolving me of my guilt in the back of</p><p>my mind</p><p>and eventually you know i guess probably</p><p>a month or two</p><p>goes on and then finally</p><p>you know i'm like okay yeah i think we</p><p>might be able to do this but if i was</p><p>being really honest if we had stopped at</p><p>that point we'd have made the agreement</p><p>and everything and then we said okay</p><p>what's the prebori would have been</p><p>able to go right back to all those</p><p>initial problems that i</p><p>had initially outlined that</p><p>that we still hadn't actually resolved</p><p>you know</p><p>and</p><p>and maybe maybe the project the</p><p>project's fine</p><p>but it was a lot rougher than it</p><p>probably should have been</p><p>if</p><p>we had been very clear</p><p>about that and we had that that</p><p>pre-mortem and this is the only project</p><p>that this is happening it's happened you</p><p>know</p><p>a few times with different clients where</p><p>you just get to a point where you you've</p><p>been</p><p>you're more trusting</p><p>the the the clients</p><p>i'm trying to think of the right words</p><p>you're more</p><p>trusting in the relationship betw with</p><p>the client and in the relationship with</p><p>the project the familiarity with the</p><p>project</p><p>then on its technical merits you know</p><p>the actual constraints i'm like we we've</p><p>got</p><p>six months of work to do in three months</p><p>i mean that's just not</p><p>feasible right we need to cut scope and</p><p>there's no</p><p>two ways about it</p><p>things like that</p><p>that was a huge bombshell whenever</p><p>whenever i read it i was like oh wow</p><p>that's</p><p>yeah</p><p>that's huge to to be able to put that in</p><p>explicit terms and and say okay this is</p><p>going to be an explicit part of our</p><p>process when we're doing planning is</p><p>we'll get to the end stage and then</p><p>we'll do you know explicit preborso</p><p>go all right how can this screw up we we</p><p>may have mentioned some of this stuff</p><p>before but how can this through up is it</p><p>still</p><p>an issue</p><p>or should we still proceed basically</p><p>how do we how do we</p><p>how do we undo all of this planning that</p><p>we've been doing that we talked to her</p><p>we hyped ourselves up for this thing</p><p>let's unhype ourselves</p><p>i think that's it's a fantastic idea</p><p>and that was the thing that was like a</p><p>lightning bolt whenever i read it and</p><p>paid reading this made slogging through</p><p>this thing because i'll be honest like i</p><p>got about halfway through this book and</p><p>i was like</p><p>let it in</p><p>but that's that's me because</p><p>i hate psychology guys i hate it</p><p>i hate it i</p><p>psychology and nutrition</p><p>all right there's two sciences that just</p><p>me</p><p>i do i do not</p><p>have very much respect for and it</p><p>economics psychology</p><p>nutrition and economics they all involve</p><p>humans</p><p>i wonder why i don't trust it</p><p>this is because the science is crap</p><p>but</p><p>it was a good book</p><p>i don't know how much of it is</p><p>but that one idea the free boredom i</p><p>really loved and for that alone</p><p>i will actually recommend the book have</p><p>i ever not recommended a book how did i</p><p>think about it</p><p>maybe i just love everything i read</p><p>so</p><p>yeah so thinking fast and slow down let</p><p>me do that let me do the spill we'll</p><p>read a little bit 
+from the the cover here let's hear</p><p>let's just read this</p><p>okay yeah i'm going to do this</p><p>in the highly test</p><p>anticipated thinking fast and slow</p><p>cayman takes us on the ground backing</p><p>toward the mind explain the two systems</p><p>that drive the way we think system one</p><p>is a fast intuitive and emotional</p><p>system two is slower and more delivered</p><p>more</p><p>logical came in exposes their</p><p>extraordinary capabilities and also the</p><p>faults and the biases of fast thinking</p><p>and reveals the pervasive influence of</p><p>intuitive impressions on our thoughts</p><p>and behaviors the impact of loss</p><p>aversion and overcompetence and</p><p>corporate strategies strategies and</p><p>difficulties of predicting what will</p><p>make us happy in the future the</p><p>challenges of properly farming risk at</p><p>work at home and profile effective</p><p>cognitive biases on everything from</p><p>playing the stock market to planning and</p><p>expectation each of these can be</p><p>understood only by knowing how the two</p><p>systems shape our adjustment and</p><p>decisions there's more in here but</p><p>that was that was the that was the</p><p>center</p><p>the center paragraph</p><p>yeah and then let's do the little</p><p>thing daniel cayman is eugene higgins</p><p>professor of psychology emeritus at</p><p>princeton university and professor of</p><p>psychology and public affairs emeritus</p><p>at princeton's woodrow wilson school of</p><p>public and international affairs he</p><p>received the 2002 nobel prize in</p><p>economic sciences for his primary work</p><p>with amos traversky</p><p>i guess that's with that right on</p><p>decision making</p><p>yes</p><p>good luck</p><p>don't pick it up</p><p>lightly oh and before we go i am</p><p>going to</p><p>so we're going from a three</p><p>book cycle three week cycle three book</p><p>week cycle</p><p>to a four book work cycle so</p><p>i'm going to recommend a book but for</p><p>this first one i'm going to recommend</p><p>two books so they'll have two two books</p><p>in the queue and</p><p>maybe you only read one book a week</p><p>or or one book</p><p>every two weeks or whatever your your</p><p>schedule is</p><p>you can pick one over the next</p><p>few reviews or whatever and 
+and pick one of the pick one of those up</p><p>okay so the 
+so i'm going to do</p><p>two books this time and then the next</p><p>couple videos because we're doing</p><p>i'm doing three today we'll have one</p><p>book at the end so the first</p><p>book that i'm actually</p><p>almost done with is how to not die</p><p>alone</p><p>because i am a</p><p>sad lonely person</p><p>who needs help</p><p>so yeah this is this is the</p><p>surprising science that will help you</p><p>find love by logan eric 
+i actually have one recommendation for</p><p>this but it just</p><p>i never read like</p><p>a dating book or whatever so i was like</p><p>well</p><p>pretty good so far</p><p>not a review but that's that's what's</p><p>i'm reading now so that'll be coming up</p><p>and then the other one so that's</p><p>so we're going to start on our cycle of</p><p>like nonfiction and then</p><p>classic and then like non-fiction and</p><p>whatever modern</p><p>fiction so</p><p>it's another one of my backlog of</p><p>english</p><p>lit books that i never read</p><p>that's a lot i had like i had like a</p><p>dozen books from college that i never</p><p>even bothered you you buy them all and</p><p>you go to the bookstore and they make</p><p>required reading and you never actually</p><p>read the books so</p><p>jamaica kincaid i think i actually</p><p>read a little bit of this book just</p><p>enough</p><p>the my wife the book report i</p><p>think i read like a chapter two in the</p><p>middle</p><p>and like i broke down one chapter or</p><p>something like that analyze it you know</p><p>like the color red indicates passion</p><p>you know your way through the</p><p>english composition</p><p>so yeah that's what's coming up is</p><p>jamaica concave by andy john it's just a</p><p>short book so</p><p>some of these books won't even take a</p><p>week to read so that's the way that you</p><p>can kind of catch up if you want to</p><p>catch up all right so that's that's</p><p>it for</p><p>for this book review i will see you</p><p>guys</p><p>next week with 
+the next</p><p>book guys</p></blockquote></div></div></main></div></div></body></html>

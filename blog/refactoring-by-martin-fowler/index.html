@@ -1,0 +1,423 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preload" href="content.json" as="fetch" crossorigin=""><base href="../../"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    } else {
+      console.log("No service worker registered.");
+    }</script><link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#ffffff"><meta name="application-name" content="confusingbits"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="confusingbits"><script defer="defer" src="main.js"></script><link rel="preload" href="main.js" as="script"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap);</style><style>.avatar img {
+  border-radius: 50%;
+}
+
+img[alt=blogimg] { width: 100%; }</style><title>Refactoring by Martin Fowler
+</title><meta name="generator" content="elm-pages v1.4.0"><link rel="alternate" type="application/rss+xml" href="/blog/feed.xml"><link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="canonical" href="https://confusingbits.com/blog/refactoring-by-martin-fowler"><meta name="description" content="An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+"><meta property="og:image" content="https://confusingbits.com/images/refactoring-by-martin-fowler.jpg"><meta property="og:image:secure_url" content="https://confusingbits.com/images/refactoring-by-martin-fowler.jpg"><meta property="og:image:alt" content="An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+"><meta property="og:title" content="Refactoring by Martin Fowler
+"><meta property="og:url" content="https://confusingbits.com/blog/refactoring-by-martin-fowler"><meta property="og:description" content="An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+"><meta property="og:site_name" content="confusingbits"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="Refactoring by Martin Fowler
+"><meta property="twitter:description" content="An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+"><meta property="twitter:image" content="https://confusingbits.com/images/refactoring-by-martin-fowler.jpg"><meta property="twitter:image:alt" content="An automatic transcription of the youtube video, Refactoring by Martin Fowler, generated from youtube captions.
+"><meta property="og:type" content="article"><meta property="article:published_time" content="2023-06-25"></head><body><div data-url="http://localhost:8000/blog/refactoring-by-martin-fowler" display="none"></div><div class="bg-255-255-255-0 font-size-20 ff-roboto fc-0-0-0-204 s e wf ui s e"><div><style>@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.s.r > .s { flex-basis: auto !important; } .s.r > .s.ctr { flex-basis: auto !important; }}
+input[type="search"],
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  background: transparent;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  width: 100%;
+  outline: dashed 1px;
+  height: 100%;
+  opacity: 0;
+}
+
+input[type=range]::-moz-range-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-ms-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical;  /* WebKit */
+}
+
+.explain {
+    border: 6px solid rgb(174, 121, 15) !important;
+}
+.explain > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+.ctr {
+    border: none !important;
+}
+.explain > .ctr > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s:focus{outline:none;}.ui{width:100%;height:auto;min-height:100%;z-index:0;}.ui.s.hf{height:100%;}.ui.s.hf > .hf{height:100%;}.ui > .fr.nb{position:fixed;}.nb{position:relative;border:none;display:flex;flex-direction:row;flex-basis:auto;}.nb.e{display:flex;flex-direction:column;white-space:pre;}.nb.e.hbh{z-index:0;}.nb.e.hbh > .bh{z-index:-1;}.nb.e.sbt > .t.hf{flex-grow:0;}.nb.e.sbt > .t.wf{align-self:auto !important;}.nb.e > .hc{height:auto;}.nb.e > .hf{flex-grow:100000;}.nb.e > .wf{width:100%;}.nb.e > .wfp{width:100%;}.nb.e > .wc{align-self:flex-start;}.nb.e.ct{justify-content:flex-start;}.nb.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.nb.e.cb{justify-content:flex-end;}.nb.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.nb.e.cr{align-items:flex-end;}.nb.e > .s.ar{align-self:flex-end;}.nb.e.cl{align-items:flex-start;}.nb.e > .s.al{align-self:flex-start;}.nb.e.ccx{align-items:center;}.nb.e > .s.cx{align-self:center;}.nb.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.nb.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.nb.a{position:absolute;bottom:100%;left:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.a > .hf{height:auto;}.nb.a > .wf{width:100%;}.nb.a > *{pointer-events:auto;}.nb.b{position:absolute;bottom:0;left:0;height:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.b > *{pointer-events:auto;}.nb.b > .hf{height:auto;}.nb.or{position:absolute;left:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.or > *{pointer-events:auto;}.nb.ol{position:absolute;right:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.ol > *{pointer-events:auto;}.nb.fr{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;pointer-events:none;}.nb.fr > *{pointer-events:auto;}.nb.bh{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;z-index:0;pointer-events:none;}.nb.bh > *{pointer-events:auto;}.s{position:relative;border:none;flex-shrink:0;display:flex;flex-direction:row;flex-basis:auto;resize:none;font-feature-settings:inherit;box-sizing:border-box;margin:0;padding:0;border-width:0;border-style:solid;font-size:inherit;color:inherit;font-family:inherit;line-height:1;font-weight:inherit;text-decoration:none;font-style:inherit;}.s.wrp{flex-wrap:wrap;}.s.notxt{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;}.s.cptr{cursor:pointer;}.s.ctxt{cursor:text;}.s.ppe{pointer-events:none !important;}.s.cpe{pointer-events:auto !important;}.s.clr{opacity:0;}.s.oq{opacity:1;}.s.hvclr:hover{opacity:0;}.s.hvoq:hover{opacity:1;}.s.fcsclr:focus{opacity:0;}.s.fcsoq:focus{opacity:1;}.s.atvclr:active{opacity:0;}.s.atvoq:active{opacity:1;}.s.ts{transition:transform 160ms, opacity 160ms, filter 160ms, background-color 160ms, color 160ms, font-size 160ms;}.s.sb{overflow:auto;flex-shrink:1;}.s.sbx{overflow-x:auto;}.s.sbx.r{flex-shrink:1;}.s.sby{overflow-y:auto;}.s.sby.c{flex-shrink:1;}.s.sby.e{flex-shrink:1;}.s.cp{overflow:hidden;}.s.cpx{overflow-x:hidden;}.s.cpy{overflow-y:hidden;}.s.wc{width:auto;}.s.bn{border-width:0;}.s.bd{border-style:dashed;}.s.bdt{border-style:dotted;}.s.bs{border-style:solid;}.s.t{white-space:pre;display:inline-block;}.s.it{line-height:1.05;background:transparent;}.s.e{display:flex;flex-direction:column;white-space:pre;}.s.e.hbh{z-index:0;}.s.e.hbh > .bh{z-index:-1;}.s.e.sbt > .t.hf{flex-grow:0;}.s.e.sbt > .t.wf{align-self:auto !important;}.s.e > .hc{height:auto;}.s.e > .hf{flex-grow:100000;}.s.e > .wf{width:100%;}.s.e > .wfp{width:100%;}.s.e > .wc{align-self:flex-start;}.s.e.ct{justify-content:flex-start;}.s.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.s.e.cb{justify-content:flex-end;}.s.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.s.e.cr{align-items:flex-end;}.s.e > .s.ar{align-self:flex-end;}.s.e.cl{align-items:flex-start;}.s.e > .s.al{align-self:flex-start;}.s.e.ccx{align-items:center;}.s.e > .s.cx{align-self:center;}.s.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.s.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r{display:flex;flex-direction:row;}.s.r > .s{flex-basis:0%;}.s.r > .s.we{flex-basis:auto;}.s.r > .s.lnk{flex-basis:auto;}.s.r > .hf{align-self:stretch !important;}.s.r > .hfp{align-self:stretch !important;}.s.r > .wf{flex-grow:100000;}.s.r > .ctr{flex-grow:0;flex-basis:auto;align-self:stretch;}.s.r > u:first-of-type.acr{flex-grow:1;}.s.r > s:first-of-type.accx{flex-grow:1;}.s.r > s:first-of-type.accx > .cx{margin-left:auto !important;}.s.r > s:last-of-type.accx{flex-grow:1;}.s.r > s:last-of-type.accx > .cx{margin-right:auto !important;}.s.r > s:only-of-type.accx{flex-grow:1;}.s.r > s:only-of-type.accx > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r > s:last-of-type.accx ~ u{flex-grow:0;}.s.r > u:first-of-type.acr ~ s.accx{flex-grow:0;}.s.r.ct{align-items:flex-start;}.s.r > .s.at{align-self:flex-start;}.s.r.cb{align-items:flex-end;}.s.r > .s.ab{align-self:flex-end;}.s.r.cr{justify-content:flex-end;}.s.r.cl{justify-content:flex-start;}.s.r.ccx{justify-content:center;}.s.r.ccy{align-items:center;}.s.r > .s.cy{align-self:center;}.s.r.sev{justify-content:space-between;}.s.c{display:flex;flex-direction:column;}.s.c > .s{flex-basis:0%;}.s.c > .s.he{flex-basis:auto;}.s.c > .s.c{flex-basis:auto;}.s.c > .hf{flex-grow:100000;}.s.c > .wf{width:100%;}.s.c > .wfp{width:100%;}.s.c > .wc{align-self:flex-start;}.s.c > u:first-of-type.acb{flex-grow:1;}.s.c > s:first-of-type.accy{flex-grow:1;}.s.c > s:first-of-type.accy > .cy{margin-top:auto !important;margin-bottom:0 !important;}.s.c > s:last-of-type.accy{flex-grow:1;}.s.c > s:last-of-type.accy > .cy{margin-bottom:auto !important;margin-top:0 !important;}.s.c > s:only-of-type.accy{flex-grow:1;}.s.c > s:only-of-type.accy > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.c > s:last-of-type.accy ~ u{flex-grow:0;}.s.c > u:first-of-type.acb ~ s.accy{flex-grow:0;}.s.c.ct{justify-content:flex-start;}.s.c > .s.at{margin-bottom:auto;}.s.c.cb{justify-content:flex-end;}.s.c > .s.ab{margin-top:auto;}.s.c.cr{align-items:flex-end;}.s.c > .s.ar{align-self:flex-end;}.s.c.cl{align-items:flex-start;}.s.c > .s.al{align-self:flex-start;}.s.c.ccx{align-items:center;}.s.c > .s.cx{align-self:center;}.s.c.ccy{justify-content:center;}.s.c > .ctr{flex-grow:0;flex-basis:auto;width:100%;align-self:stretch !important;}.s.c.sev{justify-content:space-between;}.s.g{display:-ms-grid;}.s.g > .gp > .s{width:100%;}@supports (display:grid) {.s.g{display:grid;
+}}.s.g > .s.at{justify-content:flex-start;}.s.g > .s.ab{justify-content:flex-end;}.s.g > .s.ar{align-items:flex-end;}.s.g > .s.al{align-items:flex-start;}.s.g > .s.cx{align-items:center;}.s.g > .s.cy{justify-content:center;}.s.pg{display:block;}.s.pg > .s:first-child{margin:0 !important;}.s.pg > .s.al:first-child + .s{margin:0 !important;}.s.pg > .s.ar:first-child + .s{margin:0 !important;}.s.pg > .s.ar{float:right;}.s.pg > .s.ar::after{content:"";display:table;clear:both;}.s.pg > .s.al{float:left;}.s.pg > .s.al::after{content:"";display:table;clear:both;}.s.iml{white-space:pre-wrap;height:100%;width:100%;background-color:transparent;}.s.implw.e{flex-basis:auto;}.s.imlp{white-space:pre-wrap;cursor:text;}.s.imlp > .imlf{white-space:pre-wrap;color:transparent;}.s.p{display:block;white-space:normal;}.s.p.hbh{z-index:0;}.s.p.hbh > .bh{z-index:-1;}.s.p > .t{display:inline;white-space:normal;}.s.p > .e{display:inline;white-space:normal;}.s.p > .e.fr{display:flex;}.s.p > .e.bh{display:flex;}.s.p > .e.a{display:flex;}.s.p > .e.b{display:flex;}.s.p > .e.or{display:flex;}.s.p > .e.ol{display:flex;}.s.p > .e > .t{display:inline;white-space:normal;}.s.p > .e > .e > .t{display:inline;white-space:normal;}.s.p > .r{display:inline-flex;}.s.p > .c{display:inline-flex;}.s.p > .g{display:inline-grid;}.s.p > .s.ar{float:right;}.s.p > .s.al{float:left;}.s.hidden{display:none;}.s.w1{font-weight:100;}.s.w2{font-weight:200;}.s.w3{font-weight:300;}.s.w4{font-weight:400;}.s.w5{font-weight:500;}.s.w6{font-weight:600;}.s.w7{font-weight:700;}.s.w8{font-weight:800;}.s.w9{font-weight:900;}.s.i{font-style:italic;}.s.sk{text-decoration:line-through;}.s.u{text-decoration:underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.u.sk{text-decoration:line-through underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.tun{font-style:normal;}.s.tj{text-align:justify;}.s.tja{text-align:justify-all;}.s.tc{text-align:center;}.s.tr{text-align:right;}.s.tl{text-align:left;}.s.modal{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;}.border-0{border-width:0px;}.border-1{border-width:1px;}.border-2{border-width:2px;}.border-3{border-width:3px;}.border-4{border-width:4px;}.border-5{border-width:5px;}.border-6{border-width:6px;}.font-size-8{font-size:8px;}.font-size-9{font-size:9px;}.font-size-10{font-size:10px;}.font-size-11{font-size:11px;}.font-size-12{font-size:12px;}.font-size-13{font-size:13px;}.font-size-14{font-size:14px;}.font-size-15{font-size:15px;}.font-size-16{font-size:16px;}.font-size-17{font-size:17px;}.font-size-18{font-size:18px;}.font-size-19{font-size:19px;}.font-size-20{font-size:20px;}.font-size-21{font-size:21px;}.font-size-22{font-size:22px;}.font-size-23{font-size:23px;}.font-size-24{font-size:24px;}.font-size-25{font-size:25px;}.font-size-26{font-size:26px;}.font-size-27{font-size:27px;}.font-size-28{font-size:28px;}.font-size-29{font-size:29px;}.font-size-30{font-size:30px;}.font-size-31{font-size:31px;}.font-size-32{font-size:32px;}.p-0{padding:0px;}.p-1{padding:1px;}.p-2{padding:2px;}.p-3{padding:3px;}.p-4{padding:4px;}.p-5{padding:5px;}.p-6{padding:6px;}.p-7{padding:7px;}.p-8{padding:8px;}.p-9{padding:9px;}.p-10{padding:10px;}.p-11{padding:11px;}.p-12{padding:12px;}.p-13{padding:13px;}.p-14{padding:14px;}.p-15{padding:15px;}.p-16{padding:16px;}.p-17{padding:17px;}.p-18{padding:18px;}.p-19{padding:19px;}.p-20{padding:20px;}.p-21{padding:21px;}.p-22{padding:22px;}.p-23{padding:23px;}.p-24{padding:24px;}.v-smcp{font-variant:small-caps;}.v-smcp-off{font-variant:normal;}.v-zero{font-feature-settings:"zero";}.v-zero-off{font-feature-settings:"zero" 0;}.v-onum{font-feature-settings:"onum";}.v-onum-off{font-feature-settings:"onum" 0;}.v-liga{font-feature-settings:"liga";}.v-liga-off{font-feature-settings:"liga" 0;}.v-dlig{font-feature-settings:"dlig";}.v-dlig-off{font-feature-settings:"dlig" 0;}.v-ordn{font-feature-settings:"ordn";}.v-ordn-off{font-feature-settings:"ordn" 0;}.v-tnum{font-feature-settings:"tnum";}.v-tnum-off{font-feature-settings:"tnum" 0;}.v-afrc{font-feature-settings:"afrc";}.v-afrc-off{font-feature-settings:"afrc" 0;}.v-frac{font-feature-settings:"frac";}.v-frac-off{font-feature-settings:"frac" 0;}</style></div><div><style>
+.ff-roboto.cap, .ff-roboto .cap {line-height: 1;} .ff-roboto.cap> .t, .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway .ff-roboto.cap, .ff-raleway .ff-roboto .cap {line-height: 1;} .ff-raleway .ff-roboto.cap> .t, .ff-raleway .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}
+.ff-roboto .ff-raleway.cap, .ff-roboto .ff-raleway .cap {line-height: 1;} .ff-roboto .ff-raleway.cap> .t, .ff-roboto .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway.cap, .ff-raleway .cap {line-height: 1;} .ff-raleway.cap> .t, .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.font-size-36{
+  font-size: 36px;
+}.ff-raleway{
+  font-family: "Raleway";
+  font-feature-settings: ;
+  font-variant: normal;
+}.fc-0-0-0-153{
+  color: rgba(0,0,0,0.6);
+}.spacing-5-5.r > .s + .s{
+  margin-left: 5px;
+}.spacing-5-5.wrp.r > .s{
+  margin: 2.5px 2.5px;
+}.spacing-5-5.c > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .al{
+  margin-right: 5px;
+}.spacing-5-5.pg > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p{
+  line-height: calc(1em + 5px);
+}textarea.s.spacing-5-5{
+  line-height: calc(1em + 5px);
+  height: calc(100% + 5px);
+}.spacing-5-5.p > .al{
+  margin-right: 5px;
+}.spacing-5-5.p > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -2px;
+}.spacing-5-5.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -2px;
+}.width-px-70{
+  width: 70px;
+}.spacing-10-10.r > .s + .s{
+  margin-left: 10px;
+}.spacing-10-10.wrp.r > .s{
+  margin: 5px 5px;
+}.spacing-10-10.c > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .al{
+  margin-right: 10px;
+}.spacing-10-10.pg > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p{
+  line-height: calc(1em + 10px);
+}textarea.s.spacing-10-10{
+  line-height: calc(1em + 10px);
+  height: calc(100% + 10px);
+}.spacing-10-10.p > .al{
+  margin-right: 10px;
+}.spacing-10-10.p > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -5px;
+}.spacing-10-10.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -5px;
+}.max-width-800{
+  max-width: 800px;
+}.spacing-40-40.r > .s + .s{
+  margin-left: 40px;
+}.spacing-40-40.wrp.r > .s{
+  margin: 20px 20px;
+}.spacing-40-40.c > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .al{
+  margin-right: 40px;
+}.spacing-40-40.pg > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p{
+  line-height: calc(1em + 40px);
+}textarea.s.spacing-40-40{
+  line-height: calc(1em + 40px);
+  height: calc(100% + 40px);
+}.spacing-40-40.p > .al{
+  margin-right: 40px;
+}.spacing-40-40.p > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+}.spacing-40-40.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -20px;
+}.p-30{
+  padding: 30px 30px 30px 30px;
+}.fc-5-117-230-255{
+  color: rgba(5,117,230,1);
+}.width-px-22{
+  width: 22px;
+}.spacing-15-15.r > .s + .s{
+  margin-left: 15px;
+}.spacing-15-15.wrp.r > .s{
+  margin: 7.5px 7.5px;
+}.spacing-15-15.c > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .al{
+  margin-right: 15px;
+}.spacing-15-15.pg > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p{
+  line-height: calc(1em + 15px);
+}textarea.s.spacing-15-15{
+  line-height: calc(1em + 15px);
+  height: calc(100% + 15px);
+}.spacing-15-15.p > .al{
+  margin-right: 15px;
+}.spacing-15-15.p > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -7px;
+}.spacing-15-15.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -7px;
+}.spacing-16-16.r > .s + .s{
+  margin-left: 16px;
+}.spacing-16-16.wrp.r > .s{
+  margin: 8px 8px;
+}.spacing-16-16.c > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .al{
+  margin-right: 16px;
+}.spacing-16-16.pg > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p{
+  line-height: calc(1em + 16px);
+}textarea.s.spacing-16-16{
+  line-height: calc(1em + 16px);
+  height: calc(100% + 16px);
+}.spacing-16-16.p > .al{
+  margin-right: 16px;
+}.spacing-16-16.p > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+}.spacing-16-16.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -8px;
+}.bc-40-80-40-102{
+  border-color: rgba(40,80,40,0.4);
+}.b-0-0-1-0{
+  border-width: 0px 0px 1px 0px;
+}.p-25-4{
+  padding: 4px 25px 4px 25px;
+}.bg-grad-51-0-242-96-255-5-117-230-255{
+  background-image: linear-gradient(0.2rad, rgba(0,242,96,1), rgba(5,117,230,1));
+}.height-px-4px{
+  height : 4px;
+}.fc-0-0-0-204{
+  color: rgba(0,0,0,0.8);
+}.ff-roboto{
+  font-family: "Roboto";
+  font-feature-settings: ;
+  font-variant: normal;
+}.bg-255-255-255-0{
+  background-color: rgba(255,255,255,0);
+}.focus-within:focus-within{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}.s:focus .focusable, .s.focusable:focus{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}</style></div><div class="hc s c wf ct cl"><div class="hc s c wf ct cl"><div class="he height-px-4px bg-grad-51-0-242-96-255-5-117-230-255 s e wf"></div><nav class="hc p-25-4 sev b-0-0-1-0 bc-40-80-40-102 s r wf cl ccy"><a class="hc s e wc ccx ccy lnk" href="/" rel="noopener noreferrer"><div class="hc font-size-30 spacing-16-16 s r wc cl ccy"><div class="hc s e wc"><svg version="1.1" viewBox="251.0485 144.52063 56.114286 74.5" width="30px" height="74.5"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="10%" style="stop-color:rgba(1.96%,45.88%,90.2%,1);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgba(0%,94.9%,37.65%,1);stop-opacity:1"></stop></linearGradient></defs><metadata></metadata><g id="Canvas_11" stroke="none" fill="url(#grad1)" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none"><g id="Canvas_11: Layer 1"><g id="Group_38"><g id="Graphic_32"><path d="M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g><g id="Line_34"><line x1="266.07286" y1="182.8279" x2="290.75465" y2="183.00997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_35"><line x1="266.07286" y1="191.84156" x2="290.75465" y2="192.02363" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_36"><line x1="266.07286" y1="200.85522" x2="290.75465" y2="201.0373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_37"><line x1="266.07286" y1="164.80058" x2="278.3874" y2="164.94049" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g></g></g></g></svg></div><div class="s t wc hc">confusingbits</div></div></a><div class="hc spacing-15-15 s r wc cl ccy"><a class="hc s e wc ccx ccy lnk" href="https://github.com/confusingbits" rel="noopener noreferrer" target="_blank"><div class="we width-px-22 fc-5-117-230-255 s e ic"><img class="we width-px-22 s e" src="images/github.svg" alt="Github repo"></div></a><a class="hc s e wc ccx ccy lnk" href="about" rel="noopener noreferrer"><div class="s t wf hf">About</div></a><a class="hc fc-5-117-230-255 s e wc ccx ccy lnk u" href="blog" rel="noopener noreferrer"><div class="s t wf hf">Blog</div></a></div></nav></div><main class="hc p-30 spacing-40-40 ah cx s c max-width-800 wf ct cl"><div class="hc spacing-10-10 s c wc ct cl"><div class="hc spacing-10-10 s r wc cl ccy"><div class="we width-px-70 s e ic avatar"><img class="we width-px-70 s e" src="images/author/profilepic.jpg" alt="Corey Thompson"></div><div class="hc spacing-10-10 s c wf ct cl"><div class="spacing-5-5 w7 font-size-24 s p wf"><div class="s t wc hc">Corey Thompson</div></div><div class="spacing-5-5 font-size-16 s p wf"><div class="s t wc hc">Software engineer and video game nerd</div></div></div></div></div><div class="hc font-size-16 fc-0-0-0-153 s e wc"><div class="s t wf hf">June 25th, 2023</div></div><h1 class="spacing-5-5 w7 ff-raleway font-size-36 tc s p wf"><div class="s t wc hc">Refactoring by Martin Fowler
+</div></h1><div class="s e wf ic"><img class="s e wf" src="images/refactoring-by-martin-fowler.jpg" alt="Article cover photo"></div><div class="spacing-5-5 s p wf"><div><h3>Transcript</h3><p><em>This transcript was automatically generated by YouTube, so there may (will) be some (many) errors.</em></p><blockquote><p>oh my God yes</p><p>thank you</p><p>is empty</p><p>and we got our last book</p><p>oh my God ah</p><p>yeah so</p><p>introductions</p><p>hi guys</p><p>this is Corey's confusing book</p><p>reviews I could say we're incredibly</p><p>professional today we're going to be</p><p>talking about refactoring</p><p>improving the design of existing code by</p><p>Martin Fowler</p><p>with contribution by Kip Beck John</p><p>Bryant William oh Dyke and Ronald Don</p><p>Roberts hey yeah okay okay</p><p>so in case you don't know what we've</p><p>been on</p><p>I might be perking up a little bit on</p><p>this one because the last book but this</p><p>is the stack of books that we've been</p><p>doing today and I'm getting it done</p><p>getting it done guys</p><p>we've been sitting on that for two</p><p>months</p><p>oh finally getting caught up it's gonna</p><p>be feel so good guys just</p><p>a war no more books in the queue</p><p>all righty</p><p>you guys don't care</p><p>so yeah so</p><p>too long didn't watch it so this is a</p><p>programming book if you're not a</p><p>programmer you're not a tech nerd or</p><p>whatever you can just skip this whole</p><p>video because this is very much software</p><p>engineering and programming and</p><p>code quality and and all that yes 
+if you still too long didn't watch and</p><p>you are a programmer and you're just</p><p>in a big hurry</p><p>I don't know why you're still watching</p><p>now but</p><p>it's a good book</p><p>it's a good book</p><p>I think</p><p>I think I think like the king clean</p><p>clothes the clean code series kind of</p><p>covers most of this stuff just like it</p><p>was with the pragmatic programmer</p><p>quite a bit of this advice is kind of</p><p>been subsooned into more modern</p><p>code quality</p><p>programming professional development</p><p>books and I think the clean code</p><p>probably</p><p>which came like seven years after</p><p>this book this was like 2000 I think the</p><p>clean codes came out like</p><p>2007 or something like that it's still a</p><p>good book I want to be I don't know if</p><p>you just want to if you've already read</p><p>clean code and you still want to read</p><p>more in in in in the code quality</p><p>analysis kind of vein this is a good</p><p>book for that there's I think four</p><p>really popular books that I looked it</p><p>was like the structure of interpretation</p><p>of programmings pragmatic programmer</p><p>refactoring and and design patterns I</p><p>haven't read design patterns yet but</p><p>those four books come up a whole lot</p><p>besides the clean code stuff which</p><p>everybody I can kind of taking that is</p><p>granted anybody who's paying attention</p><p>to</p><p>architecture or code quality and stuff</p><p>probably knows about Bob Martin our roof</p><p>but and you probably know about this</p><p>guy Martin Fowler he's a he's an</p><p>industry</p><p>giant he's written several books I</p><p>think this is the most</p><p>famous One</p><p>but 
+he's a British guy so everything he says</p><p>is automatically incredibly smart</p><p>and maybe if you like watching Tech</p><p>talks or whatever he's another great guy</p><p>to watch talk just because you can hear</p><p>that accent and you're like</p><p>yeah this guy's know this guy's knows</p><p>what he's talking about I can hear the</p><p>accent and knows exactly what he's</p><p>talking about</p><p>anybody who's American that's what I'm</p><p>talking about</p><p>but yeah 
+any of course like what he he has a</p><p>really good things to talk about</p><p>software quality he's it's one of the</p><p>early people that's talking about agile</p><p>and of course code quality and</p><p>testing and stuff like that so very very</p><p>oh oh very much in the same vein as 
+is Martin Fowler you know that whole</p><p>Paradigm the guys I would I guess you</p><p>I don't want to say this</p><p>this is not derogatory when I say this</p><p>but it very much kind of like the old</p><p>guard</p><p>the the guys who are now retiring</p><p>the guys who actually cared about</p><p>their craft they're starting to</p><p>retire now very messed up I'm not</p><p>talking about the the guys who just</p><p>clocked in and clocked out that</p><p>didn't give a about anything</p><p>we're talking about the guys who who</p><p>actually cared about software</p><p>craftsmanship and actually paid</p><p>attention were doing the 
+quote unquote real agile before it</p><p>got a you know 
+bastardize into scr
+that that that whole</p><p>Paradigm before you know agile became an</p><p>industry</p><p>before before the functional</p><p>Paradigm finally started taking 
+taking bites out of out of oo and</p><p>and Java and C sharp and all that</p><p>jazz anyway</p><p>not</p><p>knocking on anybody who writes that code</p><p>or or</p><p>I I'm a firm believer that if you're</p><p>getting things done</p><p>getting things done in a somewhat</p><p>maintainable fashion then you know</p><p>go right for it you know</p><p>anyway so this is this is it's</p><p>it's actually index you see there's got</p><p>like little indexes in here</p><p>I forget what the the term is there's</p><p>it's this is all about</p><p>little strategies</p><p>or transforming code and the thing is is</p><p>in like your normal like oo style</p><p>languages especially if you have like a</p><p>an IDE for Java or C sharp you're going</p><p>to be very familiar with this stuff</p><p>because this is literally just buttons</p><p>clicks away you've got extract function</p><p>and rename method and and all of this</p><p>stuff which is in here what what here we</p><p>go</p><p>three-day method in here</p><p>a conditional with polymorphism so it's</p><p>all of these little tiny</p><p>atomically applicable</p><p>transformations of the code so you can</p><p>go from one implementation to another in</p><p>a safe way and I think</p><p>I'm not sure it's been a while since I</p><p>read this but I'm pretty sure there's</p><p>always the assumption that you have</p><p>tests</p><p>before we even get to the refactoring</p><p>because you have tests in place to make</p><p>sure that</p><p>the code works the way you expect now</p><p>and then you do the refactoring and then</p><p>and then and then it works afterwards</p><p>you can't take that for granted so this</p><p>is all kind of</p><p>in the kind of assumption that you have</p><p>tests in place to 
+to do anything so yeah you gotta extract</p><p>method inline method remove assignments</p><p>to parameters</p><p>encapsulate field change value to</p><p>referencing capital a collection replace</p><p>code with classes remove control flag</p><p>replace that's the conditional garco</p><p>introduce null object remove parameter</p><p>remove settling method you get</p><p>is very much a recipe book right that is</p><p>you would probably now I don't know that</p><p>anybody would be</p><p>programming would go oh yeah there's a</p><p>strategy for that and they'll go</p><p>bun oh this is how you do extract method</p><p>now it's more like you see it happen and</p><p>now you have a kind of a</p><p>a name for the operation now I think</p><p>that was kind of the point why he he put</p><p>it why he has all of this I mean because</p><p>it seems like kind of silly</p><p>parameterized method some of this</p><p>stuff kind of seems kind of obvious but</p><p>it's important I think in some way to</p><p>have the same name for the same</p><p>operation like this is like</p><p>documenting</p><p>and naming</p><p>operations that were previously or that</p><p>are already names right just like design</p><p>patterns so you like factories and stuff</p><p>factories existed before they were</p><p>called factories right MVC existed</p><p>before we gave it the name MVC</p><p>the repository pattern</p><p>existed before we had the name</p><p>repository pattern but</p><p>we give them names it's a repository</p><p>it's the factory when you say these</p><p>words they mean a very specific thing in</p><p>the context of programming right and the</p><p>same thing here that's with design</p><p>patterns but the same thing whenever I</p><p>say parameterized method what I'm</p><p>saying is that the thing that that</p><p>I'm taking like out of globalized scope</p><p>instead I'm going to add it as a</p><p>perimeter</p><p>there's a shared scope like in a class</p><p>instead I'm gonna I'm gonna add it to</p><p>the parameter to the method instead you</p><p>know that kind of thing</p><p>at least I think that's what</p><p>parameterized method is</p><p>yeah server okay here we go several</p><p>methods do similar things but different</p><p>values contained in the method body</p><p>so we got</p><p>two different methods they do very</p><p>similar things we'll we'll just use a</p><p>we'll we'll repeat it I mean we'll</p><p>deduplicate it by adding parameter</p><p>[Music]</p><p>so yeah so this is</p><p>in a sense it's good to kind of</p><p>just have it for reference</p><p>well one so you can toot your horn</p><p>that you read refactoring by Martin</p><p>Fowler and you found it absolutely</p><p>fabulous and everybody should read it of</p><p>course</p><p>but also 
+just so you're</p><p>glued into the lingo just like you need</p><p>to know</p><p>do you need to know the names of design</p><p>patterns so you can speak</p><p>the the language of programming it's</p><p>good to</p><p>to know what's going on here not that</p><p>honestly not that I'm really</p><p>know that I I</p><p>oh yeah yeah here's and some of this</p><p>stuff is subtle it's got 
+it talks about strategies for code</p><p>quality too so like replace</p><p>conditional with polymorphism right</p><p>and that comes up that's actually a</p><p>really</p><p>that's the oo way of doing pattern</p><p>matching so if if you're in a language</p><p>that that doesn't have</p><p>pattern matching</p><p>instead of having to do like an enor</p><p>some or some kind of like special field</p><p>or whatever that you're switching on</p><p>or whatever you can just do some classes</p><p>whatever their subclassing you can</p><p>switch them you know the the</p><p>polymorphism is what allows it to switch</p><p>not that</p><p>I really think you should be using</p><p>inheritance but that is the that is the</p><p>oh way</p><p>to do 
+a</p><p>to switch you know switch things best</p><p>off of that's the way oo does pattern</p><p>matching right</p><p>is is you you encapsulate the pattern in</p><p>in the actual individual class but</p><p>anyway</p><p>I think you get what I'm talking</p><p>about</p><p>but it's little things like that so</p><p>there's some code quality stuff in here</p><p>and it gives it a name so you've got</p><p>common lingo and stuff and it's just</p><p>it's it's just 
+a a pivotal book in the field</p><p>and again if you haven't seen Martin</p><p>Fowler talk he has a tons</p><p>fabulous Talks on YouTube and in general</p><p>if you are not watching Tech talks</p><p>you absolutely should</p><p>it's a great way to do your lunch breaks</p><p>is just watch a tech talk while you're</p><p>munching on your your sandwich or</p><p>whatever watch a tech talk and get</p><p>caught up on on some program new</p><p>technology or or code quality or advice</p><p>or anything like that 
+conference talks are fabulous ways to to</p><p>keep it positive and there's tons tons</p><p>and tons of conferences out there to to</p><p>keep track of as you Google you're going</p><p>to find channels that all they do is</p><p>there'll be channels for each individual</p><p>conferences but there are some channels</p><p>out there</p><p>and my mind's blinking right now that</p><p>all they do is accumulate talks from all</p><p>different conferences and stuff like</p><p>that so you get on YouTube and you'll</p><p>find them pretty quickly but 
+yeah</p><p>so yeah I have no idea what's coming</p><p>up next and it's a beautiful thing</p><p>that's the queue is empty anyway</p><p>yeah so this has been refactoring by</p><p>Martin Fowler again highly recommend it</p><p>and I will</p><p>see you guys next time bye</p></blockquote></div></div></main></div></div></body></html>
