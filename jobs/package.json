@@ -1,0 +1,19 @@
+{
+  "name": "jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "update-from-youtube.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "he": "^1.2.0",
+    "html-to-text": "^9.0.5",
+    "natural": "^6.5.0",
+    "sanitize-filename": "^1.6.3",
+    "sentence-splitter": "^4.2.1",
+    "unescape": "^1.0.1"
+  }
+}
