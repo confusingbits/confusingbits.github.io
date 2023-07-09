@@ -18,8 +18,8 @@ const handle = async (dir, fs, path) => {
     "--format=%ct",
     "../content/blog/",
   ]);
-  const lastTs = 1267448521;
-  // const lastTs = proc.stdout.toString();
+  // const lastTs = 1267448521;
+  const lastTs = proc.stdout.toString();
   const lastDate = new Date(lastTs * 1000);
 
   let items = [];
