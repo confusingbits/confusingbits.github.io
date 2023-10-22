@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 15 Oct 2023 06:33:54 +0000</lastBuildDate>
+<lastBuildDate>Sun, 22 Oct 2023 06:33:48 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -363,6 +363,15 @@
 <link>https://confusingbits.comblog/getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</link>
 <guid>https://confusingbits.comblog/getting-started-with-dungeon-and-dragons-and-what-is-one-dnd</guid>
 <pubDate>Sun, 18 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Haskell Programming from First Principles by Christopher Allen and Julie Moronuki
+</title>
+<description>An automatic transcription of the youtube video, Haskell Programming from First Principles by Christopher Allen and Julie Moronuki, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/haskell-programming-from-first-principles-by-christopher-allen-and-julie-moronuki</link>
+<guid>https://confusingbits.comblog/haskell-programming-from-first-principles-by-christopher-allen-and-julie-moronuki</guid>
+<pubDate>Sun, 22 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Hello from `elm-pages`! 🚀</title>
