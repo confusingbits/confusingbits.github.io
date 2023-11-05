@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 29 Oct 2023 06:33:54 +0000</lastBuildDate>
+<lastBuildDate>Sun, 05 Nov 2023 06:33:18 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -31,6 +31,15 @@
 <link>https://confusingbits.comblog/a-sand-county-almanac-by-aldo-leopold</link>
 <guid>https://confusingbits.comblog/a-sand-county-almanac-by-aldo-leopold</guid>
 <pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Accelerate by Nicole Forsgren, et al.
+</title>
+<description>An automatic transcription of the youtube video, Accelerate by Nicole Forsgren, et al., generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/accelerate-by-nicole-forsgren-et-al</link>
+<guid>https://confusingbits.comblog/accelerate-by-nicole-forsgren-et-al</guid>
+<pubDate>Sun, 05 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Alice in Wonderland by Lewis Carroll
