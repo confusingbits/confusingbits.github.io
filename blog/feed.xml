@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 12 Nov 2023 06:33:38 +0000</lastBuildDate>
+<lastBuildDate>Sun, 19 Nov 2023 06:33:32 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -1011,6 +1011,15 @@
 <link>https://confusingbits.comblog/the-basic-of-a-combat-rogue</link>
 <guid>https://confusingbits.comblog/the-basic-of-a-combat-rogue</guid>
 <pubDate>Mon, 24 Sep 2012 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Call of the Wild by Jack London
+</title>
+<description>An automatic transcription of the youtube video, The Call of the Wild by Jack London, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/the-call-of-the-wild-by-jack-london</link>
+<guid>https://confusingbits.comblog/the-call-of-the-wild-by-jack-london</guid>
+<pubDate>Sun, 19 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Clean Coder by Robert C. Martin
