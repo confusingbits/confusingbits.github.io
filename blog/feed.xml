@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 26 Nov 2023 06:33:12 +0000</lastBuildDate>
+<lastBuildDate>Thu, 30 Nov 2023 06:34:21 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -1360,6 +1360,15 @@
 <link>https://confusingbits.comblog/yesod-docker-dev-container</link>
 <guid>https://confusingbits.comblog/yesod-docker-dev-container</guid>
 <pubDate>Sat, 29 Aug 2020 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>You guys need to chill out about NameDrop
+</title>
+<description>An automatic transcription of the youtube video, You guys need to chill out about NameDrop, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/you-guys-need-to-chill-out-about-namedrop</link>
+<guid>https://confusingbits.comblog/you-guys-need-to-chill-out-about-namedrop</guid>
+<pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
