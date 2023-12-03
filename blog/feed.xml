@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Thu, 30 Nov 2023 06:34:21 +0000</lastBuildDate>
+<lastBuildDate>Sun, 03 Dec 2023 06:33:14 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -896,6 +896,15 @@
 <link>https://confusingbits.comblog/shuriken-toss-reference-test</link>
 <guid>https://confusingbits.comblog/shuriken-toss-reference-test</guid>
 <pubDate>Sat, 12 Jan 2013 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Sojourn by R. A. Salvatore
+</title>
+<description>An automatic transcription of the youtube video, Sojourn by R. A. Salvatore, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/sojourn-by-r-a-salvatore</link>
+<guid>https://confusingbits.comblog/sojourn-by-r-a-salvatore</guid>
+<pubDate>Sun, 03 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>Weekly Video: How to Think Like the SQL Server Engine</title>
