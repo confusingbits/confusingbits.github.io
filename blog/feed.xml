@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Tue, 26 Dec 2023 06:33:51 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Jan 2024 06:35:10 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -399,6 +399,15 @@
 <link>https://confusingbits.comblog/four-thousand-weeks-by-oliver-burkeman</link>
 <guid>https://confusingbits.comblog/four-thousand-weeks-by-oliver-burkeman</guid>
 <pubDate>Sun, 13 Aug 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Frankenstein by Mary Shelly
+</title>
+<description>An automatic transcription of the youtube video, Frankenstein by Mary Shelly, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/frankenstein-by-mary-shelly</link>
+<guid>https://confusingbits.comblog/frankenstein-by-mary-shelly</guid>
+<pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>"Gaia's Garden: A guide to Home Scale Permaculture" by Toby Hemenway
