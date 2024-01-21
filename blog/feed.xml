@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 14 Jan 2024 06:33:57 +0000</lastBuildDate>
+<lastBuildDate>Sun, 21 Jan 2024 06:34:40 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -566,6 +566,15 @@
 <link>https://confusingbits.comblog/influence-by-robert-b-cialdini</link>
 <guid>https://confusingbits.comblog/influence-by-robert-b-cialdini</guid>
 <pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Introduction to Mechanical Keyboards
+</title>
+<description>An automatic transcription of the youtube video, Introduction to Mechanical Keyboards, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/introduction-to-mechanical-keyboards</link>
+<guid>https://confusingbits.comblog/introduction-to-mechanical-keyboards</guid>
+<pubDate>Sun, 21 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Journey To My First Dev Job</title>
