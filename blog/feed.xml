@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 21 Jan 2024 06:34:40 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jan 2024 06:33:15 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -582,6 +582,15 @@
 <link>https://confusingbits.comblog/journey-to-my-first-dev-job</link>
 <guid>https://confusingbits.comblog/journey-to-my-first-dev-job</guid>
 <pubDate>Sun, 18 Mar 2018 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Journeys Through the Radiant Citadel
+</title>
+<description>An automatic transcription of the youtube video, Journeys Through the Radiant Citadel, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/journeys-through-the-radiant-citadel</link>
+<guid>https://confusingbits.comblog/journeys-through-the-radiant-citadel</guid>
+<pubDate>Sun, 28 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>KSP Interstellar Power Network Tutorial
