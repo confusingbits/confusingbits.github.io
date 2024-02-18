@@ -1,0 +1,442 @@
+<!DOCTYPE html><html lang="en"><head><link rel="preload" href="content.json" as="fetch" crossorigin=""><base href="../../"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    } else {
+      console.log("No service worker registered.");
+    }</script><link rel="shortcut icon" href="assets/favicon.ico"><link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48x48.png"><link rel="manifest" href="assets/manifest.json"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#ffffff"><meta name="application-name" content="confusingbits"><link rel="apple-touch-icon" sizes="57x57" href="assets/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="assets/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="assets/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="assets/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="assets/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="assets/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon-180x180.png"><link rel="apple-touch-icon" sizes="1024x1024" href="assets/apple-touch-icon-1024x1024.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="confusingbits"><script defer="defer" src="main.js"></script><link rel="preload" href="main.js" as="script"><style>/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+</style><style>@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&display=swap);</style><style>.avatar img {
+  border-radius: 50%;
+}
+
+img[alt=blogimg] { width: 100%; }</style><title>Lost in Math by Sabine Hossenfelder
+</title><meta name="generator" content="elm-pages v1.4.0"><link rel="alternate" type="application/rss+xml" href="/blog/feed.xml"><link rel="sitemap" type="application/xml" href="/sitemap.xml"><link rel="canonical" href="https://confusingbits.com/blog/lost-in-math-by-sabine-hossenfelder"><meta name="description" content="An automatic transcription of the youtube video, Lost in Math by Sabine Hossenfelder, generated from youtube captions.
+"><meta property="og:image" content="https://confusingbits.com/images/lost-in-math-by-sabine-hossenfelder.jpg"><meta property="og:image:secure_url" content="https://confusingbits.com/images/lost-in-math-by-sabine-hossenfelder.jpg"><meta property="og:image:alt" content="An automatic transcription of the youtube video, Lost in Math by Sabine Hossenfelder, generated from youtube captions.
+"><meta property="og:title" content="Lost in Math by Sabine Hossenfelder
+"><meta property="og:url" content="https://confusingbits.com/blog/lost-in-math-by-sabine-hossenfelder"><meta property="og:description" content="An automatic transcription of the youtube video, Lost in Math by Sabine Hossenfelder, generated from youtube captions.
+"><meta property="og:site_name" content="confusingbits"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:title" content="Lost in Math by Sabine Hossenfelder
+"><meta property="twitter:description" content="An automatic transcription of the youtube video, Lost in Math by Sabine Hossenfelder, generated from youtube captions.
+"><meta property="twitter:image" content="https://confusingbits.com/images/lost-in-math-by-sabine-hossenfelder.jpg"><meta property="twitter:image:alt" content="An automatic transcription of the youtube video, Lost in Math by Sabine Hossenfelder, generated from youtube captions.
+"><meta property="og:type" content="article"><meta property="article:published_time" content="2023-09-10"></head><body><div data-url="http://localhost:8000/blog/lost-in-math-by-sabine-hossenfelder" display="none"></div><div class="bg-255-255-255-0 font-size-20 ff-roboto fc-0-0-0-204 s e wf ui s e"><div><style>@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {.s.r > .s { flex-basis: auto !important; } .s.r > .s.ctr { flex-basis: auto !important; }}
+input[type="search"],
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+
+input[type=range] {
+  -webkit-appearance: none; 
+  background: transparent;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:10;
+  width: 100%;
+  outline: dashed 1px;
+  height: 100%;
+  opacity: 0;
+}
+
+input[type=range]::-moz-range-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-ms-track {
+    background: transparent;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-moz-range-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range]::-ms-thumb {
+    opacity: 0.5;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border:none;
+    border-radius: 5px;
+}
+input[type=range][orient=vertical]{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical;  /* WebKit */
+}
+
+.explain {
+    border: 6px solid rgb(174, 121, 15) !important;
+}
+.explain > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+.ctr {
+    border: none !important;
+}
+.explain > .ctr > .s {
+    border: 4px dashed rgb(0, 151, 167) !important;
+}
+
+html,body{height:100%;padding:0;margin:0;}.s.e.ic{display:block;}.s:focus{outline:none;}.ui{width:100%;height:auto;min-height:100%;z-index:0;}.ui.s.hf{height:100%;}.ui.s.hf > .hf{height:100%;}.ui > .fr.nb{position:fixed;}.nb{position:relative;border:none;display:flex;flex-direction:row;flex-basis:auto;}.nb.e{display:flex;flex-direction:column;white-space:pre;}.nb.e.hbh{z-index:0;}.nb.e.hbh > .bh{z-index:-1;}.nb.e.sbt > .t.hf{flex-grow:0;}.nb.e.sbt > .t.wf{align-self:auto !important;}.nb.e > .hc{height:auto;}.nb.e > .hf{flex-grow:100000;}.nb.e > .wf{width:100%;}.nb.e > .wfp{width:100%;}.nb.e > .wc{align-self:flex-start;}.nb.e.ct{justify-content:flex-start;}.nb.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.nb.e.cb{justify-content:flex-end;}.nb.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.nb.e.cr{align-items:flex-end;}.nb.e > .s.ar{align-self:flex-end;}.nb.e.cl{align-items:flex-start;}.nb.e > .s.al{align-self:flex-start;}.nb.e.ccx{align-items:center;}.nb.e > .s.cx{align-self:center;}.nb.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.nb.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.nb.a{position:absolute;bottom:100%;left:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.a > .hf{height:auto;}.nb.a > .wf{width:100%;}.nb.a > *{pointer-events:auto;}.nb.b{position:absolute;bottom:0;left:0;height:0;width:100%;z-index:20;margin:0 !important;pointer-events:none;}.nb.b > *{pointer-events:auto;}.nb.b > .hf{height:auto;}.nb.or{position:absolute;left:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.or > *{pointer-events:auto;}.nb.ol{position:absolute;right:100%;top:0;height:100%;margin:0 !important;z-index:20;pointer-events:none;}.nb.ol > *{pointer-events:auto;}.nb.fr{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;pointer-events:none;}.nb.fr > *{pointer-events:auto;}.nb.bh{position:absolute;width:100%;height:100%;left:0;top:0;margin:0 !important;z-index:0;pointer-events:none;}.nb.bh > *{pointer-events:auto;}.s{position:relative;border:none;flex-shrink:0;display:flex;flex-direction:row;flex-basis:auto;resize:none;font-feature-settings:inherit;box-sizing:border-box;margin:0;padding:0;border-width:0;border-style:solid;font-size:inherit;color:inherit;font-family:inherit;line-height:1;font-weight:inherit;text-decoration:none;font-style:inherit;}.s.wrp{flex-wrap:wrap;}.s.notxt{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;}.s.cptr{cursor:pointer;}.s.ctxt{cursor:text;}.s.ppe{pointer-events:none !important;}.s.cpe{pointer-events:auto !important;}.s.clr{opacity:0;}.s.oq{opacity:1;}.s.hvclr:hover{opacity:0;}.s.hvoq:hover{opacity:1;}.s.fcsclr:focus{opacity:0;}.s.fcsoq:focus{opacity:1;}.s.atvclr:active{opacity:0;}.s.atvoq:active{opacity:1;}.s.ts{transition:transform 160ms, opacity 160ms, filter 160ms, background-color 160ms, color 160ms, font-size 160ms;}.s.sb{overflow:auto;flex-shrink:1;}.s.sbx{overflow-x:auto;}.s.sbx.r{flex-shrink:1;}.s.sby{overflow-y:auto;}.s.sby.c{flex-shrink:1;}.s.sby.e{flex-shrink:1;}.s.cp{overflow:hidden;}.s.cpx{overflow-x:hidden;}.s.cpy{overflow-y:hidden;}.s.wc{width:auto;}.s.bn{border-width:0;}.s.bd{border-style:dashed;}.s.bdt{border-style:dotted;}.s.bs{border-style:solid;}.s.t{white-space:pre;display:inline-block;}.s.it{line-height:1.05;background:transparent;}.s.e{display:flex;flex-direction:column;white-space:pre;}.s.e.hbh{z-index:0;}.s.e.hbh > .bh{z-index:-1;}.s.e.sbt > .t.hf{flex-grow:0;}.s.e.sbt > .t.wf{align-self:auto !important;}.s.e > .hc{height:auto;}.s.e > .hf{flex-grow:100000;}.s.e > .wf{width:100%;}.s.e > .wfp{width:100%;}.s.e > .wc{align-self:flex-start;}.s.e.ct{justify-content:flex-start;}.s.e > .s.at{margin-bottom:auto !important;margin-top:0 !important;}.s.e.cb{justify-content:flex-end;}.s.e > .s.ab{margin-top:auto !important;margin-bottom:0 !important;}.s.e.cr{align-items:flex-end;}.s.e > .s.ar{align-self:flex-end;}.s.e.cl{align-items:flex-start;}.s.e > .s.al{align-self:flex-start;}.s.e.ccx{align-items:center;}.s.e > .s.cx{align-self:center;}.s.e.ccy > .s{margin-top:auto;margin-bottom:auto;}.s.e > .s.cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r{display:flex;flex-direction:row;}.s.r > .s{flex-basis:0%;}.s.r > .s.we{flex-basis:auto;}.s.r > .s.lnk{flex-basis:auto;}.s.r > .hf{align-self:stretch !important;}.s.r > .hfp{align-self:stretch !important;}.s.r > .wf{flex-grow:100000;}.s.r > .ctr{flex-grow:0;flex-basis:auto;align-self:stretch;}.s.r > u:first-of-type.acr{flex-grow:1;}.s.r > s:first-of-type.accx{flex-grow:1;}.s.r > s:first-of-type.accx > .cx{margin-left:auto !important;}.s.r > s:last-of-type.accx{flex-grow:1;}.s.r > s:last-of-type.accx > .cx{margin-right:auto !important;}.s.r > s:only-of-type.accx{flex-grow:1;}.s.r > s:only-of-type.accx > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.r > s:last-of-type.accx ~ u{flex-grow:0;}.s.r > u:first-of-type.acr ~ s.accx{flex-grow:0;}.s.r.ct{align-items:flex-start;}.s.r > .s.at{align-self:flex-start;}.s.r.cb{align-items:flex-end;}.s.r > .s.ab{align-self:flex-end;}.s.r.cr{justify-content:flex-end;}.s.r.cl{justify-content:flex-start;}.s.r.ccx{justify-content:center;}.s.r.ccy{align-items:center;}.s.r > .s.cy{align-self:center;}.s.r.sev{justify-content:space-between;}.s.c{display:flex;flex-direction:column;}.s.c > .s{flex-basis:0%;}.s.c > .s.he{flex-basis:auto;}.s.c > .s.c{flex-basis:auto;}.s.c > .hf{flex-grow:100000;}.s.c > .wf{width:100%;}.s.c > .wfp{width:100%;}.s.c > .wc{align-self:flex-start;}.s.c > u:first-of-type.acb{flex-grow:1;}.s.c > s:first-of-type.accy{flex-grow:1;}.s.c > s:first-of-type.accy > .cy{margin-top:auto !important;margin-bottom:0 !important;}.s.c > s:last-of-type.accy{flex-grow:1;}.s.c > s:last-of-type.accy > .cy{margin-bottom:auto !important;margin-top:0 !important;}.s.c > s:only-of-type.accy{flex-grow:1;}.s.c > s:only-of-type.accy > .cy{margin-top:auto !important;margin-bottom:auto !important;}.s.c > s:last-of-type.accy ~ u{flex-grow:0;}.s.c > u:first-of-type.acb ~ s.accy{flex-grow:0;}.s.c.ct{justify-content:flex-start;}.s.c > .s.at{margin-bottom:auto;}.s.c.cb{justify-content:flex-end;}.s.c > .s.ab{margin-top:auto;}.s.c.cr{align-items:flex-end;}.s.c > .s.ar{align-self:flex-end;}.s.c.cl{align-items:flex-start;}.s.c > .s.al{align-self:flex-start;}.s.c.ccx{align-items:center;}.s.c > .s.cx{align-self:center;}.s.c.ccy{justify-content:center;}.s.c > .ctr{flex-grow:0;flex-basis:auto;width:100%;align-self:stretch !important;}.s.c.sev{justify-content:space-between;}.s.g{display:-ms-grid;}.s.g > .gp > .s{width:100%;}@supports (display:grid) {.s.g{display:grid;
+}}.s.g > .s.at{justify-content:flex-start;}.s.g > .s.ab{justify-content:flex-end;}.s.g > .s.ar{align-items:flex-end;}.s.g > .s.al{align-items:flex-start;}.s.g > .s.cx{align-items:center;}.s.g > .s.cy{justify-content:center;}.s.pg{display:block;}.s.pg > .s:first-child{margin:0 !important;}.s.pg > .s.al:first-child + .s{margin:0 !important;}.s.pg > .s.ar:first-child + .s{margin:0 !important;}.s.pg > .s.ar{float:right;}.s.pg > .s.ar::after{content:"";display:table;clear:both;}.s.pg > .s.al{float:left;}.s.pg > .s.al::after{content:"";display:table;clear:both;}.s.iml{white-space:pre-wrap;height:100%;width:100%;background-color:transparent;}.s.implw.e{flex-basis:auto;}.s.imlp{white-space:pre-wrap;cursor:text;}.s.imlp > .imlf{white-space:pre-wrap;color:transparent;}.s.p{display:block;white-space:normal;}.s.p.hbh{z-index:0;}.s.p.hbh > .bh{z-index:-1;}.s.p > .t{display:inline;white-space:normal;}.s.p > .e{display:inline;white-space:normal;}.s.p > .e.fr{display:flex;}.s.p > .e.bh{display:flex;}.s.p > .e.a{display:flex;}.s.p > .e.b{display:flex;}.s.p > .e.or{display:flex;}.s.p > .e.ol{display:flex;}.s.p > .e > .t{display:inline;white-space:normal;}.s.p > .e > .e > .t{display:inline;white-space:normal;}.s.p > .r{display:inline-flex;}.s.p > .c{display:inline-flex;}.s.p > .g{display:inline-grid;}.s.p > .s.ar{float:right;}.s.p > .s.al{float:left;}.s.hidden{display:none;}.s.w1{font-weight:100;}.s.w2{font-weight:200;}.s.w3{font-weight:300;}.s.w4{font-weight:400;}.s.w5{font-weight:500;}.s.w6{font-weight:600;}.s.w7{font-weight:700;}.s.w8{font-weight:800;}.s.w9{font-weight:900;}.s.i{font-style:italic;}.s.sk{text-decoration:line-through;}.s.u{text-decoration:underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.u.sk{text-decoration:line-through underline;text-decoration-skip-ink:auto;text-decoration-skip:ink;}.s.tun{font-style:normal;}.s.tj{text-align:justify;}.s.tja{text-align:justify-all;}.s.tc{text-align:center;}.s.tr{text-align:right;}.s.tl{text-align:left;}.s.modal{position:fixed;left:0;top:0;width:100%;height:100%;pointer-events:none;}.border-0{border-width:0px;}.border-1{border-width:1px;}.border-2{border-width:2px;}.border-3{border-width:3px;}.border-4{border-width:4px;}.border-5{border-width:5px;}.border-6{border-width:6px;}.font-size-8{font-size:8px;}.font-size-9{font-size:9px;}.font-size-10{font-size:10px;}.font-size-11{font-size:11px;}.font-size-12{font-size:12px;}.font-size-13{font-size:13px;}.font-size-14{font-size:14px;}.font-size-15{font-size:15px;}.font-size-16{font-size:16px;}.font-size-17{font-size:17px;}.font-size-18{font-size:18px;}.font-size-19{font-size:19px;}.font-size-20{font-size:20px;}.font-size-21{font-size:21px;}.font-size-22{font-size:22px;}.font-size-23{font-size:23px;}.font-size-24{font-size:24px;}.font-size-25{font-size:25px;}.font-size-26{font-size:26px;}.font-size-27{font-size:27px;}.font-size-28{font-size:28px;}.font-size-29{font-size:29px;}.font-size-30{font-size:30px;}.font-size-31{font-size:31px;}.font-size-32{font-size:32px;}.p-0{padding:0px;}.p-1{padding:1px;}.p-2{padding:2px;}.p-3{padding:3px;}.p-4{padding:4px;}.p-5{padding:5px;}.p-6{padding:6px;}.p-7{padding:7px;}.p-8{padding:8px;}.p-9{padding:9px;}.p-10{padding:10px;}.p-11{padding:11px;}.p-12{padding:12px;}.p-13{padding:13px;}.p-14{padding:14px;}.p-15{padding:15px;}.p-16{padding:16px;}.p-17{padding:17px;}.p-18{padding:18px;}.p-19{padding:19px;}.p-20{padding:20px;}.p-21{padding:21px;}.p-22{padding:22px;}.p-23{padding:23px;}.p-24{padding:24px;}.v-smcp{font-variant:small-caps;}.v-smcp-off{font-variant:normal;}.v-zero{font-feature-settings:"zero";}.v-zero-off{font-feature-settings:"zero" 0;}.v-onum{font-feature-settings:"onum";}.v-onum-off{font-feature-settings:"onum" 0;}.v-liga{font-feature-settings:"liga";}.v-liga-off{font-feature-settings:"liga" 0;}.v-dlig{font-feature-settings:"dlig";}.v-dlig-off{font-feature-settings:"dlig" 0;}.v-ordn{font-feature-settings:"ordn";}.v-ordn-off{font-feature-settings:"ordn" 0;}.v-tnum{font-feature-settings:"tnum";}.v-tnum-off{font-feature-settings:"tnum" 0;}.v-afrc{font-feature-settings:"afrc";}.v-afrc-off{font-feature-settings:"afrc" 0;}.v-frac{font-feature-settings:"frac";}.v-frac-off{font-feature-settings:"frac" 0;}</style></div><div><style>
+.ff-roboto.cap, .ff-roboto .cap {line-height: 1;} .ff-roboto.cap> .t, .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway .ff-roboto.cap, .ff-raleway .ff-roboto .cap {line-height: 1;} .ff-raleway .ff-roboto.cap> .t, .ff-raleway .ff-roboto .cap > .t {vertical-align: 0;line-height: 1;}
+.ff-roboto .ff-raleway.cap, .ff-roboto .ff-raleway .cap {line-height: 1;} .ff-roboto .ff-raleway.cap> .t, .ff-roboto .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.ff-raleway.cap, .ff-raleway .cap {line-height: 1;} .ff-raleway.cap> .t, .ff-raleway .cap > .t {vertical-align: 0;line-height: 1;}.font-size-36{
+  font-size: 36px;
+}.ff-raleway{
+  font-family: "Raleway";
+  font-feature-settings: ;
+  font-variant: normal;
+}.fc-0-0-0-153{
+  color: rgba(0,0,0,0.6);
+}.spacing-5-5.r > .s + .s{
+  margin-left: 5px;
+}.spacing-5-5.wrp.r > .s{
+  margin: 2.5px 2.5px;
+}.spacing-5-5.c > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .s + .s{
+  margin-top: 5px;
+}.spacing-5-5.pg > .al{
+  margin-right: 5px;
+}.spacing-5-5.pg > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p{
+  line-height: calc(1em + 5px);
+}textarea.s.spacing-5-5{
+  line-height: calc(1em + 5px);
+  height: calc(100% + 5px);
+}.spacing-5-5.p > .al{
+  margin-right: 5px;
+}.spacing-5-5.p > .ar{
+  margin-left: 5px;
+}.spacing-5-5.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -2px;
+}.spacing-5-5.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -2px;
+}.width-px-70{
+  width: 70px;
+}.spacing-10-10.r > .s + .s{
+  margin-left: 10px;
+}.spacing-10-10.wrp.r > .s{
+  margin: 5px 5px;
+}.spacing-10-10.c > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .s + .s{
+  margin-top: 10px;
+}.spacing-10-10.pg > .al{
+  margin-right: 10px;
+}.spacing-10-10.pg > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p{
+  line-height: calc(1em + 10px);
+}textarea.s.spacing-10-10{
+  line-height: calc(1em + 10px);
+  height: calc(100% + 10px);
+}.spacing-10-10.p > .al{
+  margin-right: 10px;
+}.spacing-10-10.p > .ar{
+  margin-left: 10px;
+}.spacing-10-10.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -5px;
+}.spacing-10-10.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -5px;
+}.max-width-800{
+  max-width: 800px;
+}.spacing-40-40.r > .s + .s{
+  margin-left: 40px;
+}.spacing-40-40.wrp.r > .s{
+  margin: 20px 20px;
+}.spacing-40-40.c > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .s + .s{
+  margin-top: 40px;
+}.spacing-40-40.pg > .al{
+  margin-right: 40px;
+}.spacing-40-40.pg > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p{
+  line-height: calc(1em + 40px);
+}textarea.s.spacing-40-40{
+  line-height: calc(1em + 40px);
+  height: calc(100% + 40px);
+}.spacing-40-40.p > .al{
+  margin-right: 40px;
+}.spacing-40-40.p > .ar{
+  margin-left: 40px;
+}.spacing-40-40.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+}.spacing-40-40.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -20px;
+}.p-30{
+  padding: 30px 30px 30px 30px;
+}.fc-5-117-230-255{
+  color: rgba(5,117,230,1);
+}.width-px-22{
+  width: 22px;
+}.spacing-15-15.r > .s + .s{
+  margin-left: 15px;
+}.spacing-15-15.wrp.r > .s{
+  margin: 7.5px 7.5px;
+}.spacing-15-15.c > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .s + .s{
+  margin-top: 15px;
+}.spacing-15-15.pg > .al{
+  margin-right: 15px;
+}.spacing-15-15.pg > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p{
+  line-height: calc(1em + 15px);
+}textarea.s.spacing-15-15{
+  line-height: calc(1em + 15px);
+  height: calc(100% + 15px);
+}.spacing-15-15.p > .al{
+  margin-right: 15px;
+}.spacing-15-15.p > .ar{
+  margin-left: 15px;
+}.spacing-15-15.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -7px;
+}.spacing-15-15.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -7px;
+}.spacing-16-16.r > .s + .s{
+  margin-left: 16px;
+}.spacing-16-16.wrp.r > .s{
+  margin: 8px 8px;
+}.spacing-16-16.c > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .s + .s{
+  margin-top: 16px;
+}.spacing-16-16.pg > .al{
+  margin-right: 16px;
+}.spacing-16-16.pg > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p{
+  line-height: calc(1em + 16px);
+}textarea.s.spacing-16-16{
+  line-height: calc(1em + 16px);
+  height: calc(100% + 16px);
+}.spacing-16-16.p > .al{
+  margin-right: 16px;
+}.spacing-16-16.p > .ar{
+  margin-left: 16px;
+}.spacing-16-16.p::after{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+}.spacing-16-16.p::before{
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  margin-bottom: -8px;
+}.bc-40-80-40-102{
+  border-color: rgba(40,80,40,0.4);
+}.b-0-0-1-0{
+  border-width: 0px 0px 1px 0px;
+}.p-25-4{
+  padding: 4px 25px 4px 25px;
+}.bg-grad-51-0-242-96-255-5-117-230-255{
+  background-image: linear-gradient(0.2rad, rgba(0,242,96,1), rgba(5,117,230,1));
+}.height-px-4px{
+  height : 4px;
+}.fc-0-0-0-204{
+  color: rgba(0,0,0,0.8);
+}.ff-roboto{
+  font-family: "Roboto";
+  font-feature-settings: ;
+  font-variant: normal;
+}.bg-255-255-255-0{
+  background-color: rgba(255,255,255,0);
+}.focus-within:focus-within{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}.s:focus .focusable, .s.focusable:focus{
+  box-shadow: 0px 0px 0px 3px rgba(155,203,255,1);
+  outline: none;
+}</style></div><div class="hc s c wf ct cl"><div class="hc s c wf ct cl"><div class="he height-px-4px bg-grad-51-0-242-96-255-5-117-230-255 s e wf"></div><nav class="hc p-25-4 sev b-0-0-1-0 bc-40-80-40-102 s r wf cl ccy"><a class="hc s e wc ccx ccy lnk" href="/" rel="noopener noreferrer"><div class="hc font-size-30 spacing-16-16 s r wc cl ccy"><div class="hc s e wc"><svg version="1.1" viewBox="251.0485 144.52063 56.114286 74.5" width="30px" height="74.5"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="10%" style="stop-color:rgba(1.96%,45.88%,90.2%,1);stop-opacity:1"></stop><stop offset="100%" style="stop-color:rgba(0%,94.9%,37.65%,1);stop-opacity:1"></stop></linearGradient></defs><metadata></metadata><g id="Canvas_11" stroke="none" fill="url(#grad1)" stroke-opacity="1" fill-opacity="1" stroke-dasharray="none"><g id="Canvas_11: Layer 1"><g id="Group_38"><g id="Graphic_32"><path d="M 252.5485 146.02063 L 252.5485 217.52063 L 305.66277 217.52063 L 305.66277 161.68254 L 290.00087 146.02063 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path></g><g id="Line_34"><line x1="266.07286" y1="182.8279" x2="290.75465" y2="183.00997" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_35"><line x1="266.07286" y1="191.84156" x2="290.75465" y2="192.02363" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_36"><line x1="266.07286" y1="200.85522" x2="290.75465" y2="201.0373" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g><g id="Line_37"><line x1="266.07286" y1="164.80058" x2="278.3874" y2="164.94049" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></line></g></g></g></g></svg></div><div class="s t wc hc">confusingbits</div></div></a><div class="hc spacing-15-15 s r wc cl ccy"><a class="hc s e wc ccx ccy lnk" href="https://github.com/confusingbits" rel="noopener noreferrer" target="_blank"><div class="we width-px-22 fc-5-117-230-255 s e ic"><img class="we width-px-22 s e" src="images/github.svg" alt="Github repo"></div></a><a class="hc s e wc ccx ccy lnk" href="about" rel="noopener noreferrer"><div class="s t wf hf">About</div></a><a class="hc fc-5-117-230-255 s e wc ccx ccy lnk u" href="blog" rel="noopener noreferrer"><div class="s t wf hf">Blog</div></a></div></nav></div><main class="hc p-30 spacing-40-40 ah cx s c max-width-800 wf ct cl"><div class="hc spacing-10-10 s c wc ct cl"><div class="hc spacing-10-10 s r wc cl ccy"><div class="we width-px-70 s e ic avatar"><img class="we width-px-70 s e" src="images/author/profilepic.jpg" alt="Corey Thompson"></div><div class="hc spacing-10-10 s c wf ct cl"><div class="spacing-5-5 w7 font-size-24 s p wf"><div class="s t wc hc">Corey Thompson</div></div><div class="spacing-5-5 font-size-16 s p wf"><div class="s t wc hc">Software engineer and video game nerd</div></div></div></div></div><div class="hc font-size-16 fc-0-0-0-153 s e wc"><div class="s t wf hf">September 10th, 2023</div></div><h1 class="spacing-5-5 w7 ff-raleway font-size-36 tc s p wf"><div class="s t wc hc">Lost in Math by Sabine Hossenfelder
+</div></h1><iframe height="580" width="720" src="https://www.youtube.com/embed/AAzdn_hm4ok"></iframe><div class="spacing-5-5 s p wf"><div><p>Great video by Feynman about this topic as well: <a href="https://www.youtube.com/watch?v=EYPapE-3FRw">https://www.youtube.com/watch?v=EYPapE-3FRw</a></p><h3>Transcript</h3><p><em>This transcript was automatically generated by YouTube, so there may (will) be some (many) errors.</em></p><blockquote><p>hey guys welcome back to confusing</p><p>bits I am Corey and I'm here to talk</p><p>to you about</p><p>Lost in Math</p><p>by sabena hasenfelder</p><p>those book as you see on the title</p><p>says how Beauty leads physics astray 
+this book is about</p><p>how</p><p>basically the last 50 years of</p><p>of physics has been</p><p>kind of gone off the rails as far as</p><p>usefulness goes as far as scientific 
+rigor you I guess you would say</p><p>the two long dead watch too long didn't</p><p>read is it's a great book especially</p><p>if you're 
+interested in science you don't</p><p>necessarily have to know a whole lot</p><p>about physics or science in particular</p><p>but it does talk about the scientific</p><p>method it talks a little bit about some</p><p>of the topics that modern day physics is</p><p>exploring you don't really she</p><p>introduces all of these topics as as she</p><p>goes but 
+and explains why they're important</p><p>for the most part but the more is to the</p><p>point about why the things that we're</p><p>doing in the the physics</p><p>in the physics World why the things</p><p>that that physicists are doing or maybe</p><p>maybe not the best approach so yeah</p><p>it's a good book if you're if you're</p><p>scientifically Curious or whatever</p><p>this is definitely and I spoke into</p><p>the the actual realism of of of</p><p>day-to-day science so yeah that's</p><p>the that's the heads up in book let's do</p><p>the the Spiel right</p><p>for more than 100 years physicists have</p><p>taken John Keats admonition that youth</p><p>beauty is truth as nearly gospel whether</p><p>they are pondering the existence of</p><p>black holes are protecting new</p><p>discoveries at CERN physicists believe</p><p>that the best theories are beautiful</p><p>natural and elegant this standard</p><p>separates popular theories from</p><p>disposable ones unfortunately as</p><p>physicists Sabina hasenfelder argues</p><p>this standard is also why we haven't</p><p>seen a major theoretical breakthrough in</p><p>physics in more than four decades</p><p>in loss of math heisen Fowler explores</p><p>how this modern preoccupation</p><p>preoccupation with beauty blinds us from</p><p>from seeing the natural world as it</p><p>really is led by their aesthetic</p><p>criteria physicists have conducted</p><p>mind-boggling new theories emitted</p><p>dozens of new particles and declared the</p><p>distant places across space are</p><p>connected by wormholes but observation</p><p>has been unable to confirm almost all of</p><p>these ideas in fact many of them are</p><p>actually untestable in spite of these</p><p>contradiction theoreticians are</p><p>convinced that their graceful equations</p><p>and elegant form of formulas contain</p><p>higher truths about nature and that</p><p>these too good not to be true theories</p><p>have left the field stuck in a</p><p>cul-de-sac to break out of this</p><p>physicists must rethink the way they</p><p>construct their theories</p><p>loss of math around this that not only</p><p>that that only by embracing messiness</p><p>and complexity can scientists discover</p><p>the truth of our universe</p><p>simfelder is a research fellow fellow at</p><p>Frankfurt Institute for event studies</p><p>and author of the popular physics blog</p><p>bat reactions he has written for new</p><p>scientists scientific America and Nova</p><p>she lives in Heidelberg Germany</p><p>she also has a fantastic YouTube channel</p><p>if if you would like a nice</p><p>no-nonsense</p><p>and this is why I watch her a nice No</p><p>Nonsense 
+YouTube channel that's not just raw raw</p><p>cheer cheerleading science it's not like</p><p>negative or anything but she just she</p><p>does a weekly news show where she talks</p><p>about all the the the scientific news</p><p>from last week and and and occasionally</p><p>she'll have other videos where she talks</p><p>about some</p><p>some like the journalists are going</p><p>crazy about some new paper or something</p><p>or other and of course they're getting</p><p>it wrong like they always do and so she</p><p>talks about you know she kind of like</p><p>Taps down on Southern Heights it's not</p><p>it's not a negative Channel I'm trying</p><p>to say this sounds like I'm saying it's</p><p>a negative it's not it's really great</p><p>but it's just it's an even killed look</p><p>at science because I don't know what</p><p>has happened like is when maybe it</p><p>was from my journey maybe my generation</p><p>is to blame but when I was growing up</p><p>science was was was</p><p>something that pretty much only nerds</p><p>did right you know and and at some</p><p>point science turned into this raw raw</p><p>cheerleading thing where go science and</p><p>science is the best tool and yay math is</p><p>awesome and I mean it is all of those</p><p>things but at the same time it</p><p>probably to say State another</p><p>controversial term is like trust the</p><p>science right that kind of got into the</p><p>conscience of like follow the science</p><p>trust the science trust the scientists</p><p>kind of got into the public conscience</p><p>or whatever and that's completely wrong</p><p>that's not what science is science is</p><p>not a bunch of facts it's it's a process</p><p>and it's a messy process it's run by</p><p>humans and we get things all wrong and</p><p>that's that's the whole point of science</p><p>is to correct that wrongness it happens</p><p>over long time skills that's messy</p><p>we get it wrong the things that we</p><p>guarantee that the things that we think</p><p>we know right now and not in in and I</p><p>don't mean trivial things I mean there</p><p>are big Concepts that we think we know</p><p>right now that are going to be proven</p><p>wrong because it's happened in the past</p><p>over and over and over again like</p><p>lobotomies used to be amazing but now</p><p>we're like oh there's a horror right you</p><p>start thinking of somebody getting a</p><p>lobotomy that's horrific right</p><p>but that was that was high science back</p><p>in the day right</p><p>and it's not just limited to to</p><p>although it is very prevalent in the</p><p>human based Sciences because they they</p><p>have trouble I'm always if you've been</p><p>following me for a while you know I will</p><p>rag all day long about any time the</p><p>science has to touch human behavior</p><p>economics philosophy economics</p><p>psychology nutrition medicine anytime</p><p>you're dealing with humans</p><p>you basically almost throw out the</p><p>scientific method you're not going to</p><p>get any real experiments done</p><p>is and you're going to get the central</p><p>that's why that's why nutrition always</p><p>says one day one day cholesterol is the</p><p>devil and the next day it's perfectly</p><p>fine and then then one day it's</p><p>saturated fat and then the next day it's</p><p>it's it's salt and then one day it's</p><p>this antioxidants and and then the next</p><p>day it's not just it's not just the</p><p>journalists screwing or overblowing</p><p>everything although that is a big part</p><p>of it that is a huge part of it is the</p><p>way science is reported on it's also the</p><p>science itself is based off of this</p><p>observational data that isn't actual</p><p>experiment and</p><p>you can't prove causation without a</p><p>spirit not not generally speaking you</p><p>cannot prove causation without an actual</p><p>experiment</p><p>it's just you got to do the experiment</p><p>you got to do a controlled experiment</p><p>and most of the time it's either too</p><p>much money or just impractical in in</p><p>some way or or straight up impossible</p><p>like how you gonna</p><p>how are you gonna do some types of</p><p>experience but experiments on diet in</p><p>human whenever we can taste the</p><p>difference between food it can be The</p><p>Observers may be able to just buy taste</p><p>be able to tell the difference between</p><p>two different foods and that can</p><p>influence the experiment right so</p><p>it's so I'm always ragging if you can't</p><p>tell I'm always ragging on on thoughts</p><p>that has to do predominantly with</p><p>experiment with observational data and</p><p>a little bit more controversially</p><p>I don't know if you notice the</p><p>astrophysics is almost all observational</p><p>data now</p><p>thankfully they usually still have to</p><p>report to the rest of their physics</p><p>colleagues so they're going to get their</p><p>their their theories shot down pretty</p><p>quickly because it's a very grounded</p><p>science there but but if you</p><p>really start that's why like we will</p><p>never know if there was a what we will</p><p>never know if the Big Bang happened</p><p>right we could say all signs point to</p><p>yes but we can never do that experiment</p><p>right we can't say okay let's let's</p><p>create our own and see if we can create</p><p>our own we're not there's no experiment</p><p>where we could prove that the Big Bang</p><p>happened right it's just that's just how</p><p>the math</p><p>tells us we don't know it actually</p><p>happened back then because there is no</p><p>history you know there's we can't run an</p><p>experiment we we can't observe that past</p><p>directly so we will never know but</p><p>that's just one of the that's the</p><p>limitation of the response but you</p><p>you'll take it as a given people will</p><p>take it as a given that the Big Bang</p><p>happened which it probably did</p><p>maybe not who knows</p><p>we don't really know</p><p>what what is what happens in the in a</p><p>black hole well</p><p>we don't know we can't observe what</p><p>happens in the black hole we can only</p><p>guess from the mathematics that we do</p><p>know because nothing comes out we can't</p><p>observe anything coming out of a black</p><p>hole so we'll never know what happens in</p><p>the middle of the cycle</p><p>it's little things like that right</p><p>climate science there is no we can't</p><p>run an experiment</p><p>on another Earth</p><p>to confirm that our models</p><p>we have mathematical models that run on</p><p>these huge supers computers that model</p><p>the atmosphere and then we think</p><p>that</p><p>based on all of these criteria that</p><p>whatever the temperature is going to</p><p>raise by two degrees maybe it is maybe</p><p>it is I'm not saying it it is or not but</p><p>the thing is we can't run the experiment</p><p>that will prove the validity of that</p><p>model we have to</p><p>it's guesswork like if it gets it wrong</p><p>we go let's say it's gonna be in 50</p><p>years the the the the the the planet is</p><p>going to be two degrees hotter what we</p><p>can't do the experiment that will</p><p>confirm is this model versus this other</p><p>model that predicted a Three Degree</p><p>difference right we can't do that</p><p>experiment</p><p>so it's all observational right I</p><p>mean there is</p><p>we can collect a lot of data we can we</p><p>can we can look at the physics and stuff</p><p>like that but we're talking about hugely</p><p>complicated systems here</p><p>we can't really say that this model is</p><p>the correct one or at least is more</p><p>correct than this other one on any 
+useful time scale that's all I'm saying</p><p>that's why if you go back in time and</p><p>look at quite a few of these predictions</p><p>you're going to see a lot of variance</p><p>between the different predictions</p><p>there's there's not just that will say</p><p>all climate scientists agree well which</p><p>particular model are they agreeing on</p><p>you know</p><p>I'm not saying that that climate change</p><p>is not happening I'm not saying that the</p><p>world the the the the that things are</p><p>not getting hotter I am not saying that</p><p>I'm saying that we can't verify any of</p><p>these scientists predictions</p><p>until</p><p>we're long dead so</p><p>that's all I'm saying</p><p>all signs point to yes that something's</p><p>going on it's going to be in this order</p><p>of magnitude of this change and then</p><p>these are the kind of things that these</p><p>are the first order effects that</p><p>probably will fix the situation</p><p>but we won't really know we're guessing</p><p>and we'd be very clear about what we're</p><p>guessing and when we do know you know so</p><p>anyway</p><p>that's a big part about what the science</p><p>is so I'm of my</p><p>training was in physics</p><p>an experimental science so I I</p><p>studied physics I never graduated but I</p><p>studied physics and I and I did</p><p>research science in a chemistry lab we</p><p>were doing this is just for</p><p>context my scientific background is I</p><p>did some some science in the realm of</p><p>nanotechnology we we did chemistries so</p><p>as a physics working in chemistry</p><p>analytical chemistry specifically</p><p>talking about</p><p>metallophysics so I have some measure of</p><p>professional scientific experiment I</p><p>know how science actually works</p><p>far more than maybe the the the the</p><p>layperson</p><p>has with science I don't have this this</p><p>this romantic</p><p>I don't have only the Romantic</p><p>Notions about science I I know how</p><p>things kind of work on the ground</p><p>day to day to some extent far more</p><p>than most people this way I wouldn't</p><p>call myself an expert but I I have more</p><p>than I have professional experiences but</p><p>that way we'll just leave it at that so</p><p>my train is it was in physics and so</p><p>that's that's what got me into here</p><p>because</p><p>I used to get all of these books</p><p>there was</p><p>all of these words</p><p>all these types of books the the elegant</p><p>universe and Brian Green the there's</p><p>gonna be a bunch of Brian Green books 
+Brian grades the fabric of the cosmos</p><p>John Griffin the search for super Truman</p><p>symmetry all of these are like physics</p><p>books right</p><p>but most of them are like</p><p>like Popular Science physics where they</p><p>talk in Flowery language about the the</p><p>beauty of of physics and the mathematics</p><p>and stuff and this is what got me into</p><p>physics right so I'm not knocking it in</p><p>one way but in another way it's also 
+it also gets things very wrong in the</p><p>same way that they're talking about in</p><p>this book and that is focusing on the</p><p>beauty of physics has gotten the field</p><p>practically nowhere</p><p>especially in particle physics</p><p>practically nowhere no major discoveries</p><p>in my lifetime we haven't had a major</p><p>Discovery you may be thinking okay well</p><p>what about the Higgs right they</p><p>predicted the the Higgs was discovered</p><p>by CERN like what was it</p><p>five ten years ago or something like</p><p>that the Higgs that just that's relative</p><p>reason now that was predicted like in</p><p>the the 60s 50s or 60s or something like</p><p>that</p><p>that's how all that we just took a while</p><p>to to confirm it and we had a lot of</p><p>very grounded and she talks about it we</p><p>had a lot of very grounded reasons about</p><p>why we should expect the Hicks to to</p><p>be and we knew where it was going to be</p><p>generally speaking so it wasn't a really</p><p>a surprise it was kind of a we kind</p><p>of expected it to happen once we got the</p><p>the CERN got things up and running</p><p>the LHC was at the right at the right 
+power level we knew we should expect to</p><p>find the Hicks and indeed that is what</p><p>we found</p><p>but what she talks about in the book and</p><p>also what I've have been reading about</p><p>all of these super symmetric particles</p><p>and and massive particles and all of</p><p>this stuff that we expect to Define from</p><p>these experiments that were all based</p><p>they were all predicted off of beautiful</p><p>mathematics basically a lot of Notions</p><p>of symmetry 
+which I I I'll be honest I don't even</p><p>understand all those the the Symmetry</p><p>arguments and stuff that they're they're</p><p>talking about but there were Notions of</p><p>mathematical symmetry that that cause</p><p>okay well if we had this particle then</p><p>this other particle must exist because</p><p>you know you gotta need the yin and yang</p><p>just to put it in everyday parlance</p><p>there was some sort of there needed to</p><p>be a symmetrical partner to to match</p><p>all all of the particles that we do know</p><p>and then we expected them to have this</p><p>amount of energy or whatever and so but</p><p>none of that was played out as we as</p><p>we they were predicted to be show up at</p><p>at certain energies we would find</p><p>certain particles</p><p>we we expected that we're predicted</p><p>particularly by like string theory and</p><p>stuff I know if you've ever heard</p><p>anything about physics you're talking</p><p>strings underlying The Universe And</p><p>they're they're tightly bundled up and</p><p>they they spread throughout the cosmos</p><p>and they they form all the space and</p><p>time and and you got the the symphonic</p><p>music playing in the background as the</p><p>speaker talks with the the baritone</p><p>voice just entrancing you about the</p><p>the mathematics and the Sim the beauty</p><p>of physics and and you just</p><p>completely Enchanted and but it's all</p><p>because when we do the test at</p><p>LHC we go ever higher and higher higher</p><p>Energies</p><p>we're just marking out all of these</p><p>energies where these particles don't</p><p>exist we look for them we didn't find</p><p>them and so we just the realm of</p><p>possibility just keeps getting higher</p><p>and higher well and so we'll move up so</p><p>if it doesn't show up here well okay</p><p>well we just need a bigger collider we</p><p>just need to spend a trillion dollars on</p><p>a new particle an even bigger</p><p>particle collider so we could finally</p><p>see these super symmetric particles</p><p>these super heavy massive particles</p><p>there's they're they're</p><p>there are</p><p>decades-long experiments that like are</p><p>like in the bottom of these deep minds</p><p>and everyone have these what big old</p><p>huge water tanks basically with little</p><p>light detectors in there and what</p><p>they're looking for is this these super</p><p>heavy massive particles that come flying</p><p>through and they they attack really</p><p>weakly but they're super massive and</p><p>they'll come through this water and</p><p>every occasionally they'll they'll spark</p><p>light in this particular way and we can</p><p>catch it to the detectors these these</p><p>these these</p><p>the experiments multiple different</p><p>experiments and multiple different</p><p>variations have been looking for these</p><p>supermassive particles</p><p>for decades</p><p>hadn't found a damn thing like we're</p><p>talking billions of dollars down the</p><p>drain looking for particles they were</p><p>only predicted</p><p>best off of mathematical Beauty in large</p><p>part we're predicted or a large part of</p><p>their argument if there was any other</p><p>argument at all was predicted off of</p><p>just the beauty of the mathematics that</p><p>it's blamed that they should exist</p><p>as I understand again we're talking</p><p>we're talking about theoretical physics</p><p>here so</p><p>talking about it in a grounded way is</p><p>is beyond my capability it's probably</p><p>beyond your capability to understand it</p><p>anyway so 
+anyway so</p><p>so we have all this these theories that</p><p>predict all of this Behavior here we</p><p>have all those experiments we're</p><p>spending all this money and the thing is</p><p>when you go back and look this is the</p><p>point of the book when if you step back</p><p>and look there was actually never any</p><p>honest</p><p>from the get-go</p><p>to come up with this this other</p><p>reformulation of this Theory it was</p><p>based purely off Aesthetics</p><p>there was no</p><p>there was no reason there was no 
+inciting data or whatever that says that</p><p>there's a problem with our current</p><p>theory</p><p>there's something that our current</p><p>theory predicts</p><p>and it gets wrong because we have this</p><p>experimental evidence that says okay</p><p>there's something wrong about verifiably</p><p>wrong with our</p><p>our current everyday model which is</p><p>called the standard model</p><p>there's there's something wrong with our</p><p>model as we understand the standard</p><p>model it predicts one thing experiment</p><p>Bears out a separate thing there is a</p><p>problem there's a problem with our model</p><p>because</p><p>the arbitrator is the experiment the</p><p>experiment says we're wrong</p><p>the thing is</p><p>there isn't</p><p>Santa Monica there's no there's no</p><p>prediction as the standard model makes</p><p>that that</p><p>proven otherwise by experiment</p><p>that's that's the problem with physics</p><p>is that we got it right</p><p>and we've spent the last</p><p>four or five decades</p><p>coming up with more of course there are</p><p>problems there are things that we would</p><p>like our model to explain there are</p><p>questions that we have that our model</p><p>doesn't explain</p><p>but our model is not wrong with all</p><p>according to all of our understanding as</p><p>best as we we understand</p><p>for the most part our model doesn't have</p><p>any particular flaws that that</p><p>that that</p><p>demonstrate a need for a new model</p><p>and so that's that's the thing that's</p><p>one of the key points that that Sabino</p><p>talks about in her book is that we've</p><p>we've got gotten off the rails we've</p><p>lost the plot of physics by we or I'm</p><p>talking about physicist or whatever</p><p>or Mankind in general</p><p>be a physicist have have have lost the</p><p>plot they they don't have a reason to</p><p>come up with these new theories</p><p>but they come out with them anyway</p><p>because</p><p>they think they're beautiful in some</p><p>aesthetic way and you could look at one</p><p>one physicist we'll look at one Theory</p><p>and say that's beautiful and another one</p><p>might say that it's not</p><p>so it's it's even it's completely</p><p>arbitrary about what is considered</p><p>beautiful because obviously beauty is in</p><p>the Bob the whole Beholder right</p><p>so we don't have a reason</p><p>a a really driving reason that to</p><p>make us think that our current model is</p><p>incorrect there are things that we would</p><p>like</p><p>our model to</p><p>to to be able to model so there's two</p><p>big theories in physics there's What's</p><p>called the standard model and standard</p><p>model is</p><p>all of the particle physics stuff it's</p><p>it's electrons protons</p><p>neutrons and photons and neutrinos and</p><p>Tau neutrinos and and quarks and</p><p>gluons and all the particle physics</p><p>stuff</p><p>and so that's all like Quantfield</p><p>Theory stuff this is all all this stuff</p><p>is based off a Quantfield Theory</p><p>basically</p><p>and 
+and then on the other hand you have</p><p>Einstein stuff which is general</p><p>relativity that's the really so all the</p><p>the center model stuff is basically all</p><p>small stuff this is stuff that you test</p><p>mostly in particle colliders or maybe</p><p>these detectors I'll talk about these 
+scintillating detectors that are like</p><p>big tanks of water in the middle of the</p><p>ground</p><p>that's particle detection that's small</p><p>scale stuff</p><p>and then on the other end you have</p><p>Einstein Einstein well it's a standard</p><p>model was like a whole bunch of people</p><p>contribute to this even Einstein</p><p>contribute some part</p><p>of the center model but</p><p>Einstein almost wholly created what</p><p>we call a</p><p>general relativity right that's what</p><p>he's most famous for was special</p><p>relativity and then generosity but</p><p>that's that's large stuff that's</p><p>universe that's like solar system scale</p><p>that's Heavenly Bodies moving around</p><p>that's the curvature space</p><p>that's gravity it's almost that's just</p><p>almost completely gravity right</p><p>light interacts with gravity and causes</p><p>the the the the the</p><p>the wavelength of of the light to shift</p><p>that's where you get the the red shift</p><p>and the the blue shift and and that's</p><p>how you get time dilation and all of</p><p>that stuff but that's huge scale gravity</p><p>stuff and the thing is is you're not</p><p>going to be able to detect</p><p>gravity stuff inside of a particle</p><p>collider because the scales are so</p><p>widely off you need the skills of the</p><p>heavenly bodies right you need the</p><p>scales of Earth the moon the Sun or at</p><p>least very large asteroids before you</p><p>start really</p><p>can really start talking meaningfully</p><p>about gravity and you're just not going</p><p>to see those types of effects inside of</p><p>a particle car and they are fundamental</p><p>mathematically speaking they are very</p><p>different</p><p>relativity</p><p>is based off of the curvature</p><p>of of space-time fundamentally some you</p><p>know you can think of it think of it</p><p>that way it's based off the curvature of</p><p>space-time and the standard model is</p><p>based off a Quantfield Theory there's</p><p>they're just not compatible you can't</p><p>just like easily glue them together into</p><p>one coherent hole and that's that's the</p><p>theory of everything if you've been</p><p>following physics or or the or the</p><p>the science cheerleading like I have all</p><p>of these books are talking about well</p><p>most of them are talking about a theory</p><p>of everything we talk about in theory</p><p>String Theory gauge Theory</p><p>whatever you know all these different</p><p>theories that try to unify all of the</p><p>the known forces into a single model but</p><p>we don't have that we have the standard</p><p>model which is was a strong strong</p><p>week</p><p>and electromagnetic force and that's the</p><p>center model and then you have gravity</p><p>the four forces right but we can't glue</p><p>them together into one</p><p>relativity is the gravity right we</p><p>can't grow them all together and that's</p><p>what we want we want that unified theory</p><p>but it's not forthcoming they the way</p><p>they're formulated mathematically</p><p>there's not a clean way to there's not a</p><p>we don't know how to do that in a way</p><p>that is testable String Theory they</p><p>thought</p><p>could do it right although it's been a</p><p>very there's been several different</p><p>types of theories that they thought</p><p>could unify these these models</p><p>together one of the most popular ones</p><p>has been the thing called strength</p><p>Theory but it's the strength there is</p><p>literally a million different theories</p><p>this whole class of theories but</p><p>strength Theory and you could if this</p><p>one's wrong then you reformulate it</p><p>slightly and you get a completely</p><p>different Theory that's part of the</p><p>problem with strength theory is you can</p><p>never falsify it because</p><p>you prove this one wrong but there's a</p><p>other slightly variation you just treat</p><p>the parameters oh well it's actually</p><p>obviously it's obviously not that one</p><p>because it's wrong so we'll just do this</p><p>other one and obviously you know if you</p><p>build this</p><p>400 billion dollar detector obviously</p><p>will obviously we'll find the we'll find</p><p>the the predictive properties of this</p><p>particular formulation String Theory 
+it's the slippery slope like you the the</p><p>the Finish Line keeps getting keeps</p><p>getting moved with string theory which</p><p>is why anybody from outside looking at</p><p>is going okay this is right</p><p>but 
+that's the problem right 
+and so that's what this book is</p><p>about and and much</p><p>better more eloquently stated version</p><p>it talks about how how we actually</p><p>have no reason we we don't there are</p><p>some questions and that's another part</p><p>of the big part of the book is it talks</p><p>about all of this focus on trying to</p><p>find The Theory of Everything</p><p>is actually making us not focus on</p><p>questions that we we can</p><p>actually make some traction on if people</p><p>if the theoreticians actually spend some</p><p>time on these questions she talks</p><p>about now I'm not gonna pretend like I</p><p>understand what she knows what</p><p>understands what she'll talk about the</p><p>the measurement problem in quant
+physics I don't know if you ever heard</p><p>of Schrodinger's cat it's related to</p><p>that where like how what is a</p><p>measurement actually mean in quant
+physics we don't there's not a really</p><p>a very clear definition so I imagine</p><p>that's what she's talking about as far</p><p>as the measurement problem with with 
+with Quantquantmechanics is 
+is is</p><p>when what are the criteria for you know</p><p>for what criteria qualifa qualifies as a</p><p>measurement and what are the primers you</p><p>know so that's that's one question</p><p>she talks about a couple other ones that</p><p>that 
+that we could be making</p><p>that could be making progress on that</p><p>that seem tractable</p><p>but but we don't because all our best</p><p>minds are</p><p>if they're not if they're if they're not</p><p>quants on Wall Street if they hadn't</p><p>gotten 
+if our our our best and brightest</p><p>theoretical physicists were not working</p><p>on Wall Street if if they would if if</p><p>they're still in Academia and they were</p><p>still working on theoretical physics</p><p>if they were focused on string theory</p><p>or on Wall Street then they maybe</p><p>actually spend some time on these other</p><p>problems that</p><p>probably are solvable right and we could</p><p>make make Headway towards some actual</p><p>new physics</p><p>maybe not the the fancy new unified</p><p>theory physics but enough to you know</p><p>actually move the needle right</p><p>but 
+I'll give you an example I know this</p><p>video has gone on long enough about how</p><p>a a a a 
+how quant
+how Quantfield Theory or quant
+mechanics was discovered in part how we</p><p>knew that</p><p>that we needed a new Theory and then</p><p>we ended up just serving quant
+mechanics</p><p>there was the thing called the</p><p>ultraviolet ultraviolet catastrophe so</p><p>Back In classical physics classical</p><p>physics was like Newton's physics</p><p>right it was calculus and and you had</p><p>continuous values and all this it was</p><p>it was a continuous values and</p><p>integration and stuff like that</p><p>and summations it was it was if</p><p>you've done classical physics like your</p><p>your physics 101 stuff that was all</p><p>classical physics right a equals m a</p><p>equals f equals m a M A you know that</p><p>kind of stuff</p><p>that's all classical physics</p><p>there was a problem</p><p>that all our theories of I'm going to</p><p>butcher this because this is messing</p><p>this is</p><p>dragging up the cobwebs there was a</p><p>problem with with our theory of light</p><p>it was called black body radiation so</p><p>you would take like a an iron right and</p><p>you put it in the oven and you heat it</p><p>up</p><p>right so you put the iron in the oven</p><p>you heat up and it will start to grow</p><p>first of it will glow it will grow like</p><p>a dull Orange right and then it would</p><p>grow it would grow it will glow red and</p><p>then we would grow orange and then we</p><p>would start getting white hot right and</p><p>as you got hotter and hotter it got</p><p>brighter and brighter and then it was</p><p>predicted that it should eventually the</p><p>light produced by that black body the</p><p>the iron or whatever</p><p>that if you got it hot enough it should</p><p>produce ultraviolet radiation the thing</p><p>is</p><p>that didn't happen</p><p>it was it would level off and you would</p><p>get nothing but you would get a</p><p>different you would get a different</p><p>light frequencies would be would</p><p>be we predicted a certain range that we</p><p>predicted ultraviolet light frequencies</p><p>we didn't get those ultralight like</p><p>there was a hole we had our formulation</p><p>we had our our theory about what should</p><p>happen and it was disproven by</p><p>observation so we knew there was a</p><p>problem with our model and that problem</p><p>turned out to be fixed by 
+by</p><p>one ended up being called quant
+mechanics that that there were specific</p><p>orbitals inside of a inside of an atom</p><p>and as the electrons jump the orbital</p><p>they would release photons of a specific</p><p>wavelength they were quantized only that</p><p>they could only move at specific jumps</p><p>between the the different orbitals</p><p>depending on the type of atom and that's</p><p>why you couldn't get the ultraviolet</p><p>rays</p><p>in in actual observation because there</p><p>was no</p><p>orbital jump</p><p>there was no orbital jump that</p><p>corresponded to those ultraviolet</p><p>frequencies it was quantized</p><p>that was that's that was the beginning</p><p>of the end for classical mechanics is we</p><p>removed</p><p>you could use every day everyday</p><p>Newton's classical mechanics works for</p><p>everyday stuff but once you start</p><p>getting to into particles and stuff you</p><p>start needing to get things quantized</p><p>and that was the first</p><p>big it was called the ultraviolet</p><p>catastrophe we knew that there was</p><p>something wrong with our model and a new</p><p>model that was predicted a new model</p><p>that was formulated predicted that</p><p>quantity that predicted that behavior</p><p>along with all the classical behaviors</p><p>it was a subsumed altogether into</p><p>Quantquantmechanics or Quant
+field Theory eventually that's what it</p><p>was called and</p><p>point is we had a theory and we had</p><p>observations that didn't agree with the</p><p>theory so we changed the theory right</p><p>that's how science works it's messy but</p><p>we had a prediction it was proven wrong</p><p>and we changed the model we didn't</p><p>change the model just willy-nilly we</p><p>didn't say okay well I don't like that</p><p>this</p><p>model has two parameters it needs to</p><p>have three parameters for some aesthetic</p><p>reason</p><p>well let's just introduce it for any you</p><p>know just for pure vanity you know</p><p>that's a</p><p>that's kind of the point that she was</p><p>making she didn't make that point in the</p><p>book I don't think the the ultrabolical</p><p>texture but it was there's several</p><p>differences is you you have some model</p><p>that that we're using as part of the</p><p>science and then we see some</p><p>observations that don't agree with</p><p>that model well that tells you that</p><p>there's new physics that's not enclosed</p><p>in this model so you change the model</p><p>then</p><p>that's not the case now now nowadays</p><p>everything that we can calculate now</p><p>that's that's a different problem is</p><p>being able to calculate things with the</p><p>standard model but everything that we</p><p>can calculate with standard model</p><p>agrees with what we can</p><p>what we have observed right there might</p><p>be things that that we observe that we</p><p>can't calculate with our model just</p><p>because the path is too hard right</p><p>but that's a mathematics problem that's</p><p>that's not a that's not a problem</p><p>with the physics right the model it's</p><p>not a that's not a problem with the</p><p>physical model that's a problem with</p><p>with</p><p>just the mathematic the the logistics of</p><p>the mathematics right</p><p>so anyway</p><p>geez Louise this 40 minute video talking</p><p>about of course this is of course it's</p><p>about physics and we're going to ramble</p><p>on anyway I hope you guys found to use I</p><p>I definitely definitely read this book</p><p>it's really great if you're</p><p>scientifically Curious or whatever</p><p>it's a very kind of sobering 
+look that's it's kind of in contrast</p><p>to a lot of the raw raw science 
+hooplow that's that's out there it's not</p><p>a negative book it's it's it's it's</p><p>it's in fact it's talking about</p><p>something very important it's talking</p><p>about that there's hope in there's other</p><p>things you know we just pay attention to</p><p>them anyway</p><p>that's all good I definitely recommend</p><p>the book this is Lost in Math by</p><p>Savannah hasenpelder and I hope I got</p><p>another name right</p><p>as for next week oh I gotta do this</p><p>book</p><p>they should tell you what's coming</p><p>the the we're gonna do the the</p><p>first book in the willow time series 
+the out of the World by Robert Jordan</p><p>yeah book one of the will of time</p><p>yeah</p><p>yeah this one's gonna be fun</p><p>some kind of ways to go too geez I'm</p><p>only halfway through my books all right</p><p>yeah so I will see you guys then</p><p>toodaloo</p></blockquote></div></div></main></div></div></body></html>
