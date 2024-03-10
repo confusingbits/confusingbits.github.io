@@ -3,7 +3,7 @@
 <title>elm-pages Blog</title>
 <description>A personal tech blog</description>
 <link>https://elm-pages.com/blog</link>
-<lastBuildDate>Sun, 03 Mar 2024 06:33:07 +0000</lastBuildDate>
+<lastBuildDate>Sun, 10 Mar 2024 06:33:10 +0000</lastBuildDate>
 <generator>elm-pages</generator>
 <item>
 <title>A Message to WotC about the OGL and OneDnD.
@@ -1173,6 +1173,15 @@
 <link>https://confusingbits.comblog/the-call-of-the-wild-by-jack-london</link>
 <guid>https://confusingbits.comblog/the-call-of-the-wild-by-jack-london</guid>
 <pubDate>Sun, 19 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+<title>The Checklist Manifesto by Atul Gawande
+</title>
+<description>An automatic transcription of the youtube video, The Checklist Manifesto by Atul Gawande, generated from youtube captions.
+</description>
+<link>https://confusingbits.comblog/the-checklist-manifesto-by-atul-gawande</link>
+<guid>https://confusingbits.comblog/the-checklist-manifesto-by-atul-gawande</guid>
+<pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
 <title>The Clean Coder by Robert C. Martin
