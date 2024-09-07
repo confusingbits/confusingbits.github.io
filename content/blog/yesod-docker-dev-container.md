@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "Yesod Dev Container using Docker (on Windows)",
-  "description": "How to setup a docker container for Yesod/Haskell development on Windows",
-  "image": "images/article-covers/yesod.png",
-  "published": "2020-08-29",
-}
+title: Yesod Dev Container using Docker (on Windows)
+description: How to setup a docker container for Yesod/Haskell development on Windows
+date: 2020-08-29
 ---
 
 So I've been learning Haskell and I believe I've learned enough syntax to begin working with more non-trivial applications, and since javascript/web applications are my primary domain, a web framework makes sense.
@@ -15,7 +10,7 @@ Throwing a bit of a monkey wrench into this process, I've run into difficulty ru
 
 You probably want code, so here it is. I won't ramble until afterwards.
 
-```dockerfile
+``` Dockerfiledocker 
 # Dockerfile
 
 FROM fpco/stack-build
@@ -36,7 +31,7 @@ This uses the fpco stack image, sets the current directory to the folder where w
 
 The port exposed must be the same as the one set in the `command` in docker compose. The yesod dev process ignores any of the project config vars, you need to set the port using the cli flag, as far as I know.
 
-```yaml
+``` yml
 # docker-compose.yml
 
 web:

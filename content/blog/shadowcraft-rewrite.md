@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "The Shadowcraft Rewrite",
-  "description": "A postmortem analysis of the new shadowcraft implimentation", 
-  "image": "images/article-covers/hello.jpg",
-  "published": "2018-01-22",
-}
+title: The Shadowcraft Rewrite
+description: A postmortem analysis of the new shadowcraft implimentation
+date: 2018-01-22
 ---
 It has been a couple of weeks since the launch of the new frontend for [ShadowCraft](http://shadowcraft.mmo-mumble.com/) and I thought that I would talk a bit about the project and what went well, as well as some of the mistakes we made along the way. (Here's [my character](http://shadowcraft.mmo-mumble.com/us/hyjal/aeriwen/) as an example if you don't have one.)
 

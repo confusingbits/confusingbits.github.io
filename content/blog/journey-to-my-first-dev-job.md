@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "The Journey To My First Dev Job",
-  "description": "The long road of my professional development", 
-  "image": "images/article-covers/hello.jpg",
-  "published": "2018-03-18",
-}
+title: The Journey To My First Dev Job
+description: The long road of my professional development
+date: 2018-03-18
 ---
 
 March 4, 2014 was when I first joined GitHub. Almost exactly 4 years ago from the day that I am writing this. Today I've been employed full time as a remote web developer for two months. I want to talk about my journey to full time development. This is mostly to benefit from those who are just now learning to code. You've probably been reading a lot about how to get your first development job. You've been building a portfolio and studying and practicing, and maybe you think you are ready. Or maybe you've just started and you've read about the great salaries and how easy it is to learn to code. There are a lot of success stories floating out there on the interwebs, but I want to tell mine, because most of the stories that you read are...optimistic. Maybe I am a huge outlier, and I'll get to that, but I don't think many of these 'learn to code and get a job in 2, 4, 6 months really tell a representative story.

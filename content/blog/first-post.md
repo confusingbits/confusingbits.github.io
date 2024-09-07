@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "First!",
-  "description": "Hello internet peoples!", 
-  "image": "images/article-covers/hello.jpg",
-  "published": "2017-12-14",
-}
+title: First!
+description: Hello internet peoples!
+date: 2017-12-14
 ---
 
 Wow! I haven't blogged in years. Since about 2005, I believe. My old blog is now long gone. Maybe one day I'll resurect those [old posts](https://web.archive.org/web/*/http://mctphysics.com/) from the internet archives. Not that I think there is much value in it. However, I do believe it has posts about my first attempts at javascript. Who knows.

@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "The Beginner Developer Wonderland",
-  "description": "Avoiding a dangerous trap for new developers", 
-  "image": "images/article-covers/hello.jpg",
-  "published": "2019-01-26",
-}
+title: The Beginner Developer Wonderland
+description: Avoiding a dangerous trap for new developers
+date: 2019-01-26
 ---
 
 At the risk of sounding pretentious...

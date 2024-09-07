@@ -1,13 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "How I Evaluate and Learn New Tech",
-  "description": "Maybe you'll find this pattern useful as well.",
-  "image": "images/article-covers/learning-books.jpg",
-  "published": "2020-11-29",
-  "draft": false,
-}
+title: How I Evaluate and Learn New Tech
+description: Maybe you'll find this pattern useful as well.
+date: 2020-11-29
 ---
 
 Like many in the software industry, I'm always learning new technologies. Sometimes it is because I need to learn something to diagnose a problem and other times it is to get more efficient at some project that I'm current assigned. Those are a given, but I don't want to talk about those types of "aquired" knowledge gaps, but instead I want to talk about how to learn when given the option to learn anything.

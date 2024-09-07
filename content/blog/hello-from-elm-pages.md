@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "Hello from `elm-pages`! 🚀",
-  "description": "Moving from Gatsby to elm-pages!",
-  "image": "images/article-covers/hello.jpg",
-  "published": "2020-05-25",
-}
+title: Hello from `elm-pages`! 🚀
+description: Moving from Gatsby to elm-pages!
+date: 2020-05-25
 ---
 
 In my apparently never ending quest for more complicated solutions, I've now decided to move my blog over to [elm-pages](https://github.com/dillonkearns/elm-pages).

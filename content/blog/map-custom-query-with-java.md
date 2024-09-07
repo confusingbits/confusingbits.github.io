@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "Mapping Custom Queries in Java Spring",
-  "description": "How to map a one off DTO from a native query",
-  "image": "images/article-covers/java-cry.jpg",
-  "published": "2020-08-30",
-}
+title: Mapping Custom Queries in Java Spring
+description: How to map a one off DTO from a native query
+date: 2020-08-30
 ---
 
 The scenario is that you have to get information from two different tables that are related. You can't just query results from a single table which would fit neatly in an existing model. You'll want something like this. I'll explain what I can after the code.

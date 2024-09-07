@@ -1,12 +1,7 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "Avoiding the docker file watching issue on windows",
-  "description": "The cause and solution to getting build tooling to work on save again with docker.",
-  "image": "images/article-covers/success-kid.jpg",
-  "published": "2020-11-22",
-}
+title: Avoiding the docker file watching issue on windows
+description: The cause and solution to getting build tooling to work on save again with docker.
+date: 2020-11-22
 ---
 
 I want to talk about today about a strange issue I've run into with dev tooling not working when using WSL on windows and docker.

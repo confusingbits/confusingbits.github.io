@@ -1,13 +1,9 @@
 ---
-{
-  "type": "blog",
-  "author": "Corey Thompson",
-  "title": "Optimizing the Landing Page",
-  "description": "Some of the things I've done to improve loading performance", 
-  "image": "images/article-covers/initial-report.png",
-  "published": "2017-12-22",
-}
+title: Optimizing the Landing Page
+description: Some of the things I've done to improve loading performance
+date: 2017-12-22
 ---
+![initial report](/images/initial-report.png)
 
 So now that the website has been converted over the Gatsby. I have been looking into performance.
 
