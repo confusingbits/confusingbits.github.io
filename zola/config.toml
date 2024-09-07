@@ -1,0 +1,38 @@
+# The URL the site will be built for
+base_url = "https://confusingbits.com"
+title = "confusingbits"
+
+# https://github.com/not-matthias/apollo
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true 
+
+[extra]
+# Put all your custom variables here
+theme = "toggle"
+fancy_code = true
+mathjax = true
+mathjax_dollar_inline_enable =true
+dynamic_note = true
+insert_anchor_links = "heading"
+socials = [
+  # Configure socials here
+  { name = "twitter", url = "https://twitter.com/confusingbits", icon = "twitter" },
+  { name = "github", url = "https://github.com/confusingbits/", icon = "github" },
+]
+menu = [
+  # Configure menu bar here
+  { name = "/blog", url = "/blog", weight = 1 },
+  # { name = "/projects", url = "/projects", weight = 2 },
+  { name = "/about", url = "/about", weight = 3 },
+]
