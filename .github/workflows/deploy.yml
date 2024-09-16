@@ -2,7 +2,7 @@
 on: 
   push:
     branches:
-      - source 
+      - main 
 name: Build and deploy GH Pages
 jobs:
   build:
