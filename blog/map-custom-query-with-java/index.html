@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    
+    
+    <title>
+         Mapping Custom Queries in Java Spring
+        
+    </title>
+
+        
+            <meta property="og:title" content="Mapping Custom Queries in Java Spring" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="How to map a one off DTO from a native query" />
+         
+     
+
+     
+         
+             <meta name="description" content="How to map a one off DTO from a native query" />
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://confusingbits.com/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+        <script src=https://confusingbits.com/js/codeblock.js></script>
+    
+
+    
+    
+    
+    
+    
+        <script src=https://confusingbits.com/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="confusingbits" href="https://confusingbits.com/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://confusingbits.com/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://confusingbits.com/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://confusingbits.com/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://confusingbits.com/main.css />
+
+    
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        <a href=https:&#x2F;&#x2F;confusingbits.com>confusingbits</a>
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;twitter.com&#x2F;confusingbits" class="social">
+                <img alt=twitter src=https://confusingbits.com/social_icons/twitter.svg>
+            </a>
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;confusingbits&#x2F;" class="social">
+                <img alt=github src=https://confusingbits.com/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+        <a href=https://confusingbits.com/blog style="margin-left: 0.5em">&#x2F;blog</a>
+        
+        <a href=https://confusingbits.com/about style="margin-left: 0.5em">&#x2F;about</a>
+        
+
+        
+        |<a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+            <img src=https://confusingbits.com/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+            <img src=https://confusingbits.com/feather/moon.svg id="moon-icon" alt="Dark" />
+        </a>
+
+        <!-- Inititialize the theme toggle icons -->
+        <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Mapping Custom Queries in Java Spring<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2020-08-30</time>
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>The scenario is that you have to get information from two different tables that are related. You can't just query results from a single table which would fit neatly in an existing model. You'll want something like this. I'll explain what I can after the code.</p>
+<pre data-lang="java" style="background-color:#2b303b;color:#c0c5ce;" class="language-java "><code class="language-java" data-lang="java"><span style="color:#65737e;">// FooRepo.java
+</span><span style="color:#b48ead;">public interface </span><span style="color:#ebcb8b;">FooRepo </span><span style="color:#b48ead;">extends </span><span style="color:#a3be8c;">JpaRepository</span><span style="color:#eff1f5;">&lt;</span><span style="color:#ebcb8b;">Foo</span><span style="color:#eff1f5;">&gt; {
+</span><span style="color:#eff1f5;">  </span><span style="color:#65737e;">// Why no mutliline string literals, Java?!!! lololol - salty JS dev
+</span><span style="color:#eff1f5;">  @</span><span style="color:#bf616a;">Query</span><span style="color:#eff1f5;">(</span><span style="color:#bf616a;">value</span><span>=&quot;</span><span style="color:#a3be8c;">SELECT </span><span>&quot;
+</span><span style="color:#eff1f5;">              </span><span>+&quot;</span><span style="color:#a3be8c;">  foo_id AS fooId, </span><span>&quot;
+</span><span style="color:#eff1f5;">              </span><span>+&quot;</span><span style="color:#a3be8c;">  bar_id AS barId </span><span>&quot;
+</span><span style="color:#eff1f5;">              </span><span>+&quot;</span><span style="color:#a3be8c;">FROM tbl_foo </span><span>&quot;
+</span><span style="color:#eff1f5;">              </span><span>+&quot;</span><span style="color:#a3be8c;">LEFT JOIN tbl_bar b </span><span>&quot;
+</span><span style="color:#eff1f5;">              </span><span>+&quot;</span><span style="color:#a3be8c;">ON b.foo_for_key = foo_id</span><span>&quot;</span><span style="color:#eff1f5;">, </span><span style="color:#bf616a;">nativeQuery</span><span>=</span><span style="color:#d08770;">true</span><span style="color:#eff1f5;">)
+</span><span style="color:#eff1f5;">  </span><span style="color:#ebcb8b;">List</span><span style="color:#eff1f5;">&lt;</span><span style="color:#ebcb8b;">FooBarDTO</span><span style="color:#eff1f5;">&gt; </span><span style="color:#8fa1b3;">findByEmailAddress</span><span style="color:#eff1f5;">();
+</span><span style="color:#eff1f5;">}
+</span><span>
+</span><span style="color:#65737e;">// FooBarDTO.java
+</span><span>
+</span><span style="color:#b48ead;">public interface </span><span style="color:#ebcb8b;">FooBarDTO </span><span style="color:#eff1f5;">{
+</span><span style="color:#eff1f5;">  </span><span style="color:#ebcb8b;">String </span><span style="color:#8fa1b3;">getFooId</span><span style="color:#eff1f5;">();
+</span><span style="color:#eff1f5;">  </span><span style="color:#ebcb8b;">String </span><span style="color:#8fa1b3;">getBarId</span><span style="color:#eff1f5;">();
+</span><span style="color:#eff1f5;">}
+</span></code></pre>
+<p>Notice the <code>AS</code> usage in the field selection matches the getter naming convention. Like if you had private fields in the DTO named fooId/barId and Lambok created your getters and setters with <code>@Data</code> or <code>@Value</code> or whatever.</p>
+<p>I have no clue how we get an instance of a class from this, but the mapping works and you get your data. To be clear, you can not declare and impliment this interface. Just do this alone. Yes, it makes no sense. Yes, that is not how interfaces work. Yes, this is how Spring does it anyway. Maybe this is normal for Java, but I found it to be a really wierd usage of interfaces.</p>
+<p>If you are feeling more brave, I was able to find the relevant documentation <a href="https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#projections">hiding here</a>. Be careful trying to click on any section links, many don't go to the relevant sub-sections and you can easily get lost trying to find anything.</p>
+<p>Tell me I'm wrong <a href="https://twitter.com/confusingbits">here</a>.</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+
+    </div>
+</body>
+
+</html>

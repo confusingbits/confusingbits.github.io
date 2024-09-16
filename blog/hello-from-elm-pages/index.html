@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    
+    
+    <title>
+         Hello from `elm-pages`! 🚀
+        
+    </title>
+
+        
+            <meta property="og:title" content="Hello from `elm-pages`! 🚀" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="Moving from Gatsby to elm-pages!" />
+         
+     
+
+     
+         
+             <meta name="description" content="Moving from Gatsby to elm-pages!" />
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://confusingbits.com/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+        <script src=https://confusingbits.com/js/codeblock.js></script>
+    
+
+    
+    
+    
+    
+    
+        <script src=https://confusingbits.com/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="confusingbits" href="https://confusingbits.com/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://confusingbits.com/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://confusingbits.com/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://confusingbits.com/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://confusingbits.com/main.css />
+
+    
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        <a href=https:&#x2F;&#x2F;confusingbits.com>confusingbits</a>
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;twitter.com&#x2F;confusingbits" class="social">
+                <img alt=twitter src=https://confusingbits.com/social_icons/twitter.svg>
+            </a>
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;confusingbits&#x2F;" class="social">
+                <img alt=github src=https://confusingbits.com/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+        <a href=https://confusingbits.com/blog style="margin-left: 0.5em">&#x2F;blog</a>
+        
+        <a href=https://confusingbits.com/about style="margin-left: 0.5em">&#x2F;about</a>
+        
+
+        
+        |<a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+            <img src=https://confusingbits.com/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+            <img src=https://confusingbits.com/feather/moon.svg id="moon-icon" alt="Dark" />
+        </a>
+
+        <!-- Inititialize the theme toggle icons -->
+        <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Hello from `elm-pages`! 🚀<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2020-05-25</time>
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>In my apparently never ending quest for more complicated solutions, I've now decided to move my blog over to <a href="https://github.com/dillonkearns/elm-pages">elm-pages</a>.</p>
+<p>It's a static site generator like gatsby, and it does the similar sorts of optimizations that gastby does. Only it is based on Elm. I have growing love affair with Elm, and since my day job already includes an enormous ammount of React work, I figured I'd use the site revamp and an excuse to migrate.</p>
+<p>I originally move the site over to gatsby for similar reasons when I was first starting out with React. So this is an opportunity to utilize elm more and demo some of the things I'm doing with Elm, as well convince myself that Elm can handle the use cases I would need React for.</p>
+<p>So what was wrong with Gatsby or React? Well, nothing wrong per se. Both are fine status quo solutions. I'm proud of the work I can do and have done with both of these solutions.</p>
+<p>But I'm currently on a kick to evaluate tooling and technologies that will make my development easier and more robust. A big part of that is being unsatisfied with Javascript, particularly for larger projects. I've use Typescript and Flow, and linters and Redux and Immutablejs but those solutions are brittle and combersome.</p>
+<p>Elm is part of that evaluation and thus far been extremely positive. It doesn't suffer from many of the issues I have with javascript and it's looking great so far, but before I go trumpting how amazing Elm is, and it is amazing, to stakeholders I need to know exactly what can or can not be done efficiently with the technology. As a bonus, the project uses elm-ui and it's already setup, so I don't need to fiddle with CSS. elm-ui really deserves it's own post, but you can check it out <a href="https://elm-ui.netlify.app/">here</a>. Be sure to watch the talk about it at <a href="https://www.youtube.com/watch?v=Ie-gqwSHQr0">elm-conf</a>.</p>
+<p>So this is one small step. I'm loving working with Elm and the process of moving over has taken only a couple of hours. And honestly much of that time has been taken up by cleaning up the existing markdown files, and fighting with vim (I'm also learning vim, so yes, I hate myself right now).</p>
+<p>We'll have to see how the deployment goes, but it looks fairly straitforward. If you are reading this sentence, it went reasonably smoothly and I didn't need to edit this closing statement. Wish me luck!</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+
+    </div>
+</body>
+
+</html>

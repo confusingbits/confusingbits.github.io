@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    
+    
+    <title>
+         Yesod Dev Container using Docker (on Windows)
+        
+    </title>
+
+        
+            <meta property="og:title" content="Yesod Dev Container using Docker (on Windows)" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="How to setup a docker container for Yesod&#x2F;Haskell development on Windows" />
+         
+     
+
+     
+         
+             <meta name="description" content="How to setup a docker container for Yesod&#x2F;Haskell development on Windows" />
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://confusingbits.com/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+        <script src=https://confusingbits.com/js/codeblock.js></script>
+    
+
+    
+    
+    
+    
+    
+        <script src=https://confusingbits.com/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="confusingbits" href="https://confusingbits.com/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://confusingbits.com/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://confusingbits.com/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://confusingbits.com/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://confusingbits.com/main.css />
+
+    
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        <a href=https:&#x2F;&#x2F;confusingbits.com>confusingbits</a>
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;twitter.com&#x2F;confusingbits" class="social">
+                <img alt=twitter src=https://confusingbits.com/social_icons/twitter.svg>
+            </a>
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;confusingbits&#x2F;" class="social">
+                <img alt=github src=https://confusingbits.com/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+        <a href=https://confusingbits.com/blog style="margin-left: 0.5em">&#x2F;blog</a>
+        
+        <a href=https://confusingbits.com/about style="margin-left: 0.5em">&#x2F;about</a>
+        
+
+        
+        |<a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+            <img src=https://confusingbits.com/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+            <img src=https://confusingbits.com/feather/moon.svg id="moon-icon" alt="Dark" />
+        </a>
+
+        <!-- Inititialize the theme toggle icons -->
+        <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Yesod Dev Container using Docker (on Windows)<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2020-08-29</time>
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>So I've been learning Haskell and I believe I've learned enough syntax to begin working with more non-trivial applications, and since javascript/web applications are my primary domain, a web framework makes sense.</p>
+<p>Throwing a bit of a monkey wrench into this process, I've run into difficulty running a few haskell projects on windows. Plus I don't want to clutter up my personal machine with a bunch of dev tooling. Using docker is a great way to isolate your dev environment, not just deployments.</p>
+<p>You probably want code, so here it is. I won't ramble until afterwards.</p>
+<pre data-lang="Dockerfiledocker" style="background-color:#2b303b;color:#c0c5ce;" class="language-Dockerfiledocker "><code class="language-Dockerfiledocker" data-lang="Dockerfiledocker"><span># Dockerfile
+</span><span>
+</span><span>FROM fpco/stack-build
+</span><span>
+</span><span>WORKDIR /yesod-test/
+</span><span>COPY . .
+</span><span>
+</span><span>RUN stack setup
+</span><span>RUN stack install yesod-bin --install-ghc
+</span><span>RUN stack build
+</span><span>
+</span><span>EXPOSE 3030
+</span></code></pre>
+<p>Using the <code>haskell</code> docker image as the base image wouldn't compile due to some error with blaze-html or something, which I didn't bother to investigate. (There was basicly no other information in the error output but the name.) The <code>fpco/stack-build</code> image is apparently has all dependencies needed to build packages on stackage, which is exactly the source of our deps, so this is close to ideal, at least for development.</p>
+<p>This uses the fpco stack image, sets the current directory to the folder where we will mount all of the files for the project (yesod-test). From there it is standard yesdo commands.</p>
+<p>The port exposed must be the same as the one set in the <code>command</code> in docker compose. The yesod dev process ignores any of the project config vars, you need to set the port using the cli flag, as far as I know.</p>
+<pre data-lang="yml" style="background-color:#2b303b;color:#c0c5ce;" class="language-yml "><code class="language-yml" data-lang="yml"><span style="color:#65737e;"># docker-compose.yml
+</span><span>
+</span><span style="color:#bf616a;">web</span><span>:
+</span><span>    </span><span style="color:#bf616a;">build</span><span>: </span><span style="color:#d08770;">.
+</span><span>    </span><span style="color:#bf616a;">command</span><span>: </span><span style="color:#a3be8c;">stack exec -- yesod devel --port 3030
+</span><span>    </span><span style="color:#bf616a;">stdin_open</span><span>: </span><span style="color:#d08770;">true
+</span><span>    </span><span style="color:#bf616a;">ports</span><span>:
+</span><span>        - &#39;</span><span style="color:#a3be8c;">3030:3030</span><span>&#39;
+</span><span>    </span><span style="color:#bf616a;">volumes</span><span>:
+</span><span>        - </span><span style="color:#a3be8c;">.:/yesod-test
+</span><span>        - </span><span style="color:#a3be8c;">/yesod-test/.stack-work
+</span><span>        - </span><span style="color:#a3be8c;">/yesod-test/yesod-devel
+</span></code></pre>
+<p>I'm still learning docker as well, which means I still constantly run into issues with it, and quite often the images or configs that I find are out of date. I was able to get a dev container to compile with this process. The volumes also mount the project files inside the container so that the file watchers can detect changes and recompile the project and automatically refresh the page like any sane modern development workflow.</p>
+<p>Caveat, that there appears to be <a href="https://github.com/docker/for-win/issues/5530">some issue with file watching</a> with Docker for Windows. The docker devs seem to think it is resolved, but it is not. I was able to work around it on a Nextjs project with a webpack polling hack, but that specific solution isn't applicable here but I assume something similar could be done. Until this issue is resolved with Docker, the experience will be less than ideal on Windows.</p>
+<p>Note the matching port numbers. All the volumes are build artifacts we want to persist or project files <code>stdin_open: true</code> is needed for some <a href="https://github.com/commercialhaskell/stack/issues/5062">arcane reason</a></p>
+<p>It is frustrating to run into so many issue on Windows with Haskell when going beyond trivial exercises with GHCI. I've thoroughly enjoy learning so far with <a href="https://haskellbook.com/">The Haskell Book</a> but moving beyond exercise has been a trial of patience so far. I didn't have much luck with <a href="https://haskell-miso.org/">Miso</a> (ran into issues with GHCJS, undocumented nix dependencies) or <a href="https://owickstrom.github.io/gi-gtk-declarative/">gi-gtx-declarative</a> (couldn't get everything installed without errors) despite being very excited about those projects.</p>
+<p>I'm sure much of this is my inexperience, but I hope someone at least found the docker configs helpful. Feel free to <a href="https://twitter.com/confusingbits">tweet me</a> about how I'm wrong. (No really, I love discussions.)</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+
+    </div>
+</body>
+
+</html>

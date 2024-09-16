@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    
+    
+    <title>
+         Optimizing the Landing Page
+        
+    </title>
+
+        
+            <meta property="og:title" content="Optimizing the Landing Page" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="Some of the things I&#x27;ve done to improve loading performance" />
+         
+     
+
+     
+         
+             <meta name="description" content="Some of the things I&#x27;ve done to improve loading performance" />
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://confusingbits.com/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+        <script src=https://confusingbits.com/js/codeblock.js></script>
+    
+
+    
+    
+    
+    
+    
+        <script src=https://confusingbits.com/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="confusingbits" href="https://confusingbits.com/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://confusingbits.com/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://confusingbits.com/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://confusingbits.com/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://confusingbits.com/main.css />
+
+    
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        <a href=https:&#x2F;&#x2F;confusingbits.com>confusingbits</a>
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;twitter.com&#x2F;confusingbits" class="social">
+                <img alt=twitter src=https://confusingbits.com/social_icons/twitter.svg>
+            </a>
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;confusingbits&#x2F;" class="social">
+                <img alt=github src=https://confusingbits.com/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+        <a href=https://confusingbits.com/blog style="margin-left: 0.5em">&#x2F;blog</a>
+        
+        <a href=https://confusingbits.com/about style="margin-left: 0.5em">&#x2F;about</a>
+        
+
+        
+        |<a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+            <img src=https://confusingbits.com/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+            <img src=https://confusingbits.com/feather/moon.svg id="moon-icon" alt="Dark" />
+        </a>
+
+        <!-- Inititialize the theme toggle icons -->
+        <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Optimizing the Landing Page<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2017-12-22</time>
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p><img src="/images/initial-report.png" alt="initial report" /></p>
+<p>So now that the website has been converted over the Gatsby. I have been looking into performance.</p>
+<p>One of the neat things about Gatsby is that it will render your app out staticly and then load the rest of your app after the initial render. There is this interesting optimization you can use with your internal links to benefit from client side routing with Gatsby. I had seen it mentioned in the docs for Gastby, but it didn't click with me at the time. However, I came across a post by <a href="https://blog.scottnonnenberg.com/practical-gatsby-js/">Scott Nonnenberg</a> who mentioned that one can avoid a full refresh of the page by utilizing the Link component provided by Gatsby, as opposed to the regular html anchor tags which I had been using. And finally my nagging question was answered as to why my site didn't feel as snappy as the default starter. Swapping those a tags to Links made a huge difference because now each route uses cached resources lazyloaded by Gastby. Awesome Sauce!</p>
+<p>With that handled I put my efforts on optimizing loading speed for the initial render. I knew that most people would be hitting my landing page first so I might as well start there. I first headed off to <a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a>, which is a tool offered by Google to analyze page performance. There are many other similar tools, but this one was pretty straitforward, and since I have no preference so I just went with it.</p>
+<p>The main article image is a sample report from google after a little optimization</p>
+<p>One of the messages was that the lightbulb 'hero image' on the landing page which I had been using was 4.3MB. which is obviously a lot to be loading on the inital render. And a general first approximation for improving perforamce is simply doing less work. And downloading a smaller file definitely is less work. I played with it a bit, but Google kept wanting a smaller image. And I'll admit I was afraid of ending up with a very weak image with high compression. I put the image through gimp and set the output to 80% quality and reducing the resolution to 1920x1080. Turns out it looks fine even at 1080 on my monitor. I ended up at 109kb, which is pretty good IMO.</p>
+<p>The blocking resources will have to wait for now, until I can get rid of the dependancy on Bootstrap. And I'm honestly not too worried about the caching thing. I plan on uploading every week, and it is currently at ten days. I don't expect there will be that many repeat visitors anyway. Let's be honest. I basicly talking to the void here. :P</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+
+    </div>
+</body>
+
+</html>

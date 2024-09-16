@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="dark light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    
+    
+    
+    <title>
+         Avoiding the docker file watching issue on windows
+        
+    </title>
+
+        
+            <meta property="og:title" content="Avoiding the docker file watching issue on windows" />
+        
+     
+
+     
+         
+             <meta property="og:description" content="The cause and solution to getting build tooling to work on save again with docker." />
+         
+     
+
+     
+         
+             <meta name="description" content="The cause and solution to getting build tooling to work on save again with docker." />
+         
+    
+
+    
+    
+
+    
+    
+        <link href=https://confusingbits.com/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+        <script src=https://confusingbits.com/js/codeblock.js></script>
+    
+
+    
+    
+    
+    
+    
+        <script src=https://confusingbits.com/js/note.js></script>
+    
+
+    
+        
+            <script>
+            MathJax = {
+              tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+              }
+            };
+            </script>
+        
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="confusingbits" href="https://confusingbits.com/atom.xml">
+
+
+    
+    
+        <link rel="stylesheet" type="text/css" href=https://confusingbits.com/theme/light.css />
+        <link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://confusingbits.com/theme/dark.css" />
+    
+
+    <!-- Set the correct theme in the script -->
+    <script src=https://confusingbits.com/js/themetoggle.js></script>
+    
+        <script>setTheme(getSavedTheme());</script>
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href=https://confusingbits.com/main.css />
+
+    
+</head>
+
+
+<body>
+    <div class="content">
+        <header>
+    <div class="main">
+        <a href=https:&#x2F;&#x2F;confusingbits.com>confusingbits</a>
+
+        <div class="socials">
+            
+            <a rel="me" href="https:&#x2F;&#x2F;twitter.com&#x2F;confusingbits" class="social">
+                <img alt=twitter src=https://confusingbits.com/social_icons/twitter.svg>
+            </a>
+            
+            <a rel="me" href="https:&#x2F;&#x2F;github.com&#x2F;confusingbits&#x2F;" class="social">
+                <img alt=github src=https://confusingbits.com/social_icons/github.svg>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav>
+        
+        <a href=https://confusingbits.com/blog style="margin-left: 0.5em">&#x2F;blog</a>
+        
+        <a href=https://confusingbits.com/about style="margin-left: 0.5em">&#x2F;about</a>
+        
+
+        
+        |<a id="dark-mode-toggle" onclick="toggleTheme(); event.preventDefault();" href="#">
+            <img src=https://confusingbits.com/feather/sun.svg id="sun-icon" style="filter: invert(1);" alt="Light" />
+            <img src=https://confusingbits.com/feather/moon.svg id="moon-icon" alt="Dark" />
+        </a>
+
+        <!-- Inititialize the theme toggle icons -->
+        <script>updateItemToggleTheme()</script>
+        
+    </nav>
+</header>
+
+
+        
+        
+    
+<main>
+    <article>
+        <div class="title">
+            
+            
+    <div class="page-header">
+        Avoiding the docker file watching issue on windows<span class="primary-color" style="font-size: 1.6em">.</span>
+    </div>
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2020-11-22</time>
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <section class="body">
+            <p>I want to talk about today about a strange issue I've run into with dev tooling not working when using WSL on windows and docker.</p>
+<p>I have mentioned this issue before on my <a href="/blog/yesod-docker-dev-container">Yesod docker dev container</a> post a while back. In that article, I referenced <a href="https://github.com/docker/for-win/issues/5530">this issue</a> at the time. Later, I also noticed the issue when moving my personal site over to a docker container for development.</p>
+<p>I ended up opening an issue on github specificly for the problem and <a href="https://github.com/docker/for-win/issues/8276#issuecomment-688709919">Stephen Turner</a> graciously identified the cause and pointed me in the right direction with relevant documentation. Thank you again, Stephen :)</p>
+<p>###To summarize, you need to <a href="https://docs.docker.com/docker-for-windows/wsl/">host the code from the WSL filesystem</a>. Not a Windows directory.</p>
+<p>The easiest way to get there is opening wsl and going to the home directory. Create the project or clone a repo to a folder inside there inside the linux file system and the file watchers will actually work correctly so that change detection of the build tools can trigger rebuilds properly.</p>
+<p>I'm not sure if this limitation is specific to WSL2 or not, but I was/am running WSL2, and docker is using WSL2, in my case. If you haven't <a href="https://docs.microsoft.com/en-us/windows/wsl/compare-versions">upgraded to WSL2</a>, you should do so, as it has some major improvements to performance and compatibility.</p>
+<p>For development, I like to then attach vscode to the container with the remote tools. This will start the container when needed, and any tooling you need like plugins and the dev cli's they rely on are available without having to install any to the native filesystem.</p>
+<p><img src="/images/only-remote-plugins.png" alt="Remote plugins only" /></p>
+<p>Notice the only plugins that I needed to install locally are the remote plugins. The Elm plugin and related tooling are installed to the container. I have a similar setup for a NexyJS project, and as you can see, there are no JS related plugins installed unless I
+m working on that project's container.</p>
+<p>Happy coding!</p>
+<p>Feel free to <a href="https://twitter.com/confusingbits">tweet me</a>.</p>
+
+        </section>
+    </article>
+</main>
+
+
+
+        
+
+    </div>
+</body>
+
+</html>
